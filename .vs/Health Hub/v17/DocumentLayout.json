@@ -1,12 +1,106 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Health Hub\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\Semester_5\\SE(Theory)\\WorkingProject\\Hospital\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|d:\\semester_5\\se(theory)\\workingproject\\hospital\\migrations\\20241018114326_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:migrations\\20241018114326_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|d:\\semester_5\\se(theory)\\workingproject\\hospital\\data\\healthhubdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:data\\healthhubdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|d:\\semester_5\\se(theory)\\workingproject\\hospital\\models\\domain\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:models\\domain\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|d:\\semester_5\\se(theory)\\workingproject\\hospital\\models\\domain\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:models\\domain\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|d:\\semester_5\\se(theory)\\workingproject\\hospital\\models\\domain\\doctorhospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:models\\domain\\doctorhospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HealthHubDbContext.cs",
+              "DocumentMoniker": "D:\\Semester_5\\SE(Theory)\\WorkingProject\\Hospital\\Data\\HealthHubDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\HealthHubDbContext.cs",
+              "ToolTip": "D:\\Semester_5\\SE(Theory)\\WorkingProject\\Hospital\\Data\\HealthHubDbContext.cs",
+              "RelativeToolTip": "Data\\HealthHubDbContext.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAAAGIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T10:38:25.172Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20241018114326_InitialMigration.cs",
+              "DocumentMoniker": "D:\\Semester_5\\SE(Theory)\\WorkingProject\\Hospital\\Migrations\\20241018114326_InitialMigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241018114326_InitialMigration.cs",
+              "ToolTip": "D:\\Semester_5\\SE(Theory)\\WorkingProject\\Hospital\\Migrations\\20241018114326_InitialMigration.cs",
+              "RelativeToolTip": "Migrations\\20241018114326_InitialMigration.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T11:43:27.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "D:\\Semester_5\\SE(Theory)\\WorkingProject\\Hospital\\Models\\Domain\\Appointment.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\Appointment.cs",
+              "ToolTip": "D:\\Semester_5\\SE(Theory)\\WorkingProject\\Hospital\\Models\\Domain\\Appointment.cs",
+              "RelativeToolTip": "Models\\Domain\\Appointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T11:33:29.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "D:\\Semester_5\\SE(Theory)\\WorkingProject\\Hospital\\Models\\Domain\\Doctor.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\Doctor.cs",
+              "ToolTip": "D:\\Semester_5\\SE(Theory)\\WorkingProject\\Hospital\\Models\\Domain\\Doctor.cs",
+              "RelativeToolTip": "Models\\Domain\\Doctor.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA2wBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T11:27:12.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DoctorHospital.cs",
+              "DocumentMoniker": "D:\\Semester_5\\SE(Theory)\\WorkingProject\\Hospital\\Models\\Domain\\DoctorHospital.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\DoctorHospital.cs",
+              "ToolTip": "D:\\Semester_5\\SE(Theory)\\WorkingProject\\Hospital\\Models\\Domain\\DoctorHospital.cs",
+              "RelativeToolTip": "Models\\Domain\\DoctorHospital.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T11:27:04.859Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
