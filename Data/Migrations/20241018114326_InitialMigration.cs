@@ -83,13 +83,13 @@ namespace Health_Hub.Migrations
                         column: x => x.SpecializationID,
                         principalTable: "Lookups",
                         principalColumn: "LookupID",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Doctors_People_PersonID",
                         column: x => x.PersonID,
                         principalTable: "People",
                         principalColumn: "PersonID",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -195,7 +195,7 @@ namespace Health_Hub.Migrations
                         column: x => x.PatientID,
                         principalTable: "Patients",
                         principalColumn: "PersonID",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -207,7 +207,6 @@ namespace Health_Hub.Migrations
                     PatientID = table.Column<int>(type: "int", nullable: false),
                     DoctorID = table.Column<int>(type: "int", nullable: false),
                     DoctorHospitalID = table.Column<int>(type: "int", nullable: false),
-                    DoctorHospitalID1 = table.Column<int>(type: "int", nullable: false),
                     StatusID = table.Column<int>(type: "int", nullable: false),
                     TimeCreated = table.Column<DateTime>(type: "datetime2", nullable: false),
                     TimeSlot = table.Column<DateTime>(type: "datetime2", nullable: false),
@@ -219,17 +218,17 @@ namespace Health_Hub.Migrations
                 {
                     table.PrimaryKey("PK_Appointments", x => x.AppointmentID);
                     table.ForeignKey(
-                        name: "FK_Appointments_DoctorHospitals_DoctorHospitalID1",
-                        column: x => x.DoctorHospitalID1,
+                        name: "FK_Appointments_DoctorHospitals_DoctorHospitalID",
+                        column: x => x.DoctorHospitalID,
                         principalTable: "DoctorHospitals",
                         principalColumn: "DoctorHospitalID",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Appointments_Doctors_DoctorHospitalID",
-                        column: x => x.DoctorHospitalID,
+                        name: "FK_Appointments_Doctors_DoctorID",
+                        column: x => x.DoctorID,
                         principalTable: "Doctors",
                         principalColumn: "PersonID",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Appointments_Lookups_StatusID",
                         column: x => x.StatusID,
@@ -241,7 +240,7 @@ namespace Health_Hub.Migrations
                         column: x => x.PatientID,
                         principalTable: "Patients",
                         principalColumn: "PersonID",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -277,9 +276,9 @@ namespace Health_Hub.Migrations
                 column: "DoctorHospitalID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Appointments_DoctorHospitalID1",
+                name: "IX_Appointments_Doctors_DoctorID",
                 table: "Appointments",
-                column: "DoctorHospitalID1");
+                column: "DoctorID");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Appointments_PatientID",

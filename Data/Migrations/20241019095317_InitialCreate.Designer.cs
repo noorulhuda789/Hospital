@@ -4,16 +4,19 @@ using Health_Hub.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
 namespace Health_Hub.Migrations
 {
-    [DbContext(typeof(Models.HealthHubDbContext))]
-    partial class HealthHubDbContext : ModelSnapshot
+    [DbContext(typeof(HealthHubDbContext))]
+    [Migration("20241019095317_InitialCreate")]
+    partial class InitialCreate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

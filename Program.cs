@@ -1,9 +1,18 @@
 using Health_Hub.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+// Add services to the container.
+var connectionString = builder.Configuration.GetConnectionString("HealthHubConnectionString") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+builder.Services.AddDbContext<HealthHubDbContext>(options =>
+	options.UseSqlServer(connectionString));
+builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+
+
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<HealthHubDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("HealthHubConnectionString")));
