@@ -13,9 +13,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 
-builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<HealthHubDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("HealthHubConnectionString")));
+
 
 
 var app = builder.Build();
