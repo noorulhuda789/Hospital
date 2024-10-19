@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\bin"
+    "\\Views",
+    "\\Views\\Shared"
   ],
   "SelectedNode": "\\Program.cs",
   "PreviewInSolutionExplorer": false
