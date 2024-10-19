@@ -1,13 +1,13 @@
 $light: #fff;
-$primary-color: #182519;;
-$secondary-color:#737a4f;
-$base-color:#ffff;
-$title-color:#182539;
-$black:#000;
-$gray:#fff;
-$secondary-bg:#f4f9fc;
-$border-color:#fafafa;
+$primary-color: #298b40;
+$secondary-color: #8dc48f;
+$base-color: #ffff;
+$title-color: #6cb384;
+$black: #000;
+$gray: #fff;
+$secondary-bg: #c9e6b6;
+$border-color: #74ac83;
 $primary-font: 'Exo', sans-serif;
-$secondary-font:'Roboto', sans-serif;
+$secondary-font: 'Roboto', sans-serif;
 
-$grad-color:linear-gradient(to bottom,#182519,#fff);
+$grad-color: linear-gradient(to bottom,$primary-color,#fff);

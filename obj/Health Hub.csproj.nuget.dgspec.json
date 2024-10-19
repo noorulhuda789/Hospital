@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "G:\\HealthHubNew\\Hospital\\Health Hub.csproj": {}
   },
   "projects": {
@@ -13,27 +12,9 @@
         "projectPath": "G:\\HealthHubNew\\Hospital\\Health Hub.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
         "outputPath": "G:\\HealthHubNew\\Hospital\\obj\\",
-=======
-    "D:\\Semester_5\\SE(Theory)\\WorkingProject\\Hospital\\Health Hub.csproj": {}
-  },
-  "projects": {
-    "D:\\Semester_5\\SE(Theory)\\WorkingProject\\Hospital\\Health Hub.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Semester_5\\SE(Theory)\\WorkingProject\\Hospital\\Health Hub.csproj",
-        "projectName": "Health Hub",
-        "projectPath": "D:\\Semester_5\\SE(Theory)\\WorkingProject\\Hospital\\Health Hub.csproj",
-        "packagesPath": "C:\\Users\\leena\\.nuget\\packages\\",
-        "outputPath": "D:\\Semester_5\\SE(Theory)\\WorkingProject\\Hospital\\obj\\",
->>>>>>> 7703d5a199547ca3917ece0887517dc38ce6ad2d
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\leena\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
->>>>>>> 7703d5a199547ca3917ece0887517dc38ce6ad2d
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -65,29 +46,33 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-<<<<<<< HEAD
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.0, )"
-=======
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
               "version": "[8.0.10, )"
->>>>>>> 7703d5a199547ca3917ece0887517dc38ce6ad2d
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-<<<<<<< HEAD
-              "version": "[8.0.0, )"
-=======
               "version": "[8.0.10, )"
->>>>>>> 7703d5a199547ca3917ece0887517dc38ce6ad2d
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.6, )"
             }
           },
           "imports": [
@@ -109,11 +94,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
->>>>>>> 7703d5a199547ca3917ece0887517dc38ce6ad2d
         }
       }
     }
