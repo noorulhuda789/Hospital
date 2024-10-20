@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2ZyLYJqaIhvvPLeef1NO001tNesa1qbFJh60YVtVUdw=",
+  "Hash": "Rq0N5a/iulEmmPWiKg2P3dyVOQUxiAFFkeTNeQkiahc=",
   "Source": "Health Hub",
   "BasePath": "_content/Health Hub",
   "Mode": "Default",
@@ -167,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\SquareLogo.png"
+    },
+    {
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\user.jpg",
+      "SourceId": "Health Hub",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
+      "BasePath": "_content/Health Hub",
+      "RelativePath": "Images/user.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\user.jpg"
     },
     {
       "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\js\\site.js",

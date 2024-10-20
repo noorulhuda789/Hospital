@@ -24,7 +24,6 @@
         public DateTime TimeSlot { get; set; }
         public string Prescriptions { get; set; }
         public string TestSuggested { get; set; }
-        public string VerificationID { get; set; }
 
         public ICollection<MedicalReport> MedicalReports { get; set; }
 

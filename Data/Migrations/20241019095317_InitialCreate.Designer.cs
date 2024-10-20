@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Health_Hub.Migrations
 {
-    [DbContext(typeof(HealthHubDbContext))]
+    [DbContext(typeof(Data.HealthHubDbContext))]
     [Migration("20241019095317_InitialCreate")]
     partial class InitialCreate
     {

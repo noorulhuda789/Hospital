@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Health_Hub.Models;
+using Health_Hub.Data;
 using Health_Hub.Models.Domain;
 
 namespace Health_Hub.Controllers

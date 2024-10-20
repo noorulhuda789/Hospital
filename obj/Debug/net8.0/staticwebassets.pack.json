@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\Images\\logo3.png"
     },
     {
+      "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\user.jpg",
+      "PackagePath": "staticwebassets\\Images\\user.jpg"
+    },
+    {
       "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -6,10 +6,10 @@ namespace Health_Hub.Models.Domain
 {
     public class Doctor : Person
     {
-        public byte[] Degree { get; set; }
+        public string? Degree { get; set; }
         public bool VerificationStatus { get; set; }
         public float Rating { get; set; }
-        public byte[] ProfileImage { get; set; }
+        public string? ProfileImage { get; set; }
 
         // Specialization as lookup reference (One-to-Many)
         public int SpecializationID { get; set; }

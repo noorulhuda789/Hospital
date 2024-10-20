@@ -69,11 +69,11 @@ namespace Health_Hub.Migrations
                 columns: table => new
                 {
                     PersonID = table.Column<int>(type: "int", nullable: false),
-                    Degree = table.Column<byte[]>(type: "varbinary(max)", nullable: false),
+                    Degree = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     VerificationStatus = table.Column<bool>(type: "bit", nullable: false, defaultValue: false),
-                    Rating = table.Column<float>(type: "real", nullable: false, defaultValue: 0f),
-                    ProfileImage = table.Column<byte[]>(type: "varbinary(max)", nullable: false),
-                    SpecializationID = table.Column<int>(type: "int", nullable: false)
+                    Rating = table.Column<float>(type: "real", nullable: true, defaultValue: 0f),
+                    ProfileImage = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    SpecializationID = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -118,7 +118,7 @@ namespace Health_Hub.Migrations
                 columns: table => new
                 {
                     PersonID = table.Column<int>(type: "int", nullable: false),
-                    Address = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: false)
+                    Address = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true)
                 },
                 constraints: table =>
                 {
@@ -211,8 +211,7 @@ namespace Health_Hub.Migrations
                     TimeCreated = table.Column<DateTime>(type: "datetime2", nullable: false),
                     TimeSlot = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Prescriptions = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: false),
-                    TestSuggested = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: false),
-                    VerificationID = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    TestSuggested = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: false)
                 },
                 constraints: table =>
                 {

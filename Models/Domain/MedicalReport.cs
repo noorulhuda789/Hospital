@@ -10,6 +10,5 @@
         public int AppointmentID { get; set; }
         public Appointment Appointment { get; set; }
 
-
     }
 }

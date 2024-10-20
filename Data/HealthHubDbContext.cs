@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Health_Hub.Models.Domain;
 
-namespace Health_Hub.Models
+namespace Health_Hub.Data
 {
     public class HealthHubDbContext : DbContext
     {
