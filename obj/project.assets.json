@@ -7716,24 +7716,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\leena\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\umerl\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\Health Hub.csproj",
+      "projectUniqueName": "E:\\5th semester\\SE lab\\Hospital\\Health Hub.csproj",
       "projectName": "Health Hub",
-      "projectPath": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\Health Hub.csproj",
-      "packagesPath": "C:\\Users\\leena\\.nuget\\packages\\",
-      "outputPath": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\obj\\",
+      "projectPath": "E:\\5th semester\\SE lab\\Hospital\\Health Hub.csproj",
+      "packagesPath": "C:\\Users\\umerl\\.nuget\\packages\\",
+      "outputPath": "E:\\5th semester\\SE lab\\Hospital\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\leena\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\umerl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -17,75 +17,75 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Health_Hub
 build_property.RootNamespace = Health_Hub
-build_property.ProjectDir = D:\Semester_5\SE(Theory)\Ongoing\Hospital\
+build_property.ProjectDir = E:\5th semester\SE lab\Hospital\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Semester_5\SE(Theory)\Ongoing\Hospital
+build_property.MSBuildProjectDirectory = E:\5th semester\SE lab\Hospital
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Home/DoctorRegister.cshtml]
+[E:/5th semester/SE lab/Hospital/Views/Home/DoctorRegister.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEb2N0b3JSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Home/DoctorSingle.cshtml]
+[E:/5th semester/SE lab/Hospital/Views/Home/DoctorSingle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEb2N0b3JTaW5nbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Home/Index.cshtml]
+[E:/5th semester/SE lab/Hospital/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Home/LogIn.cshtml]
+[E:/5th semester/SE lab/Hospital/Views/Home/LogIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dJbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/People/Create.cshtml]
+[E:/5th semester/SE lab/Hospital/Views/People/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/People/Delete.cshtml]
+[E:/5th semester/SE lab/Hospital/Views/People/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/People/Details.cshtml]
+[E:/5th semester/SE lab/Hospital/Views/People/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/People/Edit.cshtml]
+[E:/5th semester/SE lab/Hospital/Views/People/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/People/Index.cshtml]
+[E:/5th semester/SE lab/Hospital/Views/People/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Shared/Error.cshtml]
+[E:/5th semester/SE lab/Hospital/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Shared/_LayoutDoctorLogIn.cshtml]
+[E:/5th semester/SE lab/Hospital/Views/Shared/_LayoutDoctorLogIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXREb2N0b3JMb2dJbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Shared/_LayoutLogInPatient.cshtml]
+[E:/5th semester/SE lab/Hospital/Views/Shared/_LayoutLogInPatient.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMb2dJblBhdGllbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/5th semester/SE lab/Hospital/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/_ViewImports.cshtml]
+[E:/5th semester/SE lab/Hospital/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/_ViewStart.cshtml]
+[E:/5th semester/SE lab/Hospital/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Shared/_Layout.cshtml]
+[E:/5th semester/SE lab/Hospital/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7x215y0zb1
