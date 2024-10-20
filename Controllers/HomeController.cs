@@ -17,6 +17,11 @@ namespace Health_Hub.Controllers
         {
             return View();
         }
+        public IActionResult Login()
+        {
+            ViewData["Layout"] = "~/Views/Shared/LayoutLogInPatient.cshtml";
+            return View();
+        }
 
         public IActionResult Privacy()
         {
