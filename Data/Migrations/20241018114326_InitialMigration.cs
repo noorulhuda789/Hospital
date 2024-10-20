@@ -118,7 +118,7 @@ namespace Health_Hub.Migrations
                 columns: table => new
                 {
                     PersonID = table.Column<int>(type: "int", nullable: false),
-                    Address = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: false)
+                    Address = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true)
                 },
                 constraints: table =>
                 {
@@ -210,8 +210,8 @@ namespace Health_Hub.Migrations
                     StatusID = table.Column<int>(type: "int", nullable: false),
                     TimeCreated = table.Column<DateTime>(type: "datetime2", nullable: false),
                     TimeSlot = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Prescriptions = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: false),
-                    TestSuggested = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: false),
+                    Prescriptions = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: true),
+                    TestSuggested = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: true),
                     VerificationID = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>

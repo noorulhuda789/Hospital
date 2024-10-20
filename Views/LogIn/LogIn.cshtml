@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="login-container">
+    <h1 class="title">HealthHub Login</h1>
+    <form asp-action="LogIn" asp-controller="LogIn" id="loginForm" method="post">
+        <div>
+            <label>Email</label>
+            <input type="email" name="Email" class="form-control" required />
+            <span class="text-danger" id="emailError"></span>
+        </div>
+        <div>
+            <label>Password</label>
+            <input type="password" name="Password" class="form-control" required />
+            <span class="text-danger" id="passwordError"></span>
+        </div>
+        <button type="submit">Login</button>
+    </form>
+</div>

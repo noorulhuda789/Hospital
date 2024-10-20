@@ -5,7 +5,7 @@ namespace Health_Hub.Models.Domain
 {
     public class Patient : Person
     {
-        public string Address { get; set; }
+        public string Address { get; set; } = null;
 
         // Patient-Appointment (One-to-Many)
         public ICollection<Appointment> Appointments { get; set; }

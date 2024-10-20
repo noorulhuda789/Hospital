@@ -3,71 +3,119 @@
   "WorkspaceRootPath": "G:\\HealthHubNew\\Hospital\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\views\\shared\\_layoutdoctorlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\shared\\_layoutdoctorlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\AppData\\Roaming\\Microsoft\\UserSecrets\\a785e87c-f2e4-437e-a21a-8168c7a8598a\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\data\\migrations\\20241018114326_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:data\\migrations\\20241018114326_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\data\\migrations\\20241019095317_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:data\\migrations\\20241019095317_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\data\\healthhubdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:data\\healthhubdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\models\\domain\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:models\\domain\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\models\\domain\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:models\\domain\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\models\\domain\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:models\\domain\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\models\\domain\\doctorhospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:models\\domain\\doctorhospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\HealthHubNew\\Hospital\\Migrations\\20241019095317_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241019095317_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\views\\home\\doctorregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\home\\doctorregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\views\\home\\doctorsingle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\home\\doctorsingle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\views\\people\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\people\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\models\\domain\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:models\\domain\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\models\\domain\\doctorhospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:models\\domain\\doctorhospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\models\\domain\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:models\\domain\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\data\\migrations\\20241018114326_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:data\\migrations\\20241018114326_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\models\\domain\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:models\\domain\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\models\\domain\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:models\\domain\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\views\\signup\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\signup\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\models\\domain\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:models\\domain\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\data\\healthhubdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:data\\healthhubdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\views\\people\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\people\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\views\\people\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\people\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\views\\people\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\people\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\models\\domain\\hospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:models\\domain\\hospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\models\\domain\\lookup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:models\\domain\\lookup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\scss\\_variables.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:scss\\_variables.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\AppData\\Roaming\\Microsoft\\UserSecrets\\a785e87c-f2e4-437e-a21a-8168c7a8598a\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\data\\migrations\\20241019095317_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:data\\migrations\\20241019095317_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\HealthHubNew\\Hospital\\Migrations\\20241019095317_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241019095317_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\views\\people\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\people\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\views\\people\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\people\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\views\\people\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -76,26 +124,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\controllers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:controllers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\views\\shared\\_layoutdoctorlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\shared\\_layoutdoctorlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\scss\\style.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
@@ -118,20 +146,8 @@
       "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:scss\\_typography.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\scss\\_variables.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:scss\\_variables.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\scss\\_color.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
       "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:scss\\_color.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\views\\shared\\_layoutloginpatient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\shared\\_layoutloginpatient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\data\\migrations\\healthhubdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -140,10 +156,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\models\\domain\\medicalreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:models\\domain\\medicalreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|g:\\healthhubnew\\hospital\\models\\domain\\hospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:models\\domain\\hospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -153,7 +165,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -185,161 +197,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "serviceDependencies.json",
-              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Properties\\serviceDependencies.json",
-              "RelativeDocumentMoniker": "Properties\\serviceDependencies.json",
-              "ToolTip": "G:\\HealthHubNew\\Hospital\\Properties\\serviceDependencies.json",
-              "RelativeToolTip": "Properties\\serviceDependencies.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-19T12:04:06.203Z",
+              "DocumentIndex": 2,
+              "Title": "LogIn.cshtml",
+              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Views\\LogIn\\LogIn.cshtml",
+              "RelativeDocumentMoniker": "Views\\LogIn\\LogIn.cshtml",
+              "ToolTip": "G:\\HealthHubNew\\Hospital\\Views\\LogIn\\LogIn.cshtml",
+              "RelativeToolTip": "Views\\LogIn\\LogIn.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAgwAsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T13:02:05.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "20241019095317_InitialCreate.cs",
-              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Data\\Migrations\\20241019095317_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20241019095317_InitialCreate.cs",
-              "ToolTip": "G:\\HealthHubNew\\Hospital\\Data\\Migrations\\20241019095317_InitialCreate.cs",
-              "RelativeToolTip": "Data\\Migrations\\20241019095317_InitialCreate.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Title": "LogInController.cs",
+              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Controllers\\LogInController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LogInController.cs",
+              "ToolTip": "G:\\HealthHubNew\\Hospital\\Controllers\\LogInController.cs",
+              "RelativeToolTip": "Controllers\\LogInController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T12:02:23.527Z",
+              "WhenOpened": "2024-10-20T08:43:44.093Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "HealthHubDbContext.cs",
-              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Data\\HealthHubDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\HealthHubDbContext.cs",
-              "ToolTip": "G:\\HealthHubNew\\Hospital\\Data\\HealthHubDbContext.cs",
-              "RelativeToolTip": "Data\\HealthHubDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAPQAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T06:28:09.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20241018114326_InitialMigration.cs",
-              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Data\\Migrations\\20241018114326_InitialMigration.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20241018114326_InitialMigration.cs",
-              "ToolTip": "G:\\HealthHubNew\\Hospital\\Data\\Migrations\\20241018114326_InitialMigration.cs",
-              "RelativeToolTip": "Data\\Migrations\\20241018114326_InitialMigration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T09:46:04.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "secrets.json",
-              "DocumentMoniker": "C:\\Users\\HP\\AppData\\Roaming\\Microsoft\\UserSecrets\\a785e87c-f2e4-437e-a21a-8168c7a8598a\\secrets.json",
-              "ToolTip": "C:\\Users\\HP\\AppData\\Roaming\\Microsoft\\UserSecrets\\a785e87c-f2e4-437e-a21a-8168c7a8598a\\secrets.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-19T06:26:38.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Appointment.cs",
-              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Models\\Domain\\Appointment.cs",
-              "RelativeDocumentMoniker": "Models\\Domain\\Appointment.cs",
-              "ToolTip": "G:\\HealthHubNew\\Hospital\\Models\\Domain\\Appointment.cs",
-              "RelativeToolTip": "Models\\Domain\\Appointment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T17:03:46.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Doctor.cs",
-              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Models\\Domain\\Doctor.cs",
-              "RelativeDocumentMoniker": "Models\\Domain\\Doctor.cs",
-              "ToolTip": "G:\\HealthHubNew\\Hospital\\Models\\Domain\\Doctor.cs",
-              "RelativeToolTip": "Models\\Domain\\Doctor.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAswAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T17:06:38.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Person.cs",
-              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Models\\Domain\\Person.cs",
-              "RelativeDocumentMoniker": "Models\\Domain\\Person.cs",
-              "ToolTip": "G:\\HealthHubNew\\Hospital\\Models\\Domain\\Person.cs",
-              "RelativeToolTip": "Models\\Domain\\Person.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAowAwAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T06:52:54.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DoctorHospital.cs",
-              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Models\\Domain\\DoctorHospital.cs",
-              "RelativeDocumentMoniker": "Models\\Domain\\DoctorHospital.cs",
-              "ToolTip": "G:\\HealthHubNew\\Hospital\\Models\\Domain\\DoctorHospital.cs",
-              "RelativeToolTip": "Models\\Domain\\DoctorHospital.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAwwBQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T17:07:12.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20241019095317_InitialCreate.cs",
-              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Migrations\\20241019095317_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241019095317_InitialCreate.cs",
-              "ToolTip": "G:\\HealthHubNew\\Hospital\\Migrations\\20241019095317_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20241019095317_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T09:53:17.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LogIn.cshtml",
-              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Views\\Home\\LogIn.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\LogIn.cshtml",
-              "ToolTip": "G:\\HealthHubNew\\Hospital\\Views\\Home\\LogIn.cshtml",
-              "RelativeToolTip": "Views\\Home\\LogIn.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T06:31:03.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Views\\People\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\People\\Index.cshtml",
-              "ToolTip": "G:\\HealthHubNew\\Hospital\\Views\\People\\Index.cshtml",
-              "RelativeToolTip": "Views\\People\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T09:39:44.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "DoctorSingle.cshtml",
               "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Views\\Home\\DoctorSingle.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\DoctorSingle.cshtml",
@@ -352,7 +236,189 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LayoutDoctorLogIn.cshtml",
+              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Views\\Shared\\_LayoutDoctorLogIn.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutDoctorLogIn.cshtml",
+              "ToolTip": "G:\\HealthHubNew\\Hospital\\Views\\Shared\\_LayoutDoctorLogIn.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutDoctorLogIn.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACAAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T09:08:09.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "G:\\HealthHubNew\\Hospital\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T09:17:14.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Models\\Domain\\Doctor.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\Doctor.cs",
+              "ToolTip": "G:\\HealthHubNew\\Hospital\\Models\\Domain\\Doctor.cs",
+              "RelativeToolTip": "Models\\Domain\\Doctor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T17:06:38.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SignUpController.cs",
+              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Controllers\\SignUpController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SignUpController.cs",
+              "ToolTip": "G:\\HealthHubNew\\Hospital\\Controllers\\SignUpController.cs",
+              "RelativeToolTip": "Controllers\\SignUpController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAgwDAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T07:08:54.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DoctorHospital.cs",
+              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Models\\Domain\\DoctorHospital.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\DoctorHospital.cs",
+              "ToolTip": "G:\\HealthHubNew\\Hospital\\Models\\Domain\\DoctorHospital.cs",
+              "RelativeToolTip": "Models\\Domain\\DoctorHospital.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T17:07:12.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Models\\Domain\\Appointment.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\Appointment.cs",
+              "ToolTip": "G:\\HealthHubNew\\Hospital\\Models\\Domain\\Appointment.cs",
+              "RelativeToolTip": "Models\\Domain\\Appointment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T17:03:46.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20241018114326_InitialMigration.cs",
+              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Data\\Migrations\\20241018114326_InitialMigration.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20241018114326_InitialMigration.cs",
+              "ToolTip": "G:\\HealthHubNew\\Hospital\\Data\\Migrations\\20241018114326_InitialMigration.cs",
+              "RelativeToolTip": "Data\\Migrations\\20241018114326_InitialMigration.cs",
+              "ViewState": "AQIAAMYAAAAAAAAAAAAvwNQAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T10:21:46.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Models\\Domain\\Patient.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\Patient.cs",
+              "ToolTip": "G:\\HealthHubNew\\Hospital\\Models\\Domain\\Patient.cs",
+              "RelativeToolTip": "Models\\Domain\\Patient.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T09:00:22.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Person.cs",
+              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Models\\Domain\\Person.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\Person.cs",
+              "ToolTip": "G:\\HealthHubNew\\Hospital\\Models\\Domain\\Person.cs",
+              "RelativeToolTip": "Models\\Domain\\Person.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAcwB4AAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T06:52:54.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Views\\SignUp\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "Views\\SignUp\\SignUp.cshtml",
+              "ToolTip": "G:\\HealthHubNew\\Hospital\\Views\\SignUp\\SignUp.cshtml",
+              "RelativeToolTip": "Views\\SignUp\\SignUp.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAAAswCoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T06:45:12.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Models\\Domain\\Notification.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\Notification.cs",
+              "ToolTip": "G:\\HealthHubNew\\Hospital\\Models\\Domain\\Notification.cs",
+              "RelativeToolTip": "Models\\Domain\\Notification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T10:40:54.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "G:\\HealthHubNew\\Hospital\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAApwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T06:21:52.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HealthHubDbContext.cs",
+              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Data\\HealthHubDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\HealthHubDbContext.cs",
+              "ToolTip": "G:\\HealthHubNew\\Hospital\\Data\\HealthHubDbContext.cs",
+              "RelativeToolTip": "Data\\HealthHubDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T06:28:09.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "G:\\HealthHubNew\\Hospital\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T08:25:39.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Views\\People\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\People\\Edit.cshtml",
@@ -365,33 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DoctorRegister.cshtml",
-              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Views\\Home\\DoctorRegister.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\DoctorRegister.cshtml",
-              "ToolTip": "G:\\HealthHubNew\\Hospital\\Views\\Home\\DoctorRegister.cshtml",
-              "RelativeToolTip": "Views\\Home\\DoctorRegister.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T09:35:39.471Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Views\\People\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\People\\Details.cshtml",
-              "ToolTip": "G:\\HealthHubNew\\Hospital\\Views\\People\\Details.cshtml",
-              "RelativeToolTip": "Views\\People\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T09:39:33.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Views\\People\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\People\\Delete.cshtml",
@@ -404,85 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Views\\People\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\People\\Create.cshtml",
-              "ToolTip": "G:\\HealthHubNew\\Hospital\\Views\\People\\Create.cshtml",
-              "RelativeToolTip": "Views\\People\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T09:39:27.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PeopleController.cs",
-              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Controllers\\PeopleController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PeopleController.cs",
-              "ToolTip": "G:\\HealthHubNew\\Hospital\\Controllers\\PeopleController.cs",
-              "RelativeToolTip": "Controllers\\PeopleController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T09:39:05.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "G:\\HealthHubNew\\Hospital\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T09:17:14.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "_LayoutDoctorLogIn.cshtml",
-              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Views\\Shared\\_LayoutDoctorLogIn.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutDoctorLogIn.cshtml",
-              "ToolTip": "G:\\HealthHubNew\\Hospital\\Views\\Shared\\_LayoutDoctorLogIn.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_LayoutDoctorLogIn.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T06:20:23.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "G:\\HealthHubNew\\Hospital\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAAFAAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-18T18:38:30.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "site.css",
-              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-19T07:11:06.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -495,7 +457,142 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Hospital.cs",
+              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Models\\Domain\\Hospital.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\Hospital.cs",
+              "ToolTip": "G:\\HealthHubNew\\Hospital\\Models\\Domain\\Hospital.cs",
+              "RelativeToolTip": "Models\\Domain\\Hospital.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T17:07:23.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Lookup.cs",
+              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Models\\Domain\\Lookup.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\Lookup.cs",
+              "ToolTip": "G:\\HealthHubNew\\Hospital\\Models\\Domain\\Lookup.cs",
+              "RelativeToolTip": "Models\\Domain\\Lookup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T07:02:07.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "site.css",
+              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-19T07:11:06.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20241019095317_InitialCreate.cs",
+              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Data\\Migrations\\20241019095317_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20241019095317_InitialCreate.cs",
+              "ToolTip": "G:\\HealthHubNew\\Hospital\\Data\\Migrations\\20241019095317_InitialCreate.cs",
+              "RelativeToolTip": "Data\\Migrations\\20241019095317_InitialCreate.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAzwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T12:02:23.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_variables.scss",
+              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\scss\\_variables.scss",
+              "RelativeDocumentMoniker": "scss\\_variables.scss",
+              "ToolTip": "G:\\HealthHubNew\\Hospital\\scss\\_variables.scss",
+              "RelativeToolTip": "scss\\_variables.scss",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-10-19T06:48:11.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 24,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\HP\\AppData\\Roaming\\Microsoft\\UserSecrets\\a785e87c-f2e4-437e-a21a-8168c7a8598a\\secrets.json",
+              "ToolTip": "C:\\Users\\HP\\AppData\\Roaming\\Microsoft\\UserSecrets\\a785e87c-f2e4-437e-a21a-8168c7a8598a\\secrets.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-19T06:26:38.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20241019095317_InitialCreate.cs",
+              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Migrations\\20241019095317_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241019095317_InitialCreate.cs",
+              "ToolTip": "G:\\HealthHubNew\\Hospital\\Migrations\\20241019095317_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20241019095317_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T09:53:17.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Views\\People\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\People\\Index.cshtml",
+              "ToolTip": "G:\\HealthHubNew\\Hospital\\Views\\People\\Index.cshtml",
+              "RelativeToolTip": "Views\\People\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T09:39:44.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Views\\People\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\People\\Details.cshtml",
+              "ToolTip": "G:\\HealthHubNew\\Hospital\\Views\\People\\Details.cshtml",
+              "RelativeToolTip": "Views\\People\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T09:39:33.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Views\\People\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\People\\Create.cshtml",
+              "ToolTip": "G:\\HealthHubNew\\Hospital\\Views\\People\\Create.cshtml",
+              "RelativeToolTip": "Views\\People\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T09:39:27.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PeopleController.cs",
+              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Controllers\\PeopleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PeopleController.cs",
+              "ToolTip": "G:\\HealthHubNew\\Hospital\\Controllers\\PeopleController.cs",
+              "RelativeToolTip": "Controllers\\PeopleController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T09:39:05.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "style.scss",
               "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\scss\\style.scss",
               "RelativeDocumentMoniker": "scss\\style.scss",
@@ -503,12 +600,11 @@
               "RelativeToolTip": "scss\\style.scss",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-10-19T06:48:20.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T06:48:20.17Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 34,
               "Title": "_mixins.scss",
               "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\scss\\_mixins.scss",
               "RelativeDocumentMoniker": "scss\\_mixins.scss",
@@ -516,12 +612,11 @@
               "RelativeToolTip": "scss\\_mixins.scss",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-10-19T06:48:27.193Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T06:48:27.193Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 33,
               "Title": "_media-query.scss",
               "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\scss\\_media-query.scss",
               "RelativeDocumentMoniker": "scss\\_media-query.scss",
@@ -529,12 +624,11 @@
               "RelativeToolTip": "scss\\_media-query.scss",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-10-19T06:48:28.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T06:48:28.362Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 32,
               "Title": "_common.scss",
               "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\scss\\_common.scss",
               "RelativeDocumentMoniker": "scss\\_common.scss",
@@ -542,12 +636,11 @@
               "RelativeToolTip": "scss\\_common.scss",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-10-19T06:48:30.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T06:48:30.068Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 35,
               "Title": "_typography.scss",
               "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\scss\\_typography.scss",
               "RelativeDocumentMoniker": "scss\\_typography.scss",
@@ -555,12 +648,11 @@
               "RelativeToolTip": "scss\\_typography.scss",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-10-19T06:48:22.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T06:48:22.536Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 36,
               "Title": "_color.scss",
               "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\scss\\_color.scss",
               "RelativeDocumentMoniker": "scss\\_color.scss",
@@ -568,51 +660,11 @@
               "RelativeToolTip": "scss\\_color.scss",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-10-19T06:48:15.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T06:48:15.219Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "_variables.scss",
-              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\scss\\_variables.scss",
-              "RelativeDocumentMoniker": "scss\\_variables.scss",
-              "ToolTip": "G:\\HealthHubNew\\Hospital\\scss\\_variables.scss",
-              "RelativeToolTip": "scss\\_variables.scss",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-10-19T06:48:11.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Program.cs",
-              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "G:\\HealthHubNew\\Hospital\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAArwAoAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T06:21:52.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "_LayoutLogInPatient.cshtml",
-              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Views\\Shared\\_LayoutLogInPatient.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutLogInPatient.cshtml",
-              "ToolTip": "G:\\HealthHubNew\\Hospital\\Views\\Shared\\_LayoutLogInPatient.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_LayoutLogInPatient.cshtml",
-              "ViewState": "AQIAAOMAAAAAAAAAAAAkwPEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T06:18:47.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "HealthHubDbContextModelSnapshot.cs",
               "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Data\\Migrations\\HealthHubDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\HealthHubDbContextModelSnapshot.cs",
@@ -620,12 +672,11 @@
               "RelativeToolTip": "Data\\Migrations\\HealthHubDbContextModelSnapshot.cs",
               "ViewState": "AQIAAAAAAAAAAAAAACBjwAwAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T18:37:18.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T18:37:18.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "MedicalReport.cs",
               "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Models\\Domain\\MedicalReport.cs",
               "RelativeDocumentMoniker": "Models\\Domain\\MedicalReport.cs",
@@ -633,21 +684,7 @@
               "RelativeToolTip": "Models\\Domain\\MedicalReport.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T17:07:35.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Hospital.cs",
-              "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Models\\Domain\\Hospital.cs",
-              "RelativeDocumentMoniker": "Models\\Domain\\Hospital.cs",
-              "ToolTip": "G:\\HealthHubNew\\Hospital\\Models\\Domain\\Hospital.cs",
-              "RelativeToolTip": "Models\\Domain\\Hospital.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAA/wA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T17:07:23.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T17:07:35.463Z"
             }
           ]
         },

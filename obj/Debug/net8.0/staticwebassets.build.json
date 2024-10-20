@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xiT70SSf5u64yFZObSHRtSJdpj4EtvlYmD08jlPC/lM=",
+  "Hash": "smUOswQHd5/1erJj02x2K6lLEeLNzOOUS/PIn2bM4ko=",
   "Source": "Health Hub",
   "BasePath": "_content/Health Hub",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\logo3.png",
+      "SourceId": "Health Hub",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "BasePath": "_content/Health Hub",
+      "RelativePath": "Images/logo3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\logo3.png"
     },
     {
       "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\js\\site.js",

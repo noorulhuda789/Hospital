@@ -29,6 +29,7 @@
 
   <ItemGroup>
     <None Include="Views\Shared\_LayoutLogInPatient.cshtml" />
+    <None Include="wwwroot\Images\logo3.png" />
   </ItemGroup>
 
 </Project>
