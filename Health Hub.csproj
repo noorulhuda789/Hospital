@@ -9,11 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="Views\Shared\_LayoutLogInPatient.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
       <PrivateAssets>all</PrivateAssets>
@@ -29,6 +24,10 @@
 
   <ItemGroup>
     <None Include="Views\Shared\_LayoutLogInPatient.cshtml" />
+<<<<<<< HEAD
+=======
+    <None Include="wwwroot\Images\bannerImg.jpg" />
+>>>>>>> f9539569c0be3f71690dba21396de5ba598f7ba1
     <None Include="wwwroot\Images\logo3.png" />
   </ItemGroup>
 

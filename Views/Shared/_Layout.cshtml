@@ -3,12 +3,12 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Health_Hub</title>
+    <title>@ViewData["Title"] - Health Hub</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Health_Hub.styles.css" asp-append-version="true" />
 </head>
 <body id="top">
+<<<<<<< HEAD
 	<header>
 		@* <div class="header-top-bar">
 			<div class="container">
@@ -201,31 +201,92 @@
 	<script src="js/contact.js"></script> *@
 @* 
 <body>
+=======
+
+    <!-- Header Section with Navbar -->
+>>>>>>> f9539569c0be3f71690dba21396de5ba598f7ba1
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Health_Hub</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #f8f9fa;" id="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="/">
+
+                    <img src="../Images/SquareLogo.png" alt="Health Hub Logo" class="img-fluid logoImage">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarmain">
+                    <ul class="navbar-nav">
+                        <!-- Dropdown for Departments -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="dropdown02" data-toggle="dropdown">Departments</a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown02">
+                                <li><a class="dropdown-item" href="#">Cardiology</a></li>
+                                <li><a class="dropdown-item" href="#">Dermatology</a></li>
+                                <li><a class="dropdown-item" href="#">Neurology</a></li>
+                                <li><a class="dropdown-item" href="#">View All</a></li>
+                            </ul>
                         </li>
+
+                        <!-- Link for Doctors -->
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link" href="#">Doctors</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+
+                        <!-- Right-aligned Buttons -->
+                        <li class="nav-item">
+                            <a href="#" class="btn btn-outline-primary mr-2">Join as Doctor</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="LogIn.cshtml" class="btn btn-outline-success">SignUp/LogIn</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
- *@    
+
+    <!-- Main content -->
+    <div class="container mt-5 pt-5">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer section gray-bg mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="widget mb-5 mb-lg-0">
+                        <img src="../Images/SquareLogo.png" alt="Health Hub Logo" class="img-fluid">
+                        <p>Learn more about us and get our latest updates.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h4 class="mb-3">Support</h4>
+                    <ul class="list-unstyled footer-menu">
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h4 class="mb-3">Get in Touch</h4>
+                    <p>Email us at: <a href="mailto:healthhub@gmail.com">healthhub@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-btm py-3">
+                <p class="text-center">&copy; 2024 Health Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
