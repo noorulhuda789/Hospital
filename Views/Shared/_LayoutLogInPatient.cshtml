@@ -7,9 +7,10 @@
 	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 	<link rel="stylesheet" href="~/Health_Hub.styles.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/DoctorCard.css" />
 </head>
 <body id="top">
-
+	@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 	<header>
 		@* <div class="header-top-bar">
 		<div class="container">
@@ -43,14 +44,12 @@
 
 				<div class="collapse navbar-collapse" id="navbarmain">
 					<ul class="navbar-nav ml-auto">
-						<!-- <li class="nav-item active">
-						  <a class="nav-link" href="index.html">Home</a>
-						</li> -->
-						<li class="nav-item"><a class="nav-link">About</a></li>
-						<li class="nav-item"><a class="nav-link">Services</a></li>
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
 
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" " id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Department <i class="icofont-thin-down"></i></a>
+							<a class="nav-link dropdown-toggle" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Department <i class="icofont-thin-down"></i></a>
 							<ul class="dropdown-menu" aria-labelledby="dropdown02">
 								<li><a class="dropdown-item">Departments</a></li>
 								<li><a class="dropdown-item">Department Single</a></li>
@@ -60,7 +59,7 @@
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors <i class="icofont-thin-down"></i></a>
 							<ul class="dropdown-menu" aria-labelledby="dropdown03">
-								<li><a class="dropdown-item">Doctors</a></li>
+								<li><a class="dropdown-item" asp-action="Doctors" asp-controller="Doctors">Doctors</a></li>
 								<li><a class="dropdown-item">Doctor Single</a></li>
 								<li><a class="dropdown-item">Appoinment</a></li>
 							</ul>
@@ -75,17 +74,7 @@
 							</ul>
 						</li>
 						<li class="nav-item"><a class="nav-link">Contact</a></li>
-						<li class="nav-item"><button type="button" name="" id="" class="btn btn-block"><a href="#">Join as Doctor</a></button></li>
-						<li class="nav-item"><button type="button" name="" id="" class="btn btn-block"><a href="LogIn.html">SignUp/LogIn</a></button></li>
-						<li class="nav-item"><a class="nav-link">Blog</a></li>
-						<li class="nav-item"><a class="nav-link">Chat</a></li>
-						<li class="nav-item"><a class="nav-link">Patient</a></li>
-						<li class="nav-item"><a class="nav-link">Profile</a></li>
-						<li class="nav-item"><a class="nav-link">Add Blog</a></li>
-						<li class="nav-item"><a class="nav-link"> Add Patient History</a></li>
-						<li class="nav-item"><a class="nav-link">Patient History</a></li>
-						<li class="nav-item"><a class="nav-link">Notification</a></li>
-						<li class="nav-item"><a class="nav-link">Patient Profile</a></li>
+						<li class="nav-item"><button type="button" name="" id="" class="btn btn-block"><a>Log Out</a></button></li>
 					</ul>
 				</div>
 			</div>

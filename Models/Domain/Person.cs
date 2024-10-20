@@ -32,5 +32,7 @@ namespace Health_Hub.Models.Domain
 
 		// Notifications (One-to-Many), initialize to prevent null references
 		public ICollection<Notification> Notifications { get; set; } = new List<Notification>();
-	}
+        // You can have a navigation property back to Doctor if needed
+        public Doctor? Doctor { get; set; }
+    }
 }

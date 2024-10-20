@@ -12,47 +12,25 @@ Version: 1.0.0
 html {
     overflow-x: hidden;
 }
-
 :root {
-    --dl-size-size-large: 144px;
-    --dl-size-size-small: 48px;
-    --dl-size-size-medium: 96px;
-    --dl-size-size-xlarge: 192px;
-    --dl-size-size-xsmall: 16px;
-    --dl-space-space-unit: 16px;
-    --dl-size-size-xxlarge: 288px;
-    --dl-size-size-maxwidth: 1400px;
-    --dl-color-theme-accent1: #FFFFFF;
-    --dl-color-theme-accent2: #737a4f;
-    --dl-radius-radius-round: 50%;
-    --dl-color-theme-primary1: #182519;
-    --dl-color-theme-primary2: #182530;
-    --dl-space-space-halfunit: 8px;
-    --dl-space-space-sixunits: 96px;
-    --dl-space-space-twounits: 32px;
-    --dl-radius-radius-radius2: 2px;
-    --dl-radius-radius-radius4: 4px;
-    --dl-radius-radius-radius8: 8px;
-    --dl-space-space-fiveunits: 80px;
-    --dl-space-space-fourunits: 64px;
-    --dl-color-theme-secondary1: #FFFFFF;
-    --dl-color-theme-secondary2: #90d2ac;
-    --dl-space-space-threeunits: 48px;
-    --dl-color-theme-neutral-dark: #191818;
-    --dl-radius-radius-cardradius: 8px;
-    --dl-color-theme-neutral-light: #FBFAF9;
-    --dl-radius-radius-imageradius: 8px;
-    --dl-radius-radius-inputradius: 24px;
-    --dl-radius-radius-buttonradius: 24px;
-    --dl-space-space-oneandhalfunits: 24px;
+    --light: #fff;
+    --primary-color: #182519;
+    --secondary-color: #8dc48f;
+    --base-color: #ffff;
+    --title-color: #035e21;
+    --black: #000;
+    --gray: #f5f5f5;
+    --secondary-bg: #c9e6b6;
+    --border-color: #74ac83;
+    --primary-font: 'Exo', sans-serif;
+    --secondary-font: 'Roboto', sans-serif;
 }
-
 body {
     line-height: 1.6;
     font-family: "Roboto", sans-serif;
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
-    color: var(--dl-color-theme-primary2);
+    color: var(--primary-color);
     font-weight: 400;
 }
 
@@ -99,7 +77,7 @@ p {
 }
 
 .navbar-toggle .icon-bar {
-    background: var(--dl-color-theme-primary1);
+    background: var(--primary-color);
 }
 
 input[type="email"], input[type="password"], input[type="text"], input[type="tel"] {
@@ -111,7 +89,7 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
 
     input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focus, input[type="tel"]:focus {
         box-shadow: none;
-        border: 1px solid var(--dl-color-theme-primary1);
+        border: 1px solid var(--black);
     }
 
 .form-control {
@@ -121,7 +99,7 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
 
     .form-control:focus {
         box-shadow: none;
-        border: 1px solid var(--dl-color-theme-primary1);
+        border: 1px solid var(--primary-color);
     }
 
 .py-7 {
@@ -153,39 +131,39 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
     }
 
 .btn-main {
-    background: var(--dl-color-theme-primary1);
+    background: var(--primary-color);
     color: #fff;
-    border-color: var(--dl-color-theme-primary2);
+    border-color: var(--black);
 }
 
     .btn-main:hover {
-        background: var(--dl-color-theme-secondary1);
+        background: var(--secondary-color);
         border-color: black;
         color: #fff;
     }
 
 .btn-main-2 {
-    background: var(--dl-color-theme-secondary2);
+    background: var(--secondary-bg);
     color: #fff;
-    border-color: var(--dl-color-theme-secondary2);
+    border-color: var(--secondary-color);
 }
 
     .btn-main-2:hover {
-        background: var(--dl-color-theme-primary1);
+        background: var(--primary-color);
         color: #fff;
-        border-color: var(--dl-color-theme-accent2);
+        border-color: var(--secondary-color);
     }
 
 .btn-solid-border {
-    border: 2px solid var(--dl-color-theme-primary1);
+    border: 2px solid var(--primary-color);
     background: transparent;
     color: var(--dl-color-theme-accent2);
 }
 
     .btn-solid-border:hover {
-        border: 2px solid var(--dl-color-theme-primary1);
+        border: 2px solid var(--primary-color);
         color: #fff;
-        background: var(--dl-color-theme-neutral-dark);
+        background: var(--black);
     }
 
         .btn-solid-border:hover.btn-icon i {
@@ -199,11 +177,11 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
 .btn-transparent {
     background: transparent;
     color: #222;
-    border-color: var(--dl-color-theme-secondary2);
+    border-color: var(--secondary-color);
 }
 
     .btn-transparent:hover {
-        background: var(--dl-color-theme-secondary2);
+        background: var(--secondary-color);
         color: #fff;
     }
 
@@ -214,9 +192,9 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
 }
 
     .btn-white:hover {
-        background: var(--dl-color-theme-primary1);
+        background: var(--primary-color);
         color: #fff;
-        border-color: var(--dl-color-theme-primary2);
+        border-color: var(--secondary-color);
     }
 
 .btn-solid-white {
@@ -246,11 +224,11 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
 }
 
 .bg-primary {
-    background: var(--dl-color-theme-primary1);
+    background: var(--primary-color);
 }
 
 .bg-primary-dark {
-    background: var(--dl-color-theme-neutral-dark);
+    background: var(--black);
 }
 
 .bg-primary-darker {

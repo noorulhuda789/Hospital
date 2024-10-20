@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = G:\HealthHubNew\Hospital
 build_property._RazorSourceGeneratorDebug = 
 
+[G:/HealthHubNew/Hospital/Views/Doctors/Doctors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yc1xEb2N0b3JzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [G:/HealthHubNew/Hospital/Views/Home/DoctorSingle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEb2N0b3JTaW5nbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
