@@ -110,6 +110,11 @@ namespace Health_Hub.Data
                 .HasMany(d => d.DoctorHospitals)
                 .WithOne(dh => dh.Doctor)
                 .HasForeignKey(dh => dh.DoctorID);
+            // Define the relationship between Doctor and Person
+            modelBuilder.Entity<Doctor>()
+                .HasOne(d => d.Person)
+                .WithOne(p => p.Doctor) // Optional: if Person can have only one related Doctor
+                .HasForeignKey<Doctor>(d => d.PersonID);
 
 
             // Configuring Hospital Entity

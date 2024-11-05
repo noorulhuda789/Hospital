@@ -1262,3 +1262,15 @@ D:\Semester_5\SE(Theory)\Ongoing\Hospital\obj\Debug\net8.0\scopedcss\projectbund
 D:\Semester_5\SE(Theory)\Ongoing\Hospital\obj\Debug\net8.0\Health Hub.csproj.Up2Date
 D:\Semester_5\SE(Theory)\Ongoing\Hospital\obj\Debug\net8.0\Health Hub.genruntimeconfig.cache
 D:\Semester_5\SE(Theory)\Ongoing\Hospital\obj\Debug\net8.0\ref\Health Hub.dll
+E:\5th semester\SE lab\Hospital\obj\Debug\net8.0\Health Hub.csproj.AssemblyReference.cache
+E:\5th semester\SE lab\Hospital\obj\Debug\net8.0\Health Hub.GeneratedMSBuildEditorConfig.editorconfig
+E:\5th semester\SE lab\Hospital\obj\Debug\net8.0\Health Hub.AssemblyInfoInputs.cache
+E:\5th semester\SE lab\Hospital\obj\Debug\net8.0\Health Hub.AssemblyInfo.cs
+E:\5th semester\SE lab\Hospital\obj\Debug\net8.0\Health Hub.csproj.CoreCompileInputs.cache
+E:\5th semester\SE lab\Hospital\obj\Debug\net8.0\Health Hub.MvcApplicationPartsAssemblyInfo.cache
+E:\5th semester\SE lab\Hospital\obj\Debug\net8.0\Health Hub.RazorAssemblyInfo.cache
+E:\5th semester\SE lab\Hospital\obj\Debug\net8.0\Health Hub.RazorAssemblyInfo.cs
+E:\5th semester\SE lab\Hospital\obj\Debug\net8.0\Health Hub.sourcelink.json
+E:\5th semester\SE lab\Hospital\obj\Debug\net8.0\Health Hub.dll
+E:\5th semester\SE lab\Hospital\obj\Debug\net8.0\refint\Health Hub.dll
+E:\5th semester\SE lab\Hospital\obj\Debug\net8.0\Health Hub.pdb

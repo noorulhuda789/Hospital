@@ -26,12 +26,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\Semester_5\SE(Theory)\Ongoing\Hospital
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Home/AllDoctor.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbGxEb2N0b3IuY3NodG1s
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Doctors/Doctors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yc1xEb2N0b3JzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Home/DoctorRegister.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEb2N0b3JSZWdpc3Rlci5jc2h0bWw=
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Home/AllDoctor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbGxEb2N0b3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Home/Index.cshtml]
@@ -40,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Home/LogIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dJbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/LogIn/LogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nSW5cTG9nSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/People/Create.cshtml]
@@ -76,6 +80,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/SignUp/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblVwXFNpZ25VcC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/_ViewImports.cshtml]

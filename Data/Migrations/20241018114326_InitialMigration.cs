@@ -211,7 +211,8 @@ namespace Health_Hub.Migrations
                     TimeCreated = table.Column<DateTime>(type: "datetime2", nullable: false),
                     TimeSlot = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Prescriptions = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: false),
-                    TestSuggested = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: false)
+                    TestSuggested = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: false),
+                    VerificationID = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {

@@ -1,0 +1,71 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<section class="page-title bg-1">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="block text-center">
+					<span class="text-white">All Doctors</span>
+					<h1 class="text-capitalize mb-5 text-lg">Specalized doctors</h1>
+
+					<!-- <ul class="list-inline breadcumb-nav">
+					  <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
+					  <li class="list-inline-item"><span class="text-white">/</span></li>
+					  <li class="list-inline-item"><a href="#" class="text-white-50">All Doctors</a></li>
+					</ul> -->
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- portfolio -->
+<section class="section doctors">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-6 text-center">
+				<div class="section-title">
+					<h2>Doctors</h2>
+					<div class="divider mx-auto my-4"></div>
+					<p>"Connecting You to Expert Care, Anytime, Anywhere – Your Health, Your Choice!" </p>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 text-center mb-5">
+			<div class="btn-group btn-group-toggle" data-toggle="buttons">
+				<label class="btn active">
+					<input type="radio" name="shuffle-filter" value="all" checked="checked" />All Department
+				</label>
+				@foreach (var specialization in Model.Item2)
+				{
+					<label class="btn">
+						<input style="pointer-events:none" type="radio" name="shuffle-filter" value="cat@specialization.Id" />@specialization.Value
+					</label>
+				}
+			</div>
+		</div>
+	</div>
+	</div>
+</section>
+<div class="doctor-list">
+	@foreach (var doctor in Model.Item1)
+	{
+		<div class="doctor-card">
+			<img src="@doctor.ProfileImage" alt="@doctor.Person.Name's Profile Image" class="doctor-image" />
+			<div class="doctor-info">
+				<h3 class="doctor-name">@doctor.Person.Name</h3>
+				<p class="doctor-degree">Degree: @doctor.Degree</p>
+				<p class="doctor-rating">Rating: @doctor.Rating</p>
+				<p class="doctor-specialization">Specialization: @doctor.Specialization.Value</p>
+				<p class="doctor-contact">Contact: @doctor.Person.Email | @doctor.Person.PhoneNumber</p>
+				<a href="@Url.Action("DoctorSingle", "Doctors", new { id = doctor.PersonID })" class="view-profile-btn">View Profile</a>
+			</div>
+		</div>
+	}
+</div>
