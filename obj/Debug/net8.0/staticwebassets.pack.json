@@ -21,8 +21,28 @@
       "PackagePath": "staticwebassets\\Images\\logo3.png"
     },
     {
+      "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\profiles\\emily_profile.jpeg",
+      "PackagePath": "staticwebassets\\Images\\profiles\\emily_profile.jpeg"
+    },
+    {
+      "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\profiles\\jane_profile.jpeg",
+      "PackagePath": "staticwebassets\\Images\\profiles\\jane_profile.jpeg"
+    },
+    {
+      "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\profiles\\john_profile.jpeg",
+      "PackagePath": "staticwebassets\\Images\\profiles\\john_profile.jpeg"
+    },
+    {
+      "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\profiles\\michael_profile.jpeg",
+      "PackagePath": "staticwebassets\\Images\\profiles\\michael_profile.jpeg"
+    },
+    {
       "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\user.jpg",
       "PackagePath": "staticwebassets\\Images\\user.jpg"
+    },
+    {
+      "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\css\\navbar.css",
+      "PackagePath": "staticwebassets\\css\\navbar.css"
     },
     {
       "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\css\\site.css",

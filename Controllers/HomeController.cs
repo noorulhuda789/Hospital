@@ -1,4 +1,5 @@
 using Health_Hub.Models;
+using Health_Hub.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
@@ -26,7 +27,26 @@ namespace Health_Hub.Controllers
                 .ToList();
 
             ViewBag.Departments = departments; // Pass to the view using ViewBag
-            return View();
+
+			var doctors = _context.Doctors
+		    .Include(d => d.Specialization)
+		    .Where(d => d.VerificationStatus == 1)
+		    .OrderByDescending(d => d.Rating)
+		    .Take(3)
+		    .Select(d => new DoctorVM
+		    {
+		    	PersonID = d.PersonID,
+		    	Name = d.Name,
+		    	ProfileImage = d.ProfileImage,
+		    	Specialization = d.Specialization.Value,
+		    	Rating = d.Rating
+		    })
+		    .ToList();
+
+			ViewBag.TopDoctors = doctors;
+			return View();
+
+			return View();
         }
 
         public IActionResult Login()
@@ -35,7 +55,7 @@ namespace Health_Hub.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult AllDoctor()
         {
             return View();
         }

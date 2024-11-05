@@ -1,0 +1,117 @@
+﻿/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* Navbar Styles */
+.health-navbar {
+    background-color: #f8f9fa;
+}
+
+    .health-navbar .navbar-brand img.logoImage {
+        max-height: 50px;
+    }
+
+    .health-navbar .navbar-toggler {
+        border: none;
+    }
+
+    .health-navbar .nav-link {
+        font-size: 1rem;
+        color: #333;
+        padding: 10px 15px;
+    }
+
+        .health-navbar .nav-link:hover {
+            color: #007bff;
+        }
+
+    .health-navbar .dropdown-menu {
+        border-radius: 5px;
+    }
+
+    .health-navbar .profile-img {
+        width: 30px;
+        border-radius: 50%;
+    }
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+    .footer .footer-logo img {
+        max-width: 150px;
+        margin-bottom: 20px;
+    }
+
+    .footer .footer-menu a {
+        color: #ccc;
+        font-size: 0.9rem;
+    }
+
+        .footer .footer-menu a:hover {
+            color: #fff;
+        }
+
+    .footer .footer-socials a {
+        color: #ccc;
+        font-size: 1.2rem;
+        margin-right: 10px;
+    }
+
+        .footer .footer-socials a:hover {
+            color: #007bff;
+        }
+
+    .footer .footer-contact-block .icon {
+        font-size: 1.2rem;
+        color: #007bff;
+        margin-right: 10px;
+    }
+
+    .footer .footer-contact-block a {
+        color: #fff;
+    }
+
+    .footer .copyright {
+        color: #ccc;
+        font-size: 0.8rem;
+    }
+
+    .footer .subscribe-form input.form-control {
+        display: inline-block;
+        width: 200px;
+        border: 1px solid #666;
+        color: #333;
+    }
+
+    .footer .subscribe-form .btn-round-full {
+        background-color: #007bff;
+        color: #fff;
+        border-radius: 20px;
+        margin-left: 5px;
+    }
+
+    .footer .backtop {
+        font-size: 1.5rem;
+        color: #007bff;
+    }
+
+/* Additional Utility Classes */
+.text-color {
+    color: #007bff;
+}
+
+.divider {
+    width: 50px;
+    height: 4px;
+    background-color: #007bff;
+    margin: 10px 0;
+}

@@ -96,6 +96,11 @@ p {
     min-height: fit-content;
     max-height: 15%;
     border-radius: 20%;
+    align-content: flex-end;
+}
+
+.img-fluid{
+    align-items: end;
 }
 .navbar .container {
     margin-left: 0 !important;
@@ -1595,7 +1600,7 @@ a {
 
 /*# sourceMappingURL=maps/style.css.map */
 .search-section {
-    margin-top : 30px;
+    margin-top : 90px;
     padding: 20px 0;
     background-color: #f9f9f9;
     border-bottom: 1px solid #ddd;
@@ -1653,3 +1658,84 @@ a {
             margin-bottom: 10px;
         }
 }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Doctor Cards Section */
+.doctor-cards {
+    margin-top: 40px;
+}
+
+/* Card Styles */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.2s;
+}
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+.card-img-top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures the image covers the area */
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.btn-primary {
+    background-color: #007bff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+
+.btn:hover {
+    opacity: 0.9; /* Slightly fade the button on hover */
+}
+
+/* Star Rating Styles */
+.fas, .far {
+    color: gold; /* Star color */
+}
+
+.rating {
+    margin-left: 5px; /* Adjust space between text and stars */
+}
+
+
+
