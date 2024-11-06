@@ -46,6 +46,18 @@ namespace Health_Hub.Controllers
 			ViewBag.TopDoctors = doctors;
 			return View();
         }
+        public IActionResult IndexForPatient()
+        {
+            ViewData["Layout"] = "_LayoutLogInPatient";
+            Index();
+            return View("Index"); // this statement will not be used only as the function has to return something so it is written here
+        }
+
+        public IActionResult IndexForDoctor()
+        {
+            ViewData["Layout"] = "_LayoutDoctorLogIn";// this function should be updated by noor as her need to navigate to doctor layout page
+            return View("Index");// Same goes here as for indexforpatient
+        }
 
         public IActionResult Login()
         {
