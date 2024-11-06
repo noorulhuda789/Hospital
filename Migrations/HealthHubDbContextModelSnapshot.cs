@@ -4,7 +4,6 @@ using Health_Hub.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -12,11 +11,9 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Health_Hub.Migrations
 {
     [DbContext(typeof(HealthHubDbContext))]
-    [Migration("20241019095317_InitialCreate")]
-    partial class InitialCreate
+    partial class HealthHubDbContextModelSnapshot : ModelSnapshot
     {
-        /// <inheritdoc />
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -36,9 +33,6 @@ namespace Health_Hub.Migrations
                     b.Property<int>("DoctorHospitalID")
                         .HasColumnType("int");
 
-                    b.Property<int>("DoctorHospitalID1")
-                        .HasColumnType("int");
-
                     b.Property<int>("DoctorID")
                         .HasColumnType("int");
 
@@ -46,15 +40,16 @@ namespace Health_Hub.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Prescriptions")
-                        .IsRequired()
                         .HasMaxLength(1000)
                         .HasColumnType("nvarchar(1000)");
+
+                    b.Property<int>("SelectedDoctorHospitalID")
+                        .HasColumnType("int");
 
                     b.Property<int>("StatusID")
                         .HasColumnType("int");
 
                     b.Property<string>("TestSuggested")
-                        .IsRequired()
                         .HasMaxLength(1000)
                         .HasColumnType("nvarchar(1000)");
 
@@ -72,9 +67,9 @@ namespace Health_Hub.Migrations
 
                     b.HasIndex("DoctorHospitalID");
 
-                    b.HasIndex("DoctorHospitalID1");
-
                     b.HasIndex("PatientID");
+
+                    b.HasIndex("SelectedDoctorHospitalID");
 
                     b.HasIndex("StatusID");
 
@@ -293,7 +288,8 @@ namespace Health_Hub.Migrations
 
                     b.Property<string>("Password")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("PhoneNumber")
                         .IsRequired()
@@ -322,20 +318,18 @@ namespace Health_Hub.Migrations
                 {
                     b.HasBaseType("Health_Hub.Models.Domain.Person");
 
-                    b.Property<byte[]>("Degree")
-                        .IsRequired()
-                        .HasColumnType("varbinary(max)");
+                    b.Property<string>("Degree")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<byte[]>("ProfileImage")
-                        .IsRequired()
-                        .HasColumnType("varbinary(max)");
+                    b.Property<string>("ProfileImage")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<float>("Rating")
+                    b.Property<float?>("Rating")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("real")
                         .HasDefaultValue(0f);
 
-                    b.Property<int>("SpecializationID")
+                    b.Property<int?>("SpecializationID")
                         .HasColumnType("int");
 
                     b.Property<bool>("VerificationStatus")
@@ -362,28 +356,28 @@ namespace Health_Hub.Migrations
 
             modelBuilder.Entity("Health_Hub.Models.Domain.Appointment", b =>
                 {
-                    b.HasOne("Health_Hub.Models.Domain.Doctor", "Doctor")
-                        .WithMany("Appointments")
-                        .HasForeignKey("DoctorHospitalID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("Health_Hub.Models.Domain.DoctorHospital", "DoctorHospital")
                         .WithMany()
-                        .HasForeignKey("DoctorHospitalID1")
+                        .HasForeignKey("DoctorHospitalID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Health_Hub.Models.Domain.Patient", "Patient")
                         .WithMany("Appointments")
                         .HasForeignKey("PatientID")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("Health_Hub.Models.Domain.Doctor", "Doctor")
+                        .WithMany("Appointments")
+                        .HasForeignKey("SelectedDoctorHospitalID")
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("Health_Hub.Models.Domain.Lookup", "Status")
                         .WithMany("Appointments")
                         .HasForeignKey("StatusID")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Doctor");
@@ -406,13 +400,13 @@ namespace Health_Hub.Migrations
                     b.HasOne("Health_Hub.Models.Domain.Patient", "Patient")
                         .WithMany("Chats")
                         .HasForeignKey("PatientID")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("Health_Hub.Models.Domain.Lookup", "Status")
                         .WithMany()
                         .HasForeignKey("StatusID")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Doctor");
@@ -480,17 +474,17 @@ namespace Health_Hub.Migrations
 
             modelBuilder.Entity("Health_Hub.Models.Domain.Doctor", b =>
                 {
-                    b.HasOne("Health_Hub.Models.Domain.Person", null)
-                        .WithOne()
+                    b.HasOne("Health_Hub.Models.Domain.Person", "Person")
+                        .WithOne("Doctor")
                         .HasForeignKey("Health_Hub.Models.Domain.Doctor", "PersonID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Health_Hub.Models.Domain.Lookup", "Specialization")
                         .WithMany("Doctors")
-                        .HasForeignKey("SpecializationID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("SpecializationID");
+
+                    b.Navigation("Person");
 
                     b.Navigation("Specialization");
                 });
@@ -525,6 +519,8 @@ namespace Health_Hub.Migrations
 
             modelBuilder.Entity("Health_Hub.Models.Domain.Person", b =>
                 {
+                    b.Navigation("Doctor");
+
                     b.Navigation("Notifications");
                 });
 

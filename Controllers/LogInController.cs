@@ -13,9 +13,9 @@ namespace Health_Hub.Controllers
 		{
 			_context = context;
 		}
-		public IActionResult Index()
+		public IActionResult LogIn()
 		{
-			return View();
+			return LogIn();
 		}
 		[HttpPost]
 		public async Task<IActionResult> Login(string Email, string Password)

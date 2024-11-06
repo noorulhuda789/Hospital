@@ -49,7 +49,7 @@ namespace Health_Hub.Migrations
                     Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     Email = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     CNIC = table.Column<long>(type: "bigint", nullable: false),
-                    Password = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Password = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     PhoneNumber = table.Column<string>(type: "nvarchar(15)", maxLength: 15, nullable: false),
                     RoleID = table.Column<int>(type: "int", nullable: false)
                 },
@@ -69,10 +69,10 @@ namespace Health_Hub.Migrations
                 columns: table => new
                 {
                     PersonID = table.Column<int>(type: "int", nullable: false),
-                    Degree = table.Column<string>(type: "nvarchar(256)", nullable: true),
+                    Degree = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     VerificationStatus = table.Column<bool>(type: "bit", nullable: false, defaultValue: false),
                     Rating = table.Column<float>(type: "real", nullable: true, defaultValue: 0f),
-                    ProfileImage = table.Column<string>(type: "nvarchar(256)", nullable: true),
+                    ProfileImage = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     SpecializationID = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
@@ -82,14 +82,13 @@ namespace Health_Hub.Migrations
                         name: "FK_Doctors_Lookups_SpecializationID",
                         column: x => x.SpecializationID,
                         principalTable: "Lookups",
-                        principalColumn: "LookupID",
-                        onDelete: ReferentialAction.Restrict);
+                        principalColumn: "LookupID");
                     table.ForeignKey(
                         name: "FK_Doctors_People_PersonID",
                         column: x => x.PersonID,
                         principalTable: "People",
                         principalColumn: "PersonID",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -118,7 +117,7 @@ namespace Health_Hub.Migrations
                 columns: table => new
                 {
                     PersonID = table.Column<int>(type: "int", nullable: false),
-                    Address = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true)
+                    Address = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -189,7 +188,7 @@ namespace Health_Hub.Migrations
                         column: x => x.StatusID,
                         principalTable: "Lookups",
                         principalColumn: "LookupID",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Chats_Patients_PatientID",
                         column: x => x.PatientID,
@@ -206,12 +205,14 @@ namespace Health_Hub.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     PatientID = table.Column<int>(type: "int", nullable: false),
                     DoctorID = table.Column<int>(type: "int", nullable: false),
+                    SelectedDoctorHospitalID = table.Column<int>(type: "int", nullable: false),
                     DoctorHospitalID = table.Column<int>(type: "int", nullable: false),
                     StatusID = table.Column<int>(type: "int", nullable: false),
                     TimeCreated = table.Column<DateTime>(type: "datetime2", nullable: false),
                     TimeSlot = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Prescriptions = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: true),
                     TestSuggested = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: true),
+                    VerificationID = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -223,8 +224,8 @@ namespace Health_Hub.Migrations
                         principalColumn: "DoctorHospitalID",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Appointments_Doctors_DoctorID",
-                        column: x => x.DoctorID,
+                        name: "FK_Appointments_Doctors_SelectedDoctorHospitalID",
+                        column: x => x.SelectedDoctorHospitalID,
                         principalTable: "Doctors",
                         principalColumn: "PersonID",
                         onDelete: ReferentialAction.Restrict);
@@ -233,7 +234,7 @@ namespace Health_Hub.Migrations
                         column: x => x.StatusID,
                         principalTable: "Lookups",
                         principalColumn: "LookupID",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Appointments_Patients_PatientID",
                         column: x => x.PatientID,
@@ -275,14 +276,14 @@ namespace Health_Hub.Migrations
                 column: "DoctorHospitalID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Appointments_Doctors_DoctorID",
-                table: "Appointments",
-                column: "DoctorID");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Appointments_PatientID",
                 table: "Appointments",
                 column: "PatientID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Appointments_SelectedDoctorHospitalID",
+                table: "Appointments",
+                column: "SelectedDoctorHospitalID");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Appointments_StatusID",

@@ -13,7 +13,7 @@
         public Doctor Doctor { get; set; }
 
         // Many-to-One with DoctorHospital
-        public int DoctorHospitalID { get; set; }
+        public int SelectedDoctorHospitalID { get; set; }
         public DoctorHospital DoctorHospital { get; set; }
 
         // Status as lookup reference

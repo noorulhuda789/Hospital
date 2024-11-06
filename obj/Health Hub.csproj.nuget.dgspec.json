@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\5th semester\\SE lab\\Hospital\\Health Hub.csproj": {}
+    "G:\\HealthHubNew\\Hospital\\Health Hub.csproj": {}
   },
   "projects": {
-    "E:\\5th semester\\SE lab\\Hospital\\Health Hub.csproj": {
+    "G:\\HealthHubNew\\Hospital\\Health Hub.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\5th semester\\SE lab\\Hospital\\Health Hub.csproj",
+        "projectUniqueName": "G:\\HealthHubNew\\Hospital\\Health Hub.csproj",
         "projectName": "Health Hub",
-        "projectPath": "E:\\5th semester\\SE lab\\Hospital\\Health Hub.csproj",
-        "packagesPath": "C:\\Users\\umerl\\.nuget\\packages\\",
-        "outputPath": "E:\\5th semester\\SE lab\\Hospital\\obj\\",
+        "projectPath": "G:\\HealthHubNew\\Hospital\\Health Hub.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "G:\\HealthHubNew\\Hospital\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\umerl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -46,6 +46,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.10, )"
@@ -90,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
