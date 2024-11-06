@@ -1,18 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "Hash": "TG9H3kZmDeSgbaVgUeNC6TUfDjywTBPFgEP+G/5Gi84=",
-=======
-<<<<<<< HEAD
-  "Hash": "9p/eo/q+eys77dm8LsKFCJvDBrqddqhfYckOlBRDKLE=",
-=======
-<<<<<<< HEAD
-  "Hash": "nnSF6MyuKrdjRgRqGmtYslTrtFr8Ni3OHuB16lAPNxM=",
-=======
-  "Hash": "2ZyLYJqaIhvvPLeef1NO001tNesa1qbFJh60YVtVUdw=",
->>>>>>> f9539569c0be3f71690dba21396de5ba598f7ba1
->>>>>>> 8d194ffddfad0205917dd4177d66336fdaa6da47
->>>>>>> 6f5dee37067e42a1a642726d1c5c2bfd5698f7d9
+  "Hash": "b78HSF4cTkYWCxbdBQi6IoB+mzPzQpg4Y0sGdcQoN40=",
   "Source": "Health Hub",
   "BasePath": "_content/Health Hub",
   "Mode": "Default",
@@ -67,25 +55,12 @@
       "OriginalItemSpec": "G:\\HealthHubNew\\Hospital\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Health Hub.bundle.scp.css"
     },
     {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\css\\navbar.css",
-      "SourceId": "Health Hub",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
-      "BasePath": "_content/Health Hub",
-      "RelativePath": "css/navbar.css",
-=======
-<<<<<<< HEAD
->>>>>>> 6f5dee37067e42a1a642726d1c5c2bfd5698f7d9
       "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\DoctorCard.css",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
       "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "css/DoctorCard.css",
->>>>>>> 8d194ffddfad0205917dd4177d66336fdaa6da47
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -96,22 +71,29 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
-      "OriginalItemSpec": "wwwroot\\css\\navbar.css"
-    },
-    {
-=======
       "OriginalItemSpec": "wwwroot\\css\\DoctorCard.css"
     },
     {
+      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\navbar.css",
+      "SourceId": "Health Hub",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "BasePath": "_content/Health Hub",
+      "RelativePath": "css/navbar.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\navbar.css"
+    },
+    {
       "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\site.css",
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 8d194ffddfad0205917dd4177d66336fdaa6da47
-      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\css\\site.css",
->>>>>>> f9539569c0be3f71690dba21396de5ba598f7ba1
->>>>>>> 6f5dee37067e42a1a642726d1c5c2bfd5698f7d9
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
       "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
@@ -3303,6 +3285,82 @@
       "OriginalItemSpec": "wwwroot\\Images\\logo3.png"
     },
     {
+      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\profiles\\emily_profile.jpeg",
+      "SourceId": "Health Hub",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "BasePath": "_content/Health Hub",
+      "RelativePath": "Images/profiles/emily_profile.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\profiles\\emily_profile.jpeg"
+    },
+    {
+      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\profiles\\jane_profile.jpeg",
+      "SourceId": "Health Hub",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "BasePath": "_content/Health Hub",
+      "RelativePath": "Images/profiles/jane_profile.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\profiles\\jane_profile.jpeg"
+    },
+    {
+      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\profiles\\john_profile.jpeg",
+      "SourceId": "Health Hub",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "BasePath": "_content/Health Hub",
+      "RelativePath": "Images/profiles/john_profile.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\profiles\\john_profile.jpeg"
+    },
+    {
+      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\profiles\\michael_profile.jpeg",
+      "SourceId": "Health Hub",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "BasePath": "_content/Health Hub",
+      "RelativePath": "Images/profiles/michael_profile.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\profiles\\michael_profile.jpeg"
+    },
+    {
       "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\SquareLogo.png",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
@@ -3474,165 +3532,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\team\\test-thumb4.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\js\\site.js",
+      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\user.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-<<<<<<< HEAD
       "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
-=======
-      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
-      "BasePath": "_content/Health Hub",
-      "RelativePath": "Images/bannerImg.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\bannerImg.jpg"
-    },
-    {
-      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\BlueLogo.png",
-      "SourceId": "Health Hub",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
-      "BasePath": "_content/Health Hub",
-      "RelativePath": "Images/BlueLogo.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\BlueLogo.png"
-    },
-    {
-      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\logo3.png",
-      "SourceId": "Health Hub",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
-      "BasePath": "_content/Health Hub",
-      "RelativePath": "Images/logo3.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\logo3.png"
-    },
-    {
-      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\profiles\\emily_profile.jpeg",
-      "SourceId": "Health Hub",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
-      "BasePath": "_content/Health Hub",
-      "RelativePath": "Images/profiles/emily_profile.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\profiles\\emily_profile.jpeg"
-    },
-    {
-      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\profiles\\jane_profile.jpeg",
-      "SourceId": "Health Hub",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
-      "BasePath": "_content/Health Hub",
-      "RelativePath": "Images/profiles/jane_profile.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\profiles\\jane_profile.jpeg"
-    },
-    {
-      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\profiles\\john_profile.jpeg",
-      "SourceId": "Health Hub",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
-      "BasePath": "_content/Health Hub",
-      "RelativePath": "Images/profiles/john_profile.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\profiles\\john_profile.jpeg"
-    },
-    {
-      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\profiles\\michael_profile.jpeg",
-      "SourceId": "Health Hub",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
-      "BasePath": "_content/Health Hub",
-      "RelativePath": "Images/profiles/michael_profile.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\profiles\\michael_profile.jpeg"
-    },
-    {
-      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\SquareLogo.png",
-      "SourceId": "Health Hub",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
-      "BasePath": "_content/Health Hub",
-      "RelativePath": "Images/SquareLogo.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\SquareLogo.png"
-    },
-    {
-      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\user.jpg",
-      "SourceId": "Health Hub",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/user.jpg",
       "AssetKind": "All",
@@ -3648,11 +3551,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\user.jpg"
     },
     {
-      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\js\\site.js",
+      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\js\\site.js",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
->>>>>>> 6f5dee37067e42a1a642726d1c5c2bfd5698f7d9
+      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "js/site.js",
       "AssetKind": "All",

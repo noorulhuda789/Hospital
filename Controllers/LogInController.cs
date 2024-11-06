@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Health_Hub.Models.Domain;
 using Health_Hub.Models;
+using Health_Hub.Data;
 namespace Health_Hub.Controllers
 {
 	public class LogInController : Controller

@@ -48,9 +48,9 @@ namespace Health_Hub.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     Email = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
-                    CNIC = table.Column<long>(type: "bigint", nullable: false),
+                    CNIC = table.Column<string>(type: "nvarchar(13)", maxLength: 13, nullable: false),
                     Password = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
-                    PhoneNumber = table.Column<string>(type: "nvarchar(15)", maxLength: 15, nullable: false),
+                    PhoneNumber = table.Column<string>(type: "nvarchar(11)", maxLength: 11, nullable: false),
                     RoleID = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -70,8 +70,8 @@ namespace Health_Hub.Migrations
                 {
                     PersonID = table.Column<int>(type: "int", nullable: false),
                     Degree = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    VerificationStatus = table.Column<bool>(type: "bit", nullable: false, defaultValue: false),
-                    Rating = table.Column<float>(type: "real", nullable: true, defaultValue: 0f),
+                    VerificationStatus = table.Column<int>(type: "int", nullable: false, defaultValue: 0),
+                    Rating = table.Column<float>(type: "real", nullable: false, defaultValue: 0f),
                     ProfileImage = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     SpecializationID = table.Column<int>(type: "int", nullable: true)
                 },
@@ -117,7 +117,7 @@ namespace Health_Hub.Migrations
                 columns: table => new
                 {
                     PersonID = table.Column<int>(type: "int", nullable: false),
-                    Address = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: false)
+                    Address = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true)
                 },
                 constraints: table =>
                 {
@@ -206,26 +206,24 @@ namespace Health_Hub.Migrations
                     PatientID = table.Column<int>(type: "int", nullable: false),
                     DoctorID = table.Column<int>(type: "int", nullable: false),
                     SelectedDoctorHospitalID = table.Column<int>(type: "int", nullable: false),
-                    DoctorHospitalID = table.Column<int>(type: "int", nullable: false),
                     StatusID = table.Column<int>(type: "int", nullable: false),
                     TimeCreated = table.Column<DateTime>(type: "datetime2", nullable: false),
                     TimeSlot = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Prescriptions = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: true),
-                    TestSuggested = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: true),
-                    VerificationID = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Prescriptions = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: false),
+                    TestSuggested = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Appointments", x => x.AppointmentID);
                     table.ForeignKey(
-                        name: "FK_Appointments_DoctorHospitals_DoctorHospitalID",
-                        column: x => x.DoctorHospitalID,
+                        name: "FK_Appointments_DoctorHospitals_SelectedDoctorHospitalID",
+                        column: x => x.SelectedDoctorHospitalID,
                         principalTable: "DoctorHospitals",
                         principalColumn: "DoctorHospitalID",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Appointments_Doctors_SelectedDoctorHospitalID",
-                        column: x => x.SelectedDoctorHospitalID,
+                        name: "FK_Appointments_Doctors_DoctorID",
+                        column: x => x.DoctorID,
                         principalTable: "Doctors",
                         principalColumn: "PersonID",
                         onDelete: ReferentialAction.Restrict);
@@ -271,9 +269,9 @@ namespace Health_Hub.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Appointments_DoctorHospitalID",
+                name: "IX_Appointments_DoctorID",
                 table: "Appointments",
-                column: "DoctorHospitalID");
+                column: "DoctorID");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Appointments_PatientID",

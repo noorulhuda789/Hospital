@@ -16,5 +16,7 @@
         public TimeSpan? BreakEnd { get; set; }
         public string WeekDays { get; set; }
         public int Capacity { get; set; }
+        public ICollection<Appointment> Appointments { get; set; } = new List<Appointment>();
+
     }
 }

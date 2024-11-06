@@ -45,8 +45,6 @@ namespace Health_Hub.Controllers
 
 			ViewBag.TopDoctors = doctors;
 			return View();
-
-			return View();
         }
 
         public IActionResult Login()

@@ -3,7 +3,7 @@ using Health_Hub.Models.Domain;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-
+using Health_Hub.Data;
 namespace Health_Hub.Controllers
 {
 	public class SignUpController : Controller
@@ -20,7 +20,7 @@ namespace Health_Hub.Controllers
 						.Where(l => l.Category == "Role")
 						.Select(l => new SelectListItem
 						{
-							Value = l.LookupID.ToString(),  // This will be 1 for Patient, 2 for Doctor
+							Value = l.LookupID.ToString(),  
 							Text = l.Value                  // Display the role name (Patient, Doctor)
 						}).ToList();
 

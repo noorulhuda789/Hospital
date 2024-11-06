@@ -2,7 +2,7 @@
 using Health_Hub.Models.Domain;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-
+using Health_Hub.Data;
 namespace Health_Hub.Controllers
 {
 	public class DoctorsController : Controller
