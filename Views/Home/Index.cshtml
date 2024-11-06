@@ -45,5 +45,49 @@
 			</div>
 		</div>
 	</div>
-</section>
 
+
+
+
+</section>
+<!-- Top Doctors Section Start -->
+@{
+	var topDoctors = ViewBag.TopDoctors as List<Health_Hub.Models.ViewModels.DoctorVM>;
+}
+<section class="doctor-cards">
+	<div class="container">
+		<h2>Top Doctors</h2>
+		<div class="row">
+			@foreach (var doctor in ViewBag.TopDoctors)
+			{
+				<div class="col-md-4">
+					<div class="card">
+						<img src="@doctor.ProfileImage" class="card-img-top" alt="@doctor.Name's Profile">
+						<div class="card-body">
+							<h5 class="card-title">@doctor.Name</h5>
+							<p class="card-text">Specialization: @doctor.Specialization</p>
+							<p class="card-text">
+								Rating:
+								<span class="rating">
+									@for (int i = 1; i <= 5; i++)
+									{
+										if (i <= doctor.Rating)
+										{
+											<i class="fas fa-star"></i>
+										}
+										else
+										{
+											<i class="far fa-star"></i>
+										}
+									}
+								</span>
+							</p>
+							<a href="@Url.Action("Profile", "Doctor", new { id = doctor.PersonID })" class="btn btn-primary">View Profile</a>
+						</div>
+					</div>
+				</div>
+			}
+		</div>
+		<a href="@Url.Action("AllDoctor", "Home")" class="btn btn-secondary">View All Doctors</a>
+	</div>
+</section>

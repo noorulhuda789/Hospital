@@ -710,6 +710,52 @@
     },
     {
       "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\site.css",
+<<<<<<< HEAD
+=======
+=======
+      "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\BlueLogo.png",
+      "PackagePath": "staticwebassets\\Images\\BlueLogo.png"
+    },
+    {
+      "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\SquareLogo.png",
+      "PackagePath": "staticwebassets\\Images\\SquareLogo.png"
+    },
+    {
+      "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\bannerImg.jpg",
+      "PackagePath": "staticwebassets\\Images\\bannerImg.jpg"
+    },
+    {
+      "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\logo3.png",
+      "PackagePath": "staticwebassets\\Images\\logo3.png"
+    },
+    {
+      "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\profiles\\emily_profile.jpeg",
+      "PackagePath": "staticwebassets\\Images\\profiles\\emily_profile.jpeg"
+    },
+    {
+      "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\profiles\\jane_profile.jpeg",
+      "PackagePath": "staticwebassets\\Images\\profiles\\jane_profile.jpeg"
+    },
+    {
+      "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\profiles\\john_profile.jpeg",
+      "PackagePath": "staticwebassets\\Images\\profiles\\john_profile.jpeg"
+    },
+    {
+      "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\profiles\\michael_profile.jpeg",
+      "PackagePath": "staticwebassets\\Images\\profiles\\michael_profile.jpeg"
+    },
+    {
+      "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\user.jpg",
+      "PackagePath": "staticwebassets\\Images\\user.jpg"
+    },
+    {
+      "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\css\\navbar.css",
+      "PackagePath": "staticwebassets\\css\\navbar.css"
+    },
+    {
+      "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\css\\site.css",
+>>>>>>> f9539569c0be3f71690dba21396de5ba598f7ba1
+>>>>>>> 6f5dee37067e42a1a642726d1c5c2bfd5698f7d9
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {

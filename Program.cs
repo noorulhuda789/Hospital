@@ -1,4 +1,5 @@
-using Health_Hub.Models;
+
+using Health_Hub.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);

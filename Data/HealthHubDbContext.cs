@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Health_Hub.Models.Domain;
 
-namespace Health_Hub.Models
+namespace Health_Hub.Data
 {
     public class HealthHubDbContext : DbContext
     {
@@ -87,7 +87,7 @@ namespace Health_Hub.Models
 
             modelBuilder.Entity<Doctor>()
                 .Property(d => d.VerificationStatus)
-                .HasDefaultValue(false);
+                .HasDefaultValue(0);
 
             modelBuilder.Entity<Doctor>()
                 .Property(d => d.Rating)

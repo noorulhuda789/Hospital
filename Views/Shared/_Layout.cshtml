@@ -26,10 +26,13 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="dropdown02" data-toggle="dropdown">Departments</a>
                             <ul class="dropdown-menu" aria-labelledby="dropdown02">
-                                <li><a class="dropdown-item" href="#">Cardiology</a></li>
-                                <li><a class="dropdown-item" href="#">Dermatology</a></li>
-                                <li><a class="dropdown-item" href="#">Neurology</a></li>
-                                <li><a class="dropdown-item" href="#">View All</a></li>
+                                @if (ViewBag.Departments != null)
+                                {
+                                    foreach (var department in ViewBag.Departments)
+                                    {
+                                        <li><a class="dropdown-item" href="#">@department</a></li>
+                                    }
+                                }
                             </ul>
                         </li>
 
