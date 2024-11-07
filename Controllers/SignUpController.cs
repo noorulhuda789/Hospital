@@ -3,7 +3,9 @@ using Health_Hub.Models.Domain;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-
+using Health_Hub.Data;
+using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore.Storage;
 namespace Health_Hub.Controllers
 {
 	public class SignUpController : Controller
@@ -20,7 +22,7 @@ namespace Health_Hub.Controllers
 						.Where(l => l.Category == "Role")
 						.Select(l => new SelectListItem
 						{
-							Value = l.LookupID.ToString(),  // This will be 1 for Patient, 2 for Doctor
+							Value = l.LookupID.ToString(),  
 							Text = l.Value                  // Display the role name (Patient, Doctor)
 						}).ToList();
 
@@ -28,71 +30,73 @@ namespace Health_Hub.Controllers
 
 			return View();
 		}
-		[HttpPost]
-		public async Task<IActionResult> SignUp(Person person)
-		{
-			if (ModelState.IsValid)
-			{
-				// Save the person details to the People table
-				await _context.People.AddAsync(person);
-				await _context.SaveChangesAsync(); // This saves the person and generates PersonID
+        [HttpPost]
+        public async Task<IActionResult> SignUp(Person person)
+        {
+            using var transaction = await _context.Database.BeginTransactionAsync();
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    // Raw SQL query to insert into People and get PersonID
+                    var insertPersonQuery = @"
+                INSERT INTO People (Name, Email, CNIC, Password, PhoneNumber, RoleID) 
+                VALUES (@Name, @Email, @CNIC, @Password, @PhoneNumber, @RoleID);
+                SELECT CAST(SCOPE_IDENTITY() AS INT);";  // Capture the generated PersonID
 
-				//// Create Patient or Doctor based on RoleID
-				//if (person.RoleID == 1) // RoleID = 1 for Patient
-				//{
-				//		var patient = new Patient
-				//		{
-				//			PersonID = person.PersonID // Use the generated PersonID
-				//		};
-				//		await _context.SaveChangesAsync();
-				//}
-				//else if (person.RoleID == 2) // RoleID = 2 for Doctor
-				//{
-				//		var doctor = new Doctor
-				//		{
-				//			PersonID = person.PersonID // Use the generated PersonID
-				//		};
-				//		await _context.SaveChangesAsync();
-				//}
-				AddRoleSpecificEntity(person);
-				// Redirect based on RoleID
-				if (person.RoleID == 1)
-				{
-					return RedirectToAction("_LayoutLogInPatient", "Index");
-				}
-				else if (person.RoleID == 2)
-				{
-					return RedirectToAction("_LayoutDoctorLogIn", "Index");
-				}
-			}
+                    int personID;
+                    using (var command = _context.Database.GetDbConnection().CreateCommand())
+                    {
+                        command.CommandText = insertPersonQuery;
+                        command.Transaction = _context.Database.CurrentTransaction.GetDbTransaction();
 
-			// If the model state is invalid, return the view with validation messages
-			return View(person);
-		}
-		private async Task AddRoleSpecificEntity(Person person)
-		{
-			if (person.RoleID == 1) // RoleID = 1 for Patient
-			{
-				var patient = new Patient
-				{
-					PersonID = person.PersonID // Use the generated PersonID
-				};
-				await _context.Patients.AddAsync(patient);
-			}
-			else if (person.RoleID == 2) // RoleID = 2 for Doctor
-			{
-				var doctor = new Doctor
-				{
-					PersonID = person.PersonID // Use the generated PersonID
-				};
-				await _context.Doctors.AddAsync(doctor);
-			}
+                        command.Parameters.Add(new SqlParameter("@Name", person.Name));
+                        command.Parameters.Add(new SqlParameter("@Email", person.Email));
+                        command.Parameters.Add(new SqlParameter("@CNIC", person.CNIC));
+                        command.Parameters.Add(new SqlParameter("@Password", person.Password));
+                        command.Parameters.Add(new SqlParameter("@PhoneNumber", person.PhoneNumber));
+                        command.Parameters.Add(new SqlParameter("@RoleID", person.RoleID));
 
-			// Save the Patient or Doctor to the database
-			await _context.SaveChangesAsync();
-		}
+                        await _context.Database.OpenConnectionAsync();
+
+                        personID = (int)await command.ExecuteScalarAsync();
+                    }
+
+                    // Insert into Doctor or Patient table based on RoleID
+                    if (person.RoleID == 3) // Patient
+                    {
+                        var insertPatientQuery = "INSERT INTO Patients (PersonID) VALUES (@PersonID);";
+                        await _context.Database.ExecuteSqlRawAsync(insertPatientQuery, new SqlParameter("@PersonID", personID));
+                    }
+                    else if (person.RoleID == 4) // Doctor
+                    {
+                        var insertDoctorQuery = "INSERT INTO Doctors (PersonID) VALUES (@PersonID);";
+                        await _context.Database.ExecuteSqlRawAsync(insertDoctorQuery, new SqlParameter("@PersonID", personID));
+                    }
+
+                    await transaction.CommitAsync();
+
+                    if (person.RoleID == 3)
+                    {
+                        return RedirectToAction("IndexForPatient", "Home");
+                    }
+                    else if (person.RoleID == 4)
+                    {
+                        return RedirectToAction("IndexForDoctor", "Home");
+                    }
+                }
+
+                return View(person);
+            }
+            catch (Exception ex)
+            {
+                await transaction.RollbackAsync();
+                ModelState.AddModelError("", ex.Message);
+                return View(person);
+            }
+        }
 
 
-	}
+    }
 
 }

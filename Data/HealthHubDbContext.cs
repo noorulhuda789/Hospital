@@ -43,7 +43,7 @@ namespace Health_Hub.Data
 
             modelBuilder.Entity<Person>()
                 .Property(p => p.CNIC)
-                .HasColumnType("bigint");
+                .HasMaxLength(13);
 
             modelBuilder.Entity<Person>()
                 .HasIndex(p => p.CNIC)
@@ -51,7 +51,7 @@ namespace Health_Hub.Data
 
             modelBuilder.Entity<Person>()
                 .Property(p => p.PhoneNumber)
-                .HasMaxLength(15);
+                .HasMaxLength(11);
 
             modelBuilder.Entity<Person>()
                 .HasOne(p => p.Role)
@@ -67,12 +67,14 @@ namespace Health_Hub.Data
             modelBuilder.Entity<Patient>()
                 .HasMany(p => p.Appointments)
                 .WithOne(a => a.Patient)
-                .HasForeignKey(a => a.PatientID);
+                .HasForeignKey(a => a.PatientID)
+                .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<Patient>()
                 .HasMany(p => p.Chats)
                 .WithOne(c => c.Patient)
-                .HasForeignKey(c => c.PatientID);
+                .HasForeignKey(c => c.PatientID)
+                .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<Patient>()
                 .Property(p => p.Address)
@@ -99,7 +101,8 @@ namespace Health_Hub.Data
             modelBuilder.Entity<Doctor>()
                 .HasMany(d => d.Appointments)
                 .WithOne(a => a.Doctor)
-                .HasForeignKey(a => a.DoctorHospitalID);
+                .HasForeignKey(a => a.AppointmentID)
+                .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<Doctor>()
                 .HasMany(d => d.Chats)
@@ -184,7 +187,8 @@ namespace Health_Hub.Data
             modelBuilder.Entity<Appointment>()
                 .HasOne(a => a.Status)
                 .WithMany(l => l.Appointments)
-                .HasForeignKey(a => a.StatusID);
+                .HasForeignKey(a => a.StatusID)
+                .OnDelete(DeleteBehavior.Restrict);
 
             // Configuring Appointment to MedicalReport relationship
             modelBuilder.Entity<Appointment>()
@@ -192,6 +196,17 @@ namespace Health_Hub.Data
                 .WithOne(mr => mr.Appointment)
                 .HasForeignKey(mr => mr.AppointmentID);
 
+            // Correct DoctorHospital Relationship (Many-to-One)
+            modelBuilder.Entity<Appointment>()
+                .HasOne(a => a.DoctorHospital)
+                .WithMany(dh => dh.Appointments)
+                .HasForeignKey(a => a.SelectedDoctorHospitalID)
+                .OnDelete(DeleteBehavior.Cascade);
+            modelBuilder.Entity<Appointment>()
+                .HasOne(a => a.Doctor)
+                .WithMany(d => d.Appointments) // Assuming Doctor has a collection of Appointments
+                .HasForeignKey(a => a.DoctorID) // Use DoctorID here
+                .OnDelete(DeleteBehavior.Restrict); // Use Restrict or Cascade as needed
 
 
             // Configuring Chat Entity
@@ -207,7 +222,8 @@ namespace Health_Hub.Data
             modelBuilder.Entity<Chat>()
                 .HasOne(c => c.Status) 
                 .WithMany() // No collection needed in Lookup
-                .HasForeignKey(c => c.StatusID); 
+                .HasForeignKey(c => c.StatusID)
+                .OnDelete(DeleteBehavior.Restrict);
 
 
             // Configuring MedicalReport Entity

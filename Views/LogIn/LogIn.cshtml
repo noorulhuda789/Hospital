@@ -1,20 +1,29 @@
 ﻿@{
     ViewData["Title"] = "Login";
+    if (ViewData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @ViewData["ErrorMessage"]
+        </div>
+    }
 }
 
-<div class="login-container">
-    <h1 class="title">HealthHub Login</h1>
-    <form asp-action="LogIn" asp-controller="LogIn" id="loginForm" method="post">
-        <div>
-            <label>Email</label>
-            <input type="email" name="Email" class="form-control" required />
-            <span class="text-danger" id="emailError"></span>
+
+<div class="signup-container">
+        <h1 class="text-center">HealthHub Login</h1>
+        <form asp-action="LogIn" asp-controller="LogIn" id="loginForm" method="post">
+            <div>
+                <label>Email</label>
+                <input type="email" name="Email" class="form-control" required />
+                <span class="text-danger" id="emailError"></span>
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="password" name="Password" class="form-control" required />
+                <span class="text-danger" id="passwordError"></span>
+            </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary w-50">Login</button>
         </div>
-        <div>
-            <label>Password</label>
-            <input type="password" name="Password" class="form-control" required />
-            <span class="text-danger" id="passwordError"></span>
-        </div>
-        <button type="submit">Login</button>
-    </form>
-</div>
+        </form>
+    </div>
