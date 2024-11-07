@@ -4,7 +4,7 @@
 <hr />
 <div class="row">
 	<div class="col-md-4">
-		<form asp-action="SignUp" asp-controller="SignUp">
+		<form asp-action="SignUpPatient" asp-controller="SignUpPatient">
 			<div asp-validation-summary="ModelOnly" class="text-danger"></div>
 			<div class="form-group">
 				<label asp-for="Name" class="control-label"></label>
@@ -31,15 +31,9 @@
 				<input asp-for="PhoneNumber" class="form-control" />
 				<span asp-validation-for="PhoneNumber" class="text-danger"></span>
 			</div>
-			@* 			Lookup 3 for Patient and 4 for Doctor
-			*@
-			<div class="form-group">
-				<label asp-for="RoleID" class="control-label"></label>
-				<select asp-for="RoleID" class="form-control">
-					<option value=3>Patient</option>
-					<option value=4>Doctor</option>
-				</select>
-			</div>
+			<!-- Hidden field for RoleID with a default value -->
+			<input type="hidden" asp-for="RoleID" value="3" /> <!-- Change '3' to desired RoleID value -->
+
 			<div class="form-group">
 				<input type="submit" value="Create" class="btn btn-primary" />
 			</div>
@@ -47,7 +41,7 @@
 	</div>
 </div>
 <div>
-	<button>Already Registered.<a asp-action="LogIn" asp-controller="LogIn">LogIn</a></button>
+	<button>Already Registered,<a asp-action="LogIn" asp-controller="LogIn">LogIn</a></button>
 </div>
 @section Scripts {
 	@{
