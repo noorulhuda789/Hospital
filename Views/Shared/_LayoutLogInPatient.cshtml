@@ -22,8 +22,10 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarmain">
-                <ul class="navbar-nav mr-auto"> <!-- Align items to the left -->
+
+
+            <div class="collapse navbar-collapse ms-auto" id="navbarmain">
+                <ul class="navbar-nav ms-auto"> <!-- Align items to the left -->
                     <!-- Dropdown for Departments -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="dropdown02" data-toggle="dropdown">Departments</a>
@@ -32,6 +34,7 @@
                                 {
                                     foreach (var department in ViewBag.Departments)
                                     {
+
                                         <li><a class="dropdown-item" href="#">@department</a></li>
                                     }
                                 }
@@ -65,11 +68,11 @@
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" id="profileDropdown" data-toggle="dropdown">
-								<img src="../Images/user.jpg" alt="Profile Icon" class="img-fluid" style="width: 30px; border-radius: 50%;">
+								<img src="../Images/user.jpg" alt="Profile Icon" class="img-fluid profile-icon" style="width: 35px; border-radius: 50%;">
 							</a>
 							<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="profileDropdown">
 								<li><a class="dropdown-item" href="#">View Profile</a></li>
-								<li><a class="dropdown-item" href="#">Logout</a></li>
+								<li><a class="dropdown-item" href="/">Logout</a></li>
 							</ul>
 						</li>
 					</ul>

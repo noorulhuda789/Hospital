@@ -430,10 +430,11 @@ a {
     position: absolute;
     display: block;
     background: #fff;
-    min-width: 240px;
-    top: 130%;
-    left: 0;
-    right: 0px;
+    min-width: 170px;
+    top: 130%; /* Adjust as needed for vertical positioning */
+    right:10%;
+    margin-right: auto; /* Ensures dropdown aligns centrally under the icon */
+    margin-left: auto; /* Ensures dropdown aligns centrally under the icon */
     opacity: 0;
     padding: 0px;
     visibility: hidden;
@@ -965,9 +966,15 @@ a {
         }
 }
 
+
+
+
+
+
+
 .container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin-top:40px;
     padding: 20px;
 }
 
@@ -1088,7 +1095,7 @@ a {
 /* Center the Form Container */
 .signup-container {
     max-width: 500px;
-    margin: 60px auto;
+    margin: 80px auto;
     padding: 20px;
     background-color: #f8f9fa;
     border-radius: 8px;
@@ -1171,3 +1178,7 @@ a {
     height: auto;
 }
 
+
+.alert{
+    margin-top:60px;
+}

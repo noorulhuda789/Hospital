@@ -14,12 +14,12 @@
 			<div class="col-md-6">
 				<div class="search-bar d-flex">
 					<select class="form-control">
-						<option value="general">General Physician</option>
-						<option value="dentist">Dentist</option>
-						<option value="cardiologist">Cardiologist</option>
-						<!-- Add more options as needed -->
+						@foreach (var dept in ViewBag.Departments)
+						{
+							<option value=@dept>@dept</option>
+						}
 					</select>
-					<input type="text" class="form-control" placeholder="Enter location...">
+					<input type="text" class="form-control" placeholder="Enter City...">
 					<button class="btn btn-main-2">Search</button>
 				</div>
 			</div>

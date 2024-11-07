@@ -22,7 +22,7 @@ namespace Health_Hub.Controllers
         {
             // Query the Lookups table for departments with the category "Specialization"
             var departments = _context.Lookups
-                .Where(l => l.Category == "Sepcialization")
+                .Where(l => l.Category == "Specialization")
                 .Select(l => l.Value) // Assuming 'Value' holds the department name
                 .ToList();
 
