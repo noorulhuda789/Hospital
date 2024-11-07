@@ -4,7 +4,7 @@
     <h4 class="text-center">Patient</h4> <!-- Centered Heading -->
     <hr />
     <div class="signup-form">
-        <form asp-action="SignUp" asp-controller="SignUp">
+        <form asp-action="SignUpDoctor" asp-controller="SignUpDoctor">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
             <!-- Label positioned above input fields -->
@@ -38,13 +38,7 @@
                 <span asp-validation-for="PhoneNumber" class="text-danger"></span>
             </div>
 
-            <div class="signup-form-group">
-                <label asp-for="RoleID" class="control-label"></label>
-                <select asp-for="RoleID" class="form-control">
-                    <option value="3">Patient</option>
-                    <option value="4">Doctor</option>
-                </select>
-            </div>
+             <input type="hidden" asp-for="RoleID" value="4" />
 
             <div class="text-center">
                 <input type="submit" value="Create" class="btn btn-primary w-40" />
