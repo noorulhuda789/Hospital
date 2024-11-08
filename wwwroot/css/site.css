@@ -65,7 +65,7 @@ h6, .h6 {
 }
 
 p {
-    line-height: 30px;
+    line-height: 20px;
 }
 
 .logoImage {
@@ -255,7 +255,7 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
 }
 
 .section {
-    padding: 100px 0;
+    padding: 10px 0;
 }
 
 .section-sm {
@@ -490,6 +490,7 @@ a {
     background: url("../images/bg/22.jpg") no-repeat 50% 50%;
     background-size: cover;
     position: relative;
+    opacity:100%;
 }
 .banner {
     position: relative;
@@ -502,11 +503,11 @@ a {
     border-radius: 15px;
     margin-top: 30px;
 }
-
+    
     .banner .block {
         position: relative; /* Ensure the text is above the overlay */
         padding: 80px 0px 160px;
-        z-index: 2; /* Bring the text above the overlay */
+        z-index: 3; /* Bring the text above the overlay */
     }
 
         .banner .block h1 {
@@ -514,7 +515,7 @@ a {
             line-height: 1.2;
             letter-spacing: -1.2px;
             text-transform: capitalize;
-            color: #223a66; /* Change to white for better contrast against overlay */
+            color: #fff; /* Change to white for better contrast against overlay */
         }
 
 .letter-spacing {
@@ -1182,3 +1183,135 @@ a {
 .alert{
     margin-top:60px;
 }
+
+.doctor-cards-section {
+    margin-top: 40px;
+}
+
+.doctor-card-horizontal {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position:relative;
+}
+
+.row.doctor-main-info {
+    display: flex;
+    align-items: center;
+}
+
+.doctor-card-image {
+    flex: 0 0 150px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.doctor-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.doctor-card-info {
+    flex: 1;
+    margin-top: 40px;
+    padding-left: 20px;
+}
+
+.pmdc-verified {
+    display: inline-block;
+    background-color: #4CA585;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.hori-btn {
+    position: absolute; /* Position the button absolutely */
+    top: 20px; /* Adjust the top position as needed */
+    left: 950px; /* Adjust the right position as needed */
+}
+
+}
+.hospital-info-container {
+    margin-top: 15px;
+    padding-left: 30px; /* Indent to align with doctor info */
+}
+
+    .hospital-info-container h4 {
+        font-weight: bold;
+        color: #007bff;
+        margin-bottom: 10px;
+    }
+
+    .hospital-info-container ul {
+        padding-left: 15px;
+    }
+
+    .hospital-info-container li {
+        margin-bottom: 8px;
+        color: #333;
+    }
+
+.view-profile-btn {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+    .view-profile-btn:hover {
+        background-color: #0056b3;
+    }
+
+
+.filter-section {
+    margin-top: 40px;
+}
+
+.filter-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.filter-select {
+    flex: 0 0 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.filter-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+    .search-btn i {
+        margin-right: 5px;
+    }
+
+    .search-btn:hover {
+        background-color: #0056b3;
+    }

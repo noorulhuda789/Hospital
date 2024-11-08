@@ -1,71 +1,111 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model Tuple<List<Health_Hub.Models.Domain.Doctor>, List<Health_Hub.Models.Domain.Lookup>>
+
 @{
+    ViewData["Title"] = "All Doctors";
 }
 
 <section class="page-title bg-1">
-	<div class="overlay"></div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="block text-center">
-					<span class="text-white">All Doctors</span>
-					<h1 class="text-capitalize mb-5 text-lg">Specalized doctors</h1>
-
-					<!-- <ul class="list-inline breadcumb-nav">
-					  <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
-					  <li class="list-inline-item"><span class="text-white">/</span></li>
-					  <li class="list-inline-item"><a href="#" class="text-white-50">All Doctors</a></li>
-					</ul> -->
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block text-center">
+                    <span class="text-white">All Doctors</span>
+                    <h1 class="text-capitalize mb-5 text-lg">Specialized Doctors</h1>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 
-<!-- portfolio -->
-<section class="section doctors">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-lg-6 text-center">
-				<div class="section-title">
-					<h2>Doctors</h2>
-					<div class="divider mx-auto my-4"></div>
-					<p>"Connecting You to Expert Care, Anytime, Anywhere – Your Health, Your Choice!" </p>
-				</div>
-			</div>
-		</div>
-		<div class="col-12 text-center mb-5">
-			<div class="btn-group btn-group-toggle" data-toggle="buttons">
-				<label class="btn active">
-					<input type="radio" name="shuffle-filter" value="all" checked="checked" />All Department
-				</label>
-				@foreach (var specialization in Model.Item2)
-				{
-					<label class="btn">
-						<input style="pointer-events:none" type="radio" name="shuffle-filter" value="cat@specialization.Id" />@specialization.Value
-					</label>
-				}
-			</div>
-		</div>
-	</div>
-	</div>
+<!-- Filter Section -->
+<section class="section filter-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-20 text-center">
+                <div class="section-title">
+                    <h2>Doctors</h2>
+                    <div class="divider mx-auto my-4"></div>
+                    <p>"Connecting You to Expert Care, Anytime, Anywhere – Your Health, Your Choice!"</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-14">
+                <form asp-action="Doctors" method="get" class="filter-form d-flex">
+                    <!-- Dropdown Filter -->
+                    <select name="filterType" class="filter-select" aria-label="Filter by">
+                        <option value="specialization">Specialization</option>
+                        <option value="city">City</option>
+                    </select>
+
+                    <!-- Input Field -->
+                    <input type="text" name="filterValue" class="filter-input" placeholder="Enter specialization or city" />
+
+                    <!-- Search Button -->
+                    <button type="submit" class="search-btn">
+                        <i class="fa fa-search"></i> Search
+                    </button>
+
+                    <!-- View All Button -->
+                    <a href="@Url.Action("Doctors", "Doctors")" class="btn btn-secondary view-all-btn">View All</a>
+                </form>
+            </div>
+        </div>
+    </div>
 </section>
-<div class="doctor-list">
-	@foreach (var doctor in Model.Item1)
-	{
-		<div class="doctor-card">
-			<img src="@doctor.ProfileImage" alt="@doctor.Person.Name's Profile Image" class="doctor-image" />
-			<div class="doctor-info">
-				<h3 class="doctor-name">@doctor.Person.Name</h3>
-				<p class="doctor-degree">Degree: @doctor.Degree</p>
-				<p class="doctor-rating">Rating: @doctor.Rating</p>
-				<p class="doctor-specialization">Specialization: @doctor.Specialization.Value</p>
-				<p class="doctor-contact">Contact: @doctor.Person.Email | @doctor.Person.PhoneNumber</p>
-				<a href="@Url.Action("DoctorSingle", "Doctors", new { id = doctor.PersonID })" class="view-profile-btn">View Profile</a>
-			</div>
-		</div>
-	}
-</div>
+
+
+
+
+
+
+
+<section class="doctor-cards-section">
+    <div class="container">
+        @foreach (var doctor in Model.Item1)
+        {
+            <div class="doctor-card-horizontal shadow-card">
+                <div class="row doctor-main-info">
+                    <div class="doctor-card-image">
+                        <img src="@doctor.ProfileImage" class="doctor-img" alt="@doctor.Person.Name">
+                    </div>
+                    <div class="doctor-card-info">
+                        <h3>@doctor.Person.Name</h3>
+
+                        @if (doctor.VerificationStatus == 1)
+                        {
+                            <span class="pmdc-verified"><i class="fa-solid fa-clipboard-check"></i> PMDC Verified</span>
+                        }
+
+                        <p>Degree: @doctor.Degree</p>
+                        <p>Specialization: @doctor.Specialization?.Value</p>
+                        <p>Rating: @doctor.Rating</p>
+
+                        
+                    </div>
+
+                    <div class="hori-btn">
+                        <a href="#" class="view-profile-btn">View More</a>
+                    </div>
+                </div>
+
+                <div class="hospital-info-container">
+                    <h4>Hospitals:</h4>
+                    <ul>
+                        @foreach (var doctorHospital in doctor.DoctorHospitals)
+                        {
+                            <li>
+                                <strong>@doctorHospital.Hospital.Name</strong><br />
+                                City: @doctorHospital.Hospital.City<br />
+                                Working hours: @doctorHospital.TimeStart - @doctorHospital.TimeEnd<br />
+                                Days: @doctorHospital.WeekDays
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        }
+    </div>
+</section>

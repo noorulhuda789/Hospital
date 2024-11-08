@@ -12,26 +12,48 @@ namespace Health_Hub.Controllers
 		{
 			_context = context;
 		}
-		//Fetch the list of project ideas and pass it to the view
-		public async Task<IActionResult> Doctors()
-		{
-			var doctors = await _context.Doctors
-		   .Include(d => d.Person)
-		   .Include(d => d.Specialization)
-		   .ToListAsync();
+        //Fetch the list of project ideas and pass it to the view
+        [HttpGet]
+        public async Task<IActionResult> Doctors(string filterType, string filterValue)
+        {
+            // Fetch all doctors with their specialization and hospital details
+            var doctorsQuery = _context.Doctors
+                .Include(d => d.Person)
+                .Include(d => d.Specialization)
+                .Include(d => d.DoctorHospitals)
+                    .ThenInclude(dh => dh.Hospital)
+                .AsQueryable();
 
-			var specializations = _context.Lookups
-				.Where(l => l.Category == "Specialization")
-				.Select(s => new Lookup
-				{
-					Category = s.Category,
-					Value = s.Value
-				})
-				.ToList();
+            // Apply filter if filterType and filterValue are provided
+            if (!string.IsNullOrEmpty(filterType) && !string.IsNullOrEmpty(filterValue))
+            {
+                if (filterType == "specialization")
+                {
+                    doctorsQuery = doctorsQuery.Where(d => d.Specialization.Value.Contains(filterValue));
+                }
+                else if (filterType == "city")
+                {
+                    doctorsQuery = doctorsQuery.Where(d => d.DoctorHospitals.Any(dh => dh.Hospital.City.Contains(filterValue)));
+                }
+            }
 
-			var tupleModel = new Tuple<List<Doctor>, List<Lookup>>(doctors, specializations);
+            // Execute the query to get the list of doctors based on the filtering
+            var doctors = await doctorsQuery.ToListAsync();
 
-			return View(tupleModel);
-		}
-	}
+            // Fetch all specializations for the dropdown
+            var specializations = _context.Lookups
+                .Where(l => l.Category == "Specialization")
+                .Select(s => new Lookup
+                {
+                    Category = s.Category,
+                    Value = s.Value
+                })
+                .ToList();
+
+            // Create a tuple model to pass both doctors and specializations
+            var tupleModel = new Tuple<List<Doctor>, List<Lookup>>(doctors, specializations);
+
+            return View(tupleModel);
+        }
+    }
 }
