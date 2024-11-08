@@ -87,7 +87,7 @@ namespace Health_Hub.Data
 
             modelBuilder.Entity<Doctor>()
                 .Property(d => d.VerificationStatus)
-                .HasDefaultValue(0);
+                .HasDefaultValue(false);
 
             modelBuilder.Entity<Doctor>()
                 .Property(d => d.Rating)

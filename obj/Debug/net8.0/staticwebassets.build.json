@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "b78HSF4cTkYWCxbdBQi6IoB+mzPzQpg4Y0sGdcQoN40=",
+  "Hash": "C37plBibgOPmrb6bLq2R+pR4Z76RbzLxWBr/wjkB9dQ=",
   "Source": "Health Hub",
   "BasePath": "_content/Health Hub",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Health Hub\\wwwroot",
       "Source": "Health Hub",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Health Hub.styles.css",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Health Hub.styles.css",
       "SourceId": "Health Hub",
       "SourceType": "Computed",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Health Hub.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "G:\\HealthHubNew\\Hospital\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Health Hub.styles.css"
+      "OriginalItemSpec": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Health Hub.styles.css"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Health Hub.bundle.scp.css",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Health Hub.bundle.scp.css",
       "SourceId": "Health Hub",
       "SourceType": "Computed",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Health Hub.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "G:\\HealthHubNew\\Hospital\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Health Hub.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Health Hub.bundle.scp.css"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\DoctorCard.css",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\css\\DoctorCard.css",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "css/DoctorCard.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\DoctorCard.css"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\navbar.css",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\css\\navbar.css",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "css/navbar.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\navbar.css"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\css\\site.css",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\favicon.ico",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\05.png",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\about\\05.png",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/about/05.png",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\about\\05.png"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\1.png",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\about\\1.png",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/about/1.png",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\about\\1.png"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\2.png",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\about\\2.png",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/about/2.png",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\about\\2.png"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\3.png",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\about\\3.png",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/about/3.png",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\about\\3.png"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\4.png",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\about\\4.png",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/about/4.png",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\about\\4.png"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\5.png",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\about\\5.png",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/about/5.png",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\about\\5.png"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\6.png",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\about\\6.png",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/about/6.png",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\about\\6.png"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\about-1.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\about\\about-1.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/about/about-1.jpg",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\about\\about-1.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\about-2.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\about\\about-2.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/about/about-2.jpg",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\about\\about-2.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\about-3.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\about\\about-3.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/about/about-3.jpg",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\about\\about-3.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\about-4.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\about\\about-4.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/about/about-4.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\about\\about-4.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\doctor-review.png",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\about\\doctor-review.png",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/about/doctor-review.png",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\about\\doctor-review.png"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\img-1.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\about\\img-1.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/about/img-1.jpg",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\about\\img-1.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\img-2.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\about\\img-2.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/about/img-2.jpg",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\about\\img-2.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\img-3.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\about\\img-3.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/about/img-3.jpg",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\about\\img-3.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\onlineConsult.jpeg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\about\\onlineConsult.jpeg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/about/onlineConsult.jpeg",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\about\\onlineConsult.jpeg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\rateDoc.webp",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\about\\rateDoc.webp",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/about/rateDoc.webp",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\about\\rateDoc.webp"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\scheduleAppoint.webp",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\about\\scheduleAppoint.webp",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/about/scheduleAppoint.webp",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\about\\scheduleAppoint.webp"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\sign.png",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\about\\sign.png",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/about/sign.png",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\about\\sign.png"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\bannerImg.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\bannerImg.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/bannerImg.jpg",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\bannerImg.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\bg\\22.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\bg\\22.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/bg/22.jpg",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\bg\\22.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\bg\\banner.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\bg\\banner.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/bg/banner.jpg",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\bg\\banner.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\bg\\bg-2.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\bg\\bg-2.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/bg/bg-2.jpg",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\bg\\bg-2.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\bg\\bg-4.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\bg\\bg-4.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/bg/bg-4.jpg",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\bg\\bg-4.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\bg\\slider-bg-1.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\bg\\slider-bg-1.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/bg/slider-bg-1.jpg",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\bg\\slider-bg-1.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\BlueLogo.png",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\BlueLogo.png",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/BlueLogo.png",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\BlueLogo.png"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Degrees\\Degree.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Degrees\\Degree.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Degrees/Degree.jpg",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Degrees\\Degree.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\(2) Feed _ LinkedIn.html",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\(2) Feed _ LinkedIn.html",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/(2) Feed _ LinkedIn.html",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\(2) Feed _ LinkedIn.html"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\(Audio) Untitled video - Screen Recording - 3_30_2023, 8_37_46 PM.webm",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\(Audio) Untitled video - Screen Recording - 3_30_2023, 8_37_46 PM.webm",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/(Audio) Untitled video - Screen Recording - 3_30_2023, 8_37_46 PM.webm",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\(Audio) Untitled video - Screen Recording - 3_30_2023, 8_37_46 PM.webm"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\01 Developing Platformer Game Frameworkpdf.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\01 Developing Platformer Game Frameworkpdf.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/01 Developing Platformer Game Frameworkpdf.pdf",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\01 Developing Platformer Game Frameworkpdf.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\01 Worksheet 01.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\01 Worksheet 01.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/01 Worksheet 01.pdf",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\01 Worksheet 01.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\015828_school-bell-56309.mp3",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\015828_school-bell-56309.mp3",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/015828_school-bell-56309.mp3",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\015828_school-bell-56309.mp3"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\02 Worksheet 02.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\02 Worksheet 02.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/02 Worksheet 02.pdf",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\02 Worksheet 02.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\06.ConstraintTrigger.ppt",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\06.ConstraintTrigger.ppt",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/06.ConstraintTrigger.ppt",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\06.ConstraintTrigger.ppt"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\061ba7d2-6caa-4c46-bfce-478c8e12c230_InterPersonal_vs_Intrapersonal_Skills.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\061ba7d2-6caa-4c46-bfce-478c8e12c230_InterPersonal_vs_Intrapersonal_Skills.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/061ba7d2-6caa-4c46-bfce-478c8e12c230_InterPersonal_vs_Intrapersonal_Skills.pdf",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\061ba7d2-6caa-4c46-bfce-478c8e12c230_InterPersonal_vs_Intrapersonal_Skills.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\09-W-9 (1).pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\09-W-9 (1).pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/09-W-9 (1).pdf",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\09-W-9 (1).pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\09-W-9 (2).pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\09-W-9 (2).pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/09-W-9 (2).pdf",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\09-W-9 (2).pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\09-W-9.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\09-W-9.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/09-W-9.pdf",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\09-W-9.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\1. Create_Realistic_Structured_Cabling_in_the_Physical_Workspace_and_Cabling_Devices_in_a_Rack_pka.pka",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\1. Create_Realistic_Structured_Cabling_in_the_Physical_Workspace_and_Cabling_Devices_in_a_Rack_pka.pka",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/1. Create_Realistic_Structured_Cabling_in_the_Physical_Workspace_and_Cabling_Devices_in_a_Rack_pka.pka",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\1. Create_Realistic_Structured_Cabling_in_the_Physical_Workspace_and_Cabling_Devices_in_a_Rack_pka.pka"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\1. Packet_Tracer_Tutored_Activity_Logical_and_Physical_Mode_Exploration.pksz",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\1. Packet_Tracer_Tutored_Activity_Logical_and_Physical_Mode_Exploration.pksz",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/1. Packet_Tracer_Tutored_Activity_Logical_and_Physical_Mode_Exploration.pksz",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\1. Packet_Tracer_Tutored_Activity_Logical_and_Physical_Mode_Exploration.pksz"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\1.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\1.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/1.pdf",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\1.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\10 Mar 23_022820.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\10 Mar 23_022820.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/10 Mar 23_022820.pdf",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\10 Mar 23_022820.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\10result.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\10result.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/10result.pdf",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\10result.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\10result.zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\10result.zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/10result.zip",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\10result.zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\10result-1.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\10result-1.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/10result-1.jpg",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\10result-1.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\10result-3.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\10result-3.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/10result-3.jpg",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\10result-3.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\11-W-11.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\11-W-11.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/11-W-11.pdf",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\11-W-11.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\12 Math CH-2 Exercise 2.4_Notes By (taleemcity.com).pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\12 Math CH-2 Exercise 2.4_Notes By (taleemcity.com).pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/12 Math CH-2 Exercise 2.4_Notes By (taleemcity.com).pdf",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\12 Math CH-2 Exercise 2.4_Notes By (taleemcity.com).pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\12 Math CH-2 Exercise 2.5_Notes By (taleemcity.com).pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\12 Math CH-2 Exercise 2.5_Notes By (taleemcity.com).pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/12 Math CH-2 Exercise 2.5_Notes By (taleemcity.com).pdf",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\12 Math CH-2 Exercise 2.5_Notes By (taleemcity.com).pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\12 Math CH-3 Exercise 3.7_Notes By (taleemcity.com).pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\12 Math CH-3 Exercise 3.7_Notes By (taleemcity.com).pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/12 Math CH-3 Exercise 3.7_Notes By (taleemcity.com).pdf",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\12 Math CH-3 Exercise 3.7_Notes By (taleemcity.com).pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\12 Math CH-4 Exercise 4.2_Notes By (taleemcity.com).pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\12 Math CH-4 Exercise 4.2_Notes By (taleemcity.com).pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/12 Math CH-4 Exercise 4.2_Notes By (taleemcity.com).pdf",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\12 Math CH-4 Exercise 4.2_Notes By (taleemcity.com).pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\12 Math CH-4 Exercise 4.3_Notes By (taleemcity.com).pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\12 Math CH-4 Exercise 4.3_Notes By (taleemcity.com).pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/12 Math CH-4 Exercise 4.3_Notes By (taleemcity.com).pdf",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\12 Math CH-4 Exercise 4.3_Notes By (taleemcity.com).pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\12 Math CH-4 Exercise 4.4_Notes By (taleemcity.com).pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\12 Math CH-4 Exercise 4.4_Notes By (taleemcity.com).pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/12 Math CH-4 Exercise 4.4_Notes By (taleemcity.com).pdf",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\12 Math CH-4 Exercise 4.4_Notes By (taleemcity.com).pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\12 Math CH-6 Exercise 6.1_Notes By (taleemcity.com).pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\12 Math CH-6 Exercise 6.1_Notes By (taleemcity.com).pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/12 Math CH-6 Exercise 6.1_Notes By (taleemcity.com).pdf",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\12 Math CH-6 Exercise 6.1_Notes By (taleemcity.com).pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\12 Math CH-6 Exercise 6.2_Notes By (taleemcity.com).pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\12 Math CH-6 Exercise 6.2_Notes By (taleemcity.com).pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/12 Math CH-6 Exercise 6.2_Notes By (taleemcity.com).pdf",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\12 Math CH-6 Exercise 6.2_Notes By (taleemcity.com).pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\12 Math CH-6 Exercise 6.3_Notes By (taleemcity.com).pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\12 Math CH-6 Exercise 6.3_Notes By (taleemcity.com).pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/12 Math CH-6 Exercise 6.3_Notes By (taleemcity.com).pdf",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\12 Math CH-6 Exercise 6.3_Notes By (taleemcity.com).pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\12result.zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\12result.zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/12result.zip",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\12result.zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\12result-3.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\12result-3.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/12result-3.jpg",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\12result-3.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\12th BISE LAHORE Result 2022 (taleem360.com).pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\12th BISE LAHORE Result 2022 (taleem360.com).pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/12th BISE LAHORE Result 2022 (taleem360.com).pdf",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\12th BISE LAHORE Result 2022 (taleem360.com).pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\14_November_2021 (1).pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\14_November_2021 (1).pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/14_November_2021 (1).pdf",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\14_November_2021 (1).pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\14_November_2021.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\14_November_2021.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/14_November_2021.pdf",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\14_November_2021.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\16d3634a-7d6f-412a-a0f7-d9484cacc398_Ep_4_Questions_Podcast_with_Ahmed_Tariq.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\16d3634a-7d6f-412a-a0f7-d9484cacc398_Ep_4_Questions_Podcast_with_Ahmed_Tariq.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/16d3634a-7d6f-412a-a0f7-d9484cacc398_Ep_4_Questions_Podcast_with_Ahmed_Tariq.pdf",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\16d3634a-7d6f-412a-a0f7-d9484cacc398_Ep_4_Questions_Podcast_with_Ahmed_Tariq.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\1729083929781.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\1729083929781.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/1729083929781.jpg",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\1729083929781.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\1729083929912.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\1729083929912.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/1729083929912.jpg",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\1729083929912.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\1729083929999.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\1729083929999.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/1729083929999.jpg",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\1729083929999.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\1729083930894.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\1729083930894.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/1729083930894.jpg",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\1729083930894.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2 Mar 23_020034 (1).pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2 Mar 23_020034 (1).pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2 Mar 23_020034 (1).pdf",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2 Mar 23_020034 (1).pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2 Mar 23_020034.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2 Mar 23_020034.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2 Mar 23_020034.pdf",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2 Mar 23_020034.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2. Connect_Devices_using_Wireless_Technologies_pka (1).pka",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2. Connect_Devices_using_Wireless_Technologies_pka (1).pka",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2. Connect_Devices_using_Wireless_Technologies_pka (1).pka",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2. Connect_Devices_using_Wireless_Technologies_pka (1).pka"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2. Connect_Devices_using_Wireless_Technologies_pka.pka",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2. Connect_Devices_using_Wireless_Technologies_pka.pka",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2. Connect_Devices_using_Wireless_Technologies_pka.pka",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2. Connect_Devices_using_Wireless_Technologies_pka.pka"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2.3.7 Packet Tracer - Navigate the IOS.pka",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2.3.7 Packet Tracer - Navigate the IOS.pka",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2.3.7 Packet Tracer - Navigate the IOS.pka",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2.3.7 Packet Tracer - Navigate the IOS.pka"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2.5.5 Packet Tracer - Configure Initial Switch Settings (1).pka",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2.5.5 Packet Tracer - Configure Initial Switch Settings (1).pka",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2.5.5 Packet Tracer - Configure Initial Switch Settings (1).pka",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2.5.5 Packet Tracer - Configure Initial Switch Settings (1).pka"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2.5.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2.5.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2.5.pdf",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2.5.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2.7.6 Packet Tracer - Implement Basic Connectivity (1).pka",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2.7.6 Packet Tracer - Implement Basic Connectivity (1).pka",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2.7.6 Packet Tracer - Implement Basic Connectivity (1).pka",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2.7.6 Packet Tracer - Implement Basic Connectivity (1).pka"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2.7.6 Packet Tracer - Implement Basic Connectivity.pka",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2.7.6 Packet Tracer - Implement Basic Connectivity.pka",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2.7.6 Packet Tracer - Implement Basic Connectivity.pka",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2.7.6 Packet Tracer - Implement Basic Connectivity.pka"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2.9.1 Packet Tracer - Basic Switch and End Device Configuration.pka",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2.9.1 Packet Tracer - Basic Switch and End Device Configuration.pka",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2.9.1 Packet Tracer - Basic Switch and End Device Configuration.pka",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2.9.1 Packet Tracer - Basic Switch and End Device Configuration.pka"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2.pdf",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2.png",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2.png",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2.png",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2.png"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\200w (1).gif",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\200w (1).gif",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/200w (1).gif",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\200w (1).gif"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\200w.webp",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\200w.webp",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/200w.webp",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\200w.webp"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2012_003_001_28137.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2012_003_001_28137.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2012_003_001_28137.pdf",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2012_003_001_28137.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2022CS100.pptx",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2022CS100.pptx",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2022CS100.pptx",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2022CS100.pptx"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2022CS100.zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2022CS100.zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2022CS100.zip",
       "AssetKind": "All",
@@ -1708,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2022CS100.zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_11556_24893.zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_11556_24893.zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2022-CS-100_11556_24893.zip",
       "AssetKind": "All",
@@ -1727,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2022-CS-100_11556_24893.zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_11556_24895.zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_11556_24895.zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2022-CS-100_11556_24895.zip",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2022-CS-100_11556_24895.zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_11556_24897.zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_11556_24897.zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2022-CS-100_11556_24897.zip",
       "AssetKind": "All",
@@ -1765,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2022-CS-100_11556_24897.zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_11556_24899.zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_11556_24899.zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2022-CS-100_11556_24899.zip",
       "AssetKind": "All",
@@ -1784,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2022-CS-100_11556_24899.zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_11556_24909.zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_11556_24909.zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2022-CS-100_11556_24909.zip",
       "AssetKind": "All",
@@ -1803,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2022-CS-100_11556_24909.zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_11556_24919.zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_11556_24919.zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2022-CS-100_11556_24919.zip",
       "AssetKind": "All",
@@ -1822,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2022-CS-100_11556_24919.zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_11556_24921.zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_11556_24921.zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2022-CS-100_11556_24921.zip",
       "AssetKind": "All",
@@ -1841,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2022-CS-100_11556_24921.zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12217_24935.zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12217_24935.zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2022-CS-100_12217_24935.zip",
       "AssetKind": "All",
@@ -1860,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2022-CS-100_12217_24935.zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12217_24941.zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12217_24941.zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2022-CS-100_12217_24941.zip",
       "AssetKind": "All",
@@ -1879,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2022-CS-100_12217_24941.zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12217_24945.zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12217_24945.zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2022-CS-100_12217_24945.zip",
       "AssetKind": "All",
@@ -1898,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2022-CS-100_12217_24945.zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12217_24953.zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12217_24953.zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2022-CS-100_12217_24953.zip",
       "AssetKind": "All",
@@ -1917,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2022-CS-100_12217_24953.zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12217_24959 (3).zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12217_24959 (3).zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2022-CS-100_12217_24959 (3).zip",
       "AssetKind": "All",
@@ -1936,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2022-CS-100_12217_24959 (3).zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12217_24959 (4).zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12217_24959 (4).zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2022-CS-100_12217_24959 (4).zip",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2022-CS-100_12217_24959 (4).zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12217_24959 (5).zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12217_24959 (5).zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2022-CS-100_12217_24959 (5).zip",
       "AssetKind": "All",
@@ -1974,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2022-CS-100_12217_24959 (5).zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12217_24959 (6).zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12217_24959 (6).zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2022-CS-100_12217_24959 (6).zip",
       "AssetKind": "All",
@@ -1993,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2022-CS-100_12217_24959 (6).zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12217_24959.zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12217_24959.zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2022-CS-100_12217_24959.zip",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2022-CS-100_12217_24959.zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12217_24963.zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12217_24963.zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2022-CS-100_12217_24963.zip",
       "AssetKind": "All",
@@ -2031,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2022-CS-100_12217_24963.zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12752_24937.zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12752_24937.zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2022-CS-100_12752_24937.zip",
       "AssetKind": "All",
@@ -2050,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2022-CS-100_12752_24937.zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12752_24956 (1).zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12752_24956 (1).zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2022-CS-100_12752_24956 (1).zip",
       "AssetKind": "All",
@@ -2069,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2022-CS-100_12752_24956 (1).zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12752_24956.zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12752_24956.zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2022-CS-100_12752_24956.zip",
       "AssetKind": "All",
@@ -2088,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2022-CS-100_12752_24956.zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12752_24981.zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_12752_24981.zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2022-CS-100_12752_24981.zip",
       "AssetKind": "All",
@@ -2107,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2022-CS-100_12752_24981.zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_13019_24975.zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_13019_24975.zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2022-CS-100_13019_24975.zip",
       "AssetKind": "All",
@@ -2126,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2022-CS-100_13019_24975.zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_13658_25012.zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_13658_25012.zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2022-CS-100_13658_25012.zip",
       "AssetKind": "All",
@@ -2145,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2022-CS-100_13658_25012.zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_13658_25045.zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2022-CS-100_13658_25045.zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2022-CS-100_13658_25045.zip",
       "AssetKind": "All",
@@ -2164,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2022-CS-100_13658_25045.zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2023_CS_Assignment.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2023_CS_Assignment.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2023_CS_Assignment.pdf",
       "AssetKind": "All",
@@ -2183,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2023_CS_Assignment.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\205P.gif",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\205P.gif",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/205P.gif",
       "AssetKind": "All",
@@ -2202,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\205P.gif"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\20718-39567-1-PB.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\20718-39567-1-PB.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/20718-39567-1-PB.pdf",
       "AssetKind": "All",
@@ -2221,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\20718-39567-1-PB.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\240_F_265231403_M97wpAzPQiwlFIvD4Kun2cxkRutdUCag.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\240_F_265231403_M97wpAzPQiwlFIvD4Kun2cxkRutdUCag.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/240_F_265231403_M97wpAzPQiwlFIvD4Kun2cxkRutdUCag.jpg",
       "AssetKind": "All",
@@ -2240,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\240_F_265231403_M97wpAzPQiwlFIvD4Kun2cxkRutdUCag.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2nd year english essays notes pdf.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2nd year english essays notes pdf.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2nd year english essays notes pdf.pdf",
       "AssetKind": "All",
@@ -2259,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2nd year english essays notes pdf.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\2nd.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\2nd.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/2nd.pdf",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\2nd.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\3 Mar 23_020118 (1).pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\3 Mar 23_020118 (1).pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/3 Mar 23_020118 (1).pdf",
       "AssetKind": "All",
@@ -2297,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\3 Mar 23_020118 (1).pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\3 Mar 23_020118.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\3 Mar 23_020118.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/3 Mar 23_020118.pdf",
       "AssetKind": "All",
@@ -2316,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\3 Mar 23_020118.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\3. Explore_Device_Configuration_Using_the_CLI_console_pka.pka",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\3. Explore_Device_Configuration_Using_the_CLI_console_pka.pka",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/3. Explore_Device_Configuration_Using_the_CLI_console_pka.pka",
       "AssetKind": "All",
@@ -2335,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\3. Explore_Device_Configuration_Using_the_CLI_console_pka.pka"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\3.5.5 Packet Tracer - Investigate the TCP-IP and OSI Models in Action.pka",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\3.5.5 Packet Tracer - Investigate the TCP-IP and OSI Models in Action.pka",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/3.5.5 Packet Tracer - Investigate the TCP-IP and OSI Models in Action.pka",
       "AssetKind": "All",
@@ -2354,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\3.5.5 Packet Tracer - Investigate the TCP-IP and OSI Models in Action.pka"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\30 Queries.zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\30 Queries.zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/30 Queries.zip",
       "AssetKind": "All",
@@ -2373,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\30 Queries.zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\31_October_2021 (1).pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\31_October_2021 (1).pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/31_October_2021 (1).pdf",
       "AssetKind": "All",
@@ -2392,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\31_October_2021 (1).pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\31_October_2021.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\31_October_2021.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/31_October_2021.pdf",
       "AssetKind": "All",
@@ -2411,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\31_October_2021.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\31efb40bf7af9e2b1c52f53fba0e88ed.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\31efb40bf7af9e2b1c52f53fba0e88ed.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/31efb40bf7af9e2b1c52f53fba0e88ed.jpg",
       "AssetKind": "All",
@@ -2430,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\31efb40bf7af9e2b1c52f53fba0e88ed.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\327-3276072_fairy-tale-royalty-free-clip-art-castle-cartoon.png",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\327-3276072_fairy-tale-royalty-free-clip-art-castle-cartoon.png",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/327-3276072_fairy-tale-royalty-free-clip-art-castle-cartoon.png",
       "AssetKind": "All",
@@ -2449,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\327-3276072_fairy-tale-royalty-free-clip-art-castle-cartoon.png"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\32949.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\32949.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/32949.pdf",
       "AssetKind": "All",
@@ -2468,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\32949.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\4 Mar 23_020146 (1).pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\4 Mar 23_020146 (1).pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/4 Mar 23_020146 (1).pdf",
       "AssetKind": "All",
@@ -2487,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\4 Mar 23_020146 (1).pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\4 Mar 23_020146.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\4 Mar 23_020146.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/4 Mar 23_020146.pdf",
       "AssetKind": "All",
@@ -2506,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\4 Mar 23_020146.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\4. Examine_Packets_in_the_Small_Office_pka.pka",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\4. Examine_Packets_in_the_Small_Office_pka.pka",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/4. Examine_Packets_in_the_Small_Office_pka.pka",
       "AssetKind": "All",
@@ -2525,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\4. Examine_Packets_in_the_Small_Office_pka.pka"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\4.6.5 Packet Tracer - Connect a Wired and Wireless LAN.pka",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\4.6.5 Packet Tracer - Connect a Wired and Wireless LAN.pka",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/4.6.5 Packet Tracer - Connect a Wired and Wireless LAN.pka",
       "AssetKind": "All",
@@ -2544,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\4.6.5 Packet Tracer - Connect a Wired and Wireless LAN.pka"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\478392-incident management PowerPoint slide template.pptx",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\478392-incident management PowerPoint slide template.pptx",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/478392-incident management PowerPoint slide template.pptx",
       "AssetKind": "All",
@@ -2563,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\478392-incident management PowerPoint slide template.pptx"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\5. Edit_Topologies_pka.pka",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\5. Edit_Topologies_pka.pka",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/5. Edit_Topologies_pka.pka",
       "AssetKind": "All",
@@ -2582,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\5. Edit_Topologies_pka.pka"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\553fa78b-57a5-46d8-959e-62a456616ebb_Export-9f7563ad-a096-4e60-9aa0-ac7f68135dd7.zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\553fa78b-57a5-46d8-959e-62a456616ebb_Export-9f7563ad-a096-4e60-9aa0-ac7f68135dd7.zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/553fa78b-57a5-46d8-959e-62a456616ebb_Export-9f7563ad-a096-4e60-9aa0-ac7f68135dd7.zip",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\553fa78b-57a5-46d8-959e-62a456616ebb_Export-9f7563ad-a096-4e60-9aa0-ac7f68135dd7.zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\5TER-unscreen (1).gif",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\5TER-unscreen (1).gif",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/5TER-unscreen (1).gif",
       "AssetKind": "All",
@@ -2620,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\5TER-unscreen (1).gif"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\5TER-unscreen.gif",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\5TER-unscreen.gif",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/5TER-unscreen.gif",
       "AssetKind": "All",
@@ -2639,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\5TER-unscreen.gif"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\6. Monitor_Your_Network_Using_a_Network_Controller_pka.pka",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\6. Monitor_Your_Network_Using_a_Network_Controller_pka.pka",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/6. Monitor_Your_Network_Using_a_Network_Controller_pka.pka",
       "AssetKind": "All",
@@ -2658,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\6. Monitor_Your_Network_Using_a_Network_Controller_pka.pka"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\622d2fa86135e3ac425957c9a40bf6555d0c94ed.svg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\622d2fa86135e3ac425957c9a40bf6555d0c94ed.svg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/622d2fa86135e3ac425957c9a40bf6555d0c94ed.svg",
       "AssetKind": "All",
@@ -2677,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\622d2fa86135e3ac425957c9a40bf6555d0c94ed.svg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\6th.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\6th.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/6th.pdf",
       "AssetKind": "All",
@@ -2696,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\6th.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\7. Manage_and_Configure_your_Network_using_a_Network_Controller_pka.pka",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\7. Manage_and_Configure_your_Network_using_a_Network_Controller_pka.pka",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/7. Manage_and_Configure_your_Network_using_a_Network_Controller_pka.pka",
       "AssetKind": "All",
@@ -2715,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\7. Manage_and_Configure_your_Network_using_a_Network_Controller_pka.pka"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\7.mp4",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\7.mp4",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/7.mp4",
       "AssetKind": "All",
@@ -2734,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\7.mp4"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\7_11_2024, 12_29_48 PM - Screen - Untitled video.webm",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\7_11_2024, 12_29_48 PM - Screen - Untitled video.webm",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/7_11_2024, 12_29_48 PM - Screen - Untitled video.webm",
       "AssetKind": "All",
@@ -2753,10 +2753,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\7_11_2024, 12_29_48 PM - Screen - Untitled video.webm"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\7_11_2024, 12_32_12 PM - Screen - Untitled video.webm",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\7_11_2024, 12_32_12 PM - Screen - Untitled video.webm",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/7_11_2024, 12_32_12 PM - Screen - Untitled video.webm",
       "AssetKind": "All",
@@ -2772,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\7_11_2024, 12_32_12 PM - Screen - Untitled video.webm"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\7_November_2021.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\7_November_2021.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/7_November_2021.pdf",
       "AssetKind": "All",
@@ -2791,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\7_November_2021.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\77566899-4e2b-4233-a61c-fc40fd07b020.jfif",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\77566899-4e2b-4233-a61c-fc40fd07b020.jfif",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/77566899-4e2b-4233-a61c-fc40fd07b020.jfif",
       "AssetKind": "All",
@@ -2810,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\77566899-4e2b-4233-a61c-fc40fd07b020.jfif"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\79-Article Text-394-1-10-20220928 (1) (1).pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\79-Article Text-394-1-10-20220928 (1) (1).pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/79-Article Text-394-1-10-20220928 (1) (1).pdf",
       "AssetKind": "All",
@@ -2829,10 +2829,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\79-Article Text-394-1-10-20220928 (1) (1).pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\79-Article Text-394-1-10-20220928 (1).pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\79-Article Text-394-1-10-20220928 (1).pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/79-Article Text-394-1-10-20220928 (1).pdf",
       "AssetKind": "All",
@@ -2848,10 +2848,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\79-Article Text-394-1-10-20220928 (1).pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\7c29a141-f2ce-4e65-bc91-dd4597e09276_Export-c1aa2830-7d05-43a2-b65e-29e21d8506eb.zip",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\7c29a141-f2ce-4e65-bc91-dd4597e09276_Export-c1aa2830-7d05-43a2-b65e-29e21d8506eb.zip",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/7c29a141-f2ce-4e65-bc91-dd4597e09276_Export-c1aa2830-7d05-43a2-b65e-29e21d8506eb.zip",
       "AssetKind": "All",
@@ -2867,10 +2867,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\7c29a141-f2ce-4e65-bc91-dd4597e09276_Export-c1aa2830-7d05-43a2-b65e-29e21d8506eb.zip"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\7fbB.gif",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\7fbB.gif",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/7fbB.gif",
       "AssetKind": "All",
@@ -2886,10 +2886,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\7fbB.gif"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\7fbB-unscreen.gif",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\7fbB-unscreen.gif",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/7fbB-unscreen.gif",
       "AssetKind": "All",
@@ -2905,10 +2905,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\7fbB-unscreen.gif"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\7gz4.gif",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\7gz4.gif",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/7gz4.gif",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\7gz4.gif"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\7gz4-unscreen (1).gif",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\7gz4-unscreen (1).gif",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/7gz4-unscreen (1).gif",
       "AssetKind": "All",
@@ -2943,10 +2943,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\7gz4-unscreen (1).gif"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\7gz4-unscreen.gif",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\7gz4-unscreen.gif",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/7gz4-unscreen.gif",
       "AssetKind": "All",
@@ -2962,10 +2962,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\7gz4-unscreen.gif"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\7XUV.gif",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\7XUV.gif",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/7XUV.gif",
       "AssetKind": "All",
@@ -2981,10 +2981,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\7XUV.gif"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\7XUV-unscreen.gif",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\7XUV-unscreen.gif",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/7XUV-unscreen.gif",
       "AssetKind": "All",
@@ -3000,10 +3000,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\7XUV-unscreen.gif"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\7YUM.gif",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\7YUM.gif",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/7YUM.gif",
       "AssetKind": "All",
@@ -3019,10 +3019,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\7YUM.gif"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\7YUs.gif",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\7YUs.gif",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/7YUs.gif",
       "AssetKind": "All",
@@ -3038,10 +3038,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\7YUs.gif"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\7YUs-unscreen.gif",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\7YUs-unscreen.gif",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/7YUs-unscreen.gif",
       "AssetKind": "All",
@@ -3057,10 +3057,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\7YUs-unscreen.gif"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\8. Troubleshoot_a_Wireless_Connection.pksz",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\8. Troubleshoot_a_Wireless_Connection.pksz",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/8. Troubleshoot_a_Wireless_Connection.pksz",
       "AssetKind": "All",
@@ -3076,10 +3076,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\8. Troubleshoot_a_Wireless_Connection.pksz"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\88121-space-twodimensional-plastic-platform-game-tile.png",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\88121-space-twodimensional-plastic-platform-game-tile.png",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/88121-space-twodimensional-plastic-platform-game-tile.png",
       "AssetKind": "All",
@@ -3095,10 +3095,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\88121-space-twodimensional-plastic-platform-game-tile.png"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\8d28219c03b053d0c2ba0cdde92e8d87.png",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\8d28219c03b053d0c2ba0cdde92e8d87.png",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/8d28219c03b053d0c2ba0cdde92e8d87.png",
       "AssetKind": "All",
@@ -3114,10 +3114,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\8d28219c03b053d0c2ba0cdde92e8d87.png"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\9th class ISL Suarh e Infaal 1-10.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\9th class ISL Suarh e Infaal 1-10.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/9th class ISL Suarh e Infaal 1-10.pdf",
       "AssetKind": "All",
@@ -3133,10 +3133,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\9th class ISL Suarh e Infaal 1-10.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\A First Course in Database Systems.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\A First Course in Database Systems.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/A First Course in Database Systems.pdf",
       "AssetKind": "All",
@@ -3152,10 +3152,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\A First Course in Database Systems.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\A letter tech logo.png",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\A letter tech logo.png",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/A letter tech logo.png",
       "AssetKind": "All",
@@ -3171,10 +3171,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\A letter tech logo.png"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\A.First.Course.in.Database.Systems,.J.D..Ullman,.J..Widom,3rd.ed,.Pearson,.CMP,.2008.294s_final (1).pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\A.First.Course.in.Database.Systems,.J.D..Ullman,.J..Widom,3rd.ed,.Pearson,.CMP,.2008.294s_final (1).pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/A.First.Course.in.Database.Systems,.J.D..Ullman,.J..Widom,3rd.ed,.Pearson,.CMP,.2008.294s_final (1).pdf",
       "AssetKind": "All",
@@ -3190,10 +3190,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\A.First.Course.in.Database.Systems,.J.D..Ullman,.J..Widom,3rd.ed,.Pearson,.CMP,.2008.294s_final (1).pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\A.First.Course.in.Database.Systems,.J.D..Ullman,.J..Widom,3rd.ed,.Pearson,.CMP,.2008.294s_final.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\A.First.Course.in.Database.Systems,.J.D..Ullman,.J..Widom,3rd.ed,.Pearson,.CMP,.2008.294s_final.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/A.First.Course.in.Database.Systems,.J.D..Ullman,.J..Widom,3rd.ed,.Pearson,.CMP,.2008.294s_final.pdf",
       "AssetKind": "All",
@@ -3209,10 +3209,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\A.First.Course.in.Database.Systems,.J.D..Ullman,.J..Widom,3rd.ed,.Pearson,.CMP,.2008.294s_final.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\a300d4bd-2880-4270-a4ae-445d72c19c38.JPG",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\a300d4bd-2880-4270-a4ae-445d72c19c38.JPG",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/a300d4bd-2880-4270-a4ae-445d72c19c38.JPG",
       "AssetKind": "All",
@@ -3228,10 +3228,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\a300d4bd-2880-4270-a4ae-445d72c19c38.JPG"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\a40dfaa0-9dae-496c-90f6-a81600161faf_Ep_4_Questions_Podcast_with_Ahmed_Tariq.pdf",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\a40dfaa0-9dae-496c-90f6-a81600161faf_Ep_4_Questions_Podcast_with_Ahmed_Tariq.pdf",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/a40dfaa0-9dae-496c-90f6-a81600161faf_Ep_4_Questions_Podcast_with_Ahmed_Tariq.pdf",
       "AssetKind": "All",
@@ -3247,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\a40dfaa0-9dae-496c-90f6-a81600161faf_Ep_4_Questions_Podcast_with_Ahmed_Tariq.pdf"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Downloads\\AAoA Bubble Sort.pptx",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\Downloads\\AAoA Bubble Sort.pptx",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/Downloads/AAoA Bubble Sort.pptx",
       "AssetKind": "All",
@@ -3266,10 +3266,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Downloads\\AAoA Bubble Sort.pptx"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\logo3.png",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\logo3.png",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/logo3.png",
       "AssetKind": "All",
@@ -3285,10 +3285,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\logo3.png"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\profiles\\emily_profile.jpeg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\profiles\\emily_profile.jpeg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/profiles/emily_profile.jpeg",
       "AssetKind": "All",
@@ -3304,10 +3304,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\profiles\\emily_profile.jpeg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\profiles\\jane_profile.jpeg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\profiles\\jane_profile.jpeg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/profiles/jane_profile.jpeg",
       "AssetKind": "All",
@@ -3323,10 +3323,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\profiles\\jane_profile.jpeg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\profiles\\john_profile.jpeg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\profiles\\john_profile.jpeg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/profiles/john_profile.jpeg",
       "AssetKind": "All",
@@ -3342,10 +3342,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\profiles\\john_profile.jpeg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\profiles\\michael_profile.jpeg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\profiles\\michael_profile.jpeg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/profiles/michael_profile.jpeg",
       "AssetKind": "All",
@@ -3361,10 +3361,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\profiles\\michael_profile.jpeg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\SquareLogo.png",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\SquareLogo.png",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/SquareLogo.png",
       "AssetKind": "All",
@@ -3380,10 +3380,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\SquareLogo.png"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\team\\1.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\team\\1.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/team/1.jpg",
       "AssetKind": "All",
@@ -3399,10 +3399,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\team\\1.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\team\\2.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\team\\2.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/team/2.jpg",
       "AssetKind": "All",
@@ -3418,10 +3418,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\team\\2.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\team\\3.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\team\\3.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/team/3.jpg",
       "AssetKind": "All",
@@ -3437,10 +3437,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\team\\3.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\team\\4.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\team\\4.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/team/4.jpg",
       "AssetKind": "All",
@@ -3456,10 +3456,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\team\\4.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\team\\test-thumb1.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\team\\test-thumb1.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/team/test-thumb1.jpg",
       "AssetKind": "All",
@@ -3475,10 +3475,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\team\\test-thumb1.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\team\\test-thumb2.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\team\\test-thumb2.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/team/test-thumb2.jpg",
       "AssetKind": "All",
@@ -3494,10 +3494,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\team\\test-thumb2.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\team\\test-thumb3.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\team\\test-thumb3.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/team/test-thumb3.jpg",
       "AssetKind": "All",
@@ -3513,10 +3513,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\team\\test-thumb3.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\team\\test-thumb4.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\team\\test-thumb4.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/team/test-thumb4.jpg",
       "AssetKind": "All",
@@ -3532,10 +3532,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\team\\test-thumb4.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\user.jpg",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\user.jpg",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "Images/user.jpg",
       "AssetKind": "All",
@@ -3551,10 +3551,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\user.jpg"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\js\\site.js",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\js\\site.js",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -3570,10 +3570,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -3589,10 +3589,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -3608,10 +3608,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -3627,10 +3627,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -3646,10 +3646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -3665,10 +3665,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -3684,10 +3684,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -3703,10 +3703,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -3722,10 +3722,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -3741,10 +3741,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -3760,10 +3760,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -3779,10 +3779,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -3798,10 +3798,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -3817,10 +3817,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -3836,10 +3836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -3855,10 +3855,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -3874,10 +3874,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -3893,10 +3893,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -3912,10 +3912,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -3931,10 +3931,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -3950,10 +3950,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -3969,10 +3969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -3988,10 +3988,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -4007,10 +4007,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -4026,10 +4026,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -4045,10 +4045,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -4064,10 +4064,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -4083,10 +4083,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -4102,10 +4102,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -4121,10 +4121,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -4140,10 +4140,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -4159,10 +4159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -4178,10 +4178,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -4197,10 +4197,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -4216,10 +4216,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -4235,10 +4235,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -4254,10 +4254,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -4273,10 +4273,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -4292,10 +4292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -4311,10 +4311,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -4330,10 +4330,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -4349,10 +4349,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -4368,10 +4368,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -4387,10 +4387,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -4406,10 +4406,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -4425,10 +4425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -4444,10 +4444,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -4463,10 +4463,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -4482,10 +4482,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -4501,10 +4501,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -4520,10 +4520,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -4539,10 +4539,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -4558,10 +4558,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -4577,10 +4577,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -4596,10 +4596,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -4615,10 +4615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -4634,10 +4634,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
       "BasePath": "_content/Health Hub",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

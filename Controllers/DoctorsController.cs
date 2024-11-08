@@ -20,6 +20,7 @@ namespace Health_Hub.Controllers
             var doctorsQuery = _context.Doctors
                 .Include(d => d.Person)
                 .Include(d => d.Specialization)
+                .Where(d => d.VerificationStatus == true)
                 .Include(d => d.DoctorHospitals)
                     .ThenInclude(dh => dh.Hospital)
                 .AsQueryable();
