@@ -1,48 +1,60 @@
 ﻿@model Health_Hub.Models.Domain.Person
 
-<h4>Patient</h4>
-<hr />
-<div class="row">
-	<div class="col-md-4">
+<div class="signup-container">
+    <h4 class="text-center">Patient</h4>
+    <hr />
+    
+    <div class="signup-form">
 		<form asp-action="SignUpPatient" asp-controller="SignUpPatient">
 			<div asp-validation-summary="ModelOnly" class="text-danger"></div>
-			<div class="form-group">
+
+			<div class="signup-form-group">
 				<label asp-for="Name" class="control-label"></label>
 				<input asp-for="Name" class="form-control" />
 				<span asp-validation-for="Name" class="text-danger"></span>
 			</div>
-			<div class="form-group">
+
+			<div class="signup-form-group">
 				<label asp-for="Email" class="control-label"></label>
 				<input asp-for="Email" class="form-control" />
 				<span asp-validation-for="Email" class="text-danger"></span>
 			</div>
-			<div class="form-group">
+
+			<div class="signup-form-group">
 				<label asp-for="CNIC" class="control-label"></label>
 				<input asp-for="CNIC" class="form-control" />
 				<span asp-validation-for="CNIC" class="text-danger"></span>
 			</div>
-			<div class="form-group">
+
+			<div class="signup-form-group">
 				<label asp-for="Password" class="control-label"></label>
 				<input asp-for="Password" class="form-control" />
 				<span asp-validation-for="Password" class="text-danger"></span>
 			</div>
-			<div class="form-group">
+
+			<div class="signup-form-group">
 				<label asp-for="PhoneNumber" class="control-label"></label>
 				<input asp-for="PhoneNumber" class="form-control" />
 				<span asp-validation-for="PhoneNumber" class="text-danger"></span>
 			</div>
-			<!-- Hidden field for RoleID with a default value -->
-			<input type="hidden" asp-for="RoleID" value="3" /> <!-- Change '3' to desired RoleID value -->
 
-			<div class="form-group">
-				<input type="submit" value="Create" class="btn btn-primary" />
+			<!-- Hidden field for RoleID with a default value -->
+			<input type="hidden" asp-for="RoleID" value="3" /> 
+
+			<div class="text-center">
+				<input type="submit" value="Create" class="btn btn-primary w-40" />
 			</div>
 		</form>
-	</div>
+
+    </div>
+    <div class="text-center mt-3">
+   		<button class="btn btn-link">Already Registered?
+   		<a asp-action="LogIn" asp-controller="LogIn">Log In</a>
+    	</button>
+    </div>
 </div>
-<div>
-	<button>Already Registered,<a asp-action="LogIn" asp-controller="LogIn">LogIn</a></button>
-</div>
+
+
 @section Scripts {
 	@{
 		await Html.RenderPartialAsync("_ValidationScriptsPartial");

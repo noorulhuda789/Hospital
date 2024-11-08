@@ -12,19 +12,21 @@
     <!-- Header Section with Navbar -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #f8f9fa;" id="navbar">
-            <div class="container">
+            <div class="container-fluid">
                 <a class="navbar-brand" href="/">
-
                     <img src="../Images/SquareLogo.png" alt="Health Hub Logo" class="img-fluid logoImage">
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarmain">
-                    <ul class="navbar-nav">
+
+                <!-- Updated for right alignment -->
+                <div class="collapse navbar-collapse ms-auto" id="navbarmain">
+                    <!-- Changed this line -->
+                    <ul class="navbar-nav ms-auto">
                         <!-- Dropdown for Departments -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="dropdown02" data-toggle="dropdown">Departments</a>
+                            <a class="nav-link dropdown-toggle" id="dropdown02" data-bs-toggle="dropdown">Departments</a>
                             <ul class="dropdown-menu" aria-labelledby="dropdown02">
                                 @if (ViewBag.Departments != null)
                                 {
@@ -38,20 +40,20 @@
 
                         <!-- Link for Doctors -->
                         <li class="nav-item">
-                            <a class="nav-link" >Doctors</a>
+                            <a class="nav-link" href="#">Doctors</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link">About Us</a>
+                            <a class="nav-link" href="#">About Us</a>
                         </li>
 
                         <!-- Right-aligned Buttons -->
                         <li class="nav-item">
-                            <a class="btn btn-outline-primary mr-2" asp-controller="SignUpDoctor" asp-action="SignUpDoctor">Join as Doctor</a>
+                            <a class="btn btn-outline-primary ms-2" asp-controller="SignUpDoctor" asp-action="SignUpDoctor">Join as Doctor</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="btn btn-outline-success" asp-controller="SignUpPatient" asp-action="SignUpPatient">SignUp/LogIn</a>
+                            <a class="btn btn-outline-success ms-2" asp-controller="SignUpPatient" asp-action="SignUpPatient">SignUp/LogIn</a>
                         </li>
                     </ul>
                 </div>
@@ -59,8 +61,9 @@
         </nav>
     </header>
 
+
     <!-- Main content -->
-    <div class="container mt-5 pt-5">
+    <div class="main-container mt-5 pt-5">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
@@ -72,7 +75,7 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="widget mb-5 mb-lg-0">
-                        <img src="../Images/SquareLogo.png" alt="Health Hub Logo" class="img-fluid">
+                        <img src="../Images/SquareLogo.png" alt="Health Hub Logo" class="img-fluid footer-logo">
                         <p>Learn more about us and get our latest updates.</p>
                     </div>
                 </div>
