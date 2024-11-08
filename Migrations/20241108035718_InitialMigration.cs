@@ -70,7 +70,7 @@ namespace Health_Hub.Migrations
                 {
                     PersonID = table.Column<int>(type: "int", nullable: false),
                     Degree = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    VerificationStatus = table.Column<int>(type: "int", nullable: false, defaultValue: 0),
+                    VerificationStatus = table.Column<bool>(type: "bit", nullable: false, defaultValue: false),
                     Rating = table.Column<float>(type: "real", nullable: false, defaultValue: 0f),
                     ProfileImage = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     SpecializationID = table.Column<int>(type: "int", nullable: true)

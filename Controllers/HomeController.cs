@@ -30,7 +30,7 @@ namespace Health_Hub.Controllers
 
 			var doctors = _context.Doctors
 		    .Include(d => d.Specialization)
-		    .Where(d => d.VerificationStatus == 1)
+		    .Where(d => d.VerificationStatus == true)
 		    .OrderByDescending(d => d.Rating)
 		    .Take(3)
 		    .Select(d => new DoctorVM

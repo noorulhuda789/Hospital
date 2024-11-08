@@ -17,6 +17,17 @@ namespace Health_Hub.Controllers
 		}
 		public IActionResult SignUpDoctor()
 		{
+			//// Assuming you have a DbContext called _context
+			//var roles = _context.Lookups
+			//			.Where(l => l.Category == "Role")
+			//			.Select(l => new SelectListItem
+			//			{
+			//				Value = l.LookupID.ToString(),  
+			//				Text = l.Value                  // Display the role name (Patient, Doctor)
+			//			}).ToList();
+
+			//ViewBag.RoleID = roles;
+
 			return View();
 		}
         [HttpPost]
@@ -51,6 +62,12 @@ namespace Health_Hub.Controllers
                         personID = (int)await command.ExecuteScalarAsync();
                     }
 
+                    // Insert into Doctor or Patient table based on RoleID
+                    //if (person.RoleID == 3) // Patient
+                    //{
+                    //    var insertPatientQuery = "INSERT INTO Patients (PersonID) VALUES (@PersonID);";
+                    //    await _context.Database.ExecuteSqlRawAsync(insertPatientQuery, new SqlParameter("@PersonID", personID));
+                    //}
                     if (person.RoleID == 4) // Doctor
                     {
                         var insertDoctorQuery = "INSERT INTO Doctors (PersonID) VALUES (@PersonID);";
@@ -59,6 +76,10 @@ namespace Health_Hub.Controllers
 
                     await transaction.CommitAsync();
 
+                    //if (person.RoleID == 3)
+                    //{
+                    //    return RedirectToAction("IndexForPatient", "Home");
+                    //}
                     if (person.RoleID == 4)
                     {
                         return RedirectToAction("IndexForDoctor", "Home");
