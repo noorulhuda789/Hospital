@@ -329,10 +329,10 @@ namespace Health_Hub.Migrations
                     b.Property<int?>("SpecializationID")
                         .HasColumnType("int");
 
-                    b.Property<int>("VerificationStatus")
+                    b.Property<bool>("VerificationStatus")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasDefaultValue(0);
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
 
                     b.HasIndex("SpecializationID");
 

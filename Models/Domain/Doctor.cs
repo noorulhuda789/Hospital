@@ -6,8 +6,8 @@ namespace Health_Hub.Models.Domain
 {
     public class Doctor : Person
     {
-        public string? Degree { get; set; }
-        public int VerificationStatus { get; set; }
+        public string? Degree { get; set; } //PMDC Verfication based on Degree
+        public bool VerificationStatus { get; set; } = false;
         public float Rating { get; set; }
         public string? ProfileImage { get; set; }
 
