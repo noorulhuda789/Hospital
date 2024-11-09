@@ -613,6 +613,10 @@
       "PackagePath": "staticwebassets\\Images\\about\\about-4.jpg"
     },
     {
+      "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\about\\chat.png",
+      "PackagePath": "staticwebassets\\Images\\about\\chat.png"
+    },
+    {
       "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\about\\doctor-review.png",
       "PackagePath": "staticwebassets\\Images\\about\\doctor-review.png"
     },
@@ -643,6 +647,10 @@
     {
       "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\about\\sign.png",
       "PackagePath": "staticwebassets\\Images\\about\\sign.png"
+    },
+    {
+      "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\about\\verified.png",
+      "PackagePath": "staticwebassets\\Images\\about\\verified.png"
     },
     {
       "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\bannerImg.jpg",

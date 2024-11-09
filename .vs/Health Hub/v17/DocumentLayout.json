@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|d:\\semester_5\\se(theory)\\ongoing\\hospital\\data\\healthhubdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:data\\healthhubdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|d:\\semester_5\\se(theory)\\ongoing\\hospital\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|d:\\semester_5\\se(theory)\\ongoing\\hospital\\models\\domain\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:models\\domain\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|d:\\semester_5\\se(theory)\\ongoing\\hospital\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|d:\\semester_5\\se(theory)\\ongoing\\hospital\\views\\doctors\\doctors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\doctors\\doctors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|d:\\semester_5\\se(theory)\\ongoing\\hospital\\health hub.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:health hub.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|d:\\semester_5\\se(theory)\\ongoing\\hospital\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|d:\\semester_5\\se(theory)\\ongoing\\hospital\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|d:\\semester_5\\se(theory)\\ongoing\\hospital\\views\\shared\\_layoutloginpatient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\shared\\_layoutloginpatient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|d:\\semester_5\\se(theory)\\ongoing\\hospital\\views\\shared\\_layoutdoctorlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\shared\\_layoutdoctorlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|d:\\semester_5\\se(theory)\\ongoing\\hospital\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|d:\\semester_5\\se(theory)\\ongoing\\hospital\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|d:\\semester_5\\se(theory)\\ongoing\\hospital\\models\\domain\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:models\\domain\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|d:\\semester_5\\se(theory)\\ongoing\\hospital\\views\\doctors\\doctors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\doctors\\doctors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|d:\\semester_5\\se(theory)\\ongoing\\hospital\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,17 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "site.css",
               "DocumentMoniker": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
               "ToolTip": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAALEEAAAAAAAAAAAAALMEAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACgCAAAAAAAAAAAqwEYCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-11-07T12:37:11.879Z",
               "IsPinned": true,
@@ -93,93 +97,104 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "_LayoutLogInPatient.cshtml",
+              "DocumentMoniker": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\Views\\Shared\\_LayoutLogInPatient.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutLogInPatient.cshtml",
+              "ToolTip": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\Views\\Shared\\_LayoutLogInPatient.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutLogInPatient.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T08:46:29.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_LayoutDoctorLogIn.cshtml",
+              "DocumentMoniker": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\Views\\Shared\\_LayoutDoctorLogIn.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutDoctorLogIn.cshtml",
+              "ToolTip": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\Views\\Shared\\_LayoutDoctorLogIn.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutDoctorLogIn.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T08:46:27.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AboutUs.cshtml",
+              "DocumentMoniker": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\Views\\Home\\AboutUs.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AboutUs.cshtml",
+              "ToolTip": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\Views\\Home\\AboutUs.cshtml",
+              "RelativeToolTip": "Views\\Home\\AboutUs.cshtml",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAAAGUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T08:38:11.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Doctor.cs",
               "DocumentMoniker": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\Models\\Domain\\Doctor.cs",
               "RelativeDocumentMoniker": "Models\\Domain\\Doctor.cs",
               "ToolTip": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\Models\\Domain\\Doctor.cs",
               "RelativeToolTip": "Models\\Domain\\Doctor.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T06:19:04.985Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwDMAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAwEsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T06:11:42.913Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-08T05:27:06.463Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Doctors.cshtml",
               "DocumentMoniker": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\Views\\Doctors\\Doctors.cshtml",
               "RelativeDocumentMoniker": "Views\\Doctors\\Doctors.cshtml",
               "ToolTip": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\Views\\Doctors\\Doctors.cshtml",
               "RelativeToolTip": "Views\\Doctors\\Doctors.cshtml",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAwDYAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAwDYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T12:16:42.092Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T12:16:42.092Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "DoctorsController.cs",
               "DocumentMoniker": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\Controllers\\DoctorsController.cs",
               "RelativeDocumentMoniker": "Controllers\\DoctorsController.cs",
               "ToolTip": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\Controllers\\DoctorsController.cs",
               "RelativeToolTip": "Controllers\\DoctorsController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAjwBYAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAWwBcAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T11:19:07.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HealthHubDbContext.cs",
-              "DocumentMoniker": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\Data\\HealthHubDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\HealthHubDbContext.cs",
-              "ToolTip": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\Data\\HealthHubDbContext.cs",
-              "RelativeToolTip": "Data\\HealthHubDbContext.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAiwFwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T06:19:14.394Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Health Hub",
-              "DocumentMoniker": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\Health Hub.csproj",
-              "RelativeDocumentMoniker": "Health Hub.csproj",
-              "ToolTip": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\Health Hub.csproj",
-              "RelativeToolTip": "Health Hub.csproj",
-              "ViewState": "AgIAABAAAAAAAAAAAAAvwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-08T06:18:53.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T11:19:07.981Z"
             }
           ]
         },
