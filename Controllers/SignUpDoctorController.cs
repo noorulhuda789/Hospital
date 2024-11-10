@@ -8,30 +8,19 @@ using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore.Storage;
 namespace Health_Hub.Controllers
 {
-	public class SignUpController : Controller
+	public class SignUpDoctorController : Controller
 	{
 		private readonly HealthHubDbContext _context;
-		public SignUpController(HealthHubDbContext context)
+		public SignUpDoctorController(HealthHubDbContext context)
 		{
 			_context = context;
 		}
-		public IActionResult SignUp()
+		public IActionResult SignUpDoctor()
 		{
-			// Assuming you have a DbContext called _context
-			var roles = _context.Lookups
-						.Where(l => l.Category == "Role")
-						.Select(l => new SelectListItem
-						{
-							Value = l.LookupID.ToString(),  
-							Text = l.Value                  // Display the role name (Patient, Doctor)
-						}).ToList();
-
-			ViewBag.RoleID = roles;
-
 			return View();
 		}
         [HttpPost]
-        public async Task<IActionResult> SignUp(Person person)
+        public async Task<IActionResult> SignUpDoctor(Person person)
         {
             using var transaction = await _context.Database.BeginTransactionAsync();
             try
@@ -62,13 +51,7 @@ namespace Health_Hub.Controllers
                         personID = (int)await command.ExecuteScalarAsync();
                     }
 
-                    // Insert into Doctor or Patient table based on RoleID
-                    if (person.RoleID == 3) // Patient
-                    {
-                        var insertPatientQuery = "INSERT INTO Patients (PersonID) VALUES (@PersonID);";
-                        await _context.Database.ExecuteSqlRawAsync(insertPatientQuery, new SqlParameter("@PersonID", personID));
-                    }
-                    else if (person.RoleID == 4) // Doctor
+                    if (person.RoleID == 4) // Doctor
                     {
                         var insertDoctorQuery = "INSERT INTO Doctors (PersonID) VALUES (@PersonID);";
                         await _context.Database.ExecuteSqlRawAsync(insertDoctorQuery, new SqlParameter("@PersonID", personID));
@@ -76,11 +59,7 @@ namespace Health_Hub.Controllers
 
                     await transaction.CommitAsync();
 
-                    if (person.RoleID == 3)
-                    {
-                        return RedirectToAction("IndexForPatient", "Home");
-                    }
-                    else if (person.RoleID == 4)
+                    if (person.RoleID == 4)
                     {
                         return RedirectToAction("IndexForDoctor", "Home");
                     }
