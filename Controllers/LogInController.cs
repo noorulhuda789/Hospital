@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Health_Hub.Models.Domain;
 using Health_Hub.Models;
 using Health_Hub.Data;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 namespace Health_Hub.Controllers
 {
 	public class LogInController : Controller
@@ -27,6 +28,7 @@ namespace Health_Hub.Controllers
 
             if (user != null)
             {
+                TempData["personId"] = user.PersonID;
                 // Navigate to specific layout based on RoleID
                 if (user.RoleID == 3)
                 {

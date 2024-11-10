@@ -1321,3 +1321,43 @@ a {
     .search-btn:hover {
         background-color: #0056b3;
     }
+
+.notification-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.notification-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filter-options {
+    display: flex;
+    gap: 10px;
+}
+
+.filter-input {
+    padding: 5px;
+}
+
+.notification-list {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.notification-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.notification-message {
+    font-weight: bold;
+}
+
+.notification-time {
+    font-size: 0.9em;
+    color: #777;
+}
