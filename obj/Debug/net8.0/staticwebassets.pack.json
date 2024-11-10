@@ -613,6 +613,10 @@
       "PackagePath": "staticwebassets\\Images\\about\\about-4.jpg"
     },
     {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\about\\chat.png",
+      "PackagePath": "staticwebassets\\Images\\about\\chat.png"
+    },
+    {
       "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\about\\doctor-review.png",
       "PackagePath": "staticwebassets\\Images\\about\\doctor-review.png"
     },
@@ -643,6 +647,10 @@
     {
       "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\about\\sign.png",
       "PackagePath": "staticwebassets\\Images\\about\\sign.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\about\\verified.png",
+      "PackagePath": "staticwebassets\\Images\\about\\verified.png"
     },
     {
       "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\bannerImg.jpg",

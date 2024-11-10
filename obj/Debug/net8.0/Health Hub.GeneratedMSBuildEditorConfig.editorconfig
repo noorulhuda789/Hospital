@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Doctors/completeProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yc1xjb21wbGV0ZVByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Doctors/doctorHome.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yc1xkb2N0b3JIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,12 +38,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yc1xEb2N0b3JzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Home/AllDoctor.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbGxEb2N0b3IuY3NodG1s
+[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Doctors/DoctorSingle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yc1xEb2N0b3JTaW5nbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Home/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Home/Notifications.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOb3RpZmljYXRpb25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/LogIn/LogIn.cshtml]
@@ -82,8 +94,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/SignUp/SignUp.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblVwXFNpZ25VcC5jc2h0bWw=
+[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/SignUpDoctor/SignUpDoctor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblVwRG9jdG9yXFNpZ25VcERvY3Rvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/SignUpPatient/SignUpPatient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblVwUGF0aWVudFxTaWduVXBQYXRpZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/_ViewImports.cshtml]
