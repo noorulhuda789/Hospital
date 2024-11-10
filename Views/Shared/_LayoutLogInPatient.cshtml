@@ -6,6 +6,7 @@
 	<title>@ViewData["Title"] - Health_Hub</title>
 	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/DoctorCard.css" asp-append-version="true" />
 	<link rel="stylesheet" href="~/Health_Hub.styles.css" asp-append-version="true" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
@@ -22,8 +23,10 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarmain">
-                <ul class="navbar-nav mr-auto"> <!-- Align items to the left -->
+
+
+            <div class="collapse navbar-collapse ms-auto" id="navbarmain">
+                <ul class="navbar-nav ms-auto"> <!-- Align items to the left -->
                     <!-- Dropdown for Departments -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="dropdown02" data-toggle="dropdown">Departments</a>
@@ -32,6 +35,7 @@
                                 {
                                     foreach (var department in ViewBag.Departments)
                                     {
+
                                         <li><a class="dropdown-item" href="#">@department</a></li>
                                     }
                                 }
@@ -40,7 +44,7 @@
 
 						<!-- Link for Doctors -->
 						<li class="nav-item">
-							<a class="nav-link" href="@Url.Action("AllDoctor", "Home")">Doctors</a>
+							<a class="nav-link" href="@Url.Action("Doctors", "Doctors")">Doctors</a>
 						</li>
 
                     <!-- Link for Scheduled Appointments -->
@@ -53,9 +57,10 @@
                         <a class="nav-link" href="#">Previous Appointments</a>
                     </li>
 
+
                     <!-- Link for About Us -->
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="@Url.Action("AboutUs","Home")">About Us</a>
                     </li>
                 </ul>
 
@@ -65,11 +70,14 @@
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" id="profileDropdown" data-toggle="dropdown">
-								<img src="../Images/user.jpg" alt="Profile Icon" class="img-fluid" style="width: 30px; border-radius: 50%;">
+								<img src="../Images/user.jpg" alt="Profile Icon" class="img-fluid profile-icon" style="width: 35px; border-radius: 50%;">
 							</a>
 							<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="profileDropdown">
 								<li><a class="dropdown-item" href="#">View Profile</a></li>
-								<li><a class="dropdown-item" href="#">Logout</a></li>
+								<li class="nav-item">
+									<a class="nav-link" href="@Url.Action("Notifications","Home", new { personId = ViewBag.User.PersonID })">Notifications</a>
+								</li>
+								<li><a class="dropdown-item" href="/">Logout</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -86,93 +94,33 @@
 							@RenderBody()
 		</main>
 	</div>
-	<!-- footer Start -->
-	<footer class="footer section gray-bg">
+
+	<!-- Footer Section -->
+	<footer class="footer section gray-bg mt-5">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4 mr-auto col-sm-6">
+				<div class="col-lg-4">
 					<div class="widget mb-5 mb-lg-0">
-						<div class="logo mb-4">
-							<img src="images/Red Circle Health Logo.png" alt="" class="img-fluid">
-						</div>
-						<p>Tempora dolorem voluptatum nam vero assumenda voluptate, facilis ad eos obcaecati tenetur veritatis eveniet distinctio possimus.</p>
-
-						<ul class="list-inline footer-socials mt-4">
-							<li class="list-inline-item"><a href="https://www.facebook.com/themefisher"><i class="icofont-facebook"></i></a></li>
-							<li class="list-inline-item"><a href="https://twitter.com/themefisher"><i class="icofont-twitter"></i></a></li>
-							<li class="list-inline-item"><a href="https://www.pinterest.com/themefisher/"><i class="icofont-linkedin"></i></a></li>
-						</ul>
+						<img src="../Images/SquareLogo.png" alt="Health Hub Logo" class="img-fluid footer-logo">
+						<p>Learn more about us and get our latest updates.</p>
 					</div>
 				</div>
-
-
-				<div class="col-lg-2 col-md-6 col-sm-6">
-					<div class="widget mb-5 mb-lg-0">
-						<h4 class="text-capitalize mb-3">Support</h4>
-						<div class="divider mb-4"></div>
-
-						<ul class="list-unstyled footer-menu lh-35">
-							<li><a href="#">Terms & Conditions</a></li>
-							<li><a href="#">Privacy Policy</a></li>
-							<li><a href="#">Company Support </a></li>
-							<li><a href="#">FAQuestions</a></li>
-							<li><a href="#">Company Licence</a></li>
-						</ul>
-					</div>
+				<div class="col-lg-2">
+					<h4 class="mb-3">Support</h4>
+					<ul class="list-unstyled footer-menu">
+						<li><a href="#">About Us</a></li>
+					</ul>
 				</div>
-
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="widget widget-contact mb-5 mb-lg-0">
-						<h4 class="text-capitalize mb-3">Get in Touch</h4>
-						<div class="divider mb-4"></div>
-
-						<div class="footer-contact-block mb-4">
-							<div class="icon d-flex align-items-center">
-								<i class="icofont-email mr-3"></i>
-								<span class="h6 mb-0">Support Available for 24/7</span>
-							</div>
-							<h4 class="mt-2"><a href="tel:+23-345-67890">Support@email.com</a></h4>
-						</div>
-
-						<div class="footer-contact-block">
-							<div class="icon d-flex align-items-center">
-								<i class="icofont-support mr-3"></i>
-								<span class="h6 mb-0">Mon to Fri : 08:30 - 18:00</span>
-							</div>
-							<h4 class="mt-2"><a href="tel:+23-345-67890">+23-456-6588</a></h4>
-						</div>
-					</div>
+				<div class="col-lg-3">
+					<h4 class="mb-3">Get in Touch</h4>
+					<p>Email us at: <a href="mailto:healthhub@gmail.com">healthhub@gmail.com</a></p>
 				</div>
 			</div>
-
-			<div class="footer-btm py-4 mt-5">
-				<div class="row align-items-center justify-content-between">
-					<div class="col-lg-6">
-						<div class="copyright">
-							&copy; Copyright Reserved to <span class="text-color">Health Hub</span> by <a href="https://themefisher.com/" target="_blank">Themefisher</a>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="subscribe-form text-lg-right mt-5 mt-lg-0">
-							<form action="#" class="subscribe">
-								<input type="text" class="form-control" placeholder="Your Email address">
-								<a href="#" class="btn btn-main-2 btn-round-full">Subscribe</a>
-							</form>
-						</div>
-					</div>
-				</div>z--
-
-				<div class="row">
-					<div class="col-lg-4">
-						<a class="backtop js-scroll-trigger" href="#top">
-							<i class="icofont-long-arrow-up"></i>
-						</a>
-					</div>
-				</div>
+			<div class="footer-btm py-3">
+				<p class="text-center">&copy; 2024 Health Hub. All rights reserved.</p>
 			</div>
 		</div>
 	</footer>
-
 
 
 			@* <!--

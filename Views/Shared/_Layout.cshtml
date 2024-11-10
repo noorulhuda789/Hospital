@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
- <body>
+ <body id="top">
 
     <!-- Header Section with Navbar -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #f8f9fa;" id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #f8f9fa;">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/">
                     <img src="../Images/SquareLogo.png" alt="Health Hub Logo" class="img-fluid logoImage">
@@ -40,11 +40,11 @@
 
                         <!-- Link for Doctors -->
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Doctors</a>
+                            <a class="nav-link" href="@Url.Action("Doctors", "Doctors")">Doctors</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="@Url.Action("AboutUs","Home")">About Us</a>
                         </li>
 
                         <!-- Right-aligned Buttons -->
@@ -63,9 +63,9 @@
 
 
     <!-- Main content -->
-    <div class="main-container mt-5 pt-5">
+    <div class="container">
         <main role="main" class="pb-3">
-            @RenderBody()
+                    @RenderBody()
         </main>
     </div>
 
