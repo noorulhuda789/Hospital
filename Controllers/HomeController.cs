@@ -59,12 +59,6 @@ namespace Health_Hub.Controllers
             return View("Index");// Same goes here as for indexforpatient
         }
 
-        public IActionResult Login()
-        {
-            ViewData["Layout"] = "~/Views/Shared/LayoutLogInPatient.cshtml";
-            return View();
-        }
-
         public IActionResult AllDoctor()
         {
             return View();

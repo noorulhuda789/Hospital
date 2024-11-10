@@ -17,83 +17,103 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Health_Hub
 build_property.RootNamespace = Health_Hub
-build_property.ProjectDir = D:\Semester_5\SE(Theory)\Ongoing\Hospital\
+build_property.ProjectDir = G:\HealthHubNew\Hospital\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = D:\Semester_5\SE(Theory)\Ongoing\Hospital
+build_property.MSBuildProjectDirectory = G:\HealthHubNew\Hospital
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Doctors/Doctors.cshtml]
+[G:/HealthHubNew/Hospital/Views/Appointments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/HealthHubNew/Hospital/Views/Appointments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/HealthHubNew/Hospital/Views/Appointments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/HealthHubNew/Hospital/Views/Appointments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/HealthHubNew/Hospital/Views/Appointments/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/HealthHubNew/Hospital/Views/Doctors/Doctors.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yc1xEb2N0b3JzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Doctors/DoctorSingle.cshtml]
+[G:/HealthHubNew/Hospital/Views/Doctors/DoctorSingle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yc1xEb2N0b3JTaW5nbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Home/Index.cshtml]
+[G:/HealthHubNew/Hospital/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/LogIn/LogIn.cshtml]
+[G:/HealthHubNew/Hospital/Views/LogIn/LogIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nSW5cTG9nSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/People/Create.cshtml]
+[G:/HealthHubNew/Hospital/Views/People/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/People/Delete.cshtml]
+[G:/HealthHubNew/Hospital/Views/People/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/People/Details.cshtml]
+[G:/HealthHubNew/Hospital/Views/People/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/People/Edit.cshtml]
+[G:/HealthHubNew/Hospital/Views/People/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/People/Index.cshtml]
+[G:/HealthHubNew/Hospital/Views/People/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Shared/Error.cshtml]
+[G:/HealthHubNew/Hospital/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Shared/_LayoutDoctorLogIn.cshtml]
+[G:/HealthHubNew/Hospital/Views/Shared/_LayoutDoctorLogIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXREb2N0b3JMb2dJbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Shared/_LayoutLogInPatient.cshtml]
+[G:/HealthHubNew/Hospital/Views/Shared/_LayoutLogInPatient.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMb2dJblBhdGllbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Shared/_ValidationScriptsPartial.cshtml]
+[G:/HealthHubNew/Hospital/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/SignUpDoctor/SignUpDoctor.cshtml]
+[G:/HealthHubNew/Hospital/Views/SignUpDoctor/SignUpDoctor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblVwRG9jdG9yXFNpZ25VcERvY3Rvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/SignUpPatient/SignUpPatient.cshtml]
+[G:/HealthHubNew/Hospital/Views/SignUpPatient/SignUpPatient.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblVwUGF0aWVudFxTaWduVXBQYXRpZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/_ViewImports.cshtml]
+[G:/HealthHubNew/Hospital/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/_ViewStart.cshtml]
+[G:/HealthHubNew/Hospital/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Shared/_Layout.cshtml]
+[G:/HealthHubNew/Hospital/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7x215y0zb1

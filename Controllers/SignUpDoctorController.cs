@@ -68,7 +68,7 @@ namespace Health_Hub.Controllers
                     //    var insertPatientQuery = "INSERT INTO Patients (PersonID) VALUES (@PersonID);";
                     //    await _context.Database.ExecuteSqlRawAsync(insertPatientQuery, new SqlParameter("@PersonID", personID));
                     //}
-                    if (person.RoleID == 4) // Doctor
+                    if (person.RoleID == 6) // Doctor
                     {
                         var insertDoctorQuery = "INSERT INTO Doctors (PersonID) VALUES (@PersonID);";
                         await _context.Database.ExecuteSqlRawAsync(insertDoctorQuery, new SqlParameter("@PersonID", personID));
@@ -80,7 +80,7 @@ namespace Health_Hub.Controllers
                     //{
                     //    return RedirectToAction("IndexForPatient", "Home");
                     //}
-                    if (person.RoleID == 4)
+                    if (person.RoleID == 6)
                     {
                         return RedirectToAction("IndexForDoctor", "Home");
                     }

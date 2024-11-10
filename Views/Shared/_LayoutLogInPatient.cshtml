@@ -8,6 +8,8 @@
 	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 	<link rel="stylesheet" href="~/css/DoctorCard.css" asp-append-version="true" />
 	<link rel="stylesheet" href="~/Health_Hub.styles.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/AppointmentsViewPatient.css" />
+	<link rel="stylesheet" href="~/css/DoctorSingle.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
 </head>
@@ -44,12 +46,12 @@
 
 						<!-- Link for Doctors -->
 						<li class="nav-item">
-							<a class="nav-link" href="@Url.Action("Doctors", "Doctors")">Doctors</a>
+							<a class="nav-link" asp-controller="Doctors" asp-action="Doctors">Doctors</a>
 						</li>
 
                     <!-- Link for Scheduled Appointments -->
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Scheduled Appointments</a>
+							<a class="nav-link" asp-action="List" asp-controller="Appointments">Scheduled Appointments</a>
                     </li>
 
                     <!-- Link for Previous Appointments -->

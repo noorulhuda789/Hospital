@@ -3,6 +3,7 @@ using Health_Hub.Models.Domain;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Health_Hub.Data;
+using System.Threading.Tasks;
 namespace Health_Hub.Controllers
 {
 	public class DoctorsController : Controller
@@ -53,8 +54,30 @@ namespace Health_Hub.Controllers
 
             // Create a tuple model to pass both doctors and specializations
             var tupleModel = new Tuple<List<Doctor>, List<Lookup>>(doctors, specializations);
-
-            return View(tupleModel);
+			ViewData["Layout"] = "_LayoutLogInPatient";
+			return View(tupleModel);
         }
-    }
+		// GET: Doctors/DoctorSingle
+		[HttpGet]
+		public async Task<IActionResult> DoctorSingle(int? id)
+		{
+
+			var doctor = await _context.Doctors
+				.Include(d => d.Person)
+				.Include(d => d.DoctorHospitals!)
+					.ThenInclude(dh => dh.Hospital)
+				.Include(d => d.Specialization)
+				.FirstOrDefaultAsync(m => m.PersonID == id);
+
+			if (doctor == null)
+			{
+				return NotFound();
+			}
+
+			// Pass the doctor and associated details to the view
+			ViewData["Layout"] = "_LayoutLogInPatient";
+			return View(doctor);
+		}
+
+	}
 }

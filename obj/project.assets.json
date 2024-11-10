@@ -7785,24 +7785,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\leena\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\Health Hub.csproj",
+      "projectUniqueName": "G:\\HealthHubNew\\Hospital\\Health Hub.csproj",
       "projectName": "Health Hub",
-      "projectPath": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\Health Hub.csproj",
-      "packagesPath": "C:\\Users\\leena\\.nuget\\packages\\",
-      "outputPath": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\obj\\",
+      "projectPath": "G:\\HealthHubNew\\Hospital\\Health Hub.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "G:\\HealthHubNew\\Hospital\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\leena\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7882,7 +7877,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
