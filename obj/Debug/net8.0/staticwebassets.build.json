@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/CNuOZOIjttBK5BUGSyo02SEjyY7RjkXf/xdLLCmW48=",
+  "Hash": "pE1N6FGNYpi61S9Z41jKLY0fOmxsAkWkpLvgd5TIc0Y=",
   "Source": "Health Hub",
   "BasePath": "_content/Health Hub",
   "Mode": "Default",
@@ -378,6 +378,25 @@
       "OriginalItemSpec": "wwwroot\\Images\\about\\about-4.jpg"
     },
     {
+      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\chat.png",
+      "SourceId": "Health Hub",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "BasePath": "_content/Health Hub",
+      "RelativePath": "Images/about/chat.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\about\\chat.png"
+    },
+    {
       "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\doctor-review.png",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
@@ -528,6 +547,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\about\\sign.png"
+    },
+    {
+      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\verified.png",
+      "SourceId": "Health Hub",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "BasePath": "_content/Health Hub",
+      "RelativePath": "Images/about/verified.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\about\\verified.png"
     },
     {
       "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\bannerImg.jpg",

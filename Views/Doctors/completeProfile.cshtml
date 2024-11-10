@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Complete Profile";
+    if (ViewData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @ViewData["ErrorMessage"]
+        </div>
+    }
+}
+
+<div class="signup-container">
+    <h1 class="text-center">Complete Your Profile</h1>
+    <form asp-action="CompleteProfile" asp-controller="Profile" id="completeProfileForm" method="post" enctype="multipart/form-data">
+        <div>
+            <label>Hospital Name</label>
+            <input type="text" name="HospitalName" class="form-control" required />
+        </div>
+
+        <div>
+            <label>Address</label>
+            <input type="text" name="Address" class="form-control" required />
+        </div>
+
+        <div>
+            <label>City</label>
+            <input type="text" name="City" class="form-control" required />
+        </div>
+
+        <div>
+            <label>Capacity</label>
+            <input type="number" name="Capacity" class="form-control" min="0" required />
+        </div>
+
+        <div>
+            <label>Start Time</label>
+            <input type="time" name="StartTime" class="form-control" required />
+        </div>
+
+        <div>
+            <label>End Time</label>
+            <input type="time" name="EndTime" class="form-control" required />
+        </div>
+
+        <div>
+            <label>Break Time</label>
+            <input type="time" name="BreakTime" class="form-control" required />
+        </div>
+
+        <div>
+            <label>Upload Image</label>
+            <input type="file" name="Image" class="form-control-file" accept="image/*" required />
+        </div>
+
+        <div class="text-center mt-4">
+            <button type="submit" class="btn btn-primary w-40">Save Changes</button>
+            <a asp-action="Index" asp-controller="Profile" class="btn btn-secondary w-40 ml-2">Cancel</a>
+        </div>
+    </form>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,49 @@
+﻿@{
+    var personId = ViewBag.PersonId;
+    var notifications = ViewBag.notifications as List<Health_Hub.Models.Domain.Notification>;
+}
+
+<section class="search-section">
+    <div class="container notification-section"">
+    <div class="row notification-header">
+            <h2>Notifications</h2>
+            <div class="filter-options">
+                <input type="text" placeholder="Search by keyword..." class="filter-input" id="keywordFilter" />
+                <input type="date" class="filter-input" id="dateFilter" />
+                <button class="btn filter-select search-btn" id="filterBtn">Filter</button>
+            </div>
+    </div>
+    <div class="notification-list">
+        @if (notifications != null && notifications.Count > 0)
+        {
+            foreach (var noti in notifications)
+            {
+                <div class="notification-item">
+                    <p class="notification-message">@noti.Message</p>
+                    <p class="notification-time">@noti.TimeSent.ToString("MMMM dd, yyyy hh:mm tt")</p>
+                </div>
+            }
+        }
+        else
+        {
+            <p>No notifications to display.</p>
+        }
+    </div>
+    </div>
+</section>
+
+<script>
+    document.getElementById('filterBtn').onclick = function () 
+    {
+        // Get values from input fields
+        const date = document.getElementById('dateFilter').value;
+        const keyword = document.getElementById('keywordFilter').value;
+
+        // Redirect with query parameters for filtering
+        const url = new URL(window.location.href);
+        url.searchParams.set('date', date);
+        url.searchParams.set('keyword', keyword);
+
+        window.location.href = url.toString();
+    };
+</script>

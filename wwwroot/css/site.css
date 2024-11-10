@@ -283,6 +283,7 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
     height: 100%;
     opacity: 0.9;
     background: #223a66;
+    z-index:0;
 }
 
 .overly-2 {
@@ -345,6 +346,7 @@ a {
 
     .page-title .block h1 {
         color: #fff;
+        opacity:100%;
     }
 
     .page-title .block p {
@@ -490,8 +492,7 @@ a {
     background: url("../images/bg/22.jpg") no-repeat 50% 50%;
     background-size: cover;
     position: relative;
-    opacity:100%;
-}
+ }
 .banner {
     position: relative;
     overflow: hidden;
@@ -503,19 +504,16 @@ a {
     border-radius: 15px;
     margin-top: 30px;
 }
-    
-    .banner .block {
-        position: relative; /* Ensure the text is above the overlay */
-        padding: 80px 0px 160px;
-        z-index: 3; /* Bring the text above the overlay */
-    }
-
+.block {
+    position: relative; /* Ensure the text is positioned above the overlay */
+    z-index: 2; /* Make the text appear above the overlay */
+}
         .banner .block h1 {
             font-size: 60px;
             line-height: 1.2;
             letter-spacing: -1.2px;
             text-transform: capitalize;
-            color: #fff; /* Change to white for better contrast against overlay */
+            color: #223a66; /* Change to white for better contrast against overlay */
         }
 
 .letter-spacing {
@@ -523,7 +521,7 @@ a {
 }
 
 .text-color {
-    color: #223a66;
+    color: #fff;
 }
 
 .text-color-2 {
@@ -575,6 +573,13 @@ a {
     border-radius: 5px;
     box-shadow: 0px 0px 30px 0px rgba(0, 42, 106, 0.1);
 }
+
+.about-block-item img {
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensures the image is cropped to fit the container */
+    width: 100%;
+}
+
 
 .award-img {
     height: 120px;
@@ -1231,6 +1236,7 @@ a {
 }
 
 .hori-btn {
+
     position: absolute; /* Position the button absolutely */
     top: 20px; /* Adjust the top position as needed */
     left: 950px; /* Adjust the right position as needed */
@@ -1315,3 +1321,43 @@ a {
     .search-btn:hover {
         background-color: #0056b3;
     }
+
+.notification-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.notification-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filter-options {
+    display: flex;
+    gap: 10px;
+}
+
+.filter-input {
+    padding: 5px;
+}
+
+.notification-list {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.notification-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.notification-message {
+    font-weight: bold;
+}
+
+.notification-time {
+    font-size: 0.9em;
+    color: #777;
+}
