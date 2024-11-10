@@ -1,0 +1,98 @@
+﻿/* Basic styling for the doctor details container */
+.doctor-details {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+    /* Styling for the doctor name */
+    .doctor-details h2 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    /* Styling for the doctor image */
+    .doctor-details img {
+        width: 100%;
+        max-width: 200px;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto 20px;
+    }
+
+    /* Text styling for the doctor information */
+    .doctor-details p {
+        font-size: 1rem;
+        margin: 5px 0;
+        color: #555;
+    }
+
+/* Styling for the hospital section */
+.hospital-details {
+    margin-top: 20px;
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
+
+    .hospital-details h3 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        color: #444;
+    }
+
+    .hospital-details p {
+        font-size: 0.95rem;
+        margin: 5px 0;
+        color: #666;
+    }
+
+/* Styling for the appointment form */
+form {
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+    form label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: 600;
+    }
+
+    form select,
+    form input[type="datetime-local"] {
+        width: calc(100% - 20px);
+        padding: 8px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 0.9rem;
+    }
+
+    form button {
+        background-color: #007BFF;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+
+        form button:hover {
+            background-color: #0056b3;
+        }
+
+/* Rating section styling */
+.doctor-details .rating {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #f39c12; /* Gold color for stars or rating display */
+}

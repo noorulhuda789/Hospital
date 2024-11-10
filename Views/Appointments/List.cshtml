@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Health_Hub.Models.Domain.Appointment>
+
+<div class="body">
+	<div class="container">
+		<div class="content">
+			<h2>Appointments</h2>
+			<p>See your scheduled appointments and details.</p>
+
+			<div class="tabs">
+				<a href="@Url.Action("List", "Appointments", new { status = "Approved" })" class="btn @((ViewBag.CurrentStatus == "Approved") ? "active" : "")">Upcoming</a>
+				<a href="@Url.Action("List", "Appointments", new { status = "Pending" })" class="btn @((ViewBag.CurrentStatus == "Pending") ? "active" : "")">Pending</a>
+				<a href="@Url.Action("List", "Appointments", new { status = "Completed" })" class="btn @((ViewBag.CurrentStatus == "Completed") ? "active" : "")">Past</a>
+			</div>
+
+			<div class="appointment-list">
+				@foreach (var appointment in Model)
+				{
+					<div class="event">
+						<div class="date">
+							<span>@appointment.TimeSlot.ToString("ddd")</span>
+							<span>@appointment.TimeSlot.ToString("dd")</span>
+						</div>
+						<div class="details">
+							<p class="time">@appointment.TimeSlot.ToString("HH:mm")</p>
+							<p>Consultation with Dr. @appointment.Doctor.Name</p>
+							<p class="location">
+@* 								<i class="fas fa-map-marker-alt"></i> @appointment.DoctorHospital.Location
+ *@							</p>
+						</div>
+						<div class="attendees">
+							<img alt="Patient @appointment.Patient.Name" src="@appointment.Doctor.ProfileImage" />
+						</div>
+					</div>
+				}
+			</div>
+		</div>
+	</div>
+</div>

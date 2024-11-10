@@ -30,15 +30,27 @@ namespace Health_Hub.Controllers
             {
                 TempData["personId"] = user.PersonID;
                 // Navigate to specific layout based on RoleID
-                if (user.RoleID == 3)
+                if (user.RoleID == 5)
                 {
-                    // Redirect to Patient layout
-                    return RedirectToAction("IndexForPatient", "Home");
+					// Set PersonID in cookie
+					CookieOptions options = new CookieOptions
+					{
+						Expires = DateTime.Now.AddDays(2) // Cookie expiration time
+					};
+					Response.Cookies.Append("PersonID", user.PersonID.ToString(), options);
+					// Redirect to Patient layout
+					return RedirectToAction("IndexForPatient", "Home");
                 }
-                else if (user.RoleID == 4)
+                else if (user.RoleID == 6)
                 {
-                    // Redirect to Doctor layout
-                    return RedirectToAction("IndexForDoctor", "Home");
+					// Set PersonID in cookie
+					CookieOptions options = new CookieOptions
+					{
+						Expires = DateTime.Now.AddDays(2) // Cookie expiration time
+					};
+					Response.Cookies.Append("PersonID", user.PersonID.ToString(), options);
+					// Redirect to Doctor layout
+					return RedirectToAction("IndexForDoctor", "Home");
                 }
                 else
                 {

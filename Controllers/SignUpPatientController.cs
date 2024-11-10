@@ -63,7 +63,7 @@ namespace Health_Hub.Controllers
                     }
 
                     // Insert into Doctor or Patient table based on RoleID
-                    if (person.RoleID == 3) // Patient
+                    if (person.RoleID == 5) // Patient
                     {
                         var insertPatientQuery = "INSERT INTO Patients (PersonID) VALUES (@PersonID);";
                         await _context.Database.ExecuteSqlRawAsync(insertPatientQuery, new SqlParameter("@PersonID", personID));
@@ -76,7 +76,7 @@ namespace Health_Hub.Controllers
 
                     await transaction.CommitAsync();
 
-                    if (person.RoleID == 3)
+                    if (person.RoleID == 5)
                     {
                         return RedirectToAction("IndexForPatient", "Home");
                     }
