@@ -23,7 +23,17 @@ namespace Health_Hub.Controllers
 
         public IActionResult Index()
         {
-            var departments = _context.Lookups
+			// Check if the cookies exist
+			if (Request.Cookies["RoleID"] != null || Request.Cookies["PersonID"] != null)
+			{
+				// Expire the cookies
+				Response.Cookies.Delete("RoleID");
+				Response.Cookies.Delete("PersonID");
+			}
+
+
+
+			var departments = _context.Lookups
                 .Where(l => l.Category == "Specialization")
                 .Select(l => l.Value)
                 .ToList();
@@ -78,23 +88,49 @@ namespace Health_Hub.Controllers
             return View("Index");
         }
 
+        public IActionResult AboutUs(string roleIdValue)
+        {
+
+			if (!string.IsNullOrEmpty(roleIdValue) && roleIdValue == "3")
+			{
+				ViewData["Layout"] = "_LayoutLogInPatient";
+				return View("AboutUs");
+			}
+			else if (!string.IsNullOrEmpty(roleIdValue) && roleIdValue == "4")
+			{
+				ViewData["Layout"] = "_LayoutDoctorLogIn";
+				return View("AboutUs");
+			}
+			else if (string.IsNullOrEmpty(roleIdValue))
+			{
+				ViewData["Layout"] = "_Layout";
+				return View("AboutUs");
+			}
+			return RedirectToAction("LogIn", "LogIn");
+		}
+
         public IActionResult IndexForPatient()
         {
             ViewData["Layout"] = "_LayoutLogInPatient";
 
-            // Retrieve the PersonId from TempData
-            int personId = TempData["PersonId"] != null ? (int)TempData["PersonId"] : 0;
 
-            if (personId > 0)
-            {
-                var user = _context.People.FirstOrDefault(p => p.PersonID == personId);
-                if (user != null)
-                {
-                    ViewBag.User = user;
-                    Index();
-                    return View("Index"); // Pass user to the view
-                }
-            }
+			string personIdValue = Request.Cookies["PersonID"];
+
+			if (!string.IsNullOrEmpty(personIdValue))
+			{
+				// Convert the string to the appropriate type (if necessary)
+				int personId = int.Parse(personIdValue);
+				if (personId > 0)
+				{
+					var user = _context.People.FirstOrDefault(p => p.PersonID == personId);
+					if (user != null)
+					{
+						ViewBag.User = user;
+						PatientSide();
+						return View("Index"); // Pass user to the view
+					}
+				}
+			}
 
             return RedirectToAction("LogIn", "LogIn"); // Redirect if no valid PersonId
         }
@@ -103,21 +139,26 @@ namespace Health_Hub.Controllers
         {
             ViewData["Layout"] = "_LayoutDoctorLogIn";
 
-            // Retrieve the PersonId from TempData
-            int personId = TempData["PersonId"] != null ? (int)TempData["PersonId"] : 0;
+			string personIdValue = Request.Cookies["PersonID"];
 
-            if (personId > 0)
-            {
-                var user = _context.People.FirstOrDefault(p => p.PersonID == personId);
-                if (user != null)
-                {
-                    ViewBag.User = user;
-                    Index();
-                    return View("Index"); // Pass user to the view
-                }
-            }
+			if (!string.IsNullOrEmpty(personIdValue))
+			{
+				// Convert the string to the appropriate type (if necessary)
+				int personId = int.Parse(personIdValue);
+				if (personId > 0)
+				{
+					var user = _context.People.FirstOrDefault(p => p.PersonID == personId);
+					if (user != null)
+					{
+						ViewBag.User = user;
+						Index();
+						return View("Index"); // Pass user to the view
+					}
+				}
+			}
 
-            return RedirectToAction("LogIn", "LogIn");
+
+			return RedirectToAction("LogIn", "LogIn");
         }
 
         public IActionResult Notifications(int personId, DateTime? date = null, string keyword = null)

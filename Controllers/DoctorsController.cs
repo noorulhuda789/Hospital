@@ -13,50 +13,63 @@ namespace Health_Hub.Controllers
 		{
 			_context = context;
 		}
-        //Fetch the list of project ideas and pass it to the view
+
+
+ 
         [HttpGet]
-        public async Task<IActionResult> Doctors(string filterType, string filterValue)
-        {
-            // Fetch all doctors with their specialization and hospital details
-            var doctorsQuery = _context.Doctors
-                .Include(d => d.Person)
-                .Include(d => d.Specialization)
-                .Where(d => d.VerificationStatus == true)
-                .Include(d => d.DoctorHospitals)
-                    .ThenInclude(dh => dh.Hospital)
-                .AsQueryable();
+		public async Task<IActionResult> Doctors(string filterType, string filterValue)
+		{
+			string roleIdValue = Request.Cookies["RoleID"];
 
-            // Apply filter if filterType and filterValue are provided
-            if (!string.IsNullOrEmpty(filterType) && !string.IsNullOrEmpty(filterValue))
-            {
-                if (filterType == "specialization")
-                {
-                    doctorsQuery = doctorsQuery.Where(d => d.Specialization.Value.Contains(filterValue));
-                }
-                else if (filterType == "city")
-                {
-                    doctorsQuery = doctorsQuery.Where(d => d.DoctorHospitals.Any(dh => dh.Hospital.City.Contains(filterValue)));
-                }
-            }
 
-            // Execute the query to get the list of doctors based on the filtering
-            var doctors = await doctorsQuery.ToListAsync();
+			var doctorsQuery = _context.Doctors
+				.Include(d => d.Person)
+				.Include(d => d.Specialization)
+				.Where(d => d.VerificationStatus == true)
+				.Include(d => d.DoctorHospitals)
+					.ThenInclude(dh => dh.Hospital)
+				.AsQueryable();
 
-            // Fetch all specializations for the dropdown
-            var specializations = _context.Lookups
-                .Where(l => l.Category == "Specialization")
-                .Select(s => new Lookup
-                {
-                    Category = s.Category,
-                    Value = s.Value
-                })
-                .ToList();
+			if (!string.IsNullOrEmpty(filterType) && !string.IsNullOrEmpty(filterValue))
+			{
+				if (filterType == "specialization")
+				{
+					doctorsQuery = doctorsQuery.Where(d => d.Specialization.Value.Contains(filterValue));
+				}
+				else if (filterType == "city")
+				{
+					doctorsQuery = doctorsQuery.Where(d => d.DoctorHospitals.Any(dh => dh.Hospital.City.Contains(filterValue)));
+				}
+			}
 
-            // Create a tuple model to pass both doctors and specializations
-            var tupleModel = new Tuple<List<Doctor>, List<Lookup>>(doctors, specializations);
-			ViewData["Layout"] = "_LayoutLogInPatient";
+			var doctors = await doctorsQuery.ToListAsync();
+			var specializations = _context.Lookups
+				.Where(l => l.Category == "Specialization")
+				.Select(s => new Lookup
+				{
+					Category = s.Category,
+					Value = s.Value
+				})
+				.ToList();
+
+			var tupleModel = new Tuple<List<Doctor>, List<Lookup>>(doctors, specializations);
+
+			if (roleIdValue == "3")
+			{
+				ViewData["Layout"] = "_LayoutLogInPatient";
+			}
+			else if (roleIdValue == "4")
+			{
+				ViewData["Layout"] = "_LayoutDoctorLogIn";
+			}
+			else
+			{
+				ViewData["Layout"] = "_Layout";
+			}
+
 			return View(tupleModel);
-        }
+		}
+
 		// GET: Doctors/DoctorSingle
 		[HttpGet]
 		public async Task<IActionResult> DoctorSingle(int? id)
