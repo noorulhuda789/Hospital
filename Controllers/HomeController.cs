@@ -91,12 +91,12 @@ namespace Health_Hub.Controllers
         public IActionResult AboutUs(string roleIdValue)
         {
 
-			if (!string.IsNullOrEmpty(roleIdValue) && roleIdValue == "3")
+			if (!string.IsNullOrEmpty(roleIdValue) && roleIdValue == "5")
 			{
 				ViewData["Layout"] = "_LayoutLogInPatient";
 				return View("AboutUs");
 			}
-			else if (!string.IsNullOrEmpty(roleIdValue) && roleIdValue == "4")
+			else if (!string.IsNullOrEmpty(roleIdValue) && roleIdValue == "6")
 			{
 				ViewData["Layout"] = "_LayoutDoctorLogIn";
 				return View("AboutUs");

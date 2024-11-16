@@ -73,7 +73,7 @@
 
                     <!-- Link for About Us -->
                     <li class="nav-item">
-					    <a class="nav-link" href="@(Url.Action("AboutUs", "Home", new { roleIdValue }))">AboutUs</a>
+					    <a class="nav-link" href="@(Url.Action("AboutUs", "Home", roleIdValue))">AboutUs</a>
                     </li>
                 </ul>
 
@@ -88,7 +88,7 @@
 							<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="profileDropdown">
 								<li><a class="dropdown-item" href="#">View Profile</a></li>
 								<li class="nav-item">
-									<a class="nav-link" href="@(Url.Action("Notifications", "Home", new { personId }))">Notifications</a>
+									<a class="nav-link" href="@(Url.Action("Notifications", "Home", personId))">Notifications</a>
 								</li>
 								<li><a class="dropdown-item" href="/">Logout</a></li>
 							</ul>

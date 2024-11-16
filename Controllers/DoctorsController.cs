@@ -54,11 +54,11 @@ namespace Health_Hub.Controllers
 
 			var tupleModel = new Tuple<List<Doctor>, List<Lookup>>(doctors, specializations);
 
-			if (roleIdValue == "3")
+			if (roleIdValue == "5")
 			{
 				ViewData["Layout"] = "_LayoutLogInPatient";
 			}
-			else if (roleIdValue == "4")
+			else if (roleIdValue == "6")
 			{
 				ViewData["Layout"] = "_LayoutDoctorLogIn";
 			}
