@@ -305,5 +305,82 @@ namespace Health_Hub.Controllers
 		{
 			return _context.Appointments.Any(e => e.AppointmentID == id);
 		}
+
+
+		public async Task<IActionResult> Single(int? id)
+		{
+			if (id == null)
+			{
+				return NotFound();
+			}
+
+            var appointment = await _context.Appointments
+                .Include(a => a.Doctor) // Includes doctor details
+                .ThenInclude(d => d.Specialization) // Includes specialization details for doctor
+                .Include(a => a.Patient) // Includes patient details
+                .Include(a => a.DoctorHospital) // Includes the doctor-hospital relation
+                    .ThenInclude(dh => dh.Hospital) // Includes hospital details
+                .Include(a => a.Status) // Includes status details
+                .FirstOrDefaultAsync(a => a.AppointmentID == id);
+
+            if (appointment == null)
+			{
+				return NotFound();
+			}
+
+			// Fetch related medical reports
+			var reports = await _context.MedicalReports
+				.Where(r => r.AppointmentID == id)
+				.ToListAsync();
+
+            ViewData["Layout"] = "_LayoutLogInPatient";
+            // Pass data to the view as a tuple
+            return View((appointment, reports));
+		}
+
+
+
+		[HttpPost]
+		public async Task<IActionResult> UploadReport(IFormFile ReportDocument, string ReportDescription, int AppointmentID)
+		{
+			// Fetch the appointment to get the DoctorPersonID
+			var appointment = await _context.Appointments
+				.FirstOrDefaultAsync(a => a.AppointmentID == AppointmentID);
+
+			if (appointment == null)
+			{
+				return NotFound("Appointment not found");
+			}
+
+			if (ReportDocument != null && ReportDocument.Length > 0)
+			{
+				// Save the uploaded file to the server
+				var filePath = Path.Combine("wwwroot/Images/reports", ReportDocument.FileName);
+				using (var stream = new FileStream(filePath, FileMode.Create))
+				{
+					await ReportDocument.CopyToAsync(stream);
+				}
+
+				// Create a new medical report
+				var newReport = new MedicalReport
+				{
+					ReportDescription = ReportDescription,
+					ReportDocument = "/Images/reports/" + ReportDocument.FileName,
+					AppointmentID = AppointmentID,
+					DoctorPersonID = appointment.DoctorID // Use the DoctorID from the appointment
+				};
+
+				// Save the new report to the database
+				_context.MedicalReports.Add(newReport);
+				await _context.SaveChangesAsync();
+			}
+
+			// Redirect to the details page
+			return RedirectToAction(nameof(Single), new { id = AppointmentID });
+		}
+
+
+
+
 	}
 }

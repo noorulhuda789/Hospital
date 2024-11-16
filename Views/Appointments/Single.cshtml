@@ -1,0 +1,111 @@
+﻿@model (Health_Hub.Models.Domain.Appointment, List<Health_Hub.Models.Domain.MedicalReport>)
+
+@{
+    ViewData["Title"] = "Appointment Details";
+    var appointment = Model.Item1;
+    var medicalReports = Model.Item2;
+}
+
+<section class="search-section">
+    <div class="container mt-4">
+        <h2>Details</h2>
+        <hr />
+
+        <div class="row">
+            <!-- Doctor and Hospital Details -->
+            <div class="col-md-6">
+                <h4>Doctor Information</h4>
+                <p><strong>Name:</strong> @appointment.Doctor.Name</p>
+                <p><strong>Specialization:</strong> @appointment.Doctor.Specialization?.Value</p>
+            </div>
+
+            <div class="col-md-6">
+                <h4>Hospital Information</h4>
+                <p><strong>Name:</strong> @appointment.DoctorHospital.Hospital.Name</p>
+                <p><strong>Location:</strong> @appointment.DoctorHospital.Hospital.Address, @appointment.DoctorHospital.Hospital.City</p>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <!-- Appointment Details -->
+            <div class="col-md-6">
+                <h4>Appointment Details</h4>
+                <p><strong>Time:</strong> @appointment.TimeSlot.ToString("f")</p>
+                <p><strong>Status:</strong> @appointment.Status.Value</p>
+            </div>
+
+            <!-- Prescription and Test Suggested -->
+            <div class="col-md-6">
+                <h4>Additional Information</h4>
+                <p><strong>Prescriptions:</strong> @appointment.Prescriptions</p>
+                <p><strong>Test Suggested:</strong> @appointment.TestSuggested</p>
+            </div>
+        </div>
+    </div>
+
+
+ <div class="container mt-4">
+<h3>Medical Reports</h3>
+
+@if (medicalReports != null && medicalReports.Count > 0)
+{
+    <div class="row">
+        @foreach (var report in medicalReports)
+        {
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">@report.ReportDescription</h5>
+                        @if (!string.IsNullOrEmpty(report.ReportDocument))
+                        {
+                            <a href="@report.ReportDocument" class="btn btn-primary" target="_blank">
+                                <i class="fas fa-file-alt"></i> View Document
+                            </a>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <div class="alert alert-warning">
+        <strong>No reports uploaded yet!</strong> Please use the button below to upload a new report.
+    </div>
+}
+
+<!-- Upload Button -->
+<div class="text-center">
+    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#uploadModal">
+        <i class="fas fa-upload"></i> Upload Report
+    </button>
+</div>
+
+<!-- Upload Modal -->
+<div class="modal fade" id="uploadModal" tabindex="-1" aria-labelledby="uploadModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="uploadModalLabel">Upload Medical Report</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form asp-action="UploadReport" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <label for="ReportDescription" class="form-label">Report Description</label>
+                        <input type="text" class="form-control" id="ReportDescription" name="ReportDescription" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="ReportDocument" class="form-label">Select Document</label>
+                        <input type="file" class="form-control" id="ReportDocument" name="ReportDocument" required>
+                    </div>
+                    <input type="hidden" name="AppointmentID" value="@appointment.AppointmentID" />
+                    <button type="submit" class="btn btn-primary">Upload</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</section>

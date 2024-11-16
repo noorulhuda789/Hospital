@@ -202,6 +202,7 @@ namespace Health_Hub.Data
                 .WithMany(dh => dh.Appointments)
                 .HasForeignKey(a => a.SelectedDoctorHospitalID)
                 .OnDelete(DeleteBehavior.Cascade);
+
             modelBuilder.Entity<Appointment>()
                 .HasOne(a => a.Doctor)
                 .WithMany(d => d.Appointments) // Assuming Doctor has a collection of Appointments

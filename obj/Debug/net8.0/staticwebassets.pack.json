@@ -145,6 +145,22 @@
       "PackagePath": "staticwebassets\\Images\\profiles\\michael_profile.jpeg"
     },
     {
+      "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\reports\\Test_Scenarios.pdf",
+      "PackagePath": "staticwebassets\\Images\\reports\\Test_Scenarios.pdf"
+    },
+    {
+      "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\reports\\book.jpg",
+      "PackagePath": "staticwebassets\\Images\\reports\\book.jpg"
+    },
+    {
+      "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\reports\\deptLOGO.png",
+      "PackagePath": "staticwebassets\\Images\\reports\\deptLOGO.png"
+    },
+    {
+      "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\reports\\download.jpeg",
+      "PackagePath": "staticwebassets\\Images\\reports\\download.jpeg"
+    },
+    {
       "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\team\\1.jpg",
       "PackagePath": "staticwebassets\\Images\\team\\1.jpg"
     },
