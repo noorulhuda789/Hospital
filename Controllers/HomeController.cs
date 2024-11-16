@@ -49,6 +49,34 @@ namespace Health_Hub.Controllers
 
             return View();
         }
+        public async Task<IActionResult> PatientSide()
+        {
+            var departments = _context.Lookups
+                .Where(l => l.Category == "Specialization")
+                .Select(l => l.Value)
+                .ToList();
+
+            ViewBag.Departments = departments;
+
+            var doctors = _context.Doctors
+                .Include(d => d.Specialization)
+                .Where(d => d.VerificationStatus == true)
+                .OrderByDescending(d => d.Rating)
+                .Take(3)
+                .Select(d => new DoctorVM
+                {
+                    PersonID = d.PersonID,
+                    Name = d.Name,
+                    ProfileImage = d.ProfileImage,
+                    Specialization = d.Specialization.Value,
+                    Rating = d.Rating
+                })
+                .ToList();
+
+            ViewBag.TopDoctors = doctors;
+            ViewData["Layout"] = "_LayoutLogInPatient";
+            return View("Index");
+        }
 
         public IActionResult IndexForPatient()
         {
@@ -125,7 +153,8 @@ namespace Health_Hub.Controllers
 
             ViewBag.notifications = notifications;
             ViewBag.PersonId = personId;
-            return View(); // The view name is inferred, so "View()" is sufficient.
+			ViewData["Layout"] = "_LayoutLogInPatient"; //Temporarily solution only available to the patient 
+			return View(); // The view name is inferred, so "View()" is sufficient.
         }
     }
 }

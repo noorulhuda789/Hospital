@@ -26,6 +26,34 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\Semester_5\SE(Theory)\Ongoing\Hospital
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Appointments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Appointments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Appointments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Appointments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Appointments/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Doctors/completeProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yc1xjb21wbGV0ZVByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Doctors/doctorHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yc1xkb2N0b3JIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Doctors/Doctors.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yc1xEb2N0b3JzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

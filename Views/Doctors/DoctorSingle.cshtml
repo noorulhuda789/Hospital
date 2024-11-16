@@ -1,6 +1,104 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-    ViewData["Title"] = "Full Profile";
+﻿@{
+	ViewData["Title"] = "Full Profile";
 }
+@model Health_Hub.Models.Domain.Doctor
+
+<section class="page-title bg-1">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="block text-center">
+					<span class="text-white">Doctor</span>
+					<h1 class="text-capitalize mb-5 text-lg">Doctor @Model.Person.Name</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--Doctor Details Section Start Here-->
+<div class="container mt-4">
+	<div class="doctor-details card p-4 shadow-sm">
+		<div class="d-flex align-items-center">
+			<img src="@Model.Doctor.ProfileImage" alt="Doctor Image" class="rounded-circle me-3" style="width: 150px; height: 150px; object-fit: cover;" />
+			<div>
+				<h2>@Model.Person.Name</h2>
+				<p class="mb-1"><strong>Specialization:</strong> @Model.Specialization.Value</p>
+				<p><strong>Rating:</strong> @Model.Doctor.Rating </p>
+			</div>
+		</div>
+	</div>
+
+	<hr />
+
+	<div class="hospitals-section mt-4">
+		<h3>Hospitals</h3>
+		@foreach (var dh in Model.DoctorHospitals!)
+		{
+			<div class="hospital-details mb-3 card p-3 shadow-sm">
+				<h4>@dh.Hospital.Name</h4>
+				<p><strong>Available Time:</strong> @dh.TimeStart.ToString(@"hh\:mm") - @dh.TimeEnd.ToString(@"hh\:mm")</p>
+				<p>
+					<strong>Break Time:</strong>
+					@if (dh.BreakStart.HasValue && dh.BreakEnd.HasValue)
+					{
+					<p>Available Time: @dh.TimeStart.ToString(@"hh\:mm") - @dh.TimeEnd.ToString(@"hh\:mm")</p>
+					}
+					else
+					{
+					<span>No Break</span>
+					}
+				</p>
+				<p><strong>Weekdays:</strong> @dh.WeekDays</p>
+			</div>
+		}
+	</div>
+
+	<hr />
+
+	<div class="appointment-section mt-4">
+		<h3>Book an Appointment</h3>
+		<form asp-action="ScheduleAppointment" asp-controller="Appointments" method="post" class="needs-validation" novalidate>
+			<input type="hidden" name="doctorId" value="@Model.Person.PersonID" />
+
+			<div class="mb-3">
+				<label for="hospitalSelect" class="form-label">Select Hospital:</label>
+				<select id="hospitalSelect" name="hospitalId" class="form-select" required>
+					<option value="">Choose a hospital</option>
+					@foreach (var hospital in Model.DoctorHospitals)
+					{
+						<option value="@hospital.HospitalID">@hospital.Hospital.Name</option>
+					}
+				</select>
+				<div class="invalid-feedback">Please select a hospital.</div>
+			</div>
+
+			<div class="mb-3">
+				<label for="timeSlot" class="form-label">Select Time Slot:</label>
+				<input type="datetime-local" id="timeSlot" name="selectedTimeSlot" class="form-control" required />
+				<div class="invalid-feedback">Please select a valid time slot.</div>
+			</div>
+
+			<button type="submit" class="btn btn-primary">Schedule Appointment</button>
+		</form>
+	</div>
+</div>
+
+<script>
+	// Bootstrap validation script
+	(function () {
+		'use strict';
+		window.addEventListener('load', function () {
+			var forms = document.getElementsByClassName('needs-validation');
+			Array.prototype.filter.call(forms, function (form) {
+				form.addEventListener('submit', function (event) {
+					if (form.checkValidity() === false) {
+						event.preventDefault();
+						event.stopPropagation();
+					}
+					form.classList.add('was-validated');
+				}, false);
+			});
+		}, false);
+	})();
+</script>

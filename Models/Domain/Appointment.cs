@@ -22,8 +22,8 @@
 
         public DateTime TimeCreated { get; set; }
         public DateTime TimeSlot { get; set; }
-        public string Prescriptions { get; set; }
-        public string TestSuggested { get; set; }
+        public string Prescriptions { get; set; } = "null";
+        public string TestSuggested { get; set; } = "null";
 
         public ICollection<MedicalReport> MedicalReports { get; set; }
 
