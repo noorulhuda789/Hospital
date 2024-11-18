@@ -23,7 +23,17 @@ namespace Health_Hub.Controllers
 
         public IActionResult Index()
         {
-            var departments = _context.Lookups
+			// Check if the cookies exist
+			if (Request.Cookies["RoleID"] != null || Request.Cookies["PersonID"] != null)
+			{
+				// Expire the cookies
+				Response.Cookies.Delete("RoleID");
+				Response.Cookies.Delete("PersonID");
+			}
+
+
+
+			var departments = _context.Lookups
                 .Where(l => l.Category == "Specialization")
                 .Select(l => l.Value)
                 .ToList();
@@ -78,23 +88,50 @@ namespace Health_Hub.Controllers
             return View("Index");
         }
 
+        public IActionResult AboutUs()
+        {
+			string roleIdValue = Request.Cookies["RoleID"];
+
+			if (roleIdValue == "5")
+			{
+				ViewData["Layout"] = "_LayoutLogInPatient";
+				return View("AboutUs");
+			}
+			else if (roleIdValue == "6")
+			{
+				ViewData["Layout"] = "_LayoutDoctorLogIn";
+				return View("AboutUs");
+			}
+			else if (string.IsNullOrEmpty(roleIdValue))
+			{
+				ViewData["Layout"] = "_Layout";
+				return View("AboutUs");
+			}
+			return RedirectToAction("LogIn", "LogIn");
+		}
+
         public IActionResult IndexForPatient()
         {
             ViewData["Layout"] = "_LayoutLogInPatient";
 
-            // Retrieve the PersonId from TempData
-            int personId = TempData["PersonId"] != null ? (int)TempData["PersonId"] : 0;
 
-            if (personId > 0)
-            {
-                var user = _context.People.FirstOrDefault(p => p.PersonID == personId);
-                if (user != null)
-                {
-                    ViewBag.User = user;
-                    Index();
-                    return View("Index"); // Pass user to the view
-                }
-            }
+			string personIdValue = Request.Cookies["PersonID"];
+
+			if (!string.IsNullOrEmpty(personIdValue))
+			{
+				// Convert the string to the appropriate type (if necessary)
+				int personId = int.Parse(personIdValue);
+				if (personId > 0)
+				{
+					var user = _context.People.FirstOrDefault(p => p.PersonID == personId);
+					if (user != null)
+					{
+						ViewBag.User = user;
+						PatientSide();
+						return View("Index"); // Pass user to the view
+					}
+				}
+			}
 
             return RedirectToAction("LogIn", "LogIn"); // Redirect if no valid PersonId
         }
@@ -103,58 +140,82 @@ namespace Health_Hub.Controllers
         {
             ViewData["Layout"] = "_LayoutDoctorLogIn";
 
-            // Retrieve the PersonId from TempData
-            int personId = TempData["PersonId"] != null ? (int)TempData["PersonId"] : 0;
+			string personIdValue = Request.Cookies["PersonID"];
 
-            if (personId > 0)
-            {
-                var user = _context.People.FirstOrDefault(p => p.PersonID == personId);
-                if (user != null)
-                {
-                    ViewBag.User = user;
-                    Index();
-                    return View("Index"); // Pass user to the view
-                }
-            }
-
-            return RedirectToAction("LogIn", "LogIn");
+			if (!string.IsNullOrEmpty(personIdValue))
+			{
+				// Convert the string to the appropriate type (if necessary)
+				int personId = int.Parse(personIdValue);
+				if (personId > 0)
+				{
+					var user = _context.People.FirstOrDefault(p => p.PersonID == personId);
+					if (user != null)
+					{
+						ViewBag.User = user;
+						Index();
+						return View("Index"); // Pass user to the view
+					}
+				}
+			}
+			return RedirectToAction("LogIn", "LogIn");
         }
 
-        public IActionResult Notifications(int personId, DateTime? date = null, string keyword = null)
+
+
+
+        public async Task<IActionResult> Notifications( DateTime? date = null, string keyword = null)
         {
-            var user = _context.People.FirstOrDefault(p => p.PersonID == personId); // Ensure user exists, or handle redirect
-            if (user == null)
+			string personIdValue = Request.Cookies["PersonID"];
+            string roleIdValue = Request.Cookies["RoleID"];
+
+            if (!string.IsNullOrEmpty(personIdValue))
             {
-                return RedirectToAction("Index", "Home");
+                // Convert the string to the appropriate type (if necessary)
+                int personId = int.Parse(personIdValue);
+                var user = _context.People.FirstOrDefault(p => p.PersonID == personId); // Ensure user exists, or handle redirect
+                if (user == null)
+                {
+                    return RedirectToAction("Index", "Home");
+                }
+
+                // Start with notifications of the person
+                var notificationsQuery = _context.Notifications.Where(n => n.ReceiverID == personId).AsQueryable();
+
+                // Filter by date if provided
+                if (date.HasValue)
+                {
+                    notificationsQuery = notificationsQuery
+                        .Where(n => n.TimeSent.Date == date.Value.Date);
+                }
+
+                // Filter by keyword if provided
+                if (!string.IsNullOrEmpty(keyword))
+                {
+                    notificationsQuery = notificationsQuery
+                        .Where(n => n.Message.Contains(keyword));
+                }
+
+                // Order by TimeSent descending to display latest notifications on top
+                var notifications = notificationsQuery
+                    .OrderByDescending(n => n.TimeSent)
+                    .Take(20)
+                    .ToList();
+
+                ViewBag.notifications = notifications;
+                ViewBag.PersonId = personId;
+
+
+                if (roleIdValue == "5")
+                {
+                    ViewData["Layout"] = "_LayoutLogInPatient";  
+                }
+                else if (roleIdValue == "6")
+                {
+                    ViewData["Layout"] = "_LayoutDoctorLogInPatient";
+                }
+                return View(); // The view name is inferred, so "View()" is sufficient.
             }
-
-            // Start with notifications of the person
-            var notificationsQuery = _context.Notifications.Where(n => n.ReceiverID == personId).AsQueryable();
-
-            // Filter by date if provided
-            if (date.HasValue)
-            {
-                notificationsQuery = notificationsQuery
-                    .Where(n => n.TimeSent.Date == date.Value.Date);
-            }
-
-            // Filter by keyword if provided
-            if (!string.IsNullOrEmpty(keyword))
-            {
-                notificationsQuery = notificationsQuery
-                    .Where(n => n.Message.Contains(keyword));
-            }
-
-            // Order by TimeSent descending to display latest notifications on top
-            var notifications = notificationsQuery
-                .OrderByDescending(n => n.TimeSent)
-                .Take(20)
-                .ToList();
-
-            ViewBag.notifications = notifications;
-            ViewBag.PersonId = personId;
-			ViewData["Layout"] = "_LayoutLogInPatient"; //Temporarily solution only available to the patient 
-			return View(); // The view name is inferred, so "View()" is sufficient.
-        }
+			return RedirectToAction("LogIn", "LogIn"); // Redirect if no valid PersonId
+		}
     }
 }

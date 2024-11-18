@@ -145,6 +145,22 @@
       "PackagePath": "staticwebassets\\Images\\profiles\\michael_profile.jpeg"
     },
     {
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\reports\\Test_Scenarios.pdf",
+      "PackagePath": "staticwebassets\\Images\\reports\\Test_Scenarios.pdf"
+    },
+    {
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\reports\\book.jpg",
+      "PackagePath": "staticwebassets\\Images\\reports\\book.jpg"
+    },
+    {
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\reports\\deptLOGO.png",
+      "PackagePath": "staticwebassets\\Images\\reports\\deptLOGO.png"
+    },
+    {
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\reports\\download.jpeg",
+      "PackagePath": "staticwebassets\\Images\\reports\\download.jpeg"
+    },
+    {
       "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\team\\1.jpg",
       "PackagePath": "staticwebassets\\Images\\team\\1.jpg"
     },

@@ -1,4 +1,10 @@
-﻿<!DOCTYPE html>
+﻿
+@{
+    string roleIdValue = Context.Request.Cookies["RoleID"];
+}
+
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -40,11 +46,11 @@
 
                         <!-- Link for Doctors -->
                         <li class="nav-item">
-                            <a class="nav-link" href="@Url.Action("Doctors", "Doctors")">Doctors</a>
+                            <a class="nav-link" asp-controller="Doctors" asp-action="Doctors">Doctors</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="@Url.Action("AboutUs","Home")">About Us</a>
+                            <a class="nav-link" asp-action="AboutUs" asp-controller="Home" >About Us</a>
                         </li>
 
                         <!-- Right-aligned Buttons -->

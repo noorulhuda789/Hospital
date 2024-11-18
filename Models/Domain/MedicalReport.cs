@@ -1,4 +1,6 @@
-﻿namespace Health_Hub.Models.Domain
+﻿using Microsoft.Identity.Client;
+
+namespace Health_Hub.Models.Domain
 {
     public class MedicalReport
     {
@@ -8,6 +10,7 @@
 
         // Foreign key for Appointment
         public int AppointmentID { get; set; }
+        public int DoctorPersonID { get; set; }
         public Appointment Appointment { get; set; }
 
     }
