@@ -2,7 +2,7 @@
   "version": 2,
   "dgSpecHash": "OuttzLB0+zoY4ubKzo+u0gIOye0O8vSr/Nua1Zp9xSL0d6Fvh2LttLC9oDyleU9g+RYgSE4yBkOjYH3tKgu8tg==",
   "success": true,
-  "projectFilePath": "G:\\HealthHubNew\\Hospital\\Health Hub.csproj",
+  "projectFilePath": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Health Hub.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

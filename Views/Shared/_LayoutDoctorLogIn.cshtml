@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 	<link rel="stylesheet" href="~/Health_Hub.styles.css" asp-append-version="true" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 </head>
 <body id="top">
 
@@ -27,7 +29,9 @@
 						<li class="nav-item"><a class="nav-link">Patients</a></li>
 						<li class="nav-item"><a class="nav-link">Appointments</a></li>
 						<li class="nav-item"><a class="nav-link">Inbox</a></li>
-						<li class="nav-item"><a class="nav-link">Profile</a></li>
+						<li class="nav-item">
+							<a class="nav-link" asp-controller="Profile" asp-action="CompleteProfile">Profile</a>
+						</li>
 						
 @* 						<li class="nav-item"><button type="button" name="" id="" class="btn btn-block"><a asp-controller="SignUp" asp-action="SignUp">Sign Up</a></button></li>
 						<li class="nav-item"><button type="button" name="" id="" class="btn btn-block"><a asp-controller="LogIn" asp-action="LogIn">LogIn</a></button></li> *@

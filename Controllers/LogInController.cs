@@ -21,7 +21,7 @@ namespace Health_Hub.Controllers
 		}
         [HttpPost]
         public async Task<IActionResult> Login(string Email, string Password)
-        {
+        { 
             // Check if the user exists in the database
             var user = await _context.People
                 .FirstOrDefaultAsync(p => p.Email == Email && p.Password == Password);
