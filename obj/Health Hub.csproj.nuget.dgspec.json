@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Health Hub.csproj": {}
+    "E:\\5th semester\\SE lab\\New folder\\Hospital\\Health Hub.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Health Hub.csproj": {
+    "E:\\5th semester\\SE lab\\New folder\\Hospital\\Health Hub.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Health Hub.csproj",
+        "projectUniqueName": "E:\\5th semester\\SE lab\\New folder\\Hospital\\Health Hub.csproj",
         "projectName": "Health Hub",
-        "projectPath": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Health Hub.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\obj\\",
+        "projectPath": "E:\\5th semester\\SE lab\\New folder\\Hospital\\Health Hub.csproj",
+        "packagesPath": "C:\\Users\\umerl\\.nuget\\packages\\",
+        "outputPath": "E:\\5th semester\\SE lab\\New folder\\Hospital\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\umerl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -98,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
