@@ -1,0 +1,86 @@
+﻿@model List<Health_Hub.Models.Domain.Appointment>
+
+@functions {
+    private string GetStatusClass(string status)
+    {
+        return status switch
+        {
+            "Pending" => "badge-pending",
+            "Confirmed" => "badge-confirmed",
+            "Canceled" => "badge-cancelled",
+            "Completed" => "badge-completed",
+            _ => "badge-secondary"
+        };
+    }
+}
+
+<h2 class="text-center">Completed Appointments</h2>
+
+<div class="container">
+    <!-- Search Bar -->
+    <form method="get" asp-action="CompletedAppointments" class="mb-4">
+        <div class="row justify-content-end">
+            <div class="col-auto">
+                <div class="input-group shadow-sm" style="max-width: 500px;">
+                    <input type="text"
+                           class="form-control border-0"
+                           name="searchCnic"
+                           placeholder="Search by Patient CNIC"
+                           value="@ViewData["SearchCnic"]"
+                           style="background-color: #f8f9fa; border-radius: 20px 0 0 20px; color: #495057;">
+                    <button class="btn btn-success text-white"
+                            type="submit"
+                            style="border-radius: 0 20px 20px 0; background-color: #28a745;">
+                        <i class="fas fa-search"></i> Search
+                    </button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+
+    <div class="row">
+        @if (Model.Any())
+        {
+            @foreach (var appointment in Model.Where(a => a.Status != null &&
+           a.Status.Value.Equals("Completed", StringComparison.OrdinalIgnoreCase)))
+            {
+                <div class="col-md-12 mb-4">
+                    <div class="card shadow-sm border-0">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">
+                                <i class="fas fa-user-md"></i> Patient: @(appointment.Patient != null && !string.IsNullOrEmpty(appointment.Patient.Name) ? appointment.Patient.Name : "Unknown")
+                            </h5>
+                            <p class="card-text">
+                                <strong>Time Slot:</strong> @appointment.TimeSlot.ToString("yyyy-MM-dd HH:mm")<br />
+                                <strong>CNIC:</strong> @(appointment.Patient?.CNIC ?? "Unknown")<br />
+                                <strong>Status:</strong>
+                                <span class="badge @GetStatusClass(appointment.Status.Value)">
+                                    @appointment.Status.Value
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p class="text-center text-muted">No appointments found.</p>
+        }
+    </div>
+
+
+<div class="container">
+    <!-- Back Button -->
+    <div class="mb-4">
+        <a asp-action="ManageAppointments" class="btn btn-secondary">
+            <i class="fas fa-arrow-left"></i> Back
+        </a>
+    </div>
+
+
+
+</div>

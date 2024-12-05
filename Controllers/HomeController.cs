@@ -169,7 +169,7 @@ namespace Health_Hub.Controllers
         {
             ViewData["Layout"] = "_LayoutDoctorLogIn";
 
-			string personIdValue = Request.Cookies["PersonID"];
+            string personIdValue = Request.Cookies["PersonID"];
 
 			if (!string.IsNullOrEmpty(personIdValue))
 			{
@@ -188,7 +188,6 @@ namespace Health_Hub.Controllers
 			}
 			return RedirectToAction("LogIn", "LogIn");
         }
-
 
 
 

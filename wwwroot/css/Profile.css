@@ -1,0 +1,186 @@
+﻿/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    padding: 20px;
+}
+
+/* Card Styling */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 30px;
+    transition: box-shadow 0.3s ease-in-out; /* Transition for box-shadow */
+}
+
+    /* Card Hover Effect */
+    .card:hover {
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Increased shadow to emphasize hover */
+    }
+
+/* Card Body */
+.card-body {
+    padding: 20px;
+}
+
+/* Heading Style */
+.card h2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #4A90E2;
+}
+
+/* Form Group Styling */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+/* Label Styling */
+label {
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Input Fields Styling */
+input[type="text"], input[type="number"], input[type="email"], input[type="time"],
+select, input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+    transition: border-color 0.3s;
+}
+
+    /* Input Focus Styling */
+    input[type="text"]:focus, input[type="number"]:focus, input[type="email"]:focus,
+    select:focus, input[type="file"]:focus {
+        border-color: #4A90E2;
+        outline: none;
+    }
+
+/* General Button Styling */
+button[type="submit"], a.btn {
+    display: inline-block;
+    width: 48%; /* Ensure both buttons are the same width */
+    padding: 12px 0; /* Ensure same padding for both */
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Save Changes Button */
+.btn.save {
+    background-color: #4A90E2; /* Blue color for save button */
+    color: white; /* Text color for save button */
+}
+
+/* Cancel Button */
+.btn.cancel {
+    background-color: black; /* Black color for cancel button */
+    color: white; /* Text color for cancel button */
+}
+
+/* Button Hover Effect */
+.btn:hover {
+    opacity: 0.9; /* Adds subtle hover effect */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .col-md-6 {
+        width: 100%;
+    }
+
+    button[type="submit"], a.btn {
+        width: 100%; /* Full width on mobile */
+        margin-bottom: 10px;
+    }
+}
+
+
+
+/* File Input Styling */
+input[type="file"] {
+    padding: 10px;
+    background-color: #f7f8fa;
+    border: 1px dashed #ccc;
+}
+
+    /* File Input Focus Styling */
+    input[type="file"]:focus {
+        border-color: #4A90E2;
+    }
+.text-danger {
+    color: #dc3545; /* Bootstrap's default error color */
+    font-size: 0.875em; /* Slightly smaller text */
+}
+
+/* Row and Column Layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Column Layout for Inputs */
+.col-md-6 {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+    /* Remove Bottom Margin for Last Column */
+    .col-md-6:last-child {
+        margin-bottom: 0;
+    }
+/* Style for the input group to position the button */
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+    .input-group .btn-info {
+        margin-left: 10px;
+    }
+
+/* Style for the uploaded image preview */
+#imagePreviewContainer {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: none;
+}
+
+#imagePreview {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Add some padding to the button */
+.input-group-btn button {
+    padding: 10px 15px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .col-md-6 {
+        width: 100%;
+    }
+
+    button[type="submit"], a.btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

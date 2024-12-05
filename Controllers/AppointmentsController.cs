@@ -109,65 +109,7 @@ namespace Health_Hub.Controllers
 			return View(appointment);
 		}
 
-		// GET: Appointments/Edit/5
-		public async Task<IActionResult> Edit(int? id)
-		{
-			if (id == null)
-			{
-				return NotFound();
-			}
-
-			var appointment = await _context.Appointments.FindAsync(id);
-			if (appointment == null)
-			{
-				return NotFound();
-			}
-			ViewData["DoctorID"] = new SelectList(_context.Doctors, "PersonID", "CNIC", appointment.DoctorID);
-			ViewData["SelectedDoctorHospitalID"] = new SelectList(_context.DoctorHospitals, "DoctorHospitalID", "WeekDays", appointment.SelectedDoctorHospitalID);
-			ViewData["PatientID"] = new SelectList(_context.Patients, "PersonID", "CNIC", appointment.PatientID);
-			ViewData["StatusID"] = new SelectList(_context.Lookups, "LookupID", "Category", appointment.StatusID);
-			return View(appointment);
-		}
-
-		// POST: Appointments/Edit/5
-		// To protect from overposting attacks, enable the specific properties you want to bind to.
-		// For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-		[HttpPost]
-		[ValidateAntiForgeryToken]
-		public async Task<IActionResult> Edit(int id, [Bind("AppointmentID,PatientID,DoctorID,SelectedDoctorHospitalID,StatusID,TimeCreated,TimeSlot,Prescriptions,TestSuggested")] Appointment appointment)
-		{
-			if (id != appointment.AppointmentID)
-			{
-				return NotFound();
-			}
-
-			if (ModelState.IsValid)
-			{
-				try
-				{
-					_context.Update(appointment);
-					await _context.SaveChangesAsync();
-				}
-				catch (DbUpdateConcurrencyException)
-				{
-					if (!AppointmentExists(appointment.AppointmentID))
-					{
-						return NotFound();
-					}
-					else
-					{
-						throw;
-					}
-				}
-				return RedirectToAction(nameof(Index));
-			}
-			ViewData["DoctorID"] = new SelectList(_context.Doctors, "PersonID", "CNIC", appointment.DoctorID);
-			ViewData["SelectedDoctorHospitalID"] = new SelectList(_context.DoctorHospitals, "DoctorHospitalID", "WeekDays", appointment.SelectedDoctorHospitalID);
-			ViewData["PatientID"] = new SelectList(_context.Patients, "PersonID", "CNIC", appointment.PatientID);
-			ViewData["StatusID"] = new SelectList(_context.Lookups, "LookupID", "Category", appointment.StatusID);
-			return View(appointment);
-		}
-		[HttpPost]
+        [HttpPost]
 		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> ScheduleAppointment(int doctorId, int hospitalId, DateTime selectedTimeSlot)
 		{
@@ -384,6 +326,181 @@ namespace Health_Hub.Controllers
 			return RedirectToAction(nameof(Single), new { id = AppointmentID });
 		}
 
+        public async Task<IActionResult> ManageAppointments()
+        {
+            int doctorId = int.Parse(Request.Cookies["PersonID"]!);
+
+            //int doctorId = 2; // Custom method to fetch logged-in doctor ID
+
+            var appointments = await _context.Appointments
+                .Where(a => a.DoctorID == doctorId)
+                .Include(a => a.Patient)
+                .Include(a => a.Status)
+                .ToListAsync();
+            ViewData["Layout"] = "_LayoutDoctorLogIn";
+            return View(appointments);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> AcceptAppointment(int id)
+        {
+            var appointment = await _context.Appointments.FindAsync(id);
+            if (appointment == null) return NotFound();
+
+            var approvedStatusId = await _context.Lookups
+                .Where(l => l.Category == "Status" && l.Value == "Confirmed")
+                .Select(l => l.LookupID)
+                .FirstOrDefaultAsync();
+
+            if (approvedStatusId == 0) return NotFound("Status not found");
+
+            appointment.StatusID = approvedStatusId;
+            _context.Update(appointment);
+            await _context.SaveChangesAsync();
+            ViewData["Layout"] = "_LayoutDoctorLogIn";
+            return RedirectToAction(nameof(ManageAppointments));
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> CancelAppointment(int id)
+        {
+            var appointment = await _context.Appointments.FindAsync(id);
+            if (appointment == null) return NotFound();
+
+            var cancelledStatusId = await _context.Lookups
+                .Where(l => l.Category == "Status" && l.Value == "Canceled")
+                .Select(l => l.LookupID)
+                .FirstOrDefaultAsync();
+
+            if (cancelledStatusId == 0) return NotFound("Status not found");
+
+            appointment.StatusID = cancelledStatusId;
+            _context.Update(appointment);
+            await _context.SaveChangesAsync();
+            ViewData["Layout"] = "_LayoutDoctorLogIn";
+
+            return RedirectToAction(nameof(ManageAppointments));
+        }
+
+
+        public async Task<IActionResult> LoadEdit(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            // Load the appointment with related data
+            var appointment = await _context.Appointments
+                .Include(a => a.Doctor)
+                .Include(a => a.DoctorHospital)
+                    .ThenInclude(dh => dh.Hospital)
+                .Include(a => a.Status)
+                .FirstOrDefaultAsync(a => a.AppointmentID == id);
+
+            if (appointment == null)
+            {
+                return NotFound();
+            }
+
+            ViewData["DoctorID"] = new SelectList(_context.Doctors, "PersonID", "CNIC", appointment.DoctorID);
+            ViewData["SelectedDoctorHospitalID"] = new SelectList(_context.DoctorHospitals, "DoctorHospitalID", "WeekDays", appointment.SelectedDoctorHospitalID);
+            ViewData["PatientID"] = new SelectList(_context.Patients, "PersonID", "CNIC", appointment.PatientID);
+            ViewData["StatusID"] = new SelectList(_context.Lookups, "LookupID", "Category", appointment.StatusID);
+            ViewData["Layout"] = "_LayoutDoctorLogIn";
+
+            return View("Edit", appointment);
+        }
+
+
+        /*public async Task<IActionResult> Edit(int id)
+        {
+            var appointment = await _context.Appointments
+                .Include(a => a.Patient)
+                .FirstOrDefaultAsync(a => a.AppointmentID == id);
+
+            if (appointment == null)
+            {
+                return NotFound();
+            }
+            ViewData["Layout"] = "_LayoutDoctorLogIn";
+            // Redirect to an edit view to allow the user to input details
+            return View("Edit", appointment);
+        }*/
+        // For the GET method
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            var appointment = _context.Appointments
+                .Include(a => a.Doctor)
+                .Include(a => a.DoctorHospital.Hospital)
+                .FirstOrDefault(a => a.AppointmentID == id);
+
+            if (appointment == null)
+            {
+                TempData["ErrorMessage"] = "Appointment not found.";
+                return RedirectToAction("Index");
+            }
+
+            return View(appointment);
+        }
+
+        // For the POST method
+        [HttpPost]
+        public IActionResult EditPost(Appointment appointment)
+        {
+            // Check if the model state is valid
+            if (!ModelState.IsValid)
+            {
+                TempData["ErrorMessage"] = "Please correct the errors in the form before submitting.";
+                return View("Edit", appointment);
+            }
+
+            // Fetch the existing appointment from the database
+            var existingAppointment = _context.Appointments
+                .Include(a => a.Doctor)
+                .Include(a => a.DoctorHospital.Hospital)
+                .FirstOrDefault(a => a.AppointmentID == appointment.AppointmentID);
+
+            // Check if the appointment exists
+            if (existingAppointment != null)
+            {
+                // Ensure that DoctorID and StatusID are valid (basic validation)
+                if (!_context.Doctors.Any(d => d.PersonID == appointment.DoctorID))
+                {
+                    ModelState.AddModelError("DoctorID", "Invalid Doctor selected.");
+                    return View("Edit", appointment);
+                }
+
+                if (!_context.Lookups.Any(l => l.LookupID == appointment.StatusID))
+                {
+                    ModelState.AddModelError("StatusID", "Invalid status selected.");
+                    return View("Edit", appointment);
+                }
+
+                // Update the properties that can be modified
+                existingAppointment.Prescriptions = appointment.Prescriptions;
+                existingAppointment.TestSuggested = appointment.TestSuggested;
+                existingAppointment.TimeSlot = appointment.TimeSlot;
+
+                try
+                {
+                    _context.SaveChanges();
+                    TempData["SuccessMessage"] = "Appointment updated successfully!";
+                    return RedirectToAction("CompletedAppointments");
+                }
+                catch (Exception ex)
+                {
+                    //_logger.LogError(ex, "Error updating appointment with ID: {AppointmentID}", appointment.AppointmentID);
+                    TempData["ErrorMessage"] = "An error occurred while updating the appointment: " + ex.Message;
+                    return View("Edit", appointment);
+                }
+            }
+
+            TempData["ErrorMessage"] = "Appointment not found.";
+            return View("Edit", appointment);
+        }
 
 		// POST: /Appointments/Reschedule
 		[HttpPost]
@@ -442,5 +559,45 @@ namespace Health_Hub.Controllers
 
 
 
-	}
+
+
+
+
+        public IActionResult CompletedAppointments(string searchCnic)
+        {
+            // Fetch all completed appointments
+            var completedAppointments = _context.Appointments
+                .Where(a => a.Status.Value == "Completed")
+                .Include(a => a.Status)
+                .Include(a => a.Patient)
+                .ToList();
+
+            // Filter by CNIC if a search query is provided
+            if (!string.IsNullOrWhiteSpace(searchCnic))
+            {
+                completedAppointments = completedAppointments
+                    .Where(a => a.Patient != null && a.Patient.CNIC != null &&
+                                a.Patient.CNIC.Contains(searchCnic, StringComparison.OrdinalIgnoreCase))
+                    .ToList();
+
+                ViewData["SearchCnic"] = searchCnic; // Pass the search query back to the view
+            }
+
+            // Optional: Log or check for null values
+            foreach (var appointment in completedAppointments)
+            {
+                if (appointment.Patient == null)
+                {
+                    Console.WriteLine($"Appointment ID {appointment.AppointmentID} has a null Patient.");
+                }
+            }
+
+            ViewData["Layout"] = "_LayoutDoctorLogIn";
+
+            return View(completedAppointments);
+        }
+
+
+
+    }
 }

@@ -1,0 +1,156 @@
+﻿@model List<Health_Hub.Models.Domain.Appointment>
+
+@functions {
+    private string GetStatusClass(string status)
+    {
+        return status switch
+        {
+            "Pending" => "badge-pending",
+            "Confirmed" => "badge-confirmed",
+            "Canceled" => "badge-cancelled",
+            "Completed" => "badge-completed",
+            _ => "badge-secondary"
+        };
+    }
+}
+
+<h2 class="text-center">Manage Appointments</h2>
+
+<!-- Filter Section -->
+<div class="text-center mb-4">
+    <button class="btn btn-outline-primary filter-btn" data-status="All">All</button>
+    <button class="btn btn-outline-warning filter-btn" data-status="Pending">Pending</button>
+    <button class="btn btn-outline-success filter-btn" data-status="Confirmed">Accepted</button>
+    <button class="btn btn-outline-danger filter-btn" data-status="Canceled">Cancelled</button>
+    <button class="btn btn-outline-info filter-btn" data-status="Completed">Completed</button>
+</div>
+
+<!-- Search Bar -->
+<div class="mb-4 text-center">
+    <div class="input-group shadow-sm" style="max-width: 500px; margin: auto;">
+        <input type="text"
+               id="search-bar"
+               class="form-control border-0"
+               placeholder="Search by Patient CNIC"
+               style="background-color: #f8f9fa; border-radius: 20px 0 0 20px; color: #495057;">
+        <button class="btn btn-success text-white"
+                type="button"
+                style="border-radius: 0 20px 20px 0; background-color: #28a745;">
+            <i class="fas fa-search"></i>
+        </button>
+    </div>
+</div>
+
+
+<div class="container">
+    <!-- Message for No Appointments -->
+    <div id="no-appointments" class="text-center text-muted mt-5" style="display: none;">
+        <h5>No appointments available</h5>
+    </div>
+
+    <!-- Message for No Search Matches -->
+    <div id="not-found" class="text-center text-warning mt-5" style="display: none;">
+        <h5>No matching CNIC found</h5>
+    </div>
+
+    <div class="row" id="appointment-list">
+        @if (!Model.Any())
+        {
+            <script>
+                document.getElementById("no-appointments").style.display = "block";
+            </script>
+        }
+        else
+        {
+            foreach (var appointment in Model)
+            {
+                <div class="col-md-12 mb-4 appointment-card" data-status="@appointment.Status.Value" data-cnic="@appointment.Patient.CNIC">
+                    <div class="card shadow-sm border-0">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">
+                                <i class="fas fa-user-md"></i> Patient: @appointment.Patient.Name
+                            </h5>
+                            <p class="card-text">
+                                <strong>CNIC:</strong> @appointment.Patient.CNIC<br />
+                                <strong>Time Slot:</strong> @appointment.TimeSlot.ToString("yyyy-MM-dd HH:mm")<br />
+                                <strong>Status:</strong>
+                                <span class="badge @GetStatusClass(appointment.Status.Value)">
+                                    @appointment.Status.Value
+                                </span>
+                            </p>
+
+                            @if (appointment.Status.Value == "Pending")
+                            {
+                                <form method="post" asp-action="AcceptAppointment" asp-controller="Appointments" asp-route-id="@appointment.AppointmentID" style="display:inline;">
+                                    @Html.AntiForgeryToken()
+                                    <button type="submit" class="btn btn-success btn-sm">Accept</button>
+                                </form>
+                                <form method="post" asp-action="CancelAppointment" asp-controller="Appointments" asp-route-id="@appointment.AppointmentID" style="display:inline;">
+                                    @Html.AntiForgeryToken()
+                                    <button type="submit" class="btn btn-danger btn-sm">Cancel</button>
+                                </form>
+                            }
+                            else if (appointment.Status.Value == "Confirmed")
+                            {
+                                <form method="post" asp-action="CancelAppointment" asp-controller="Appointments" asp-route-id="@appointment.AppointmentID" style="display:inline;">
+                                    @Html.AntiForgeryToken()
+                                    <button type="submit" class="btn btn-danger btn-sm">Cancel</button>
+                                </form>
+                                <form method="get" asp-action="LoadEdit" asp-controller="Appointments" asp-route-id="@appointment.AppointmentID" style="display:inline;">
+                                    <button type="submit" class="btn btn-success btn-sm">Complete</button>
+                                </form>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>
+
+<script>
+    // JavaScript for filtering appointments by status
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', function () {
+            const status = this.getAttribute('data-status');
+            let hasVisible = false;
+
+            document.querySelectorAll('.appointment-card').forEach(card => {
+                const cardStatus = card.getAttribute('data-status');
+                if (status === "All" || cardStatus === status) {
+                    card.style.display = "block";
+                    hasVisible = true;
+                } else {
+                    card.style.display = "none";
+                }
+            });
+
+            document.getElementById("not-found").style.display = "none";
+            document.getElementById("no-appointments").style.display = hasVisible ? "none" : "block";
+        });
+    });
+
+    // JavaScript for searching appointments by CNIC
+    document.getElementById('search-bar').addEventListener('input', function () {
+        const searchQuery = this.value.toLowerCase();
+        let hasMatch = false;
+
+        document.querySelectorAll('.appointment-card').forEach(card => {
+            const cnic = card.getAttribute('data-cnic').toLowerCase();
+            if (cnic.includes(searchQuery)) {
+                card.style.display = "block";
+                hasMatch = true;
+            } else {
+                card.style.display = "none";
+            }
+        });
+
+        document.getElementById("not-found").style.display = hasMatch ? "none" : (searchQuery ? "block" : "none");
+        document.getElementById("no-appointments").style.display = hasMatch || searchQuery ? "none" : "block";
+    });
+
+    // Initial state check for appointments
+    if (document.querySelectorAll('.appointment-card').length === 0) {
+        document.getElementById("no-appointments").style.display = "block";
+    }
+</script>
