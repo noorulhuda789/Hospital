@@ -1,483 +1,475 @@
 {
   "Files": [
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Health Hub.bundle.scp.css",
+      "Id": "G:\\HealthHubNew\\Hospital\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Health Hub.bundle.scp.css",
       "PackagePath": "staticwebassets\\Health Hub.bundle.scp.css"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\BlueLogo.png",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\BlueLogo.png",
       "PackagePath": "staticwebassets\\Images\\BlueLogo.png"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\Degrees\\Degree.jpg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\Degrees\\Degree.jpg",
       "PackagePath": "staticwebassets\\Images\\Degrees\\Degree.jpg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\SquareLogo.png",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\SquareLogo.png",
       "PackagePath": "staticwebassets\\Images\\SquareLogo.png"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\about\\05.png",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\05.png",
       "PackagePath": "staticwebassets\\Images\\about\\05.png"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\about\\1.png",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\1.png",
       "PackagePath": "staticwebassets\\Images\\about\\1.png"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\about\\2.png",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\2.png",
       "PackagePath": "staticwebassets\\Images\\about\\2.png"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\about\\3.png",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\3.png",
       "PackagePath": "staticwebassets\\Images\\about\\3.png"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\about\\4.png",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\4.png",
       "PackagePath": "staticwebassets\\Images\\about\\4.png"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\about\\5.png",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\5.png",
       "PackagePath": "staticwebassets\\Images\\about\\5.png"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\about\\6.png",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\6.png",
       "PackagePath": "staticwebassets\\Images\\about\\6.png"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\about\\about-1.jpg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\about-1.jpg",
       "PackagePath": "staticwebassets\\Images\\about\\about-1.jpg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\about\\about-2.jpg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\about-2.jpg",
       "PackagePath": "staticwebassets\\Images\\about\\about-2.jpg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\about\\about-3.jpg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\about-3.jpg",
       "PackagePath": "staticwebassets\\Images\\about\\about-3.jpg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\about\\about-4.jpg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\about-4.jpg",
       "PackagePath": "staticwebassets\\Images\\about\\about-4.jpg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\about\\chat.png",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\chat.png",
       "PackagePath": "staticwebassets\\Images\\about\\chat.png"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\about\\doctor-review.png",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\doctor-review.png",
       "PackagePath": "staticwebassets\\Images\\about\\doctor-review.png"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\about\\img-1.jpg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\img-1.jpg",
       "PackagePath": "staticwebassets\\Images\\about\\img-1.jpg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\about\\img-2.jpg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\img-2.jpg",
       "PackagePath": "staticwebassets\\Images\\about\\img-2.jpg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\about\\img-3.jpg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\img-3.jpg",
       "PackagePath": "staticwebassets\\Images\\about\\img-3.jpg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\about\\onlineConsult.jpeg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\onlineConsult.jpeg",
       "PackagePath": "staticwebassets\\Images\\about\\onlineConsult.jpeg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\about\\rateDoc.webp",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\rateDoc.webp",
       "PackagePath": "staticwebassets\\Images\\about\\rateDoc.webp"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\about\\scheduleAppoint.webp",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\scheduleAppoint.webp",
       "PackagePath": "staticwebassets\\Images\\about\\scheduleAppoint.webp"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\about\\sign.png",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\sign.png",
       "PackagePath": "staticwebassets\\Images\\about\\sign.png"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\about\\verified.png",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\verified.png",
       "PackagePath": "staticwebassets\\Images\\about\\verified.png"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\bannerImg.jpg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\bannerImg.jpg",
       "PackagePath": "staticwebassets\\Images\\bannerImg.jpg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\bg\\22.jpg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\bg\\22.jpg",
       "PackagePath": "staticwebassets\\Images\\bg\\22.jpg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\bg\\banner.jpg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\bg\\banner.jpg",
       "PackagePath": "staticwebassets\\Images\\bg\\banner.jpg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\bg\\bg-2.jpg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\bg\\bg-2.jpg",
       "PackagePath": "staticwebassets\\Images\\bg\\bg-2.jpg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\bg\\bg-4.jpg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\bg\\bg-4.jpg",
       "PackagePath": "staticwebassets\\Images\\bg\\bg-4.jpg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\bg\\slider-bg-1.jpg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\bg\\slider-bg-1.jpg",
       "PackagePath": "staticwebassets\\Images\\bg\\slider-bg-1.jpg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\logo3.png",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\logo3.png",
       "PackagePath": "staticwebassets\\Images\\logo3.png"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\profiles\\emily_profile.jpeg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\profiles\\emily_profile.jpeg",
       "PackagePath": "staticwebassets\\Images\\profiles\\emily_profile.jpeg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\profiles\\jane_profile.jpeg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\profiles\\jane_profile.jpeg",
       "PackagePath": "staticwebassets\\Images\\profiles\\jane_profile.jpeg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\profiles\\john_profile.jpeg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\profiles\\john_profile.jpeg",
       "PackagePath": "staticwebassets\\Images\\profiles\\john_profile.jpeg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\profiles\\michael_profile.jpeg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\profiles\\michael_profile.jpeg",
       "PackagePath": "staticwebassets\\Images\\profiles\\michael_profile.jpeg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\reports\\Test_Scenarios.pdf",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\reports\\Test_Scenarios.pdf",
       "PackagePath": "staticwebassets\\Images\\reports\\Test_Scenarios.pdf"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\reports\\book.jpg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\reports\\book.jpg",
       "PackagePath": "staticwebassets\\Images\\reports\\book.jpg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\reports\\deptLOGO.png",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\reports\\deptLOGO.png",
       "PackagePath": "staticwebassets\\Images\\reports\\deptLOGO.png"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\reports\\download.jpeg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\reports\\download.jpeg",
       "PackagePath": "staticwebassets\\Images\\reports\\download.jpeg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\team\\1.jpg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\team\\1.jpg",
       "PackagePath": "staticwebassets\\Images\\team\\1.jpg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\team\\2.jpg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\team\\2.jpg",
       "PackagePath": "staticwebassets\\Images\\team\\2.jpg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\team\\3.jpg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\team\\3.jpg",
       "PackagePath": "staticwebassets\\Images\\team\\3.jpg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\team\\4.jpg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\team\\4.jpg",
       "PackagePath": "staticwebassets\\Images\\team\\4.jpg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\team\\test-thumb1.jpg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\team\\test-thumb1.jpg",
       "PackagePath": "staticwebassets\\Images\\team\\test-thumb1.jpg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\team\\test-thumb2.jpg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\team\\test-thumb2.jpg",
       "PackagePath": "staticwebassets\\Images\\team\\test-thumb2.jpg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\team\\test-thumb3.jpg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\team\\test-thumb3.jpg",
       "PackagePath": "staticwebassets\\Images\\team\\test-thumb3.jpg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\team\\test-thumb4.jpg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\team\\test-thumb4.jpg",
       "PackagePath": "staticwebassets\\Images\\team\\test-thumb4.jpg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\Images\\user.jpg",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\user.jpg",
       "PackagePath": "staticwebassets\\Images\\user.jpg"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\css\\AppointmentsViewPatient.css",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\AppointmentsViewPatient.css",
       "PackagePath": "staticwebassets\\css\\AppointmentsViewPatient.css"
     },
     {
-<<<<<<< HEAD
       "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\Chats.css",
       "PackagePath": "staticwebassets\\css\\Chats.css"
     },
     {
       "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\DoctorCard.css",
-=======
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\css\\DoctorCard.css",
->>>>>>> bbc233db4d07edfc7c8b4e133885367ffe360fa3
       "PackagePath": "staticwebassets\\css\\DoctorCard.css"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\css\\DoctorSingle.css",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\DoctorSingle.css",
       "PackagePath": "staticwebassets\\css\\DoctorSingle.css"
     },
     {
-<<<<<<< HEAD
       "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\DoctorViewProfile.css",
       "PackagePath": "staticwebassets\\css\\DoctorViewProfile.css"
     },
     {
-      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\navbar.css",
-=======
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\css\\ManageAppointments.css",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\ManageAppointments.css",
       "PackagePath": "staticwebassets\\css\\ManageAppointments.css"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\css\\Profile.css",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\Profile.css",
       "PackagePath": "staticwebassets\\css\\Profile.css"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\css\\navbar.css",
->>>>>>> bbc233db4d07edfc7c8b4e133885367ffe360fa3
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\navbar.css",
       "PackagePath": "staticwebassets\\css\\navbar.css"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\css\\site.css",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\favicon.ico",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\js\\Appointments.js",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\js\\Appointments.js",
       "PackagePath": "staticwebassets\\js\\Appointments.js"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\js\\site.js",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "E:\\5th semester\\SE lab\\New folder\\Hospital\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
