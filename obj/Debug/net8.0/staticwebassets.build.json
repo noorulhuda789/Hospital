@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JrA8Pfm1UcPOulm7lQGAmq7rWlwnuz6AErAySSDiGEA=",
+  "Hash": "YQaI6PRPvUZMkORRvHGKBlOYS9K71hK3aIGDFFWC228=",
   "Source": "Health Hub",
   "BasePath": "_content/Health Hub",
   "Mode": "Default",
@@ -74,6 +74,25 @@
       "OriginalItemSpec": "wwwroot\\css\\AppointmentsViewPatient.css"
     },
     {
+      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\Chats.css",
+      "SourceId": "Health Hub",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "BasePath": "_content/Health Hub",
+      "RelativePath": "css/Chats.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Chats.css"
+    },
+    {
       "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\DoctorCard.css",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
@@ -110,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\DoctorSingle.css"
+    },
+    {
+      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\DoctorViewProfile.css",
+      "SourceId": "Health Hub",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "BasePath": "_content/Health Hub",
+      "RelativePath": "css/DoctorViewProfile.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\DoctorViewProfile.css"
     },
     {
       "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\navbar.css",
@@ -2200,6 +2238,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\signalr.js\\jquery.signalR.js",
+      "SourceId": "Health Hub",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "BasePath": "_content/Health Hub",
+      "RelativePath": "signalr.js/jquery.signalR.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\signalr.js\\jquery.signalR.js"
+    },
+    {
+      "Identity": "G:\\HealthHubNew\\Hospital\\wwwroot\\signalr.js\\jquery.signalR.min.js",
+      "SourceId": "Health Hub",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\HealthHubNew\\Hospital\\wwwroot\\",
+      "BasePath": "_content/Health Hub",
+      "RelativePath": "signalr.js/jquery.signalR.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\signalr.js\\jquery.signalR.min.js"
     }
   ]
 }

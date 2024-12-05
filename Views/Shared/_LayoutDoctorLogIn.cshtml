@@ -7,6 +7,12 @@
 	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 	<link rel="stylesheet" href="~/Health_Hub.styles.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/Chats.css"/>
+	<!-- Roboto font -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	<!-- Material icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
 <body id="top">
 
@@ -26,7 +32,11 @@
 						<li class="nav-item"><a class="nav-link">Home</a></li>
 						<li class="nav-item"><a class="nav-link">Patients</a></li>
 						<li class="nav-item"><a class="nav-link">Appointments</a></li>
-						<li class="nav-item"><a class="nav-link">Inbox</a></li>
+						<li class="nav-item"><a class="nav-link" asp-action="Edit" asp-controller="Appointments" asp-route-id="2">Appointments</a></li>
+						<!-- Link for Chats -->
+						<li class="nav-item">
+							<a class="nav-link" asp-action="Chat" asp-controller="Chats">Chats</a>
+						</li>
 						<li class="nav-item"><a class="nav-link">Profile</a></li>
 						
 @* 						<li class="nav-item"><button type="button" name="" id="" class="btn btn-block"><a asp-controller="SignUp" asp-action="SignUp">Sign Up</a></button></li>

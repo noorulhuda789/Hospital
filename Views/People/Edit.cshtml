@@ -1,10 +1,93 @@
 ﻿@model Health_Hub.Models.Domain.Person
-
+<script src="https://cdn.tailwindcss.com"></script>
 @{
-    Layout = null;
+    //ViewBag["Title"] = "View Profile";
 }
-
-<!DOCTYPE html>
+<div class="body">
+    <div class="container">
+        <div class="profile-header">
+            <img alt="Profile picture of the patient" height="100" src="~/Images/user.jpg" width="100" />
+            <div>
+                <h1>
+                    Profile: @Model.Name
+                </h1>
+                <p>
+                    @Model.CNIC
+                </p>
+            </div>
+        </div>
+        <form>
+            <div class="profile-details">
+                <div class="section">
+                    <h2>
+                        Contact Information
+                    </h2>
+                    <ul>
+                        <li>
+                            <label class="block mb-2 text-sm font-bold text-gray-700" asp-for="PhoneNumber">
+                                Phone:
+                            </label>
+                            <input asp-for="PhoneNumber" class="form-control" />
+                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                        </li>
+                        <li>
+                            <label class="block mb-2 text-sm font-bold text-gray-700" for="email">
+                                Email:
+                            </label>
+                            <input asp-for="Email" class="form-control" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </li>
+                        <li>
+                            <label class="block mb-2 text-sm font-bold text-gray-700" for="address">
+                                Address:
+                            </label>
+                            <input asp-for="PhoneNumber" class="form-control" />
+                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h2>
+                        Medical Information
+                    </h2>
+                    <ul>
+                        <li>
+                            <label class="block mb-2 text-sm font-bold text-gray-700" for="blood_type">
+                                Blood Type:
+                            </label>
+                            <input class="form-input" id="blood_type" name="blood_type" type="text" value="O+" />
+                        </li>
+                        <li>
+                            <label class="block mb-2 text-sm font-bold text-gray-700" for="allergies">
+                                Allergies:
+                            </label>
+                            <input class="form-input" id="allergies" name="allergies" type="text" value="Penicillin" />
+                        </li>
+                        <li>
+                            <label class="block mb-2 text-sm font-bold text-gray-700" for="medications">
+                                Current Medications:
+                            </label>
+                            <input class="form-input" id="medications" name="medications" type="text" value="Metformin, Lisinopril" />
+                        </li>
+                        <li>
+                            <label class="block mb-2 text-sm font-bold text-gray-700" for="medical_history">
+                                Medical History:
+                            </label>
+                            <input class="form-input" id="medical_history" name="medical_history" type="text" value="Type 2 Diabetes, Hypertension" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-6 text-right">
+                <button class="submit-btn" type="submit">
+                    Update Profile
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+</html>
+@* <!DOCTYPE html>
 
 <html>
 <head>
@@ -66,3 +149,4 @@
 }
 </body>
 </html>
+ *@

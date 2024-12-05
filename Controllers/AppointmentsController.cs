@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Health_Hub.Data;
 using Health_Hub.Models.Domain;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
+using Health_Hub.Models.ViewModels;
 
 namespace Health_Hub.Controllers
 {
@@ -26,26 +27,30 @@ namespace Health_Hub.Controllers
 		//    var healthHubDbContext = _context.Appointments.Include(a => a.Doctor).Include(a => a.DoctorHospital).Include(a => a.Patient).Include(a => a.Status);
 		//    return View(await healthHubDbContext.ToListAsync());
 		//}
-		public async Task<IActionResult> List(string status = "Approved")
+		public async Task<IActionResult> List(string status = "Confirmed")
 		{
 			var appointments = _context.Appointments
 		   .Include(a => a.Doctor)
 		   .Include(a => a.Patient)
 		   .Include(a => a.DoctorHospital)
-		   .Include(a => a.Status)
+           .ThenInclude(dh => dh.Hospital) // Include the Hospital related to DoctorHospital
+           .Include(a => a.Status)
 		   .AsQueryable(); // Ensures the entire query stays as IQueryable
 
 			switch (status)
 			{
-				case "Pending":
-					appointments = appointments.Where(a => a.Status.Value == "Pending");
-					break;
+				case "Canceled":
+					appointments = appointments.Where(a => a.Status.Value == "Canceled");
+                    ViewData["AppointmentCurrentStatus"] = "Canceled";
+                    break;
 				case "Completed":
 					appointments = appointments.Where(a => a.Status.Value == "Completed");
-					break;
+                    ViewData["AppointmentCurrentStatus"] = "Completed";
+                    break;
 				default: // Default is Approved for upcoming appointments
-					appointments = appointments.Where(a => a.Status.Value == "Approved");
-					break;
+					appointments = appointments.Where(a => a.Status.Value == "Confirmed");
+                    ViewData["AppointmentCurrentStatus"] = "Confirmed";
+                    break;
 			}
 			ViewData["Layout"] = "_LayoutLogInPatient";
 			return View(await appointments.ToListAsync());
@@ -377,6 +382,61 @@ namespace Health_Hub.Controllers
 
 			// Redirect to the details page
 			return RedirectToAction(nameof(Single), new { id = AppointmentID });
+		}
+
+
+		// POST: /Appointments/Reschedule
+		[HttpPost]
+		public async Task<IActionResult> Reschedule([FromBody] RescheduleViewModel model)
+		{
+			if (model == null || model.AppointmentID == 0 || model.NewTimeSlot == DateTime.MinValue)
+			{
+				return BadRequest("Invalid input data.");
+			}
+
+			var appointment = await _context.Appointments.FindAsync(model.AppointmentID);
+			if (appointment == null)
+			{
+				return NotFound("Appointment not found.");
+			}
+
+			// Update the appointment's time slot
+			appointment.TimeSlot = model.NewTimeSlot;
+
+			// Save changes to the database
+			await _context.SaveChangesAsync();
+
+			return Ok(new { message = "Appointment rescheduled successfully." });
+		}
+
+		// POST: /Appointments/Cancel
+		[HttpPost]
+		public async Task<IActionResult> Cancel([FromBody] CancelViewModel model)
+		{
+			if (model == null || model.AppointmentID == 0)
+			{
+				return BadRequest("Invalid input data.");
+			}
+
+			var appointment = await _context.Appointments.FindAsync(model.AppointmentID);
+			if (appointment == null)
+			{
+				return NotFound("Appointment not found.");
+			}
+
+			// Update the appointment's status to canceled
+			appointment.StatusID = GetStatusId("Canceled");
+
+			// Save changes to the database
+			await _context.SaveChangesAsync();
+
+			return Ok(new { message = "Appointment canceled successfully." });
+		}
+
+		private int GetStatusId(string statusName)
+		{
+			var status = _context.Lookups.FirstOrDefault(s => s.Value == statusName);
+			return status?.LookupID ?? 0; // Default to 0 if status not found
 		}
 
 

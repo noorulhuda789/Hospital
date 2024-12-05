@@ -38,8 +38,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/HealthHubNew/Hospital/Views/Appointments/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXEVkaXQuY3NodG1s
+[G:/HealthHubNew/Hospital/Views/Appointments/EditAppointment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXEVkaXRBcHBvaW50bWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [G:/HealthHubNew/Hospital/Views/Appointments/List.cshtml]
@@ -48,6 +48,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [G:/HealthHubNew/Hospital/Views/Appointments/Single.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXFNpbmdsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/HealthHubNew/Hospital/Views/Chats/Chat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdHNcQ2hhdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [G:/HealthHubNew/Hospital/Views/Doctors/completeProfile.cshtml]
@@ -80,6 +84,30 @@ build_metadata.AdditionalFiles.CssScope =
 
 [G:/HealthHubNew/Hospital/Views/LogIn/LogIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nSW5cTG9nSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/HealthHubNew/Hospital/Views/Patient/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/HealthHubNew/Hospital/Views/Patient/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/HealthHubNew/Hospital/Views/Patient/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/HealthHubNew/Hospital/Views/Patient/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/HealthHubNew/Hospital/Views/Patient/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/HealthHubNew/Hospital/Views/Patient/UpdatePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxVcGRhdGVQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [G:/HealthHubNew/Hospital/Views/People/Create.cshtml]

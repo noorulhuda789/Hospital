@@ -201,12 +201,20 @@
       "PackagePath": "staticwebassets\\css\\AppointmentsViewPatient.css"
     },
     {
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\Chats.css",
+      "PackagePath": "staticwebassets\\css\\Chats.css"
+    },
+    {
       "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\DoctorCard.css",
       "PackagePath": "staticwebassets\\css\\DoctorCard.css"
     },
     {
       "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\DoctorSingle.css",
       "PackagePath": "staticwebassets\\css\\DoctorSingle.css"
+    },
+    {
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\DoctorViewProfile.css",
+      "PackagePath": "staticwebassets\\css\\DoctorViewProfile.css"
     },
     {
       "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\css\\navbar.css",
@@ -455,6 +463,14 @@
     {
       "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\signalr.js\\jquery.signalR.js",
+      "PackagePath": "staticwebassets\\signalr.js\\jquery.signalR.js"
+    },
+    {
+      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\signalr.js\\jquery.signalR.min.js",
+      "PackagePath": "staticwebassets\\signalr.js\\jquery.signalR.min.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Health Hub.Microsoft.AspNetCore.StaticWebAssets.props",

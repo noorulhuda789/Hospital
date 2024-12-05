@@ -1,0 +1,62 @@
+﻿@model Health_Hub.Models.Domain.Patient
+<script src="https://cdn.tailwindcss.com"></script>
+@{
+    // ViewBag["Title"] = "View Profile";
+}
+<div class="body">
+    <div class="container">
+        <div class="profile-header">
+            <img alt="Profile picture of the patient" height="100" src="~/Images/user.jpg" width="100" />
+            <div>
+                <h1>
+                    Profile: @Model.Name
+                </h1>
+                <p>
+                    @Model.CNIC
+                </p>
+            </div>
+        </div>
+        <!-- Use form tag to POST to the Edit action -->
+        <form asp-action="Edit" asp-controller="Patient" method="post">
+            <div class="profile-details">
+                <div class="section">
+                    <h2>Contact Information</h2>
+                    <ul>
+                        <li>
+                            <label class="block mb-2 text-sm font-bold text-gray-700" asp-for="PhoneNumber">
+                                Phone:
+                            </label>
+                            <input asp-for="PhoneNumber" class="form-control" />
+                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                        </li>
+                        <li>
+                            <label class="block mb-2 text-sm font-bold text-gray-700" asp-for="Email">
+                                Email:
+                            </label>
+                            <input asp-for="Email" type="email" class="form-control" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </li>
+                        <li>
+                            <label class="block mb-2 text-sm font-bold text-gray-700" asp-for="Address">
+                                Address:
+                            </label>
+                            <textarea asp-for="Address" class="form-control"></textarea>
+                            <span asp-validation-for="Address" class="text-danger"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mt-5 text-right">
+                <button class="submit-btn" asp-controller="UpdatePasswordController" asp-action="UpdatePassword">Update Password</button>
+            </div>
+            <!-- Hidden field to send PersonID to the controller -->
+            <input type="hidden" asp-for="PersonID" />
+            <div class="mt-6 text-right">
+                <button class="submit-btn" type="submit">
+                    Update Profile
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

@@ -21,7 +21,6 @@ G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.E
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Forms.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Server.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Components.Web.dll
-G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Cors.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
@@ -37,7 +36,6 @@ G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Hosting.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Html.Abstractions.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Abstractions.dll
-G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Connections.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Http.Extensions.dll
@@ -83,10 +81,8 @@ G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestr
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Session.dll
-G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.SignalR.Common.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.SignalR.Core.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.SignalR.dll
-G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.StaticFiles.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.WebSockets.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.WebUtilities.dll
@@ -107,7 +103,6 @@ G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
-G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.Extensions.Features.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.Extensions.FileProviders.Composite.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.Extensions.FileProviders.Embedded.dll
@@ -127,8 +122,6 @@ G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Trac
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.Extensions.ObjectPool.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
-G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.dll
-G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.Extensions.Primitives.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.Extensions.WebEncoders.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.JSInterop.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.Net.Http.Headers.dll
@@ -159,7 +152,6 @@ G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\System.Data.DataSetExtensions.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\System.Data.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\System.Diagnostics.Contracts.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\System.Diagnostics.Debug.dll
-G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\System.Diagnostics.DiagnosticSource.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\System.Diagnostics.EventLog.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\System.Diagnostics.FileVersionInfo.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\System.Diagnostics.Process.dll
@@ -189,7 +181,6 @@ G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\System.IO.FileSystem.Primitives.d
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\System.IO.FileSystem.Watcher.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\System.IO.IsolatedStorage.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\System.IO.MemoryMappedFiles.dll
-G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\System.IO.Pipelines.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\System.IO.Pipes.AccessControl.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\System.IO.Pipes.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\System.IO.UnmanagedMemoryStream.dll
@@ -268,10 +259,7 @@ G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\System.ServiceProcess.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\System.Text.Encoding.CodePages.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\System.Text.Encoding.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\System.Text.Encoding.Extensions.dll
-G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\System.Text.Encodings.Web.dll
-G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\System.Text.Json.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\System.Text.RegularExpressions.dll
-G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\System.Threading.Channels.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\System.Threading.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\System.Threading.Overlapped.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\System.Threading.RateLimiting.dll
@@ -1682,3 +1670,24 @@ G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Cryptography
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.Extensions.Identity.Core.dll
 G:\HealthHubNew\Hospital\bin\Debug\net8.0\refs\Microsoft.Extensions.Identity.Stores.dll
+G:\HealthHubNew\Hospital\bin\Debug\net8.0\Castle.Core.dll
+G:\HealthHubNew\Hospital\bin\Debug\net8.0\Moq.dll
+G:\HealthHubNew\Hospital\bin\Debug\net8.0\libman.json
+G:\HealthHubNew\Hospital\bin\Debug\net8.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+G:\HealthHubNew\Hospital\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+G:\HealthHubNew\Hospital\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Connections.Common.dll
+G:\HealthHubNew\Hospital\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Client.dll
+G:\HealthHubNew\Hospital\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+G:\HealthHubNew\Hospital\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Common.dll
+G:\HealthHubNew\Hospital\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+G:\HealthHubNew\Hospital\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+G:\HealthHubNew\Hospital\bin\Debug\net8.0\Microsoft.Extensions.Features.dll
+G:\HealthHubNew\Hospital\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+G:\HealthHubNew\Hospital\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+G:\HealthHubNew\Hospital\bin\Debug\net8.0\System.IO.Pipelines.dll
+G:\HealthHubNew\Hospital\bin\Debug\net8.0\System.Net.ServerSentEvents.dll
+G:\HealthHubNew\Hospital\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
+G:\HealthHubNew\Hospital\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+G:\HealthHubNew\Hospital\bin\Debug\net8.0\System.Text.Json.dll
+G:\HealthHubNew\Hospital\bin\Debug\net8.0\System.Threading.Channels.dll
+G:\HealthHubNew\Hospital\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
