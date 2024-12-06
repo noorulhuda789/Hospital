@@ -391,12 +391,14 @@ namespace Health_Hub.Controllers
                 return NotFound();
             }
 
-            // Load the appointment with related data
+            // Load the appointment with all related data
             var appointment = await _context.Appointments
-                .Include(a => a.Doctor)
-                .Include(a => a.DoctorHospital)
-                    .ThenInclude(dh => dh.Hospital)
-                .Include(a => a.Status)
+                .Include(a => a.Patient) // Load Patient data
+                .Include(a => a.Doctor)  // Load Doctor data
+				.ThenInclude(d => d.Specialization)
+                .Include(a => a.DoctorHospital) // Load DoctorHospital data
+                    .ThenInclude(dh => dh.Hospital) // Load related Hospital data
+                .Include(a => a.Status) // Load Status (lookup)
                 .FirstOrDefaultAsync(a => a.AppointmentID == id);
 
             if (appointment == null)
@@ -404,14 +406,13 @@ namespace Health_Hub.Controllers
                 return NotFound();
             }
 
-            ViewData["DoctorID"] = new SelectList(_context.Doctors, "PersonID", "CNIC", appointment.DoctorID);
-            ViewData["SelectedDoctorHospitalID"] = new SelectList(_context.DoctorHospitals, "DoctorHospitalID", "WeekDays", appointment.SelectedDoctorHospitalID);
-            ViewData["PatientID"] = new SelectList(_context.Patients, "PersonID", "CNIC", appointment.PatientID);
-            ViewData["StatusID"] = new SelectList(_context.Lookups, "LookupID", "Category", appointment.StatusID);
             ViewData["Layout"] = "_LayoutDoctorLogIn";
 
+            // Return the populated model to the "Edit" view
             return View("Edit", appointment);
         }
+
+
 
 
         /*public async Task<IActionResult> Edit(int id)
@@ -429,81 +430,114 @@ namespace Health_Hub.Controllers
             return View("Edit", appointment);
         }*/
         // For the GET method
-        [HttpGet]
-        public IActionResult Edit(int id)
-        {
-            var appointment = _context.Appointments
-                .Include(a => a.Doctor)
-                .Include(a => a.DoctorHospital.Hospital)
-                .FirstOrDefault(a => a.AppointmentID == id);
-
-            if (appointment == null)
-            {
-                TempData["ErrorMessage"] = "Appointment not found.";
-                return RedirectToAction("Index");
-            }
-
-            return View(appointment);
-        }
-
-        // For the POST method
         [HttpPost]
-        public IActionResult EditPost(Appointment appointment)
+        public async Task<IActionResult> Edit(int id, [Bind("AppointmentID,TestSuggested,Prescriptions")] Appointment appointment)
         {
-            // Check if the model state is valid
-            if (!ModelState.IsValid)
+            // Fetch the existing appointment from the database
+            var existingAppointment = await _context.Appointments
+                .FirstOrDefaultAsync(a => a.AppointmentID == appointment.AppointmentID);
+
+            if (existingAppointment == null)
             {
-                TempData["ErrorMessage"] = "Please correct the errors in the form before submitting.";
-                return View("Edit", appointment);
+                return NotFound();
             }
 
-            // Fetch the existing appointment from the database
-            var existingAppointment = _context.Appointments
-                .Include(a => a.Doctor)
-                .Include(a => a.DoctorHospital.Hospital)
-                .FirstOrDefault(a => a.AppointmentID == appointment.AppointmentID);
+            // Manually remove validation errors for non-editable fields
+            ModelState.Remove("Doctor");
+            ModelState.Remove("Patient");
+            ModelState.Remove("DoctorHospital");
+            ModelState.Remove("Status");
 
-            // Check if the appointment exists
-            if (existingAppointment != null)
+            if (ModelState.IsValid)
             {
-                // Ensure that DoctorID and StatusID are valid (basic validation)
-                if (!_context.Doctors.Any(d => d.PersonID == appointment.DoctorID))
-                {
-                    ModelState.AddModelError("DoctorID", "Invalid Doctor selected.");
-                    return View("Edit", appointment);
-                }
-
-                if (!_context.Lookups.Any(l => l.LookupID == appointment.StatusID))
-                {
-                    ModelState.AddModelError("StatusID", "Invalid status selected.");
-                    return View("Edit", appointment);
-                }
-
-                // Update the properties that can be modified
-                existingAppointment.Prescriptions = appointment.Prescriptions;
-                existingAppointment.TestSuggested = appointment.TestSuggested;
-                existingAppointment.TimeSlot = appointment.TimeSlot;
-
                 try
                 {
-                    _context.SaveChanges();
-                    TempData["SuccessMessage"] = "Appointment updated successfully!";
-                    return RedirectToAction("CompletedAppointments");
+                    // Update only the editable fields
+                    existingAppointment.TestSuggested = appointment.TestSuggested;
+                    existingAppointment.Prescriptions = appointment.Prescriptions;
+
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(CompletedAppointments));
                 }
-                catch (Exception ex)
+                catch (DbUpdateConcurrencyException)
                 {
-                    //_logger.LogError(ex, "Error updating appointment with ID: {AppointmentID}", appointment.AppointmentID);
-                    TempData["ErrorMessage"] = "An error occurred while updating the appointment: " + ex.Message;
-                    return View("Edit", appointment);
+                    if (!AppointmentExists(appointment.AppointmentID))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
                 }
             }
 
-            TempData["ErrorMessage"] = "Appointment not found.";
-            return View("Edit", appointment);
+            // Reload related data if validation fails
+            ViewData["Layout"] = "_LayoutDoctorLogIn";
+            return View(existingAppointment);
         }
 
-		// POST: /Appointments/Reschedule
-		[HttpPost]
+
+
+
+        //// For the POST method
+        //[HttpPost]
+        //public IActionResult EditPost(Appointment appointment)
+        //{
+        //    // Check if the model state is valid
+        //    if (!ModelState.IsValid)
+        //    {
+        //        TempData["ErrorMessage"] = "Please correct the errors in the form before submitting.";
+        //        return View("Edit", appointment);
+        //    }
+
+        //    // Fetch the existing appointment from the database
+        //    var existingAppointment = _context.Appointments
+        //        .Include(a => a.Doctor)
+        //        .Include(a => a.DoctorHospital.Hospital)
+        //        .FirstOrDefault(a => a.AppointmentID == appointment.AppointmentID);
+
+        //    // Check if the appointment exists
+        //    if (existingAppointment != null)
+        //    {
+        //        // Ensure that DoctorID and StatusID are valid (basic validation)
+        //        if (!_context.Doctors.Any(d => d.PersonID == appointment.DoctorID))
+        //        {
+        //            ModelState.AddModelError("DoctorID", "Invalid Doctor selected.");
+        //            return View("Edit", appointment);
+        //        }
+
+        //        if (!_context.Lookups.Any(l => l.LookupID == appointment.StatusID))
+        //        {
+        //            ModelState.AddModelError("StatusID", "Invalid status selected.");
+        //            return View("Edit", appointment);
+        //        }
+
+        //        // Update the properties that can be modified
+        //        existingAppointment.Prescriptions = appointment.Prescriptions;
+        //        existingAppointment.TestSuggested = appointment.TestSuggested;
+        //        existingAppointment.TimeSlot = appointment.TimeSlot;
+
+        //        try
+        //        {
+        //            _context.SaveChanges();
+        //            TempData["SuccessMessage"] = "Appointment updated successfully!";
+        //            return RedirectToAction("CompletedAppointments");
+        //        }
+        //        catch (Exception ex)
+        //        {
+        //            //_logger.LogError(ex, "Error updating appointment with ID: {AppointmentID}", appointment.AppointmentID);
+        //            TempData["ErrorMessage"] = "An error occurred while updating the appointment: " + ex.Message;
+        //            return View("Edit", appointment);
+        //        }
+        //    }
+
+        //    TempData["ErrorMessage"] = "Appointment not found.";
+        //    return View("Edit", appointment);
+        //}
+
+        // POST: /Appointments/Reschedule
+        [HttpPost]
 		public async Task<IActionResult> Reschedule([FromBody] RescheduleViewModel model)
 		{
 			if (model == null || model.AppointmentID == 0 || model.NewTimeSlot == DateTime.MinValue)
