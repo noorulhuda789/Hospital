@@ -30,8 +30,8 @@
                             <img alt="Doctor @appointment.Doctor.Name" src="@appointment.Doctor.ProfileImage" />
                         </div>
                         <div class="Status @appointment.Status.Value.ToLower()">
-                            <span>Status:</span>
-                            <span class="@appointment.Status.Value.ToLower()">@appointment.Status.Value</span>
+                            <span class="status-label">Status:</span>
+                            <span class="status-value">@appointment.Status.Value</span>
                         </div>
 
                         @if (ViewBag.AppointmentCurrentStatus == "Confirmed")

@@ -95,41 +95,52 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
-    /* Status Section */
     .event .Status {
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        font-weight: 600;
-        font-size: 12px;
-        color: #ffffff;
-        border-radius: 80px; /* Pill shape for Material UI look */
-        padding: 5px 40px; /* Balanced padding for text */
-        margin: 10px 0px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
-        transition: transform 0.2s, box-shadow 0.2s; /* Smooth animations */
-        cursor: default;
+        display: inline-flex; /* Align text and labels in a row */
+        align-items: center; /* Center vertically */
+        padding: 10px 530px; /* Balanced spacing */
+        font-family: 'Roboto', Arial, sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        border-radius: 50px; /* Material UI-inspired pill shape */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        margin: 10px 20px 10px 0 !important; /* Add margin-right for spacing */
+        color: #ffffff; /* Default text color */
+        transition: all 0.3s ease; /* Smooth hover and focus effects */
     }
 
-        .event .Status:hover {
-            transform: translateY(-2px); /* Lift effect on hover */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow */
+        /* Base styles for Status label and value */
+        .status-label {
+            font-weight: bold;
+            margin-right: 8px; /* Space between label and value */
         }
 
-        .event .Status.completed {
-            background-color: #2196f3; /* Material Blue for Completed */
+        .status-value {
+            text-transform: capitalize; /* Ensures consistent casing */
+        }
+
+        /* Individual Status Types */
+        .Status.completed {
+            background-color: #2196f3; /* Material Blue */
             color: #ffffff;
         }
 
-        .event .Status.cancelled {
-            background-color: #e53935; /* Material Red for Cancelled */
+        .Status.cancelled {
+            background-color: #e53935; /* Material Red */
             color: #ffffff;
         }
 
-        .event .Status.confirmed {
-            background-color: #43a047; /* Material Green for Confirmed */
+        .Status.confirmed {
+            background-color: #43a047; /* Material Green */
             color: #ffffff;
         }
+
+        /* Optional hover effect for Status */
+        /*.Status:hover {
+            transform: translateY(-2px);*/ /* Lift effect */
+            /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);*/ /* Enhanced shadow */
+        /*}*/
+
 
 
 
