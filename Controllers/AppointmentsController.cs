@@ -537,28 +537,28 @@ namespace Health_Hub.Controllers
         //}
 
         // POST: /Appointments/Reschedule
-        [HttpPost]
-		public async Task<IActionResult> Reschedule([FromBody] RescheduleViewModel model)
-		{
-			if (model == null || model.AppointmentID == 0 || model.NewTimeSlot == DateTime.MinValue)
-			{
-				return BadRequest("Invalid input data.");
-			}
+  //      [HttpPost]
+		//public async Task<IActionResult> Reschedule([FromBody] RescheduleViewModel model)
+		//{
+		//	if (model == null || model.AppointmentID == 0 || model.NewTimeSlot == DateTime.MinValue)
+		//	{
+		//		return BadRequest("Invalid input data.");
+		//	}
 
-			var appointment = await _context.Appointments.FindAsync(model.AppointmentID);
-			if (appointment == null)
-			{
-				return NotFound("Appointment not found.");
-			}
+		//	var appointment = await _context.Appointments.FindAsync(model.AppointmentID);
+		//	if (appointment == null)
+		//	{
+		//		return NotFound("Appointment not found.");
+		//	}
 
-			// Update the appointment's time slot
-			appointment.TimeSlot = model.NewTimeSlot;
+		//	// Update the appointment's time slot
+		//	appointment.TimeSlot = model.NewTimeSlot;
 
-			// Save changes to the database
-			await _context.SaveChangesAsync();
+		//	// Save changes to the database
+		//	await _context.SaveChangesAsync();
 
-			return Ok(new { message = "Appointment rescheduled successfully." });
-		}
+		//	return Ok(new { message = "Appointment rescheduled successfully." });
+		//}
 
 		// POST: /Appointments/Cancel
 		[HttpPost]

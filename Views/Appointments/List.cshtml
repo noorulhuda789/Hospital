@@ -24,17 +24,19 @@
                             <p>Consultation with Dr. @appointment.Doctor.Name</p>
                         </div>
                         <div>
-                            <p class="hospital-detailsAppointment"> Appointment At @appointment.DoctorHospital.Hospital.Name</p>
+                            <p class="hospital-detailsAppointment">Appointment At @appointment.DoctorHospital.Hospital.Name</p>
                         </div>
                         <div class="attendees">
-                            <img alt="Patient @appointment.Doctor.Name" src="@appointment.Doctor.ProfileImage" />
+                            <img alt="Doctor @appointment.Doctor.Name" src="@appointment.Doctor.ProfileImage" />
+                        </div>
+                        <div class="Status @appointment.Status.Value.ToLower()">
+                            <span>Status:</span>
+                            <span class="@appointment.Status.Value.ToLower()">@appointment.Status.Value</span>
                         </div>
 
                         @if (ViewBag.AppointmentCurrentStatus == "Confirmed")
                         {
                             <div class="actions">
-                                <button class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#rescheduleModal" 
-                                        data-appointment-id="@appointment.AppointmentID">Reschedule</button>
                                 <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#cancelModal" 
                                         data-appointment-id="@appointment.AppointmentID">Cancel</button>
                             </div>
@@ -47,31 +49,6 @@
                         }
                     </div>
                 }
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Reschedule Modal -->
-<div class="modal fade" id="rescheduleModal" tabindex="-1" aria-labelledby="rescheduleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="rescheduleModalLabel">Reschedule Appointment</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <form id="rescheduleForm">
-                    <input type="hidden" id="rescheduleAppointmentId" name="AppointmentID" />
-                    <div class="mb-3">
-                        <label for="newTimeSlot" class="form-label">New Time Slot</label>
-                        <input type="datetime-local" class="form-control" id="newTimeSlot" name="NewTimeSlot" required />
-                    </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" id="confirmReschedule">Confirm</button>
             </div>
         </div>
     </div>
@@ -99,34 +76,169 @@
 
 <script>
     document.addEventListener('DOMContentLoaded', () => {
-        // Capture appointment ID for Reschedule
-        const rescheduleModal = document.getElementById('rescheduleModal');
-        rescheduleModal.addEventListener('show.bs.modal', (event) => {
+        // Capture appointment ID for Cancel
+        const cancelModal = document.getElementById('cancelModal');
+        cancelModal.addEventListener('show.bs.modal', (event) => {
             const button = event.relatedTarget;
             const appointmentId = button.getAttribute('data-appointment-id');
-            document.getElementById('rescheduleAppointmentId').value = appointmentId;
+            document.getElementById('cancelAppointmentId').value = appointmentId;
         });
 
-        // Handle Reschedule Confirmation
-        document.getElementById('confirmReschedule').addEventListener('click', () => {
-            const form = document.getElementById('rescheduleForm');
-            const appointmentId = document.getElementById('rescheduleAppointmentId').value;
-            const newTimeSlot = document.getElementById('newTimeSlot').value;
+        // Handle Cancel Confirmation
+        document.getElementById('confirmCancel').addEventListener('click', () => {
+            const appointmentId = document.getElementById('cancelAppointmentId').value;
 
-            if (newTimeSlot) {
-                fetch(`/Appointments/Reschedule`, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ AppointmentID: appointmentId, NewTimeSlot: newTimeSlot }),
-                }).then(response => {
-                    if (response.ok) {
-                        location.reload();
-                    } else {
-                        alert('Failed to reschedule the appointment.');
-                    }
-                });
-            }
+            fetch(`/Appointments/Cancel`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ AppointmentID: appointmentId }),
+            }).then(response => {
+                if (response.ok) {
+                    location.reload();
+                } else {
+                    alert('Failed to cancel the appointment.');
+                }
+            });
         });
+    });
+</script>
+
+
+
+
+
+
+@* @model IEnumerable<Health_Hub.Models.Domain.Appointment>
+<div class="body">
+    <div class="container">
+        <div class="content">
+            <h2>Appointments</h2>
+            <p>See your scheduled appointments and details.</p>
+
+            <div class="tabs">
+                <a href="@Url.Action("List", "Appointments", new { status = "Confirmed" })" class="btn @((ViewBag.AppointmentCurrentStatus == "Confirmed") ? "active" : "")">Scheduled</a>
+                <a href="@Url.Action("List", "Appointments", new { status = "Completed" })" class="btn @((ViewBag.AppointmentCurrentStatus == "Completed") ? "active" : "")">Past</a>
+                <a href="@Url.Action("List", "Appointments", new { status = "Canceled" })" class="btn @((ViewBag.AppointmentCurrentStatus == "Canceled") ? "active" : "")">Canceled</a>
+            </div>
+
+            <div class="appointment-list">
+                @foreach (var appointment in Model)
+                {
+                    <div class="event">
+                        <div class="date">
+                            <span>@appointment.TimeSlot.ToString("ddd")</span>
+                            <span>@appointment.TimeSlot.ToString("MMMM dd")</span>
+                        </div>
+                        <div class="details">
+                            <p class="time">@appointment.TimeSlot.ToString("HH:mm tt")</p>
+                            <p>Consultation with Dr. @appointment.Doctor.Name</p>
+                        </div>
+                        <div>
+                            <p class="hospital-detailsAppointment"> Appointment At @appointment.DoctorHospital.Hospital.Name</p>
+                        </div>
+                        <div class="attendees">
+                            <img alt="Doctor @appointment.Doctor.Name" src="@appointment.Doctor.ProfileImage" />
+                        </div>
+                        <div class="Status @appointment.Status.Value.ToLower()">
+                            <span>Status:</span>
+                            <span>@appointment.Status.Value</span>
+                        </div>
+
+                        @if (ViewBag.AppointmentCurrentStatus == "Confirmed")
+                        {
+                            <div class="actions">
+                                <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#cancelModal" 
+                                        data-appointment-id="@appointment.AppointmentID">Cancel</button>
+                            </div>
+                        }
+                        else if (ViewBag.AppointmentCurrentStatus == "Completed")
+                        {
+                            <div class="actions">
+                                <button class="btn btn-secondary" onclick="location.href='@Url.Action("Single", "Appointments", new { id = appointment.AppointmentID })'">View Details</button>
+                            </div>
+                        }
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@* <!-- Reschedule Modal -->
+<div class="modal fade" id="rescheduleModal" tabindex="-1" aria-labelledby="rescheduleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="rescheduleModalLabel">Reschedule Appointment</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="rescheduleForm">
+                    <input type="hidden" id="rescheduleAppointmentId" name="AppointmentID" />
+                    <div class="mb-3">
+                        <label for="newTimeSlot" class="form-label">New Time Slot</label>
+                        <input type="datetime-local" class="form-control" id="newTimeSlot" name="NewTimeSlot" required />
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="confirmReschedule">Confirm</button>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+<!-- Cancel Modal -->
+<div class="modal fade" id="cancelModal" tabindex="-1" aria-labelledby="cancelModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="cancelModalLabel">Cancel Appointment</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to cancel this appointment?</p>
+                <input type="hidden" id="cancelAppointmentId" />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-danger" id="confirmCancel">Yes, Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // document.addEventListener('DOMContentLoaded', () => {
+    //     // Capture appointment ID for Reschedule
+    //     const rescheduleModal = document.getElementById('rescheduleModal');
+    //     rescheduleModal.addEventListener('show.bs.modal', (event) => {
+    //         const button = event.relatedTarget;
+    //         const appointmentId = button.getAttribute('data-appointment-id');
+    //         document.getElementById('rescheduleAppointmentId').value = appointmentId;
+    //     });
+
+    //     // Handle Reschedule Confirmation
+    //     document.getElementById('confirmReschedule').addEventListener('click', () => {
+    //         const form = document.getElementById('rescheduleForm');
+    //         const appointmentId = document.getElementById('rescheduleAppointmentId').value;
+    //         const newTimeSlot = document.getElementById('newTimeSlot').value;
+
+    //         if (newTimeSlot) {
+    //             fetch(`/Appointments/Reschedule`, {
+    //                 method: 'POST',
+    //                 headers: { 'Content-Type': 'application/json' },
+    //                 body: JSON.stringify({ AppointmentID: appointmentId, NewTimeSlot: newTimeSlot }),
+    //             }).then(response => {
+    //                 if (response.ok) {
+    //                     location.reload();
+    //                 } else {
+    //                     alert('Failed to reschedule the appointment.');
+    //                 }
+    //             });
+    //         }
+    //     });
 
         // Capture appointment ID for Cancel
         const cancelModal = document.getElementById('cancelModal');
@@ -154,3 +266,4 @@
         });
     });
 </script>
+ *@

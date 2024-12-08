@@ -1,251 +1,221 @@
-﻿.body {
-    font-family: Arial, sans-serif;
-    background-color: #F4F7F6;
+﻿/* General Styles */
+.body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f8f9fa;
     margin: 0;
-    padding: 0;
-}
-.container {
     padding: 20px;
 }
 
-.content h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.content p {
-    color: #666666;
-    margin-bottom: 20px;
-}
-
-.tabs {
+.appointment-list {
     display: flex;
-    margin-bottom: 20px;
+    flex-direction: column;
+    gap: 10px;
 }
 
-    .tabs button {
-        background-color: #FFFFFF;
-        border: 1px solid #E0E0E0;
-        padding: 10px 20px;
-        margin-right: 10px;
-        cursor: pointer;
-        border-radius: 5px;
-    }
-
-        .tabs button.active {
-            background-color: #F4F7F6;
-            border-color: #F4F7F6;
-        }
-
+/* Event Card Styles */
 .event {
-    background-color: #FFFFFF;
-    border: 1px solid #E0E0E0;
-    padding: 20px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 100px auto auto auto;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.3s;
     align-items: center;
 }
 
-/*    .event .date {
-        font-size: 24px;
-        color: #FF5722;
-        margin-right: 20px;
-        text-align: center;
-    }*/
+    .event:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Date Section */
     .event .date {
-    text-align: center;
-    margin-right: 20px;
-    font-size: 14px;
-    font-weight: bold;
-    color: #555;
-}
+        background-color: #007bff;
+        color: #ffffff;
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        width: 100px;
+        min-width: 100px;
+    }
 
         .event .date span {
             display: block;
         }
 
+    /* Details Section */
     .event .details {
-        flex-grow: 1;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
     }
+
+        .event .details h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #212529;
+            font-weight: 500;
+        }
 
         .event .details p {
             margin: 0;
+            color: #495057;
+            font-size: 14px;
+            line-height: 1.5;
         }
 
-        .event .details .time {
-            color: #666666;
-            margin-bottom: 5px;
-        }
+    .event .hospital-detailsAppointment {
+        font-size: 14px;
+        font-weight: 600;
+        color: #6c757d;
+    }
 
-        .event .details .location {
-            color: #666666;
-            display: flex;
-            align-items: center;
-        }
-
-            .event .details .location i {
-                margin-right: 5px;
-            }
-
+    /* Attendees Section */
     .event .attendees {
         display: flex;
+        justify-content: center;
         align-items: center;
-        margin-right:50px;
-        margin-left:20px;
+        padding: 10px;
     }
 
         .event .attendees img {
             width: auto;
-            height: 30px;
+            height: 100px;
             border-radius: 50%;
-            margin-left: -10px;
-            border: 2px solid #FFFFFF;
+            object-fit: cover;
+            border: 2px solid #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-@media(min-width: 1150px)
-{
-    .event .attendees {
-        display: flex;
+
+    /* Status Section */
+    .event .Status {
+        display: inline-flex;
+        justify-content: center;
         align-items: center;
-        margin-right: 25em;
-        margin-left: 50px;
-    }
-    .event .details{
-        margin-right:10em;
-    }
-}
-.actions {
-    display: flex;
-    gap: 10px;
-    width: 100%; /* Ensure buttons stretch across container */
-}
-
-    /* Button Styles */
-    .actions .btn {
-        font-size: 14px; /* Adjust font size */
-        padding: 12px; /* Make padding equal for both buttons */
-        border-radius: 5px;
-        transition: background-color 0.3s ease;
-        text-align: center; /* Centers the text inside the button */
-        box-sizing: border-box; /* Include padding in width */
-        min-width: 120px; /* Prevent buttons from becoming too narrow */
-        flex-grow: 1; /* Makes both buttons take equal width */
-        flex-basis: 0; /* Ensures that both buttons stretch equally */
+        font-weight: 600;
+        font-size: 12px;
+        color: #ffffff;
+        border-radius: 80px; /* Pill shape for Material UI look */
+        padding: 5px 40px; /* Balanced padding for text */
+        margin: 10px 0px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+        transition: transform 0.2s, box-shadow 0.2s; /* Smooth animations */
+        cursor: default;
     }
 
-    /* Button primary and danger styles */
-    .actions .btn-primary {
-        background-color: #007bff;
-        color: #fff;
-        border: none;
-    }
-
-        .actions .btn-primary:hover {
-            background-color: #0056b3;
+        .event .Status:hover {
+            transform: translateY(-2px); /* Lift effect on hover */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow */
         }
 
-    .actions .btn-danger {
-        background-color: #dc3545;
-        color: #fff;
-        border: none;
-    }
-
-        .actions .btn-danger:hover {
-            background-color: #a71d2a;
+        .event .Status.completed {
+            background-color: #2196f3; /* Material Blue for Completed */
+            color: #ffffff;
         }
 
-/* Ensure responsiveness on smaller screens */
-@media (max-width: 1100px) {
+        .event .Status.cancelled {
+            background-color: #e53935; /* Material Red for Cancelled */
+            color: #ffffff;
+        }
+
+        .event .Status.confirmed {
+            background-color: #43a047; /* Material Green for Confirmed */
+            color: #ffffff;
+        }
+
+
+
+    /* Actions Section */
+    .event .actions {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        padding: 15px;
+        border-top: 1px solid #dee2e6;
+        background-color: #f8f9fa;
+    }
+
+.actions .btn {
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: 500;
+    text-align: center;
+    transition: all 0.3s;
+    cursor: pointer;
+    border: none;
+}
+
+.actions .btn-primary {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+    .actions .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+.actions .btn-danger {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+    .actions .btn-danger:hover {
+        background-color: #a71d2a;
+    }
+
+.actions .btn-secondary {
+    background-color: #6c757d;
+    color: #ffffff;
+}
+
+    .actions .btn-secondary:hover {
+        background-color: #5a6268;
+    }
+/* Responsive Design */
+@media (max-width: 768px) {
+    .event {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+        .event .date {
+            border-radius: 10px 10px 0 0;
+            width: 100%;
+        }
+
+        .event .details {
+            padding: 15px;
+            text-align: center; /* Center-align for mobile */
+        }
+
+        .event .attendees {
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .event .Status {
+            justify-content: center;
+            width: 100%;
+            border-radius: 0 0 10px 10px; /* Rounded corners for mobile */
+        }
+
     .actions {
-        flex-direction: column; /* Stack buttons vertically on smaller screens */
-        gap: 5px; /* Reduce gap between buttons when stacked */
+        flex-direction: column;
+        align-items: center; /* Center-align actions */
+        padding: 10px;
     }
 
         .actions .btn {
-            width: 100%; /* Buttons will take full width on smaller screens */
-            margin-bottom: 5px; /* Space between stacked buttons */
+            width: 100%; /* Full-width buttons for better usability */
+            margin-bottom: 10px;
         }
 }
-
-/* Modals */
-.modal-content {
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.modal-header {
-    background-color: #007bff;
-    color: #fff;
-    padding: 15px;
-    border-bottom: none;
-}
-
-    .modal-header .btn-close {
-        color: #fff;
-        opacity: 0.8;
-    }
-
-        .modal-header .btn-close:hover {
-            opacity: 1;
-        }
-
-.modal-title {
-    font-size: 18px;
-    margin: 0;
-}
-
-.modal-body {
-    padding: 20px;
-}
-
-    .modal-body form .form-label {
-        font-weight: bold;
-        color: #333;
-    }
-
-    .modal-body form .form-control {
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        padding: 8px;
-        font-size: 14px;
-        width: 100%;
-    }
-
-.modal-footer {
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
-    padding: 15px;
-    border-top: none;
-}
-
-    .modal-footer .btn-secondary {
-        background-color: #6c757d;
-        color: #fff;
-        border: none;
-    }
-
-        .modal-footer .btn-secondary:hover {
-            background-color: #5a6268;
-        }
-
-    .modal-footer .btn-primary {
-        background-color: #007bff;
-        color: #fff;
-        border: none;
-    }
-
-        .modal-footer .btn-primary:hover {
-            background-color: #0056b3;
-        }
-
-    .modal-footer .btn-danger {
-        background-color: #dc3545;
-        color: #fff;
-        border: none;
-    }
-
-        .modal-footer .btn-danger:hover {
-            background-color: #a71d2a;
-        }
