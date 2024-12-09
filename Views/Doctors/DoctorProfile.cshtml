@@ -1,0 +1,565 @@
+﻿@using Health_Hub.Models.ViewModels
+@model ProfileViewModel
+@{
+    ViewData["Title"] = "DoctorProfile";
+}
+
+<!-- Container for profile -->
+<div class="container profile-container">
+
+    <div class="row">
+        <!-- Left Side (Personal Information + Degree) -->
+        <div class="col-md-4">
+            <!-- Personal Information Card (Top) -->
+            <div class="card shadow-lg mb-4" style="width: 100%; max-width: 100%;">
+                <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+                    <h5>Personal Information</h5>
+                    <button class="btn btn-light" onclick="editPersonalInfo()">
+                        <i class="bi bi-pencil-square"></i>
+                    </button>
+                </div>
+                <div class="card-body" style="padding: 10px;">
+                    <div class="profile-info">
+                        <!-- Profile Image -->
+                        <div class="profile-image-container text-center mb-3">
+                            <img id="profileImage" src="@Model.Profile" alt="Profile Image" class="profile-image img-fluid rounded-circle border border-primary" style="width: 120px; height: 120px; object-fit: cover;" />
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-12"><strong>@Model.Name</strong></div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-12">@Model.PhoneNumber</div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-12">@Model.Email</div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-12">@Model.CNIC</div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-12">@Model.SpecializationName</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Degree Card (Below Personal Information) -->
+            <div class="card shadow-lg mb-4" style="width: 100%; max-width: 100%;">
+                <div class="card-header bg-warning text-white d-flex justify-content-between align-items-center">
+                    <h5>Degree</h5>
+                    <button class="btn btn-light" onclick="editDegreeImage()">
+                        <i class="bi bi-pencil-square"></i> 
+                    </button>
+                </div>
+                <div class="card-body" style="padding: 10px;">
+                    <div class="degree-info">
+                        <div class="text-center mb-3">
+                            <!-- Degree Image (Clickable for Upload) -->
+                            <img id="degreeImage" src="@Model.Degree" alt="Degree" class="degree-image img-fluid rounded" style="max-width: 70%; height: auto;" />
+                            <!-- Hidden file input for uploading degree image -->
+                            <input type="file" id="degreeFile" style="display: none;" accept="image/*" onchange="uploadDegreeImage(event)" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Side (Hospital Information) -->
+        <div class="col-md-8">
+            <div class="card shadow-lg mb-4">
+                <div class="card-header bg-success text-white d-flex justify-content-between align-items-center">
+                    <h5>Hospital Information</h5>
+                    <button class="btn btn-light" onclick="showAddHospitalForm()">
+                        <i class="bi bi-plus-circle"></i> Add Hospital
+                    </button>
+                </div>
+                <div class="card-body">
+                    <h4>Availability</h4>
+                    @foreach (var availability in Model.DoctorAvailabilities)
+                    {
+                        <div class="rounded border border-secondary p-3 mb-3 shadow-sm bg-light">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="mb-1">
+                                    <strong>Hospital:</strong> <strong>@availability.HospitalName</strong>
+                                </p>
+                                <button class="bi bi-pencil-square" onclick="editAvailability('@availability.HospitalName', '@availability.WeekDays', '@availability.TimeStart', '@availability.TimeEnd', '@availability.BreakStart', '@availability.BreakEnd', '@availability.Capacity')"></button>
+                                <button class="btn btn-danger btn-sm" onclick="removeSection('@availability.HospitalName', '@availability.WeekDays')">Remove</button>
+                            </div>
+                            <p><strong>Address:</strong> @availability.HospitalAddress</p>
+                            <p><strong>City:</strong> @availability.City</p>
+                            <p><strong>Capacity:</strong> @availability.Capacity</p>
+                            <p>
+                                <strong>Weekdays:</strong>
+                                <span id="weekdays-@availability.HospitalName">@availability.WeekDays</span>
+                            </p>
+                            <p>
+                                <strong>Timings:</strong>
+                                @if (availability.BreakStart.HasValue && availability.BreakEnd.HasValue)
+                                {
+                                    <span>@availability.TimeStart - @availability.BreakStart.Value</span>
+                                    <br />
+                                    <span>@availability.BreakEnd.Value - @availability.TimeEnd</span>
+                                }
+                                else
+                                {
+                                    <span>@availability.TimeStart - @availability.TimeEnd</span>
+                                }
+                            </p>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Editing Personal Information -->
+<div class="modal fade" id="editPersonalInfoModal" tabindex="-1" aria-labelledby="editPersonalInfoModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editPersonalInfoModalLabel">Edit Personal Information</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="personalInfoForm">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" value="@Model.Name" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="phoneNumber" class="form-label">Phone Number</label>
+                        <input type="text" class="form-control" id="phoneNumber" value="@Model.PhoneNumber" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" value="@Model.Email" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="cnic" class="form-label">CNIC</label>
+                        <input type="text" class="form-control" id="cnic" value="@Model.CNIC" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="specializationId" class="form-label">Specialization</label>
+                        <input type="text" class="form-control" id="specializationId" value="@Model.SpecializationId" />
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                
+                <button type="button" class="btn btn-primary" onclick="updatePersonalInfo()">Save Changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal for Editing Hospital Availability -->
+<!-- Add modal HTML for editing availability -->
+<div class="modal fade" id="editAvailabilityModal" tabindex="-1" aria-labelledby="editAvailabilityModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editAvailabilityModalLabel">Edit Availability</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="hospitalName" class="form-label">Hospital Name</label>
+                        <input type="text" class="form-control" id="hospitalName" disabled>
+                    </div>
+                    <div class="mb-3">
+                        <label for="days" class="form-label">Weekdays</label>
+                        <div class="d-flex justify-content-between">
+                            <select class="form-select" id="startDay">
+                                <option value="Monday">Monday</option>
+                                <option value="Tuesday">Tuesday</option>
+                                <option value="Wednesday">Wednesday</option>
+                                <option value="Thursday">Thursday</option>
+                                <option value="Friday">Friday</option>
+                                <option value="Saturday">Saturday</option>
+                                <option value="Sunday">Sunday</option>
+                            </select>
+                            <span>  to  </span>
+                            <select class="form-select" id="endDay">
+                                <option value="Monday">Monday</option>
+                                <option value="Tuesday">Tuesday</option>
+                                <option value="Wednesday">Wednesday</option>
+                                <option value="Thursday">Thursday</option>
+                                <option value="Friday">Friday</option>
+                                <option value="Saturday">Saturday</option>
+                                <option value="Sunday">Sunday</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="startTime" class="form-label">Start Time</label>
+                        <input type="time" class="form-control" id="startTime">
+                    </div>
+                    <div class="mb-3">
+                        <label for="endTime" class="form-label">End Time</label>
+                        <input type="time" class="form-control" id="endTime">
+                    </div>
+                    <div class="mb-3">
+                        <label for="breakStart" class="form-label">Break Start Time</label>
+                        <input type="time" class="form-control" id="breakStart">
+                    </div>
+                    <div class="mb-3">
+                        <label for="breakEnd" class="form-label">Break End Time</label>
+                        <input type="time" class="form-control" id="breakEnd">
+                    </div>
+                    <div class="mb-3">
+                        <label for="hospitalCapacity" class="form-label">Hospital Capacity</label>
+                        <input type="number" class="form-control" id="hospitalCapacity">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" onclick="updateAvailability()">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Modal for Adding Hospital -->
+<div class="modal fade" id="addHospitalModal" tabindex="-1" aria-labelledby="addHospitalModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addHospitalModalLabel">Add Hospital</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="hospitalForm">
+                    <!-- Hospital Form Fields -->
+                    <div class="mb-3">
+                        <label for="hospitalName" class="form-label">Hospital Name</label>
+                        <input type="text" class="form-control" id="hospitalName" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="hospitalAddress" class="form-label">Hospital Address</label>
+                        <input type="text" class="form-control" id="hospitalAddress" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="hospitalCity" class="form-label">City</label>
+                        <input type="text" class="form-control" id="hospitalCity" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="hospitalCapacity" class="form-label">Capacity</label>
+                        <input type="number" class="form-control" id="hospitalCapacity" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="day1" class="form-label">Start Day</label>
+                        <select class="form-control" id="day1">
+                            <option value="Monday">Monday</option>
+                            <option value="Tuesday">Tuesday</option>
+                            <option value="Wednesday">Wednesday</option>
+                            <option value="Thursday">Thursday</option>
+                            <option value="Friday">Friday</option>
+                            <option value="Saturday">Saturday</option>
+                            <option value="Sunday">Sunday</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="day2" class="form-label">End Day</label>
+                        <select class="form-control" id="day2">
+                            <option value="Monday">Monday</option>
+                            <option value="Tuesday">Tuesday</option>
+                            <option value="Wednesday">Wednesday</option>
+                            <option value="Thursday">Thursday</option>
+                            <option value="Friday">Friday</option>
+                            <option value="Saturday">Saturday</option>
+                            <option value="Sunday">Sunday</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="hospitalStartTime" class="form-label">Start Time</label>
+                        <input type="time" class="form-control" id="hospitalStartTime" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="hospitalEndTime" class="form-label">End Time</label>
+                        <input type="time" class="form-control" id="hospitalEndTime" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="hospitalBreakStart" class="form-label">BreakStart</label>
+                        <input type="time" class="form-control" id="hospitalBreakStart" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="hospitalBreakEnd" class="form-label">BreakEnd</label>
+                        <input type="time" class="form-control" id="hospitalBreakEnd" />
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                
+                <button type="button" class="btn btn-primary" onclick="submitHospital()">Save Hospital</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Add the icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+
+<!-- Bootstrap JS (required for modal) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    // Function to open the edit modal and pre-fill the form with current data
+    function editPersonalInfo() {
+        console.log('Updating personal information...');
+        var modal = new bootstrap.Modal(document.getElementById('editPersonalInfoModal'));
+        modal.show();
+    }
+
+    // Function to update the personal info via AJAX
+    function updatePersonalInfo() {
+        var name = document.getElementById('name').value;
+        var phoneNumber = document.getElementById('phoneNumber').value;
+        var email = document.getElementById('email').value;
+        var cnic = document.getElementById('cnic').value;
+        var specializationId = document.getElementById('specializationId').value;
+
+        // Create a FormData object
+        var formData = new FormData();
+        formData.append('Name', name);
+        formData.append('PhoneNumber', phoneNumber);
+        formData.append('Email', email);
+        formData.append('CNIC', cnic);
+        formData.append('SpecializationId', specializationId);
+
+        // Send the data using fetch with FormData (automatically sets the correct content-type)
+        fetch('@Url.Action("UpdatePersonalInfo", "DoctorProfile")', {
+            method: 'POST',
+            body: formData  // Send data as FormData (the browser automatically handles encoding)
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert('Personal information updated successfully.');
+                    location.reload();  // Reload the page to reflect the changes
+                } else {
+                    alert('Failed to update information: ' + data.message);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);  // Handle any errors that occur
+                alert('An error occurred while updating information.');
+            });
+    }
+
+
+
+    // Function to open the degree image upload dialog
+    function editDegreeImage() {
+        document.getElementById('degreeFile').click();
+    }
+
+    // Function to handle the degree image upload
+    function uploadDegreeImage(event) {
+        var formData = new FormData();
+        formData.append('degreeFile', event.target.files[0]);
+
+        fetch('@Url.Action("UploadDegree", "DoctorProfile")', {
+            method: 'POST',
+            body: formData
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    document.getElementById('degreeImage').src = data.newImageUrl;
+                    alert('Degree uploaded successfully.');
+                } else {
+                    alert('Failed to upload degree.');
+                }
+            })
+            .catch(error => console.error('Error:', error));
+    }
+
+    // Function to open the add hospital form
+    function showAddHospitalForm() {
+        var modal = new bootstrap.Modal(document.getElementById('addHospitalModal'));
+        modal.show();
+    }
+
+    // Function to submit hospital info (can be enhanced with validation)
+    function submitHospital() {
+        try {
+            // Retrieve form values
+            var hospitalName = document.getElementById('hospitalName').value;
+            var city = document.getElementById('hospitalCity').value;
+            var hospitalAddress = document.getElementById('hospitalAddress').value;
+            var capacity = document.getElementById('hospitalCapacity').value;
+            var day1 = document.getElementById('day1').value;
+            var day2 = document.getElementById('day2').value;
+            var timeStart = document.getElementById('hospitalStartTime').value;
+            var timeEnd = document.getElementById('hospitalEndTime').value;
+            var breakStart = document.getElementById('hospitalBreakStart') ? document.getElementById('hospitalBreakStart').value : null;
+            var breakEnd = document.getElementById('hospitalBreakEnd') ? document.getElementById('hospitalBreakEnd').value : null;
+            alert('Please fill in all required fields.'+breakEnd);
+
+            // Validate required fields
+            if (!hospitalName || !city || !hospitalAddress || !capacity || !day1 || !day2 || !timeStart || !timeEnd) {
+                alert('Please fill in all required fields.');
+                return;
+            }
+
+            
+
+            // Create FormData object and append the values
+            var formData = new FormData();
+            formData.append('HospitalName', hospitalName);
+            formData.append('City', city);
+            formData.append('HospitalAddress', hospitalAddress);
+            formData.append('Capacity', capacity);
+            formData.append('Day1', day1);
+            formData.append('Day2', day2);
+            formData.append('TimeStart', timeStart);
+            formData.append('TimeEnd', timeEnd);
+            formData.append('BreakStart', breakStart);
+            formData.append('BreakEnd', breakEnd);
+
+            // Proceed with fetch request
+            fetch('@Url.Action("AddOrUpdateHospitalAvailability", "DoctorProfile")', {
+                method: 'POST',
+                body: formData
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        alert('Hospital added/updated successfully.');
+                        location.reload(); // Reload to reflect changes
+                    } else {
+                        alert('Failed to add/update hospital: ' + data.message);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('An error occurred while adding/updating the hospital: ' + error.message);
+                });
+
+        } catch (error) {
+            console.error('Unexpected error:', error);
+            alert('An unexpected error occurred. Please try again.' + error);
+        }
+    }
+    function editAvailability(hospitalName, weekdays, timeStart, timeEnd, breakStart, breakEnd, capacity) {
+        var modal = new bootstrap.Modal(document.getElementById('editAvailabilityModal'));
+
+        // Fill in the hospital name
+        document.getElementById('hospitalName').value = hospitalName;
+
+        // Split weekdays to get start and end days
+        var daysArray = weekdays.split('-');  // Example: "Monday-Friday"
+        var startDay = daysArray[0];
+        var endDay = daysArray[1];
+
+        // Set start and end day dropdowns
+        document.getElementById('startDay').value = startDay;
+        document.getElementById('endDay').value = endDay;
+
+        // Fill in the other time-related fields
+        document.getElementById('startTime').value = timeStart;
+        document.getElementById('endTime').value = timeEnd;
+        document.getElementById('breakStart').value = breakStart || '';
+        document.getElementById('breakEnd').value = breakEnd || '';
+        document.getElementById('hospitalCapacity').value = capacity;
+
+        // Show the modal
+        modal.show();
+    }
+
+
+    // Update availability
+    function updateAvailability() {
+        try {
+            // Retrieve form values
+            var hospitalName = document.getElementById('hospitalName').value;
+            var capacity = document.getElementById('hospitalCapacity').value;
+            var startTime = document.getElementById('startTime').value;
+            var endTime = document.getElementById('endTime').value;
+            var breakStart = document.getElementById('hospitalBreakStart') ? document.getElementById('hospitalBreakStart').value : null;
+            var breakEnd = document.getElementById('hospitalBreakEnd') ? document.getElementById('hospitalBreakEnd').value : null;
+            var startDay = document.getElementById('startDay').value;
+            var endDay = document.getElementById('endDay').value;
+
+            // Check if any required fields are null or empty, and show which one is missing
+            if (!hospitalName) {
+                alert('Hospital Name is required.');
+                return;
+            }
+            if (!capacity) {
+                alert('Capacity is required.');
+                return;
+            }
+            if (!startTime) {
+                alert('Start Time is required.');
+                return;
+            }
+            if (!endTime) {
+                alert('End Time is required.');
+                return;
+            }
+            if (!startDay) {
+                alert('Start Day is required.');
+                return;
+            }
+            if (!endDay) {
+                alert('End Day is required.');
+                return;
+            }
+
+            // Create FormData object
+            var formData = new FormData();
+            formData.append('HospitalName', hospitalName);
+            formData.append('Capacity', capacity);
+            formData.append('TimeStart', startTime);
+            formData.append('TimeEnd', endTime);
+            formData.append('BreakStart', breakStart);
+            formData.append('BreakEnd', breakEnd);
+            formData.append('day1', startDay); // Send start day as 'day1'
+            formData.append('day2', endDay);   // Send end day as 'day2'
+
+            // Send the data to the server
+            fetch('@Url.Action("AddAvailability", "DoctorProfile")', {
+                method: 'POST',
+                body: formData
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Failed to update availability. Server error.');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (data.success) {
+                        alert('Availability updated successfully.');
+                        location.reload(); // Refresh to show the updated availability
+                    } else {
+                        alert('Error: ' + data.message);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('An error occurred while updating availability: ' + error.message);
+                });
+
+        } catch (error) {
+            console.error('Unexpected error:', error);
+            alert('An unexpected error occurred. Please try again later.' + error);
+        }
+    }
+
+
+
+
+
+
+
+
+</script>

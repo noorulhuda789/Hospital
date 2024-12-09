@@ -859,9 +859,6 @@ C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\bin\Debug\net8.0\refs\W
 C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\bin\Debug\net8.0\Humanizer.dll
-C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
@@ -890,8 +887,6 @@ C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\bin\Debug\net8.0\Micros
 C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
-C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
@@ -1116,3 +1111,7 @@ C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\obj\Debug\net8.0\refint
 C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\obj\Debug\net8.0\Health Hub.pdb
 C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\obj\Debug\net8.0\Health Hub.genruntimeconfig.cache
 C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\obj\Debug\net8.0\ref\Health Hub.dll
+C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\bin\Debug\net8.0\refs\Microsoft.Extensions.Identity.Core.dll
+C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\bin\Debug\net8.0\refs\Microsoft.Extensions.Identity.Stores.dll

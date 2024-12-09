@@ -6,13 +6,14 @@ namespace Health_Hub.Models.Domain
 {
     public class Doctor : Person
     {
+        public int PersonId { get; set; }
         public string? Degree { get; set; } //PMDC Verfication based on Degree
         public bool VerificationStatus { get; set; } = false;
         public float Rating { get; set; }
         public string? ProfileImage { get; set; }
-
-		// Specialization as lookup reference (One-to-Many)
-		public int? SpecializationID { get; set; }
+        public Person Person { get; set; }
+        // Specialization as lookup reference (One-to-Many)
+        public int SpecializationID { get; set; }
 		public Lookup Specialization { get; set; }
 
 
@@ -30,6 +31,6 @@ namespace Health_Hub.Models.Domain
         public ICollection<Chat>? Chats { get; set; }
 
         // Navigation property to Person
-        public Person Person { get; set; } // This creates a relationship between Doctor and Person
+         
     }
 }

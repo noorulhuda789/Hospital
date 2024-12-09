@@ -1,0 +1,133 @@
+﻿@model Health_Hub.Models.ViewModels.DoctorDashboardViewModel
+
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="container mt-5">
+    <!-- Slider Start -->
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-xl-7">
+                    <div class="block">
+                        <div class="divider mb-3"></div>
+                        <span class="text-uppercase text-sm letter-spacing">Health care solution</span>
+                        <h1 class="mb-3 mt-3">Your most trusted health partner</h1>
+                        <p class="mb-4 pr-5">Connecting Patients and Doctors for Seamless, Accessible Healthcare Anytime, Anywhere.</p>
+                        <div class="btn-container">
+                            <a href="appointment.html" target="_blank" class="btn btn-main-2 btn-icon btn-round-full">Make appointment <i class="icofont-simple-right ml-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Welcome Doctor Name -->
+    <h2 class="mb-4">Welcome, @Model.DoctorName!</h2>
+
+    <!-- Row for Cards: Total Appointments and Doctor Rating -->
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card shadow-sm card-equal-size">
+                <div class="card-body text-center">
+                    <h5>Total Appointments</h5>
+                    <h3>@Model.TotalAppointments</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card shadow-sm card-equal-size">
+                <div class="card-body text-center">
+                    <h5>Doctor Rating</h5>
+                    <canvas id="ratingChart" width="150" height="150"></canvas>
+                    <div id="ratingText" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 18px; font-weight: bold;">
+                        @Model.AverageRating.ToString("F1") / 5
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bar Chart for Appointments by Date -->
+    <div class="row mt-4">
+        <div class="col-md-12">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5>Appointments by Date</h5>
+                    <canvas id="appointmentsChart" width="300" height="200"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Styling for Equal Card Sizes -->
+<style>
+    .card-equal-size {
+        height: 200px; /* Ensure cards for "Total Appointments" and "Doctor Rating" match in size */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #ratingChart {
+        display: block;
+        margin: auto;
+    }
+</style>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        window.onload = function () {
+            const ctxRating = document.getElementById('ratingChart').getContext('2d');
+            const ctxAppointments = document.getElementById('appointmentsChart').getContext('2d');
+
+            // Pie Chart for Doctor Rating
+            new Chart(ctxRating, {
+                type: 'pie',
+                data: {
+                    labels: ['Rating', 'Remaining'],
+                    datasets: [{
+                        data: [@Model.AverageRating, 5 - @Model.AverageRating],
+                        backgroundColor: ['rgba(75, 192, 192, 1)', 'rgba(220, 220, 220, 0.2)'],
+                        borderColor: ['rgba(75, 192, 192, 1)', 'rgba(220, 220, 220, 0.2)'],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: false,
+                    plugins: {
+                        tooltip: { enabled: false },
+                        legend: { display: false }
+                    }
+                }
+            });
+
+            // Bar Chart for Appointments by Date
+            new Chart(ctxAppointments, {
+                type: 'bar',
+                data: {
+                    labels: @Html.Raw(Json.Serialize(Model.AppointmentsByDate.Select(d => d.Date.ToString("MM/dd/yyyy")))),
+                    datasets: [{
+                        label: 'Number of Appointments',
+                        data: @Html.Raw(Json.Serialize(Model.AppointmentsByDate.Select(d => d.Count))),
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: false,
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        };
+    </script>
+}

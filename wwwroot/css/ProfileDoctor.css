@@ -1,0 +1,38 @@
+﻿/* Button container inside the profile card */
+.profile-card .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 0; /* Removes spacing between buttons */
+    margin-top: 10px;
+}
+
+    /* Individual button styling */
+    .profile-card .button-container button {
+        background-color: #007bff; /* Blue color */
+        color: #fff;
+        border: none;
+        padding: 10px 15px;
+        font-size: 14px;
+        cursor: pointer;
+        border-radius: 5px 0 0 5px; /* Rounded corners for the left button */
+    }
+
+        .profile-card .button-container button:last-child {
+            border-radius: 0 5px 5px 0; /* Rounded corners for the right button */
+        }
+
+        .profile-card .button-container button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+
+/* Optional: Make buttons stack on smaller screens */
+@media (max-width: 576px) {
+    .profile-card .button-container {
+        flex-direction: column;
+    }
+
+        .profile-card .button-container button {
+            border-radius: 5px; /* Reset border radius */
+            margin: 5px 0; /* Add spacing for stacked buttons */
+        }
+}

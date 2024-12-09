@@ -1,4 +1,4 @@
-﻿@using Health_Hub.Models.ViewModels
+﻿﻿@using Health_Hub.Models.ViewModels
 @model ProfileViewModel
 
 @{
@@ -44,20 +44,17 @@
                     <span asp-validation-for="SpecializationId" class="text-danger"></span>
                 </div>
             </div>
-
-            <!-- Hospital Information Heading -->
-            <h4 id="hospitalHeading" class="mt-4">Hospital Information</h4>
-
-            <!-- Add Hospital Button -->
-            <div id="buttonContainer" class="text-start my-4">
-                <button type="button" id="addHospitalBtn" class="btn btn-primary">Add Hospital</button>
+            <div class="form-group">
+                <label for="ProfileImagePath" class="text-dark">Profile Image:</label>
+                <input type="file" asp-for="ProfileImage" class="form-control" />
+                <span asp-validation-for="ProfileImage" class="text-danger"></span>
             </div>
-
-            <!-- Dynamic Hospital Information Section -->
-            <div id="hospitalContainer" class="mt-4">
-                <!-- Hospital Information gets added here -->
+            <div class="form-group">
+                <label for="DegreeImagePath" class="text-dark">Degree Image:</label>
+                <input type="file" asp-for="DegreeImage" class="form-control" />
+                <span asp-validation-for="DegreeImage" class="text-danger"></span>
             </div>
-
+  
             <!-- Submit Button Section -->
             <div class="d-flex justify-content-between mt-4">
                 <a asp-action="Index" class="btn cancel btn-lg w-48">Cancel</a>
@@ -67,94 +64,3 @@
     </div>
 </div>
 
-@section Scripts {
-    @await Html.PartialAsync("_ValidationScriptsPartial")
-    <script>
-        let hospitalCount = 0; // To track the number of hospitals added
-
-        document.getElementById("addHospitalBtn").addEventListener("click", function () {
-            hospitalCount++; // Increment hospital counter
-            const hospitalContainer = document.getElementById("hospitalContainer");
-            const buttonContainer = document.getElementById("buttonContainer");
-
-            // Create a new hospital section
-            const hospitalSection = document.createElement("div");
-            hospitalSection.className = "hospital-section mb-4 p-3 border rounded";
-            hospitalSection.innerHTML = `
-                        <h5>Hospital Number ${hospitalCount}</h5>
-                        <div class="row">
-                            <div class="col-md-6 col-12 form-group mb-3">
-                                <label for="HospitalName${hospitalCount}">Hospital Name</label>
-                                <input name="Hospitals[${hospitalCount - 1}].Name" class="form-control" id="HospitalName${hospitalCount}" placeholder="Enter hospital name" />
-                            </div>
-                            <div class="col-md-6 col-12 form-group mb-3">
-                                <label for="Capacity${hospitalCount}">Capacity</label>
-                                <input name="Hospitals[${hospitalCount - 1}].Capacity" class="form-control" id="Capacity${hospitalCount}" placeholder="Enter capacity" />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-12 form-group mb-3">
-                                <label for="City${hospitalCount}">City</label>
-                                <input name="Hospitals[${hospitalCount - 1}].City" class="form-control" id="City${hospitalCount}" placeholder="Enter city" />
-                            </div>
-                            <div class="col-md-6 col-12 form-group mb-3">
-                                <label for="Address${hospitalCount}">Address</label>
-                                <input name="Hospitals[${hospitalCount - 1}].Address" class="form-control" id="Address${hospitalCount}" placeholder="Enter address" />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-12 form-group mb-3">
-                                <label for="StartTime${hospitalCount}">Start Time</label>
-                                <input type="time" name="Hospitals[${hospitalCount - 1}].StartTime" class="form-control" id="StartTime${hospitalCount}" />
-                            </div>
-                            <div class="col-md-6 col-12 form-group mb-3">
-                                <label for="EndTime${hospitalCount}">End Time</label>
-                                <input type="time" name="Hospitals[${hospitalCount - 1}].EndTime" class="form-control" id="EndTime${hospitalCount}" />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-12 form-group mb-3">
-                                <label for="BreakStartTime${hospitalCount}">Break Start Time</label>
-                                <input type="time" name="Hospitals[${hospitalCount - 1}].BreakStartTime" class="form-control" id="BreakStartTime${hospitalCount}" />
-                            </div>
-                            <div class="col-md-6 col-12 form-group mb-3">
-                                <label for="BreakEndTime${hospitalCount}">Break End Time</label>
-                                <input type="time" name="Hospitals[${hospitalCount - 1}].BreakEndTime" class="form-control" id="BreakEndTime${hospitalCount}" />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-12 form-group mb-3">
-                                <label for="AvailableFromDay${hospitalCount}">Available From Day</label>
-                                <select name="Hospitals[${hospitalCount - 1}].AvailableFromDay" class="form-control" id="AvailableFromDay${hospitalCount}">
-                                    <option value="Monday">Monday</option>
-                                    <option value="Tuesday">Tuesday</option>
-                                    <option value="Wednesday">Wednesday</option>
-                                    <option value="Thursday">Thursday</option>
-                                    <option value="Friday">Friday</option>
-                                    <option value="Saturday">Saturday</option>
-                                    <option value="Sunday">Sunday</option>
-                                </select>
-                            </div>
-                            <div class="col-md-6 col-12 form-group mb-3">
-                                <label for="AvailableToDay${hospitalCount}">Available To Day</label>
-                                <select name="Hospitals[${hospitalCount - 1}].AvailableToDay" class="form-control" id="AvailableToDay${hospitalCount}">
-                                    <option value="Monday">Monday</option>
-                                    <option value="Tuesday">Tuesday</option>
-                                    <option value="Wednesday">Wednesday</option>
-                                    <option value="Thursday">Thursday</option>
-                                    <option value="Friday">Friday</option>
-                                    <option value="Saturday">Saturday</option>
-                                    <option value="Sunday">Sunday</option>
-                                </select>
-                            </div>
-                        </div>
-                    `;
-
-            // Append the new hospital section
-            hospitalContainer.appendChild(hospitalSection);
-
-            // Move the Add Hospital button below the hospital sections
-            hospitalContainer.appendChild(buttonContainer);
-        });
-    </script>
-}

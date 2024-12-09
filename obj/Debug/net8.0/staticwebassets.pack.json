@@ -5,6 +5,34 @@
       "PackagePath": "staticwebassets\\Health Hub.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\10fa41d2-416a-4773-90e6-42734575b17c_dress.jpg",
+      "PackagePath": "staticwebassets\\Images\\10fa41d2-416a-4773-90e6-42734575b17c_dress.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\12f8f56a-236f-4c3c-babd-45a3a1229742_cs-logo.png",
+      "PackagePath": "staticwebassets\\Images\\12f8f56a-236f-4c3c-babd-45a3a1229742_cs-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\1c50e428-e15f-4ca0-a8c4-4871e22b379f_logo.jpg",
+      "PackagePath": "staticwebassets\\Images\\1c50e428-e15f-4ca0-a8c4-4871e22b379f_logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\3e6209e0-f440-4738-86ce-99b700f38fa7_amza.jpg",
+      "PackagePath": "staticwebassets\\Images\\3e6209e0-f440-4738-86ce-99b700f38fa7_amza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\429232bd-43d9-44ba-bb7b-f123ead46946_amza.jpg",
+      "PackagePath": "staticwebassets\\Images\\429232bd-43d9-44ba-bb7b-f123ead46946_amza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\68df2a5d-1294-4a6a-9785-66ce429df852_amza.jpg",
+      "PackagePath": "staticwebassets\\Images\\68df2a5d-1294-4a6a-9785-66ce429df852_amza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\8a2b295e-1cd8-481d-b51a-6cf4ec9b3429_Degree.jpg",
+      "PackagePath": "staticwebassets\\Images\\8a2b295e-1cd8-481d-b51a-6cf4ec9b3429_Degree.jpg"
+    },
+    {
       "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\BlueLogo.png",
       "PackagePath": "staticwebassets\\Images\\BlueLogo.png"
     },
@@ -15,6 +43,10 @@
     {
       "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\SquareLogo.png",
       "PackagePath": "staticwebassets\\Images\\SquareLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\aaadc49f-d601-4735-9cdd-debd408f6bc3_cs-logo.png",
+      "PackagePath": "staticwebassets\\Images\\aaadc49f-d601-4735-9cdd-debd408f6bc3_cs-logo.png"
     },
     {
       "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\about\\05.png",
@@ -61,11 +93,11 @@
       "PackagePath": "staticwebassets\\Images\\about\\about-4.jpg"
     },
     {
-      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\chat.png",
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\about\\chat.png",
       "PackagePath": "staticwebassets\\Images\\about\\chat.png"
     },
     {
-      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\doctor-review.png",
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\about\\doctor-review.png",
       "PackagePath": "staticwebassets\\Images\\about\\doctor-review.png"
     },
     {
@@ -97,12 +129,20 @@
       "PackagePath": "staticwebassets\\Images\\about\\sign.png"
     },
     {
-      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\about\\verified.png",
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\about\\verified.png",
       "PackagePath": "staticwebassets\\Images\\about\\verified.png"
     },
     {
-      "Id": "G:\\HealthHubNew\\Hospital\\wwwroot\\Images\\bannerImg.jpg",
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\b8ecbf06-6b3b-4080-8ea4-df1517ceb421_Degree.jpg",
+      "PackagePath": "staticwebassets\\Images\\b8ecbf06-6b3b-4080-8ea4-df1517ceb421_Degree.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\bannerImg.jpg",
       "PackagePath": "staticwebassets\\Images\\bannerImg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\bf9c53c2-95c6-4174-971a-bb7316082401_10fa41d2-416a-4773-90e6-42734575b17c_dress.jpg",
+      "PackagePath": "staticwebassets\\Images\\bf9c53c2-95c6-4174-971a-bb7316082401_10fa41d2-416a-4773-90e6-42734575b17c_dress.jpg"
     },
     {
       "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\bg\\22.jpg",
@@ -125,6 +165,38 @@
       "PackagePath": "staticwebassets\\Images\\bg\\slider-bg-1.jpg"
     },
     {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\c4f6de92-627f-4139-b5f4-2d24464f86c5_amza.jpg",
+      "PackagePath": "staticwebassets\\Images\\c4f6de92-627f-4139-b5f4-2d24464f86c5_amza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\c89e61ac-4669-409a-b5c7-49a20a8b11a8_dress.jpg",
+      "PackagePath": "staticwebassets\\Images\\c89e61ac-4669-409a-b5c7-49a20a8b11a8_dress.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\d07ec452-5278-4801-8c1d-4483edbb5e22_Degree.jpg",
+      "PackagePath": "staticwebassets\\Images\\d07ec452-5278-4801-8c1d-4483edbb5e22_Degree.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\d776d7c5-2544-4c7a-9bee-b3c6d34b0a5d_3e6209e0-f440-4738-86ce-99b700f38fa7_amza.jpg",
+      "PackagePath": "staticwebassets\\Images\\d776d7c5-2544-4c7a-9bee-b3c6d34b0a5d_3e6209e0-f440-4738-86ce-99b700f38fa7_amza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\dbc61d8f-6b03-464e-a3f1-8c995977ce88_Degree.jpg",
+      "PackagePath": "staticwebassets\\Images\\dbc61d8f-6b03-464e-a3f1-8c995977ce88_Degree.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\e47427d0-699e-450e-899c-2a2e604a8398_Degree.jpg",
+      "PackagePath": "staticwebassets\\Images\\e47427d0-699e-450e-899c-2a2e604a8398_Degree.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\e6d30d76-2c67-42c2-8ef0-75c906df16bf_dress.jpg",
+      "PackagePath": "staticwebassets\\Images\\e6d30d76-2c67-42c2-8ef0-75c906df16bf_dress.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\eb82ec3a-2a56-4177-9394-d6a602476891_10fa41d2-416a-4773-90e6-42734575b17c_dress.jpg",
+      "PackagePath": "staticwebassets\\Images\\eb82ec3a-2a56-4177-9394-d6a602476891_10fa41d2-416a-4773-90e6-42734575b17c_dress.jpg"
+    },
+    {
       "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\logo3.png",
       "PackagePath": "staticwebassets\\Images\\logo3.png"
     },
@@ -143,6 +215,22 @@
     {
       "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\profiles\\michael_profile.jpeg",
       "PackagePath": "staticwebassets\\Images\\profiles\\michael_profile.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\reports\\Test_Scenarios.pdf",
+      "PackagePath": "staticwebassets\\Images\\reports\\Test_Scenarios.pdf"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\reports\\book.jpg",
+      "PackagePath": "staticwebassets\\Images\\reports\\book.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\reports\\deptLOGO.png",
+      "PackagePath": "staticwebassets\\Images\\reports\\deptLOGO.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\reports\\download.jpeg",
+      "PackagePath": "staticwebassets\\Images\\reports\\download.jpeg"
     },
     {
       "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\team\\1.jpg",
@@ -189,12 +277,20 @@
       "PackagePath": "staticwebassets\\css\\DoctorCard.css"
     },
     {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\css\\DoctorProfile.css",
+      "PackagePath": "staticwebassets\\css\\DoctorProfile.css"
+    },
+    {
       "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\css\\DoctorSingle.css",
       "PackagePath": "staticwebassets\\css\\DoctorSingle.css"
     },
     {
       "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\css\\Profile.css",
       "PackagePath": "staticwebassets\\css\\Profile.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\css\\ProfileDoctor.css",
+      "PackagePath": "staticwebassets\\css\\ProfileDoctor.css"
     },
     {
       "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\css\\navbar.css",

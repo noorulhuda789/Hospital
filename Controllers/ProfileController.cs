@@ -34,48 +34,31 @@ namespace Health_Hub.Controllers
 
         // POST: CompleteProfile form submission
         [HttpPost]
-        public async Task<IActionResult> CompleteProfile(ProfileViewModel model)
+        public IActionResult UploadImage(IFormFile file)
         {
-           
-            if (!ModelState.IsValid)
+            if (file != null)
             {
-                ViewBag.Specializations = GetSpecializationSelectList();
-                ViewData["Layout"] = "_LayoutDoctorLogIn";
-                return View("~/Views/Doctors/completeProfile.cshtml", model);
+                string uploadsFolder = Path.Combine(_environment.WebRootPath, "images");
+                string uniqueFileName = $"{Guid.NewGuid()}_{file.FileName}";
+                string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    file.CopyTo(stream);
+                }
+
+                int personId = int.Parse(Request.Cookies["PersonId"]);
+                var doctor = _context.Doctors.FirstOrDefault(d => d.PersonId == personId);
+                if (doctor != null)
+                {
+                    doctor.ProfileImage = $"/images/{uniqueFileName}";
+                    _context.SaveChanges();
+                }
+
+                return Json(new { success = true, imagePath = $"/images/{uniqueFileName}" });
             }
 
-            using (var transaction = await _context.Database.BeginTransactionAsync())
-            {
-                try
-                {
-
-
-                    // Create or update person
-                    var person = await GetOrCreatePersonAsync(model);
-                    // Save images and get paths
-                    var profileImagePath = await SaveImageAsync(model.ProfileImage);
-                    var degreeImagePath = await SaveImageAsync(model.DegreeImage);
-
-                    // Create or update doctor and save images
-                    var doctor = await GetOrCreateDoctorAsync(person.PersonID, model, profileImagePath, degreeImagePath);
-
-                    // Link doctor with hospital, if necessary
-                    var hospital = await GetOrCreateHospitalAsync(model);
-                    await GetOrCreateDoctorHospitalAsync(doctor.PersonID, hospital.HospitalID, model);
-
-                    // Commit transaction
-                    await transaction.CommitAsync();
-
-                    return RedirectToAction("ProfileSuccess");
-                }
-                catch (Exception ex)
-                {
-                    await transaction.RollbackAsync();
-                    ModelState.AddModelError(string.Empty, $"An error occurred: {ex.Message}");
-                    ViewBag.Specializations = GetSpecializationSelectList();
-                    return View("~/Views/Doctors/completeProfile.cshtml", model);
-                }
-            }
+            return Json(new { success = false });
         }
 
         // Helper method to save uploaded images
@@ -114,7 +97,7 @@ namespace Health_Hub.Controllers
         // Create or update person record
         private async Task<Person> GetOrCreatePersonAsync(ProfileViewModel model)
         {
-            var person = await _context.People.FirstOrDefaultAsync(p => p.CNIC == model.CNIC && p.RoleID == 4) ;
+            var person = await _context.People.FirstOrDefaultAsync(p => p.CNIC == model.CNIC && p.RoleID == 4);
             if (person == null)
             {
                 person = new Person { Name = model.Name, CNIC = model.CNIC };
@@ -155,58 +138,5 @@ namespace Health_Hub.Controllers
             return doctor;
         }
 
-        // Create or update hospital record
-        private async Task<Hospital> GetOrCreateHospitalAsync(ProfileViewModel model)
-        {
-            var hospital = await _context.Hospitals
-                .FirstOrDefaultAsync(h => h.Name == model.HospitalName && h.Address == model.Address && h.City == model.City);
-            if (hospital == null)
-            {
-                hospital = new Hospital
-                {
-                    Name = model.HospitalName,
-                    Address = model.Address,
-                    City = model.City
-                };
-                _context.Hospitals.Add(hospital);
-                await _context.SaveChangesAsync();
-            }
-            return hospital;
-        }
-
-        // Link doctor and hospital with specified details
-        private async Task GetOrCreateDoctorHospitalAsync(int doctorId, int hospitalId, ProfileViewModel model)
-        {
-
-            var doctorHospital = await _context.DoctorHospitals
-                .FirstOrDefaultAsync(dh => dh.DoctorID == doctorId && dh.HospitalID == hospitalId);
-            string doctorHospitalDays = model.DoctorHospitalDays;
-            if (doctorHospital == null)
-            {
-                doctorHospital = new DoctorHospital
-                {
-                    DoctorID = doctorId,
-                    HospitalID = hospitalId,
-                    TimeStart = model.StartTime,
-                    TimeEnd = model.EndTime,
-                    BreakStart = model.BreakTime,
-                    BreakEnd = model.BreakEndTime,
-                    Capacity = int.Parse(model.Capacity),
-                    WeekDays = doctorHospitalDays
-                };
-                _context.DoctorHospitals.Add(doctorHospital);
-            }
-            else
-            {
-                doctorHospital.TimeStart = model.StartTime;
-                doctorHospital.TimeEnd = model.EndTime;
-                doctorHospital.BreakStart = model.BreakTime;
-                doctorHospital.BreakEnd = model.BreakEndTime;
-                doctorHospital.Capacity = int.Parse(model.Capacity);
-                doctorHospital.WeekDays = doctorHospitalDays;
-                _context.DoctorHospitals.Update(doctorHospital);
-            }
-            await _context.SaveChangesAsync();
-        }
     }
 }

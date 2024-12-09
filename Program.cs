@@ -11,11 +11,6 @@ builder.Services.AddDbContext<HealthHubDbContext>(options =>
 	options.UseSqlServer(connectionString));
 builder.Services.AddControllersWithViews();
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
-
-
-
-
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

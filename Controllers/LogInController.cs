@@ -44,7 +44,7 @@ namespace Health_Hub.Controllers
                 else if (user.RoleID == 6)
                 {
 					// Redirect to Doctor layout
-					return RedirectToAction("IndexForDoctor", "Home");
+					return RedirectToAction("dashboard", "DoctorDashboard");
                 }
                 else
                 {
