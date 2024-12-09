@@ -67,32 +67,33 @@
 						<li class="nav-item">
 							<a class="nav-link" asp-action="Chat" asp-controller="Chats">Chats</a>
 						</li>
-						<li class="nav-item"><a class="nav-link">Profile</a></li>
+						
 						
 @* 						<li class="nav-item"><button type="button" name="" id="" class="btn btn-block"><a asp-controller="SignUp" asp-action="SignUp">Sign Up</a></button></li>
 						<li class="nav-item"><button type="button" name="" id="" class="btn btn-block"><a asp-controller="LogIn" asp-action="LogIn">LogIn</a></button></li> *@
 
-						<li class="nav-item"><a class="nav-link">Appointments</a></li>
+						
 						<li class="nav-item"><a class="nav-link">Inbox</a></li>
 
 						<ul class="navbar-nav ml-auto">
+							
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle" id="profileDropdown" data-toggle="dropdown">
-									<img src="../Images/user.jpg" alt="Profile Icon" class="img-fluid profile-icon" style="width: 35px; border-radius: 50%;">
+									<img src="@Url.Content(ViewBag.DoctorImage)" alt="Profile Icon" class="img-fluid profile-icon" style="width: 40px; height: 60px; object-fit: cover; border-radius: 50%;">
 								</a>
+
+
 								<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="profileDropdown">
 									<li>
 										<a class="nav-link" asp-controller="DoctorProfile" asp-action="DoctorProfile">Profile</a>
 									</li>
-
 									<li>
 										<a class="nav-link" asp-controller="Profile" asp-action="CompleteProfile">Complete Profile</a>
 									</li>
-
-									
 									<li><a class="dropdown-item" href="/">Logout</a></li>
 								</ul>
 							</li>
+
 						</ul>
 						
 					</ul>

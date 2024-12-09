@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\Images\\68df2a5d-1294-4a6a-9785-66ce429df852_amza.jpg"
     },
     {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\723c00c2-7208-495d-886d-0daf453bdeb0_WhatsApp Image 2023-08-14 at 2.39.06 PM.jpeg",
+      "PackagePath": "staticwebassets\\Images\\723c00c2-7208-495d-886d-0daf453bdeb0_WhatsApp Image 2023-08-14 at 2.39.06 PM.jpeg"
+    },
+    {
       "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\8a2b295e-1cd8-481d-b51a-6cf4ec9b3429_Degree.jpg",
       "PackagePath": "staticwebassets\\Images\\8a2b295e-1cd8-481d-b51a-6cf4ec9b3429_Degree.jpg"
     },
@@ -177,6 +181,14 @@
       "PackagePath": "staticwebassets\\Images\\d07ec452-5278-4801-8c1d-4483edbb5e22_Degree.jpg"
     },
     {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\d1a9f027-6d8d-41c0-9742-3fd6687d637a_WhatsApp Image 2023-08-14 at 2.39.04 PM.jpeg",
+      "PackagePath": "staticwebassets\\Images\\d1a9f027-6d8d-41c0-9742-3fd6687d637a_WhatsApp Image 2023-08-14 at 2.39.04 PM.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\d4bcd8ce-b372-458e-9422-e76ec6db597f_WhatsApp Image 2023-08-14 at 2.38.57 PM.jpeg",
+      "PackagePath": "staticwebassets\\Images\\d4bcd8ce-b372-458e-9422-e76ec6db597f_WhatsApp Image 2023-08-14 at 2.38.57 PM.jpeg"
+    },
+    {
       "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\d776d7c5-2544-4c7a-9bee-b3c6d34b0a5d_3e6209e0-f440-4738-86ce-99b700f38fa7_amza.jpg",
       "PackagePath": "staticwebassets\\Images\\d776d7c5-2544-4c7a-9bee-b3c6d34b0a5d_3e6209e0-f440-4738-86ce-99b700f38fa7_amza.jpg"
     },
@@ -195,6 +207,10 @@
     {
       "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\eb82ec3a-2a56-4177-9394-d6a602476891_10fa41d2-416a-4773-90e6-42734575b17c_dress.jpg",
       "PackagePath": "staticwebassets\\Images\\eb82ec3a-2a56-4177-9394-d6a602476891_10fa41d2-416a-4773-90e6-42734575b17c_dress.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\f2d43232-13ed-41df-bc3d-049f361e7a84_WhatsApp Image 2023-08-14 at 2.38.57 PM.jpeg",
+      "PackagePath": "staticwebassets\\Images\\f2d43232-13ed-41df-bc3d-049f361e7a84_WhatsApp Image 2023-08-14 at 2.38.57 PM.jpeg"
     },
     {
       "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\Images\\logo3.png",
@@ -273,6 +289,10 @@
       "PackagePath": "staticwebassets\\css\\AppointmentsViewPatient.css"
     },
     {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\css\\Chats.css",
+      "PackagePath": "staticwebassets\\css\\Chats.css"
+    },
+    {
       "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\css\\DoctorCard.css",
       "PackagePath": "staticwebassets\\css\\DoctorCard.css"
     },
@@ -283,6 +303,14 @@
     {
       "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\css\\DoctorSingle.css",
       "PackagePath": "staticwebassets\\css\\DoctorSingle.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\css\\DoctorViewProfile.css",
+      "PackagePath": "staticwebassets\\css\\DoctorViewProfile.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\css\\ManageAppointments.css",
+      "PackagePath": "staticwebassets\\css\\ManageAppointments.css"
     },
     {
       "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\css\\Profile.css",
@@ -539,6 +567,14 @@
     {
       "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\signalr.js\\jquery.signalR.js",
+      "PackagePath": "staticwebassets\\signalr.js\\jquery.signalR.js"
+    },
+    {
+      "Id": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\signalr.js\\jquery.signalR.min.js",
+      "PackagePath": "staticwebassets\\signalr.js\\jquery.signalR.min.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Health Hub.Microsoft.AspNetCore.StaticWebAssets.props",

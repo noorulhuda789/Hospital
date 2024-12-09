@@ -3,24 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\views\\doctors\\doctorprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\doctors\\doctorprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\controllers\\doctordashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:controllers\\doctordashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\controllers\\doctorlayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:controllers\\doctorlayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\models\\domain\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:models\\domain\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\models\\domain\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:models\\domain\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\views\\doctors\\completeprofile12.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\doctors\\completeprofile12.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\views\\doctors\\completeprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\doctors\\completeprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\views\\shared\\_layoutdoctorlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\shared\\_layoutdoctorlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\views\\doctors\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\doctors\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\controllers\\doctorprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:controllers\\doctorprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\wwwroot\\css\\profiledoctor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:wwwroot\\css\\profiledoctor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\views\\shared\\_layoutloginpatient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\shared\\_layoutloginpatient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\models\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:models\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\views\\doctors\\doctorprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\doctors\\doctorprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\views\\doctors\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\doctors\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\wwwroot\\css\\profiledoctor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:wwwroot\\css\\profiledoctor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\wwwroot\\css\\doctorprofile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -31,28 +83,8 @@
       "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:wwwroot\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\views\\shared\\_layoutloginpatient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\shared\\_layoutloginpatient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\models\\domain\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:models\\domain\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\models\\domain\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:models\\domain\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\views\\doctors\\completeprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\doctors\\completeprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\data\\healthhubdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,24 +95,12 @@
       "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\views\\doctors\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\doctors\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\views\\people\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\people\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -131,10 +151,6 @@
       "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:controllers\\signuppatientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\models\\domain\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:models\\domain\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -157,10 +173,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\views\\doctors\\doctors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -225,10 +237,6 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.303\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\controllers\\doctordashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:controllers\\doctordashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|c:\\users\\hp\\onedrive\\documents\\5th semester\\se\\seproject\\models\\viewmodels\\doctordashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FADDF20-E6AE-44D7-83FF-A1F00C87C2AD}|Health Hub.csproj|solutionrelative:models\\viewmodels\\doctordashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -240,215 +248,210 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Profile.css",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\css\\Profile.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\Profile.css",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\css\\Profile.css",
-              "RelativeToolTip": "wwwroot\\css\\Profile.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-10T17:54:57.259Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProfileDoctor.css",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\css\\ProfileDoctor.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\ProfileDoctor.css",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\css\\ProfileDoctor.css",
-              "RelativeToolTip": "wwwroot\\css\\ProfileDoctor.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-02T17:41:50.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DoctorProfileController.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\DoctorProfileController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DoctorProfileController.cs",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\DoctorProfileController.cs",
-              "RelativeToolTip": "Controllers\\DoctorProfileController.cs",
-              "ViewState": "AQIAAJgBAAAAAAAAAAAwwLgBAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T13:49:00.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_LayoutDoctorLogIn.cshtml",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Shared\\_LayoutDoctorLogIn.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutDoctorLogIn.cshtml",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Shared\\_LayoutDoctorLogIn.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_LayoutDoctorLogIn.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T17:42:35.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DoctorProfile.cshtml",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Doctors\\DoctorProfile.cshtml",
-              "RelativeDocumentMoniker": "Views\\Doctors\\DoctorProfile.cshtml",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Doctors\\DoctorProfile.cshtml",
-              "RelativeToolTip": "Views\\Doctors\\DoctorProfile.cshtml",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAAAFwAAABsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-01T13:50:35.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DoctorProfile.css",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\css\\DoctorProfile.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\DoctorProfile.css",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\css\\DoctorProfile.css",
-              "RelativeToolTip": "wwwroot\\css\\DoctorProfile.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-09T04:29:05.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProfileViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Models\\ViewModels\\ProfileViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ViewModels\\ProfileViewModel.cs",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Models\\ViewModels\\ProfileViewModel.cs",
-              "RelativeToolTip": "Models\\ViewModels\\ProfileViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T15:41:42.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_LayoutLogInPatient.cshtml",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Shared\\_LayoutLogInPatient.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutLogInPatient.cshtml",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Shared\\_LayoutLogInPatient.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_LayoutLogInPatient.cshtml",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAgwGMAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T02:18:03.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Models\\Domain\\Person.cs",
-              "RelativeDocumentMoniker": "Models\\Domain\\Person.cs",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Models\\Domain\\Person.cs",
-              "RelativeToolTip": "Models\\Domain\\Person.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAIA/wCYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T04:32:45.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Doctor.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Models\\Domain\\Doctor.cs",
-              "RelativeDocumentMoniker": "Models\\Domain\\Doctor.cs",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Models\\Domain\\Doctor.cs",
-              "RelativeToolTip": "Models\\Domain\\Doctor.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAIwAoAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T03:36:17.831Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "ProfileController.cs",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\ProfileController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\ProfileController.cs",
-              "RelativeToolTip": "Controllers\\ProfileController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAwBsAAAAdAAAA",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\ProfileController.cs*",
+              "RelativeToolTip": "Controllers\\ProfileController.cs*",
+              "ViewState": "AQIAAJEAAAAAAAAAAAAUwJcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T15:43:43.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
               "Title": "completeProfile.cshtml",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Doctors\\completeProfile.cshtml",
               "RelativeDocumentMoniker": "Views\\Doctors\\completeProfile.cshtml",
               "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Doctors\\completeProfile.cshtml",
               "RelativeToolTip": "Views\\Doctors\\completeProfile.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACwAAAAWAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwBoAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-07T17:07:11.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LogInController.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\LogInController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LogInController.cs",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\LogInController.cs",
-              "RelativeToolTip": "Controllers\\LogInController.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA7wDwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T11:02:16.951Z",
+              "DocumentIndex": 10,
+              "Title": "editProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Doctors\\editProfile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Doctors\\editProfile.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Doctors\\editProfile.cshtml",
+              "RelativeToolTip": "Views\\Doctors\\editProfile.cshtml",
+              "ViewState": "AQIAAHQAAAAAAAAAAADwv4AAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T12:18:34.574Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\People\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\People\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\People\\Index.cshtml",
-              "RelativeToolTip": "Views\\People\\Index.cshtml",
-              "ViewState": "AQIAADsAAAAAAAAAAADwv0gAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-03T06:46:56.2Z",
+              "DocumentIndex": 2,
+              "Title": "DoctorLAyoutController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\DoctorLAyoutController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DoctorLAyoutController.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\DoctorLAyoutController.cs",
+              "RelativeToolTip": "Controllers\\DoctorLAyoutController.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAcwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T07:16:27.379Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoctorDashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\DoctorDashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DoctorDashboardController.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\DoctorDashboardController.cs",
+              "RelativeToolTip": "Controllers\\DoctorDashboardController.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAYwEsAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T06:01:03.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CompleteProfile12.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Doctors\\CompleteProfile12.cshtml",
+              "RelativeDocumentMoniker": "Views\\Doctors\\CompleteProfile12.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Doctors\\CompleteProfile12.cshtml",
+              "RelativeToolTip": "Views\\Doctors\\CompleteProfile12.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T15:52:02.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_LayoutDoctorLogIn.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Shared\\_LayoutDoctorLogIn.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutDoctorLogIn.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Shared\\_LayoutDoctorLogIn.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutDoctorLogIn.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAGAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T17:42:35.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Models\\Domain\\Person.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\Person.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Models\\Domain\\Person.cs",
+              "RelativeToolTip": "Models\\Domain\\Person.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAUwCEAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T04:32:45.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Models\\Domain\\Doctor.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\Doctor.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Models\\Domain\\Doctor.cs",
+              "RelativeToolTip": "Models\\Domain\\Doctor.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAUwAoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T03:36:17.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AboutUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Home\\AboutUs.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AboutUs.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Home\\AboutUs.cshtml",
+              "RelativeToolTip": "Views\\Home\\AboutUs.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T16:00:37.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T17:07:05.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DoctorProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\DoctorProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DoctorProfileController.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\DoctorProfileController.cs",
+              "RelativeToolTip": "Controllers\\DoctorProfileController.cs",
+              "ViewState": "AQIAABwCAAAAAAAAAADwvyYCAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T13:49:00.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_LayoutLogInPatient.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Shared\\_LayoutLogInPatient.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutLogInPatient.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Shared\\_LayoutLogInPatient.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutLogInPatient.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAgwGMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T02:18:03.274Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "HealthHubDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Data\\HealthHubDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\HealthHubDbContext.cs",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Data\\HealthHubDbContext.cs",
-              "RelativeToolTip": "Data\\HealthHubDbContext.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAADgvw0AAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T14:50:49.146Z",
-              "EditorCaption": ""
+              "Title": "DoctorProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Doctors\\DoctorProfile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Doctors\\DoctorProfile.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Doctors\\DoctorProfile.cshtml",
+              "RelativeToolTip": "Views\\Doctors\\DoctorProfile.cshtml",
+              "ViewState": "AQIAAK8BAAAAAAAAAAAAALMBAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T13:50:35.533Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T17:08:21.497Z",
-              "EditorCaption": ""
+              "Title": "AppointmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\AppointmentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AppointmentsController.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\AppointmentsController.cs",
+              "RelativeToolTip": "Controllers\\AppointmentsController.cs",
+              "ViewState": "AQIAAFUCAAAAAAAAAAAIwLECAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T15:40:15.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAjwHgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:21:39.405Z"
             },
             {
               "$type": "Document",
@@ -458,38 +461,97 @@
               "RelativeDocumentMoniker": "Views\\Doctors\\dashBoard.cshtml",
               "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Doctors\\dashBoard.cshtml",
               "RelativeToolTip": "Views\\Doctors\\dashBoard.cshtml",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAAAHQAAAA8AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-03T06:02:10.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T06:02:10.062Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAADkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-06T17:07:05.636Z"
+              "Title": "ProfileDoctor.css",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\css\\ProfileDoctor.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\ProfileDoctor.css",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\css\\ProfileDoctor.css",
+              "RelativeToolTip": "wwwroot\\css\\ProfileDoctor.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-02T17:41:50.271Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "DoctorDashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\DoctorDashboardController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DoctorDashboardController.cs",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\DoctorDashboardController.cs",
-              "RelativeToolTip": "Controllers\\DoctorDashboardController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAA3wBgAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T06:01:03.301Z"
+              "DocumentIndex": 19,
+              "Title": "Profile.css",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\css\\Profile.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Profile.css",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\css\\Profile.css",
+              "RelativeToolTip": "wwwroot\\css\\Profile.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-10T17:54:57.259Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "DoctorProfile.css",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\css\\DoctorProfile.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\DoctorProfile.css",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\css\\DoctorProfile.css",
+              "RelativeToolTip": "wwwroot\\css\\DoctorProfile.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-09T04:29:05.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LogInController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\LogInController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LogInController.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\LogInController.cs",
+              "RelativeToolTip": "Controllers\\LogInController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA7wDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T11:02:16.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\People\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\People\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\People\\Index.cshtml",
+              "RelativeToolTip": "Views\\People\\Index.cshtml",
+              "ViewState": "AQIAADsAAAAAAAAAAADwv0gAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T06:46:56.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HealthHubDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Data\\HealthHubDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\HealthHubDbContext.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Data\\HealthHubDbContext.cs",
+              "RelativeToolTip": "Data\\HealthHubDbContext.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAADgvw0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T14:50:49.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T17:08:21.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "DoctorsController.cs",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\DoctorsController.cs",
               "RelativeDocumentMoniker": "Controllers\\DoctorsController.cs",
@@ -501,19 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T18:21:39.405Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -525,7 +575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 60,
               "Title": "DoctorDashboardViewModel.cs",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Models\\ViewModels\\DoctorDashboardViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ViewModels\\DoctorDashboardViewModel.cs",
@@ -537,7 +587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -549,7 +599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -561,7 +611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "DoctorHospital.cs",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Models\\Domain\\DoctorHospital.cs",
               "RelativeDocumentMoniker": "Models\\Domain\\DoctorHospital.cs",
@@ -573,7 +623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "HospitalAvailabilityViewModel.cs",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Models\\ViewModels\\HospitalAvailabilityViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ViewModels\\HospitalAvailabilityViewModel.cs",
@@ -585,7 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "Hospital.cs",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Models\\Domain\\Hospital.cs",
               "RelativeDocumentMoniker": "Models\\Domain\\Hospital.cs",
@@ -597,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\People\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\People\\Create.cshtml",
@@ -609,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "PeopleController.cs",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\PeopleController.cs",
               "RelativeDocumentMoniker": "Controllers\\PeopleController.cs",
@@ -621,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "doctorHome.cshtml",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Doctors\\doctorHome.cshtml",
               "RelativeDocumentMoniker": "Views\\Doctors\\doctorHome.cshtml",
@@ -633,7 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "DoctorVM.cs",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Models\\ViewModels\\DoctorVM.cs",
               "RelativeDocumentMoniker": "Models\\ViewModels\\DoctorVM.cs",
@@ -645,19 +695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "AppointmentsController.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\AppointmentsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AppointmentsController.cs",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\AppointmentsController.cs",
-              "RelativeToolTip": "Controllers\\AppointmentsController.cs",
-              "ViewState": "AQIAAJAAAAAAAAAAAAAiwBABAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T15:40:15.009Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -669,7 +707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "SignUpPatientController.cs",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\SignUpPatientController.cs",
               "RelativeDocumentMoniker": "Controllers\\SignUpPatientController.cs",
@@ -681,7 +719,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "Appointment.cs",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Models\\Domain\\Appointment.cs",
               "RelativeDocumentMoniker": "Models\\Domain\\Appointment.cs",
@@ -693,7 +731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "SignUpDoctorController.cs",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Controllers\\SignUpDoctorController.cs",
               "RelativeDocumentMoniker": "Controllers\\SignUpDoctorController.cs",
@@ -705,7 +743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "SignUpDoctor.cshtml",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\SignUpDoctor\\SignUpDoctor.cshtml",
               "RelativeDocumentMoniker": "Views\\SignUpDoctor\\SignUpDoctor.cshtml",
@@ -717,7 +755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "DoctorSingle.cshtml",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Doctors\\DoctorSingle.cshtml",
               "RelativeDocumentMoniker": "Views\\Doctors\\DoctorSingle.cshtml",
@@ -729,7 +767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 41,
               "Title": "DoctorSingle.css",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\css\\DoctorSingle.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\DoctorSingle.css",
@@ -741,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 42,
               "Title": "LogIn.cshtml",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\LogIn\\LogIn.cshtml",
               "RelativeDocumentMoniker": "Views\\LogIn\\LogIn.cshtml",
@@ -753,19 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "AboutUs.cshtml",
-              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Home\\AboutUs.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\AboutUs.cshtml",
-              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Home\\AboutUs.cshtml",
-              "RelativeToolTip": "Views\\Home\\AboutUs.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-10T16:00:37.029Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 43,
               "Title": "Doctors.cshtml",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Doctors\\Doctors.cshtml",
               "RelativeDocumentMoniker": "Views\\Doctors\\Doctors.cshtml",
@@ -777,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "Health Hub.RazorAssemblyInfo.cache",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\obj\\Debug\\net8.0\\Health Hub.RazorAssemblyInfo.cache",
               "RelativeDocumentMoniker": "obj\\Debug\\net8.0\\Health Hub.RazorAssemblyInfo.cache",
@@ -789,7 +815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "Health Hub.RazorAssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\obj\\Debug\\net8.0\\Health Hub.RazorAssemblyInfo.cs",
               "RelativeDocumentMoniker": "obj\\Debug\\net8.0\\Health Hub.RazorAssemblyInfo.cs",
@@ -801,7 +827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 46,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Appointments\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Appointments\\Edit.cshtml",
@@ -813,7 +839,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 49,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
@@ -825,7 +851,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 47,
               "Title": "HealthHubDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Migrations\\HealthHubDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\HealthHubDbContextModelSnapshot.cs",
@@ -837,7 +863,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 50,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -849,7 +875,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 48,
               "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.202\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
@@ -861,7 +887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 52,
               "Title": "Health Hub.csproj.nuget.g.props",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\obj\\Health Hub.csproj.nuget.g.props",
               "RelativeDocumentMoniker": "obj\\Health Hub.csproj.nuget.g.props",
@@ -873,7 +899,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 51,
               "Title": "Microsoft.PackageDependencyResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.202\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
@@ -885,7 +911,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 53,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\hp\\AppData\\Roaming\\Microsoft\\UserSecrets\\a785e87c-f2e4-437e-a21a-8168c7a8598a\\secrets.json",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\a785e87c-f2e4-437e-a21a-8168c7a8598a\\secrets.json",
@@ -897,7 +923,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 54,
               "Title": "serviceDependencies.json",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Properties\\serviceDependencies.json",
               "RelativeDocumentMoniker": "Properties\\serviceDependencies.json",
@@ -909,7 +935,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 55,
               "Title": "20241106093113_InitialMigration.cs",
               "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Migrations\\20241106093113_InitialMigration.cs",
               "ToolTip": "G:\\HealthHubNew\\Hospital\\Migrations\\20241106093113_InitialMigration.cs",
@@ -918,7 +944,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 56,
               "Title": "20241106085827_InitialMigration.cs",
               "DocumentMoniker": "G:\\HealthHubNew\\Hospital\\Migrations\\20241106085827_InitialMigration.cs",
               "ToolTip": "G:\\HealthHubNew\\Hospital\\Migrations\\20241106085827_InitialMigration.cs",
@@ -927,7 +953,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 57,
               "Title": "Chat.cs",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Models\\Domain\\Chat.cs",
               "RelativeDocumentMoniker": "Models\\Domain\\Chat.cs",
@@ -939,7 +965,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 58,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\5th semester\\Se\\Seproject\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -951,7 +977,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 59,
               "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.303\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Health_Hub.Models.Domain;
 using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace Health_Hub.Controllers
 {
@@ -26,64 +27,88 @@ namespace Health_Hub.Controllers
             _environment = environment;
         }
 
-        // Display Doctor Profile
-        // Display Doctor Profile
-        public IActionResult DoctorProfile()
-        {
-            if (!Request.Cookies.ContainsKey("PersonId"))
+		// Display Doctor Profile
+		public IActionResult DoctorProfile()
+		{
+			// Check if the "PersonId" cookie exists
+			if (!Request.Cookies.ContainsKey("PersonId"))
+			{
+				return RedirectToAction("DoctorProfile"); // Redirect if PersonId cookie is missing
+			}
+
+			int personId;
+			// Try parsing the PersonId cookie
+			if (!int.TryParse(Request.Cookies["PersonId"], out personId))
+			{
+				return RedirectToAction("DoctorProfile"); // Redirect if parsing fails
+			}
+
+			// Fetch profile data
+			var profileData = (from person in _context.People
+							   join doctor in _context.Doctors on person.PersonID equals doctor.PersonId into doctorJoin
+							   from doctor in doctorJoin.DefaultIfEmpty() // Left join to handle missing doctor records
+							   join lookup in _context.Lookups on doctor.SpecializationID equals lookup.LookupID into lookupJoin
+							   from lookup in lookupJoin.DefaultIfEmpty() // Left join to handle missing lookup records
+							   where person.PersonID == personId
+							   select new
+							   {
+								   person,
+								   doctor,
+								   lookup
+							   }).FirstOrDefault();
+
+			if (profileData == null)
+			{
+				// Redirect to login layout if no profile data is found
+				ViewData["Layout"] = "_LayoutDoctorLogIn";
+				return View("~/Views/Doctors/DoctorProfile.cshtml", null);
+			}
+
+			// Manually handle nulls outside the query
+			var model = new ProfileViewModel
+			{
+				PersonId = profileData.person.PersonID,
+				Name = profileData.person.Name,
+				CNIC = profileData.person.CNIC,
+				PhoneNumber = profileData.person.PhoneNumber,
+				Email = profileData.person.Email,
+				Profile = profileData.doctor?.ProfileImage ?? null,
+				SpecializationId = profileData.doctor?.SpecializationID ?? 0,
+				SpecializationName = profileData.lookup?.Value,
+				Degree = profileData.doctor?.Degree,
+				DoctorAvailabilities = (profileData.doctor != null)
+					? _context.DoctorHospitals
+						.Where(dh => dh.DoctorID == profileData.doctor.PersonID && !dh.WeekDays.StartsWith("$"))
+						.Select(dh => new DoctorAvailability
+						{
+							HospitalName = dh.Hospital.Name,
+							HospitalAddress = dh.Hospital.Address,
+							City = dh.Hospital.City,
+							TimeStart = dh.TimeStart,
+							TimeEnd = dh.TimeEnd,
+							BreakStart = dh.BreakStart,
+							BreakEnd = dh.BreakEnd,
+							WeekDays = dh.WeekDays,
+							Capacity = dh.Capacity
+						}).ToList()
+					: new List<DoctorAvailability>() // Empty list if doctor is null
+			};
+            if(model.Degree == null)
             {
-                return RedirectToAction("DoctorProfile"); // Redirect if PersonId cookie is missing
-            }
-
-            int personId;
-            if (!int.TryParse(Request.Cookies["PersonId"], out personId))
-            {
-                return RedirectToAction("DoctorProfile"); // Redirect if parsing fails
-            }
-
-            var profileData = (from person in _context.People
-                               join doctor in _context.Doctors on person.PersonID equals doctor.PersonId
-                               join lookup in _context.Lookups on doctor.SpecializationID equals lookup.LookupID // Join with Lookup table
-                               where person.PersonID == personId
-                               select new ProfileViewModel
-                               {
-                                   PersonId = person.PersonID,
-                                   Name = person.Name,
-                                   CNIC = person.CNIC,
-                                   PhoneNumber = person.PhoneNumber,
-                                   Email = person.Email,
-                                   Profile = doctor.ProfileImage,
-                                   SpecializationId = doctor.SpecializationID,
-                                   SpecializationName = lookup.Value,  // Get the name from the Lookup table
-                                   Degree = doctor.Degree,
-                                   DoctorAvailabilities = _context.DoctorHospitals
-                                        .Where(dh => dh.DoctorID == doctor.PersonID && !dh.WeekDays.StartsWith("$")) // Filter out hospitals where WeekDays starts with $
-                                        .Select(dh => new DoctorAvailability
-                                        {
-                                            HospitalName = dh.Hospital.Name,
-                                            HospitalAddress = dh.Hospital.Address,
-                                            City = dh.Hospital.City,
-                                            TimeStart = dh.TimeStart,
-                                            TimeEnd = dh.TimeEnd,
-                                            BreakStart = dh.BreakStart,
-                                            BreakEnd = dh.BreakEnd,
-                                            WeekDays = dh.WeekDays,
-                                            Capacity = dh.Capacity
-                                        }).ToList()
-                               }).FirstOrDefault();
-
-            if (profileData == null)
-            {
-                return NotFound("Profile data not found."); // Return error if no profile data
-            }
-
-            ViewData["Layout"] = "_LayoutDoctorLogIn";
-            return View("~/Views/Doctors/DoctorProfile.cshtml", profileData);
-        }
+				ViewData["Layout"] = "_LayoutDoctorLogIn";
+				return View("~/Views/Doctors/editProfile.cshtml", model);
+			}
+			// Return profile data view
+			ViewData["Layout"] = "_LayoutDoctorLogIn";
+			return View("~/Views/Doctors/DoctorProfile.cshtml", model);
+		}
 
 
-        // POST: DoctorProfile/UploadImage
-        [HttpPost]
+
+
+
+		// POST: DoctorProfile/UploadImage
+		[HttpPost]
         public IActionResult UploadImage(IFormFile file)
         {
             if (file != null)
@@ -429,10 +454,99 @@ namespace Health_Hub.Controllers
             return null;
         }
 
+		public override void OnActionExecuting(ActionExecutingContext context)
+		{
+			int personId = int.Parse(Request.Cookies["PersonID"]!);
+			try
+			{
+				if (Request.Cookies.ContainsKey("PersonID"))
+				{
 
 
+					if (personId != null)
+					{
+						// Query the doctor’s profile image from the database
+						var doctor = _context.Doctors.FirstOrDefault(d => d.PersonID == personId);
+
+						if (doctor != null)
+						{
+							// Check if the ProfileImage is null or empty before assigning to ViewBag
+							ViewBag.DoctorImage = !string.IsNullOrEmpty(doctor.ProfileImage)
+								? doctor.ProfileImage
+								: "../Images/user.jpg"; // Default image if profile image is null or empty
+						}
+						else
+						{
+							// If no doctor is found, use a default image
+							ViewBag.DoctorImage = "../Images/user.jpg";
+						}
+					}
+					else
+					{
+						// If personId is null or parsing fails, use a default image
+						ViewBag.DoctorImage = "../Images/user.jpg";
+					}
+				}
+				else
+				{
+					// If no PersonID cookie exists, use a default image
+					ViewBag.DoctorImage = "../Images/user.jp";
+				}
+			}
+			catch (FormatException ex)
+			{
+				// Handle format exceptions, such as invalid integer parsing
+				ViewBag.DoctorImage = "../Images/user.jpg";  // Use default image
+															 // Log the exception if necessary
+				Console.WriteLine($"Error parsing PersonID: {ex.Message}");
+			}
+			catch (Exception ex)
+			{
+				// Catch any other exceptions and log them
+				ViewBag.DoctorImage = "../Images/user.jpg";  // Use default image
+															 // Log the exception
+				Console.WriteLine($"An error occurred: {ex.Message}" + personId);
+			}
+
+			base.OnActionExecuting(context);
+		}
+        [HttpPost]
+        public JsonResult UpdateProfile(ProfileViewModel model)
+        {
+            try
+            {
+                
 
 
+                int personId = int.Parse(Request.Cookies["PersonID"]!);
+
+                // Find the existing person record in the database by PersonId
+                var person = _context.People.FirstOrDefault(p => p.PersonID == personId);
+
+                if (person != null)
+                {
+                    // Update the person data
+                    person.Name = model.Name;
+                    person.PhoneNumber = model.PhoneNumber;
+                    person.Email = model.Email;
+                    person.CNIC = model.CNIC;
+
+                    _context.SaveChanges();
+
+                    // Return success message
+                    return Json(new { success = true, message = "Profile updated successfully!" });
+                }
+
+                // If person is not found
+                return Json(new { success = false, message = "Person not found!" });
+            }
+
+            catch (Exception ex)
+            {
+
+                return Json(new { success = false, message = $"An error occurred: {ex.Message}" });
+            }
+        }
 
 
 

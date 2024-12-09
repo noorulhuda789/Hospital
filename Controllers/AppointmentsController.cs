@@ -9,6 +9,7 @@ using Health_Hub.Data;
 using Health_Hub.Models.Domain;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Health_Hub.Models.ViewModels;
+using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace Health_Hub.Controllers
 {
@@ -630,8 +631,64 @@ namespace Health_Hub.Controllers
 
             return View(completedAppointments);
         }
+		public override void OnActionExecuting(ActionExecutingContext context)
+		{
+			int personId = int.Parse(Request.Cookies["PersonID"]!);
+			try
+			{
+				if (Request.Cookies.ContainsKey("PersonID"))
+				{
+
+
+					if (personId != null)
+					{
+						// Query the doctor’s profile image from the database
+						var doctor = _context.Doctors.FirstOrDefault(d => d.PersonID == personId);
+
+						if (doctor != null)
+						{
+							// Check if the ProfileImage is null or empty before assigning to ViewBag
+							ViewBag.DoctorImage = !string.IsNullOrEmpty(doctor.ProfileImage)
+								? doctor.ProfileImage
+								: "../Images/user.jpg"; // Default image if profile image is null or empty
+						}
+						else
+						{
+							// If no doctor is found, use a default image
+							ViewBag.DoctorImage = "../Images/user.jpg";
+						}
+					}
+					else
+					{
+						// If personId is null or parsing fails, use a default image
+						ViewBag.DoctorImage = "../Images/user.jpg";
+					}
+				}
+				else
+				{
+					// If no PersonID cookie exists, use a default image
+					ViewBag.DoctorImage = "../Images/user.jp";
+				}
+			}
+			catch (FormatException ex)
+			{
+				// Handle format exceptions, such as invalid integer parsing
+				ViewBag.DoctorImage = "../Images/user.jpg";  // Use default image
+															 // Log the exception if necessary
+				Console.WriteLine($"Error parsing PersonID: {ex.Message}");
+			}
+			catch (Exception ex)
+			{
+				// Catch any other exceptions and log them
+				ViewBag.DoctorImage = "../Images/user.jpg";  // Use default image
+															 // Log the exception
+				Console.WriteLine($"An error occurred: {ex.Message}" + personId);
+			}
+
+			base.OnActionExecuting(context);
+		}
 
 
 
-    }
+	}
 }
