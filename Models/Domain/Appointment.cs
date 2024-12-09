@@ -13,6 +13,7 @@
         public Doctor Doctor { get; set; }
 
         // Many-to-One with DoctorHospital
+
         public int SelectedDoctorHospitalID { get; set; }
         public DoctorHospital DoctorHospital { get; set; }
 
@@ -25,7 +26,8 @@
         public string Prescriptions { get; set; } = "null";
         public string TestSuggested { get; set; } = "null";
 
-        public ICollection<MedicalReport> MedicalReports { get; set; }
+        public ICollection<MedicalReport>? MedicalReports { get; set; }
+
 
     }
 }

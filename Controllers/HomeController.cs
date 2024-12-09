@@ -87,8 +87,37 @@ namespace Health_Hub.Controllers
             ViewData["Layout"] = "_LayoutLogInPatient";
             return View("Index");
         }
+		public async Task<IActionResult> DoctorSide()
+		{
+			var departments = _context.Lookups
+				.Where(l => l.Category == "Specialization")
+				.Select(l => l.Value)
+				.ToList();
 
-        public IActionResult AboutUs()
+			ViewBag.Departments = departments;
+
+			var doctors = _context.Doctors
+				.Include(d => d.Specialization)
+				.Where(d => d.VerificationStatus == true)
+				.OrderByDescending(d => d.Rating)
+				.Take(3)
+				.Select(d => new DoctorVM
+				{
+					PersonID = d.PersonID,
+					Name = d.Name,
+					ProfileImage = d.ProfileImage,
+					Specialization = d.Specialization.Value,
+					Rating = d.Rating
+				})
+				.ToList();
+
+			ViewBag.TopDoctors = doctors;
+			ViewData["Layout"] = "_LayoutDoctorLogIn";
+			return View("Index");
+		}
+
+
+		public IActionResult AboutUs()
         {
 			string roleIdValue = Request.Cookies["RoleID"];
 

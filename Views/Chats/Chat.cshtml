@@ -1,0 +1,46 @@
+﻿<div class="chat-page">
+    <!-- Sidebar with Participant List -->
+    <div class="chat-sidebar">
+        <ul class="chat-list">
+            @foreach (var chat in Model)
+            {
+                <li class="chat-list-item"
+                    data-participant-id="@chat.ParticipantID"
+                    role="button"
+                    onclick="loadChatMessages('@chat.ParticipantID')">
+                    <span class="participant-name">@chat.ParticipantName</span>
+                </li>
+            }
+        </ul>
+        <button id="new-chat-btn" class="btn">Start New Chat</button> <!-- New Chat Button -->
+    </div>
+
+    <!-- Chat Content Area -->
+    <div class="chat-content">
+        <div id="chat-messages">
+            <!-- Messages will be dynamically loaded here based on selected participant -->
+        </div>
+        <form id="chat-form">
+            <input type="hidden" id="recipient-id" />
+            <input type="text" id="message-input" placeholder="Type your message..." />
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </div>
+
+    <!-- New Chat Modal -->
+    <div id="new-chat-modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal" class="close">&times;</span>
+            <h3>Select a Participant</h3>
+            <ul id="participant-list">
+                <!-- Dynamically populate participants here -->
+                @foreach (var participant in Model)
+                {
+                    <li class="participant-item" data-participant-id="@participant.ParticipantID" onclick="startNewChat(@participant.ParticipantID)">
+                        @participant.ParticipantName
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>

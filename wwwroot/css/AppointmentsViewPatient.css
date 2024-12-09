@@ -1,95 +1,232 @@
-﻿.body {
-    font-family: Arial, sans-serif;
-    background-color: #F4F7F6;
+﻿/* General Styles */
+.body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f8f9fa;
     margin: 0;
-    padding: 0;
-}
-.container {
     padding: 20px;
 }
 
-.content h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.content p {
-    color: #666666;
-    margin-bottom: 20px;
-}
-
-.tabs {
+.appointment-list {
     display: flex;
-    margin-bottom: 20px;
+    flex-direction: column;
+    gap: 10px;
 }
 
-    .tabs button {
-        background-color: #FFFFFF;
-        border: 1px solid #E0E0E0;
-        padding: 10px 20px;
-        margin-right: 10px;
-        cursor: pointer;
-        border-radius: 5px;
-    }
-
-        .tabs button.active {
-            background-color: #F4F7F6;
-            border-color: #F4F7F6;
-        }
-
+/* Event Card Styles */
 .event {
-    background-color: #FFFFFF;
-    border: 1px solid #E0E0E0;
-    padding: 20px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 100px auto auto auto;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.3s;
     align-items: center;
 }
 
+    .event:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Date Section */
     .event .date {
-        font-size: 24px;
-        color: #FF5722;
-        margin-right: 20px;
+        background-color: #007bff;
+        color: #ffffff;
         text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        width: 100px;
+        min-width: 100px;
     }
 
         .event .date span {
             display: block;
         }
 
+    /* Details Section */
     .event .details {
-        flex-grow: 1;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
     }
+
+        .event .details h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #212529;
+            font-weight: 500;
+        }
 
         .event .details p {
             margin: 0;
+            color: #495057;
+            font-size: 14px;
+            line-height: 1.5;
         }
 
-        .event .details .time {
-            color: #666666;
-            margin-bottom: 5px;
-        }
+    .event .hospital-detailsAppointment {
+        font-size: 14px;
+        font-weight: 600;
+        color: #6c757d;
+    }
 
-        .event .details .location {
-            color: #666666;
-            display: flex;
-            align-items: center;
-        }
-
-            .event .details .location i {
-                margin-right: 5px;
-            }
-
+    /* Attendees Section */
     .event .attendees {
         display: flex;
+        justify-content: center;
         align-items: center;
+        padding: 10px;
     }
 
         .event .attendees img {
-            width: 30px;
-            height: 30px;
+            width: auto;
+            height: 100px;
             border-radius: 50%;
-            margin-left: -10px;
-            border: 2px solid #FFFFFF;
+            object-fit: cover;
+            border: 2px solid #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
+
+    .event .Status {
+        display: inline-flex; /* Align text and labels in a row */
+        align-items: center; /* Center vertically */
+        padding: 10px 530px; /* Balanced spacing */
+        font-family: 'Roboto', Arial, sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        border-radius: 50px; /* Material UI-inspired pill shape */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        margin: 10px 20px 10px 0 !important; /* Add margin-right for spacing */
+        color: #ffffff; /* Default text color */
+        transition: all 0.3s ease; /* Smooth hover and focus effects */
+    }
+
+        /* Base styles for Status label and value */
+        .status-label {
+            font-weight: bold;
+            margin-right: 8px; /* Space between label and value */
+        }
+
+        .status-value {
+            text-transform: capitalize; /* Ensures consistent casing */
+        }
+
+        /* Individual Status Types */
+        .Status.completed {
+            background-color: #2196f3; /* Material Blue */
+            color: #ffffff;
+        }
+
+        .Status.cancelled {
+            background-color: #e53935; /* Material Red */
+            color: #ffffff;
+        }
+
+        .Status.confirmed {
+            background-color: #43a047; /* Material Green */
+            color: #ffffff;
+        }
+
+        /* Optional hover effect for Status */
+        /*.Status:hover {
+            transform: translateY(-2px);*/ /* Lift effect */
+            /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);*/ /* Enhanced shadow */
+        /*}*/
+
+
+
+
+    /* Actions Section */
+    .event .actions {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        padding: 15px;
+        border-top: 1px solid #dee2e6;
+        background-color: #f8f9fa;
+    }
+
+.actions .btn {
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: 500;
+    text-align: center;
+    transition: all 0.3s;
+    cursor: pointer;
+    border: none;
+}
+
+.actions .btn-primary {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+    .actions .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+.actions .btn-danger {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+    .actions .btn-danger:hover {
+        background-color: #a71d2a;
+    }
+
+.actions .btn-secondary {
+    background-color: #6c757d;
+    color: #ffffff;
+}
+
+    .actions .btn-secondary:hover {
+        background-color: #5a6268;
+    }
+/* Responsive Design */
+@media (max-width: 768px) {
+    .event {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+        .event .date {
+            border-radius: 10px 10px 0 0;
+            width: 100%;
+        }
+
+        .event .details {
+            padding: 15px;
+            text-align: center; /* Center-align for mobile */
+        }
+
+        .event .attendees {
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .event .Status {
+            justify-content: center;
+            width: 100%;
+            border-radius: 0 0 10px 10px; /* Rounded corners for mobile */
+        }
+
+    .actions {
+        flex-direction: column;
+        align-items: center; /* Center-align actions */
+        padding: 10px;
+    }
+
+        .actions .btn {
+            width: 100%; /* Full-width buttons for better usability */
+            margin-bottom: 10px;
+        }
+}
