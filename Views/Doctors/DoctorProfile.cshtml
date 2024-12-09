@@ -23,6 +23,14 @@
                         <!-- Profile Image -->
                         <div class="profile-image-container text-center mb-3">
                             <img id="profileImage" src="@Model.Profile" alt="Profile Image" class="profile-image img-fluid rounded-circle border border-primary" style="width: 120px; height: 120px; object-fit: cover;" />
+                            <!-- Upload Profile Image Button -->
+                            <div class="mt-2">
+                                <button class="btn btn-sm btn-outline-primary" onclick="triggerProfileImageUpload()">
+                                    Upload Profile Image
+                                </button>
+                                <!-- Hidden file input for uploading profile image -->
+                                <input type="file" id="profileFile" style="display: none;" accept="image/*" onchange="uploadProfileImage(event)" />
+                            </div>
                         </div>
                         <div class="row mb-2">
                             <div class="col-12"><strong>@Model.Name</strong></div>
@@ -42,7 +50,7 @@
                     </div>
                 </div>
             </div>
-
+          
             <!-- Degree Card (Below Personal Information) -->
             <div class="card shadow-lg mb-4" style="width: 100%; max-width: 100%;">
                 <div class="card-header bg-warning text-white d-flex justify-content-between align-items-center">
@@ -55,7 +63,7 @@
                     <div class="degree-info">
                         <div class="text-center mb-3">
                             <!-- Degree Image (Clickable for Upload) -->
-                            <img id="degreeImage" src="@Model.Degree" alt="Degree" class="degree-image img-fluid rounded" style="max-width: 70%; height: auto;" />
+                            <img src="@Model.Degree" alt="Degree" class="degree-image img-fluid rounded" style="max-width: 70%; height: auto;" id="degreeImage" />
                             <!-- Hidden file input for uploading degree image -->
                             <input type="file" id="degreeFile" style="display: none;" accept="image/*" onchange="uploadDegreeImage(event)" />
                         </div>
@@ -356,30 +364,58 @@
 
 
     // Function to open the degree image upload dialog
-    function editDegreeImage() {
+    function editImage() {
+        // Trigger the file input click event
         document.getElementById('degreeFile').click();
     }
-
-    // Function to handle the degree image upload
-    function uploadDegreeImage(event) {
+    function triggerProfileImageUpload() {
+        document.getElementById('profileFile').click();
+    }
+    function uploadProfileImage(event) {
+        var fileInput = document.getElementById('profileFile');  // Corrected ID
         var formData = new FormData();
-        formData.append('degreeFile', event.target.files[0]);
+        formData.append("file", fileInput.files[0]);
 
-        fetch('@Url.Action("UploadDegree", "DoctorProfile")', {
+        fetch('@Url.Action("UploadProfileImage", "DoctorProfile")', {
             method: 'POST',
-            body: formData
+            body: formData,
         })
             .then(response => response.json())
             .then(data => {
                 if (data.success) {
-                    document.getElementById('degreeImage').src = data.newImageUrl;
-                    alert('Degree uploaded successfully.');
+                    document.getElementById('profileImage').src = data.imagePath; // Update the degree image with new path
                 } else {
-                    alert('Failed to upload degree.');
+                    alert("Image upload failed. Please try again.");
                 }
             })
-            .catch(error => console.error('Error:', error));
+            .catch(error => console.error("Error uploading image:", error));
     }
+    function editDegreeImage() {
+        // Trigger the file input click event
+        document.getElementById('degreeFile').click();
+    }
+
+    // Function to handle degree image upload
+    function uploadDegreeImage(event) {
+        var fileInput = document.getElementById('degreeFile');  // Corrected ID
+        var formData = new FormData();
+        formData.append("file", fileInput.files[0]);
+
+        fetch('@Url.Action("UploadDegreeImage", "DoctorProfile")', {
+            method: 'POST',
+            body: formData,
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    document.getElementById('degreeImage').src = data.imagePath; // Update the degree image with new path
+                } else {
+                    alert("Image upload failed. Please try again.");
+                }
+            })
+            .catch(error => console.error("Error uploading image:", error));
+    }
+
 
     // Function to open the add hospital form
     function showAddHospitalForm() {

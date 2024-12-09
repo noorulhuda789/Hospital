@@ -291,7 +291,35 @@ namespace Health_Hub.Controllers
             return Json(new { success = false, message = "No file uploaded" });
 
         }
-        
+        [HttpPost]
+        public async Task<IActionResult> UploadProfileImage(IFormFile file)
+        {
+            if (file != null)
+            {
+                string uploadsFolder = Path.Combine(_environment.WebRootPath, "images");
+                string uniqueFileName = $"{Guid.NewGuid()}_{file.FileName}";
+                string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    file.CopyTo(stream);
+                }
+
+                int personId = int.Parse(Request.Cookies["PersonId"]);
+                var doctor = _context.Doctors.FirstOrDefault(d => d.PersonId == personId);
+                if (doctor != null)
+                {
+                    // Update profile image path in database
+                    doctor.ProfileImage = $"/images/{uniqueFileName}";
+                    _context.SaveChanges();
+                }
+
+                // Return success response with the new image path
+                return Json(new { success = true, imagePath = $"/images/{uniqueFileName}" });
+            }
+            return Json(new { success = false, message = "No file uploaded" });
+
+        }
         [HttpPost]
         public IActionResult UpdatePersonalInfo(string Name, string PhoneNumber, string Email, string CNIC, int SpecializationId)
         {

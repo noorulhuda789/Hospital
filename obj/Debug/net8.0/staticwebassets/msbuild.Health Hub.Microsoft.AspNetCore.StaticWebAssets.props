@@ -208,6 +208,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Health Hub.bundle.scp.css))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\0ccc9978-9b05-46b2-a476-d4ea804df4bd_IMG_4182.JPG))">
+      <SourceType>Package</SourceType>
+      <SourceId>Health Hub</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Health Hub</BasePath>
+      <RelativePath>Images/0ccc9978-9b05-46b2-a476-d4ea804df4bd_IMG_4182.JPG</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\0ccc9978-9b05-46b2-a476-d4ea804df4bd_IMG_4182.JPG))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\10fa41d2-416a-4773-90e6-42734575b17c_dress.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Health Hub</SourceId>
@@ -255,6 +271,38 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\1c50e428-e15f-4ca0-a8c4-4871e22b379f_logo.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\28c0d79a-c368-4263-bf16-54fc8a9bf11f_WhatsApp Image 2023-08-14 at 2.39.04 PM.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Health Hub</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Health Hub</BasePath>
+      <RelativePath>Images/28c0d79a-c368-4263-bf16-54fc8a9bf11f_WhatsApp Image 2023-08-14 at 2.39.04 PM.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\28c0d79a-c368-4263-bf16-54fc8a9bf11f_WhatsApp Image 2023-08-14 at 2.39.04 PM.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\2e3e28b0-1e53-46fc-bf16-4b8760dda1af_WhatsApp Image 2023-08-14 at 2.38.57 PM.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Health Hub</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Health Hub</BasePath>
+      <RelativePath>Images/2e3e28b0-1e53-46fc-bf16-4b8760dda1af_WhatsApp Image 2023-08-14 at 2.38.57 PM.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\2e3e28b0-1e53-46fc-bf16-4b8760dda1af_WhatsApp Image 2023-08-14 at 2.38.57 PM.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\3e6209e0-f440-4738-86ce-99b700f38fa7_amza.jpg))">
       <SourceType>Package</SourceType>
@@ -927,6 +975,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\d776d7c5-2544-4c7a-9bee-b3c6d34b0a5d_3e6209e0-f440-4738-86ce-99b700f38fa7_amza.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\d99f09e1-a26e-4b74-aa25-1df3979d5fcd_WhatsApp Image 2023-08-14 at 2.39.04 PM.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Health Hub</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Health Hub</BasePath>
+      <RelativePath>Images/d99f09e1-a26e-4b74-aa25-1df3979d5fcd_WhatsApp Image 2023-08-14 at 2.39.04 PM.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\d99f09e1-a26e-4b74-aa25-1df3979d5fcd_WhatsApp Image 2023-08-14 at 2.39.04 PM.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\dbc61d8f-6b03-464e-a3f1-8c995977ce88_Degree.jpg))">
       <SourceType>Package</SourceType>
