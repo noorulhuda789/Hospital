@@ -17,179 +17,179 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Health_Hub
 build_property.RootNamespace = Health_Hub
-build_property.ProjectDir = C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject\
+build_property.ProjectDir = D:\Semester_5\SE(Theory)\Ongoing\Hospital\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Users\hp\OneDrive\Documents\5th semester\Se\Seproject
+build_property.MSBuildProjectDirectory = D:\Semester_5\SE(Theory)\Ongoing\Hospital
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Appointments/AppointmentSingle.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Appointments/AppointmentSingle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXEFwcG9pbnRtZW50U2luZ2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Appointments/CompletedAppointments.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Appointments/CompletedAppointments.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXENvbXBsZXRlZEFwcG9pbnRtZW50cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Appointments/Create.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Appointments/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Appointments/Delete.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Appointments/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Appointments/Details.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Appointments/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Appointments/Edit.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Appointments/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Appointments/List.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Appointments/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Appointments/ManageAppointments.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Appointments/ManageAppointments.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXE1hbmFnZUFwcG9pbnRtZW50cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Appointments/Single.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Appointments/Single.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXFNpbmdsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Chats/Chat.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Chats/Chat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdHNcQ2hhdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Doctors/completeProfile.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Doctors/completeProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yc1xjb21wbGV0ZVByb2ZpbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Doctors/CompleteProfile12.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Doctors/CompleteProfile12.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yc1xDb21wbGV0ZVByb2ZpbGUxMi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Doctors/dashBoard.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Doctors/dashBoard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yc1xkYXNoQm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Doctors/doctorHome.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Doctors/doctorHome.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yc1xkb2N0b3JIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Doctors/DoctorProfile.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Doctors/DoctorProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yc1xEb2N0b3JQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Doctors/Doctors.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Doctors/Doctors.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yc1xEb2N0b3JzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Doctors/DoctorSingle.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Doctors/DoctorSingle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yc1xEb2N0b3JTaW5nbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Doctors/editProfile.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Doctors/editProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yc1xlZGl0UHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Home/AboutUs.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Home/AboutUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Home/Index.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Home/Notifications.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Home/Notifications.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOb3RpZmljYXRpb25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/LogIn/LogIn.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/LogIn/LogIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nSW5cTG9nSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Patient/Create.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Patient/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Patient/Delete.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Patient/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Patient/Details.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Patient/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Patient/Edit.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Patient/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Patient/Index.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Patient/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Patient/UpdatePassword.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Patient/UpdatePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxVcGRhdGVQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/People/Create.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/People/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/People/Delete.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/People/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/People/Details.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/People/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/People/Edit.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/People/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/People/Index.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/People/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Shared/Error.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Shared/_LayoutDoctorLogIn.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Shared/_LayoutDoctorLogIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXREb2N0b3JMb2dJbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Shared/_LayoutLogInPatient.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Shared/_LayoutLogInPatient.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMb2dJblBhdGllbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/SignUpDoctor/SignUpDoctor.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/SignUpDoctor/SignUpDoctor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblVwRG9jdG9yXFNpZ25VcERvY3Rvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/SignUpPatient/SignUpPatient.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/SignUpPatient/SignUpPatient.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblVwUGF0aWVudFxTaWduVXBQYXRpZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/_ViewImports.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/_ViewStart.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hp/OneDrive/Documents/5th semester/Se/Seproject/Views/Shared/_Layout.cshtml]
+[D:/Semester_5/SE(Theory)/Ongoing/Hospital/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7x215y0zb1
