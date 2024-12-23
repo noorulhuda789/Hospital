@@ -51,11 +51,8 @@
 				</button>
 
 
-				<div class="collapse navbar-collapse" id="navbarmain">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item">
-							<a class="nav-link" asp-action="AboutUs" asp-controller="Home">About Us</a>
-						</li>
+				<div class="collapse navbar-collapse ms-auto" id="navbarmain">
+					<ul class="navbar-nav ms-auto">
 						
 						<li class="nav-item">
 							<a class="nav-link" asp-controller="DoctorDashBoard" asp-action="dashBoard">Home</a>
@@ -67,15 +64,22 @@
 						<li class="nav-item">
 							<a class="nav-link" asp-action="Chat" asp-controller="Chats">Chats</a>
 						</li>
-						
-						
-@* 						<li class="nav-item"><button type="button" name="" id="" class="btn btn-block"><a asp-controller="SignUp" asp-action="SignUp">Sign Up</a></button></li>
+						<li class="nav-item"><a class="nav-link">Inbox</a></li>
+						<li class="nav-item">
+							<a class="nav-link" asp-action="AboutUs" asp-controller="Home">About Us</a>
+						</li>
+
+
+						@* 						<li class="nav-item"><button type="button" name="" id="" class="btn btn-block"><a asp-controller="SignUp" asp-action="SignUp">Sign Up</a></button></li>
 						<li class="nav-item"><button type="button" name="" id="" class="btn btn-block"><a asp-controller="LogIn" asp-action="LogIn">LogIn</a></button></li> *@
 
 						
-						<li class="nav-item"><a class="nav-link">Inbox</a></li>
+						
 
-						<ul class="navbar-nav ml-auto">
+						
+						
+					</ul>
+					<ul class="navbar-nav ml-auto">
 							
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle" id="profileDropdown" data-toggle="dropdown">
@@ -92,8 +96,6 @@
 								</ul>
 							</li>
 
-						</ul>
-						
 					</ul>
 				</div>
 			</div>
