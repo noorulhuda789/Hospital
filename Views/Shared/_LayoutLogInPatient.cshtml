@@ -54,19 +54,7 @@
 
             <div class="collapse navbar-collapse ms-auto" id="navbarmain">
 					<ul class="navbar-nav ms-auto">
-						<!-- Dropdown for Departments -->
-						 <li class="nav-item dropdown">
-						 	<a class="nav-link dropdown-toggle" id="dropdown02" data-bs-toggle="dropdown">Departments</a>
-						 	<ul class="dropdown-menu" aria-labelledby="dropdown02">
-						 		@if (ViewBag.Departments != null)
-						 		{
-						 			foreach (var department in ViewBag.Departments)
-						 			{
-						 				<li><a class="dropdown-item" href="#">@department</a></li>
-						 			}
-						 		}
-						 	</ul>
-						 </li>
+						
 
 						<!-- Link for Doctors -->
 						<li class="nav-item">

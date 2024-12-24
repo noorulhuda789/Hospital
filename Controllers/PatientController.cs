@@ -84,7 +84,7 @@ namespace Health_Hub.Controllers
                 return NotFound();
             }
             ViewData["RoleID"] = new SelectList(_context.Lookups, "LookupID", "Category", patient.RoleID);
-            ViewData["Layout"] = "_LayoutLogInPatient";
+            ViewData["Layout"] = "../Shared/_LayoutLogInPatient";
             return View(patient);
         }
 
@@ -121,7 +121,7 @@ namespace Health_Hub.Controllers
                 return RedirectToAction(nameof(Index));
             }
             ViewData["RoleID"] = new SelectList(_context.Lookups, "LookupID", "Category", patient.RoleID);
-            ViewData["Layout"] = "_LayoutLogInPatient";
+            ViewData["Layout"] = "../Shared/_LayoutLogInPatient";
             return View(patient);
         }
 

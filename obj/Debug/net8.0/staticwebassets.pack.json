@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Health Hub.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Health Hub.bundle.scp.css"
-    },
-    {
       "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\0ccc9978-9b05-46b2-a476-d4ea804df4bd_IMG_4182.JPG",
       "PackagePath": "staticwebassets\\Images\\0ccc9978-9b05-46b2-a476-d4ea804df4bd_IMG_4182.JPG"
     },
@@ -231,6 +227,10 @@
     {
       "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\logo3.png",
       "PackagePath": "staticwebassets\\Images\\logo3.png"
+    },
+    {
+      "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\profiles\\ban.png",
+      "PackagePath": "staticwebassets\\Images\\profiles\\ban.png"
     },
     {
       "Id": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\profiles\\emily_profile.jpeg",

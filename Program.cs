@@ -2,16 +2,20 @@ using Health_Hub.Data;
 using Health_Hub.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Add services to the container.
+
+var builder = WebApplication.CreateBuilder(args);
+builder.Logging.ClearProviders();
+builder.Logging.AddDebug();
+builder.Logging.AddConsole();
+
 var connectionString = builder.Configuration.GetConnectionString("HealthHubConnectionString") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-builder.Services.AddDbContext<HealthHubDbContext>(options =>
-	options.UseSqlServer(connectionString));
-builder.Services.AddSignalR();
-builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<HealthHubDbContext>(options =>options.UseSqlServer(connectionString));
+
+
+builder.Services.AddSignalR().AddAzureSignalR(builder.Configuration["Azure:SignalR:ConnectionString"]);
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -26,11 +30,14 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
 app.UseAuthorization();
-app.MapHub<ChatHub>("/chathub");
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.UseEndpoints(endpoints =>
+{
+	endpoints.MapHub<ChatHub>("/chathub"); // Maps SignalR hub
+	endpoints.MapControllerRoute(
+		name: "default",
+		pattern: "{controller=Home}/{action=Index}/{id?}");
+});
 
 app.Run();

@@ -1,0 +1,7 @@
+﻿"publishOptions": {
+    "include": [
+        "wwwroot",
+        "Views",
+        "web.config"
+    ]
+},

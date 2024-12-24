@@ -13,7 +13,7 @@ body {
 }
 
     .health-navbar .navbar-brand img.logoImage {
-        max-height: 50px;
+        max-height: 70px;
     }
 
     .health-navbar .navbar-toggler {
@@ -35,7 +35,7 @@ body {
     }
 
     .health-navbar .profile-img {
-        width: 30px;
+        width: 40px;
         border-radius: 50%;
     }
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Be/ntsyR/aQL4m01wjhkW3VUdo6yV/FrX62wdgDSKmU=",
+  "Hash": "689KCYcwwaAKWIoVS/qQE6HuvqBTxBm0B30ugIDy1uk=",
   "Source": "Health Hub",
   "BasePath": "_content/Health Hub",
   "Mode": "Default",
@@ -17,44 +17,6 @@
   ],
   "Assets": [
     {
-      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Health Hub.styles.css",
-      "SourceId": "Health Hub",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/Health Hub",
-      "RelativePath": "Health Hub.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Health Hub.styles.css"
-    },
-    {
-      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Health Hub.bundle.scp.css",
-      "SourceId": "Health Hub",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/Health Hub",
-      "RelativePath": "Health Hub.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Health Hub.bundle.scp.css"
-    },
-    {
       "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\css\\AppointmentsViewPatient.css",
       "SourceId": "Health Hub",
       "SourceType": "Discovered",
@@ -70,7 +32,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\css\\AppointmentsViewPatient.css"
     },
     {
@@ -89,7 +51,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\css\\Chats.css"
     },
     {
@@ -108,7 +70,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\css\\DoctorCard.css"
     },
     {
@@ -127,7 +89,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\css\\DoctorProfile.css"
     },
     {
@@ -146,7 +108,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\css\\DoctorSingle.css"
     },
     {
@@ -165,7 +127,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\css\\DoctorViewProfile.css"
     },
     {
@@ -184,7 +146,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\css\\ManageAppointments.css"
     },
     {
@@ -203,7 +165,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\css\\navbar.css"
     },
     {
@@ -222,7 +184,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\css\\Profile.css"
     },
     {
@@ -241,7 +203,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\css\\ProfileDoctor.css"
     },
     {
@@ -260,7 +222,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
@@ -279,7 +241,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
@@ -298,7 +260,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\0ccc9978-9b05-46b2-a476-d4ea804df4bd_IMG_4182.JPG"
     },
     {
@@ -317,7 +279,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\10fa41d2-416a-4773-90e6-42734575b17c_dress.jpg"
     },
     {
@@ -336,7 +298,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\12f8f56a-236f-4c3c-babd-45a3a1229742_cs-logo.png"
     },
     {
@@ -355,7 +317,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\1c50e428-e15f-4ca0-a8c4-4871e22b379f_logo.jpg"
     },
     {
@@ -374,7 +336,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\28c0d79a-c368-4263-bf16-54fc8a9bf11f_WhatsApp Image 2023-08-14 at 2.39.04 PM.jpeg"
     },
     {
@@ -393,7 +355,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\2e3e28b0-1e53-46fc-bf16-4b8760dda1af_WhatsApp Image 2023-08-14 at 2.38.57 PM.jpeg"
     },
     {
@@ -412,7 +374,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\3e6209e0-f440-4738-86ce-99b700f38fa7_amza.jpg"
     },
     {
@@ -431,7 +393,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\429232bd-43d9-44ba-bb7b-f123ead46946_amza.jpg"
     },
     {
@@ -450,7 +412,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\68df2a5d-1294-4a6a-9785-66ce429df852_amza.jpg"
     },
     {
@@ -469,7 +431,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\723c00c2-7208-495d-886d-0daf453bdeb0_WhatsApp Image 2023-08-14 at 2.39.06 PM.jpeg"
     },
     {
@@ -488,7 +450,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\8a2b295e-1cd8-481d-b51a-6cf4ec9b3429_Degree.jpg"
     },
     {
@@ -507,7 +469,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\aaadc49f-d601-4735-9cdd-debd408f6bc3_cs-logo.png"
     },
     {
@@ -526,7 +488,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\about\\05.png"
     },
     {
@@ -545,7 +507,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\about\\1.png"
     },
     {
@@ -564,7 +526,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\about\\2.png"
     },
     {
@@ -583,7 +545,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\about\\3.png"
     },
     {
@@ -602,7 +564,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\about\\4.png"
     },
     {
@@ -621,7 +583,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\about\\5.png"
     },
     {
@@ -640,7 +602,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\about\\6.png"
     },
     {
@@ -659,7 +621,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\about\\about-1.jpg"
     },
     {
@@ -678,7 +640,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\about\\about-2.jpg"
     },
     {
@@ -697,7 +659,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\about\\about-3.jpg"
     },
     {
@@ -716,7 +678,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\about\\about-4.jpg"
     },
     {
@@ -735,7 +697,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\about\\chat.png"
     },
     {
@@ -754,7 +716,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\about\\doctor-review.png"
     },
     {
@@ -773,7 +735,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\about\\img-1.jpg"
     },
     {
@@ -792,7 +754,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\about\\img-2.jpg"
     },
     {
@@ -811,7 +773,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\about\\img-3.jpg"
     },
     {
@@ -830,7 +792,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\about\\onlineConsult.jpeg"
     },
     {
@@ -849,7 +811,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\about\\rateDoc.webp"
     },
     {
@@ -868,7 +830,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\about\\scheduleAppoint.webp"
     },
     {
@@ -887,7 +849,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\about\\sign.png"
     },
     {
@@ -906,7 +868,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\about\\verified.png"
     },
     {
@@ -925,7 +887,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\b8ecbf06-6b3b-4080-8ea4-df1517ceb421_Degree.jpg"
     },
     {
@@ -944,7 +906,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\bannerImg.jpg"
     },
     {
@@ -963,7 +925,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\bf9c53c2-95c6-4174-971a-bb7316082401_10fa41d2-416a-4773-90e6-42734575b17c_dress.jpg"
     },
     {
@@ -982,7 +944,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\bg\\22.jpg"
     },
     {
@@ -1001,7 +963,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\bg\\banner.jpg"
     },
     {
@@ -1020,7 +982,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\bg\\bg-2.jpg"
     },
     {
@@ -1039,7 +1001,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\bg\\bg-4.jpg"
     },
     {
@@ -1058,7 +1020,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\bg\\slider-bg-1.jpg"
     },
     {
@@ -1077,7 +1039,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\BlueLogo.png"
     },
     {
@@ -1096,7 +1058,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\c4f6de92-627f-4139-b5f4-2d24464f86c5_amza.jpg"
     },
     {
@@ -1115,7 +1077,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\c89e61ac-4669-409a-b5c7-49a20a8b11a8_dress.jpg"
     },
     {
@@ -1134,7 +1096,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\d07ec452-5278-4801-8c1d-4483edbb5e22_Degree.jpg"
     },
     {
@@ -1153,7 +1115,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\d1a9f027-6d8d-41c0-9742-3fd6687d637a_WhatsApp Image 2023-08-14 at 2.39.04 PM.jpeg"
     },
     {
@@ -1172,7 +1134,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\d4bcd8ce-b372-458e-9422-e76ec6db597f_WhatsApp Image 2023-08-14 at 2.38.57 PM.jpeg"
     },
     {
@@ -1191,7 +1153,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\d776d7c5-2544-4c7a-9bee-b3c6d34b0a5d_3e6209e0-f440-4738-86ce-99b700f38fa7_amza.jpg"
     },
     {
@@ -1210,7 +1172,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\d99f09e1-a26e-4b74-aa25-1df3979d5fcd_WhatsApp Image 2023-08-14 at 2.39.04 PM.jpeg"
     },
     {
@@ -1229,7 +1191,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\dbc61d8f-6b03-464e-a3f1-8c995977ce88_Degree.jpg"
     },
     {
@@ -1248,7 +1210,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\Degrees\\Degree.jpg"
     },
     {
@@ -1267,7 +1229,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\e47427d0-699e-450e-899c-2a2e604a8398_Degree.jpg"
     },
     {
@@ -1286,7 +1248,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\e6d30d76-2c67-42c2-8ef0-75c906df16bf_dress.jpg"
     },
     {
@@ -1305,7 +1267,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\eb82ec3a-2a56-4177-9394-d6a602476891_10fa41d2-416a-4773-90e6-42734575b17c_dress.jpg"
     },
     {
@@ -1324,7 +1286,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\f2d43232-13ed-41df-bc3d-049f361e7a84_WhatsApp Image 2023-08-14 at 2.38.57 PM.jpeg"
     },
     {
@@ -1343,8 +1305,27 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\logo3.png"
+    },
+    {
+      "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\profiles\\ban.png",
+      "SourceId": "Health Hub",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\",
+      "BasePath": "_content/Health Hub",
+      "RelativePath": "Images/profiles/ban.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "Always",
+      "OriginalItemSpec": "wwwroot\\Images\\profiles\\ban.png"
     },
     {
       "Identity": "D:\\Semester_5\\SE(Theory)\\Ongoing\\Hospital\\wwwroot\\Images\\profiles\\emily_profile.jpeg",
@@ -1362,7 +1343,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\profiles\\emily_profile.jpeg"
     },
     {
@@ -1381,7 +1362,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\profiles\\jane_profile.jpeg"
     },
     {
@@ -1400,7 +1381,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\profiles\\john_profile.jpeg"
     },
     {
@@ -1419,7 +1400,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\profiles\\michael_profile.jpeg"
     },
     {
@@ -1438,7 +1419,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\reports\\book.jpg"
     },
     {
@@ -1457,7 +1438,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\reports\\deptLOGO.png"
     },
     {
@@ -1476,7 +1457,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\reports\\download.jpeg"
     },
     {
@@ -1495,7 +1476,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\reports\\Test_Scenarios.pdf"
     },
     {
@@ -1514,7 +1495,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\SquareLogo.png"
     },
     {
@@ -1533,7 +1514,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\team\\1.jpg"
     },
     {
@@ -1552,7 +1533,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\team\\2.jpg"
     },
     {
@@ -1571,7 +1552,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\team\\3.jpg"
     },
     {
@@ -1590,7 +1571,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\team\\4.jpg"
     },
     {
@@ -1609,7 +1590,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\team\\test-thumb1.jpg"
     },
     {
@@ -1628,7 +1609,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\team\\test-thumb2.jpg"
     },
     {
@@ -1647,7 +1628,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\team\\test-thumb3.jpg"
     },
     {
@@ -1666,7 +1647,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\team\\test-thumb4.jpg"
     },
     {
@@ -1685,7 +1666,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\Images\\user.jpg"
     },
     {
@@ -1704,7 +1685,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\js\\Appointments.js"
     },
     {
@@ -1723,7 +1704,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
@@ -1742,7 +1723,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
@@ -1761,7 +1742,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
@@ -1780,7 +1761,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
@@ -1799,7 +1780,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
@@ -1818,7 +1799,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
@@ -1837,7 +1818,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
@@ -1856,7 +1837,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
@@ -1875,7 +1856,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
@@ -1894,7 +1875,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
@@ -1913,7 +1894,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
@@ -1932,7 +1913,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
@@ -1951,7 +1932,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
@@ -1970,7 +1951,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
@@ -1989,7 +1970,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
@@ -2008,7 +1989,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
@@ -2027,7 +2008,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
@@ -2046,7 +2027,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
@@ -2065,7 +2046,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
@@ -2084,7 +2065,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
@@ -2103,7 +2084,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
@@ -2122,7 +2103,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
@@ -2141,7 +2122,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
@@ -2160,7 +2141,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
@@ -2179,7 +2160,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
@@ -2198,7 +2179,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
@@ -2217,7 +2198,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
@@ -2236,7 +2217,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
@@ -2255,7 +2236,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
@@ -2274,7 +2255,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
@@ -2293,7 +2274,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
@@ -2312,7 +2293,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
@@ -2331,7 +2312,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
@@ -2350,7 +2331,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
@@ -2369,7 +2350,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
@@ -2388,7 +2369,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
@@ -2407,7 +2388,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
@@ -2426,7 +2407,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
@@ -2445,7 +2426,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
@@ -2464,7 +2445,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
@@ -2483,7 +2464,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
@@ -2502,7 +2483,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
@@ -2521,7 +2502,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
@@ -2540,7 +2521,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
@@ -2559,7 +2540,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
@@ -2578,7 +2559,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
@@ -2597,7 +2578,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
@@ -2616,7 +2597,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
@@ -2635,7 +2616,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
@@ -2654,7 +2635,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
@@ -2673,7 +2654,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
@@ -2692,7 +2673,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
@@ -2711,7 +2692,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
@@ -2730,7 +2711,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
@@ -2749,7 +2730,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
@@ -2768,7 +2749,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
@@ -2787,7 +2768,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
@@ -2806,7 +2787,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
@@ -2825,7 +2806,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\signalr.js\\jquery.signalR.js"
     },
     {
@@ -2844,7 +2825,7 @@
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Always",
       "OriginalItemSpec": "wwwroot\\signalr.js\\jquery.signalR.min.js"
     }
   ]

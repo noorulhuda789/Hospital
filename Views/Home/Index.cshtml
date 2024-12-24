@@ -1,5 +1,6 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+	ViewData["Title"] = "Home Page";
+	Layout = "../Shared/_Layout.cshtml";
 }
 <!-- Search Section Start -->
 <section class="search-section">
@@ -19,19 +20,6 @@
 				
 				<p>Find the best doctor near you</p>
 			</div>
-			<!-- Right Side: Search Bar with Dropdown and Button -->
-			<div class="col-md-6">
-				<div class="search-bar d-flex">
-					<select class="form-control">
-						@foreach (var dept in ViewBag.Departments)
-						{
-							<option value=@dept>@dept</option>
-						}
-					</select>
-					<input type="text" class="form-control" placeholder="Enter City...">
-					<button class="btn btn-main-2">Search</button>
-				</div>
-			</div>
 		</div>
 	</div>
 </section>
@@ -47,9 +35,7 @@
 					<h1 class="mb-3 mt-3">Your most trusted health partner</h1>
 
 					<p class="mb-4 pr-5">Connecting Patients and Doctors for Seamless, Accessible Healthcare Anytime, Anywhere.</p>
-					<div class="btn-container ">
-						<a href="appoinment.html" target="_blank" class="btn btn-main-2 btn-icon btn-round-full">Make appoinment <i class="icofont-simple-right ml-2  "></i></a>
-					</div>
+			
 				</div>
 			</div>
 		</div>

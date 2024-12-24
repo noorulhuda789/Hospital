@@ -68,8 +68,71 @@ p {
     line-height: 20px;
 }
 
+
+
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    max-width: 70px;
+    max-height: 70px;
+    border-radius: 50%;
+}
+
+.navbar-toggler {
+    border-color: transparent;
+}
+
+.nav-link {
+    font-size: 0.9rem;
+    color: var(--primary-color);
+    text-transform: capitalize;
+}
+
+.navbar-nav .btn-sm {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+}
+
+.dropdown-menu {
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+        flex-direction: column;
+    }
+
+        .navbar-nav .nav-item {
+            margin: 0.5rem 0;
+        }
+
+    .navbar-brand img {
+        max-width: 60px;
+        max-height: 60px;
+    }
+
+    .btn {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .logoImage {
-    max-width: 20%;
+    max-width: 30%;
     min-height: fit-content;
     max-height: 15%;
     border-radius: 20%;
@@ -496,7 +559,7 @@ a {
 .banner {
     position: relative;
     overflow: hidden;
-    background-image: url("https://img.freepik.com/free-photo/doctor-wearing-face-mask-clinic_23-2148728336.jpg?t=st=1729369692~exp=1729373292~hmac=dcd1f0de2ed66d97d1f42a3685c5c0dfad93f870b0a4c456e6cdbc09fd525092&w=1060"); /* Ensure this path is correct */
+    background-image: url('/Images/profiles/ban.png');
     background-repeat: no-repeat; /* This property is separate from background-image */
     background-size: cover; /* Maintain original width */
     height: auto; /* Allow height to adjust based on the image */

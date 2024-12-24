@@ -60,7 +60,7 @@ namespace Health_Hub.Controllers
 			if (profileData == null)
 			{
 				// Redirect to login layout if no profile data is found
-				ViewData["Layout"] = "_LayoutDoctorLogIn";
+				ViewData["Layout"] = "../Shared/_LayoutDoctorLogIn";
 				return View("~/Views/Doctors/DoctorProfile.cshtml", null);
 			}
 
@@ -95,11 +95,11 @@ namespace Health_Hub.Controllers
 			};
             if(model.Degree == null)
             {
-				ViewData["Layout"] = "_LayoutDoctorLogIn";
+				ViewData["Layout"] = "../Shared/_LayoutDoctorLogIn";
 				return View("~/Views/Doctors/editProfile.cshtml", model);
 			}
 			// Return profile data view
-			ViewData["Layout"] = "_LayoutDoctorLogIn";
+			ViewData["Layout"] = "../Shared/_LayoutDoctorLogIn";
 			return View("~/Views/Doctors/DoctorProfile.cshtml", model);
 		}
 

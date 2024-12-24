@@ -30,7 +30,7 @@ namespace Health_Hub.Controllers
         public IActionResult CompleteProfile()
         {
             ViewBag.Specializations = GetSpecializationSelectList();
-            ViewData["Layout"] = "_LayoutDoctorLogIn";
+            ViewData["Layout"] = "../Shared/_LayoutDoctorLogIn";
             return View("~/Views/Doctors/completeProfile.cshtml");
         }
         /*[HttpPost]
@@ -147,7 +147,7 @@ namespace Health_Hub.Controllers
                     ViewBag.Specializations = GetSpecializationSelectList();
 
                 // Explicitly specify the path to the view in the 'Doctors' folder
-                ViewData["Layout"] = "_LayoutDoctorLogIn";
+                ViewData["Layout"] = "../Shared/_LayoutDoctorLogIn";
                 return View("~/Views/Doctors/dashBoard.cshtml"); // Re-populate form with the current values
             }
                 catch (Exception ex)

@@ -73,7 +73,7 @@ namespace Health_Hub.Controllers
                 return NotFound("Doctor data not found.");
             }
 
-			ViewData["Layout"] = "_LayoutDoctorLogIn";
+			ViewData["Layout"] = "../Shared/_LayoutDoctorLogIn";
 			return View("~/Views/Doctors/dashBoard.cshtml", doctorData);
 		}
 		public override void OnActionExecuting(ActionExecutingContext context)

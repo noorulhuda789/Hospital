@@ -20,53 +20,36 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #f8f9fa;">
             <div class="container-fluid">
-                <a class="navbar-brand" href="/">
+                <a class="navbar-brand img" href="/">
                     <img src="../Images/SquareLogo.png" alt="Health Hub Logo" class="img-fluid logoImage">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
-                <!-- Updated for right alignment -->
-                <div class="collapse navbar-collapse ms-auto" id="navbarmain">
-                    <!-- Changed this line -->
-                    <ul class="navbar-nav ms-auto">
-                        <!-- Dropdown for Departments -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="dropdown02" data-bs-toggle="dropdown">Departments</a>
-                            <ul class="dropdown-menu" aria-labelledby="dropdown02">
-                                @if (ViewBag.Departments != null)
-                                {
-                                    foreach (var department in ViewBag.Departments)
-                                    {
-                                        <li><a class="dropdown-item" href="#">@department</a></li>
-                                    }
-                                }
-                            </ul>
-                        </li>
-
+                <div class="collapse navbar-collapse" id="navbarmain">
+                    <ul class="navbar-nav ms-auto align-items-center">
+                  
                         <!-- Link for Doctors -->
                         <li class="nav-item">
                             <a class="nav-link" asp-controller="Doctors" asp-action="Doctors">Doctors</a>
                         </li>
-
+                        <!-- Link for About Us -->
                         <li class="nav-item">
-                            <a class="nav-link" asp-action="AboutUs" asp-controller="Home" >About Us</a>
+                            <a class="nav-link" asp-action="AboutUs" asp-controller="Home">About Us</a>
                         </li>
-
                         <!-- Right-aligned Buttons -->
                         <li class="nav-item">
-                            <a class="btn btn-outline-primary ms-2" asp-controller="SignUpDoctor" asp-action="SignUpDoctor">Join as Doctor</a>
+                            <a class="btn btn-outline-primary ms-2 btn-sm" asp-controller="SignUpDoctor" asp-action="SignUpDoctor">Join as Doctor</a>
                         </li>
-
                         <li class="nav-item">
-                            <a class="btn btn-outline-success ms-2" asp-controller="SignUpPatient" asp-action="SignUpPatient">SignUp/LogIn</a>
+                            <a class="btn btn-outline-success ms-2 btn-sm" asp-controller="SignUpPatient" asp-action="SignUpPatient">SignUp/LogIn</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
 
 
     <!-- Main content -->

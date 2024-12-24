@@ -46,7 +46,7 @@ namespace Health_Hub.Controllers
 
 
 			// Set layout dynamically based on user role
-			ViewData["Layout"] = roleid == 5 ? "_LayoutLogInPatient" : "_LayoutDoctorLogIn";
+			ViewData["Layout"] = roleid == 5 ? "../Shared/_LayoutLogInPatient" : "../Shared/_LayoutDoctorLogIn";
             return View(chatList);
         }
 
@@ -75,7 +75,7 @@ namespace Health_Hub.Controllers
                 .ToListAsync();
 
             // Set layout dynamically based on user role
-            ViewData["Layout"] = roleId == 5 ? "_LayoutLogInPatient" : "_LayoutDoctorLogIn";
+            ViewData["Layout"] = roleId == 5 ? "../Shared/_LayoutLogInPatient" : "../Shared/_LayoutDoctorLogIn";
             return View(chats); // Pass the list to the view
         }
 

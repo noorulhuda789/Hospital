@@ -84,7 +84,7 @@ namespace Health_Hub.Controllers
                 .ToList();
 
             ViewBag.TopDoctors = doctors;
-            ViewData["Layout"] = "_LayoutLogInPatient";
+            ViewData["Layout"] = "../Shared/_LayoutLogInPatient";
             return View("Index");
         }
 		public async Task<IActionResult> DoctorSide()
@@ -112,7 +112,7 @@ namespace Health_Hub.Controllers
 				.ToList();
 
 			ViewBag.TopDoctors = doctors;
-			ViewData["Layout"] = "_LayoutDoctorLogIn";
+			ViewData["Layout"] = "../Shared/_LayoutDoctorLogIn";
 			return View("Index");
 		}
 
@@ -123,17 +123,17 @@ namespace Health_Hub.Controllers
 
 			if (roleIdValue == "5")
 			{
-				ViewData["Layout"] = "_LayoutLogInPatient";
+				ViewData["Layout"] = "../Shared/_LayoutLogInPatient";
 				return View("AboutUs");
 			}
 			else if (roleIdValue == "6")
 			{
-				ViewData["Layout"] = "_LayoutDoctorLogIn";
+				ViewData["Layout"] = "../Shared/_LayoutDoctorLogIn";
 				return View("AboutUs");
 			}
 			else if (string.IsNullOrEmpty(roleIdValue))
 			{
-				ViewData["Layout"] = "_Layout";
+				ViewData["Layout"] = "../Shared/_Layout";
 				return View("AboutUs");
 			}
 			return RedirectToAction("LogIn", "LogIn");
@@ -141,7 +141,7 @@ namespace Health_Hub.Controllers
 
         public IActionResult IndexForPatient()
         {
-            ViewData["Layout"] = "_LayoutLogInPatient";
+            ViewData["Layout"] = "../Shared/_LayoutLogInPatient";
 
 
 			string personIdValue = Request.Cookies["PersonID"];
@@ -167,7 +167,7 @@ namespace Health_Hub.Controllers
 
         public IActionResult IndexForDoctor()
         {
-            ViewData["Layout"] = "_LayoutDoctorLogIn";
+            ViewData["Layout"] = "../Shared/_LayoutDoctorLogIn";
 
             string personIdValue = Request.Cookies["PersonID"];
 
@@ -236,11 +236,11 @@ namespace Health_Hub.Controllers
 
                 if (roleIdValue == "5")
                 {
-                    ViewData["Layout"] = "_LayoutLogInPatient";  
+                    ViewData["Layout"] = "../Shared/_LayoutLogInPatient";  
                 }
                 else if (roleIdValue == "6")
                 {
-                    ViewData["Layout"] = "_LayoutDoctorLogInPatient";
+                    ViewData["Layout"] = "../Shared/_LayoutDoctorLogInPatient";
                 }
                 return View(); // The view name is inferred, so "View()" is sufficient.
             }

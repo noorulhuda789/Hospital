@@ -53,7 +53,7 @@ namespace Health_Hub.Controllers
                     ViewData["AppointmentCurrentStatus"] = "Confirmed";
                     break;
 			}
-			ViewData["Layout"] = "_LayoutLogInPatient";
+			ViewData["Layout"] = "../Shared/_LayoutLogInPatient";
 			return View(await appointments.ToListAsync());
 		}
 
@@ -281,7 +281,7 @@ namespace Health_Hub.Controllers
 				.Where(r => r.AppointmentID == id)
 				.ToListAsync();
 
-            ViewData["Layout"] = "_LayoutLogInPatient";
+            ViewData["Layout"] = "../Shared/_LayoutLogInPatient";
             // Pass data to the view as a tuple
             return View((appointment, reports));
 		}
@@ -338,7 +338,7 @@ namespace Health_Hub.Controllers
                 .Include(a => a.Patient)
                 .Include(a => a.Status)
                 .ToListAsync();
-            ViewData["Layout"] = "_LayoutDoctorLogIn";
+            ViewData["Layout"] = "../Shared/_LayoutDoctorLogIn";
             return View(appointments);
         }
         [HttpPost]
@@ -358,7 +358,7 @@ namespace Health_Hub.Controllers
             appointment.StatusID = approvedStatusId;
             _context.Update(appointment);
             await _context.SaveChangesAsync();
-            ViewData["Layout"] = "_LayoutDoctorLogIn";
+            ViewData["Layout"] = "../Shared/_LayoutDoctorLogIn";
             return RedirectToAction(nameof(ManageAppointments));
         }
 
@@ -379,7 +379,7 @@ namespace Health_Hub.Controllers
             appointment.StatusID = cancelledStatusId;
             _context.Update(appointment);
             await _context.SaveChangesAsync();
-            ViewData["Layout"] = "_LayoutDoctorLogIn";
+            ViewData["Layout"] = "../Shared/_LayoutDoctorLogIn";
 
             return RedirectToAction(nameof(ManageAppointments));
         }
@@ -407,7 +407,7 @@ namespace Health_Hub.Controllers
                 return NotFound();
             }
 
-            ViewData["Layout"] = "_LayoutDoctorLogIn";
+            ViewData["Layout"] = "../Shared/_LayoutDoctorLogIn";
 
             // Return the populated model to the "Edit" view
             return View("Edit", appointment);
@@ -416,21 +416,7 @@ namespace Health_Hub.Controllers
 
 
 
-        /*public async Task<IActionResult> Edit(int id)
-        {
-            var appointment = await _context.Appointments
-                .Include(a => a.Patient)
-                .FirstOrDefaultAsync(a => a.AppointmentID == id);
-
-            if (appointment == null)
-            {
-                return NotFound();
-            }
-            ViewData["Layout"] = "_LayoutDoctorLogIn";
-            // Redirect to an edit view to allow the user to input details
-            return View("Edit", appointment);
-        }*/
-        // For the GET method
+      
         [HttpPost]
         public async Task<IActionResult> Edit(int id, [Bind("AppointmentID,TestSuggested,Prescriptions")] Appointment appointment)
         {
