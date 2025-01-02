@@ -84,7 +84,7 @@ namespace Health_Hub.Controllers
                 .ToList();
 
             ViewBag.TopDoctors = doctors;
-            ViewData["Layout"] = "../Shared/_LayoutLogInPatient";
+            ViewData["Layout"] = "_LayoutLogInPatient";
             return View("Index");
         }
 		public async Task<IActionResult> DoctorSide()
@@ -112,7 +112,7 @@ namespace Health_Hub.Controllers
 				.ToList();
 
 			ViewBag.TopDoctors = doctors;
-			ViewData["Layout"] = "../Shared/_LayoutDoctorLogIn";
+			ViewData["Layout"] = "_LayoutDoctorLogIn";
 			return View("Index");
 		}
 
@@ -141,7 +141,7 @@ namespace Health_Hub.Controllers
 
         public IActionResult IndexForPatient()
         {
-            ViewData["Layout"] = "../Shared/_LayoutLogInPatient";
+            ViewData["Layout"] = "_LayoutLogInPatient";
 
 
 			string personIdValue = Request.Cookies["PersonID"];
@@ -167,7 +167,7 @@ namespace Health_Hub.Controllers
 
         public IActionResult IndexForDoctor()
         {
-            ViewData["Layout"] = "../Shared/_LayoutDoctorLogIn";
+            ViewData["Layout"] = "_LayoutDoctorLogIn";
 
             string personIdValue = Request.Cookies["PersonID"];
 
@@ -236,11 +236,11 @@ namespace Health_Hub.Controllers
 
                 if (roleIdValue == "5")
                 {
-                    ViewData["Layout"] = "../Shared/_LayoutLogInPatient";  
+                    ViewData["Layout"] = "_LayoutLogInPatient";  
                 }
                 else if (roleIdValue == "6")
                 {
-                    ViewData["Layout"] = "../Shared/_LayoutDoctorLogInPatient";
+                    ViewData["Layout"] = "_LayoutDoctorLogInPatient";
                 }
                 return View(); // The view name is inferred, so "View()" is sufficient.
             }

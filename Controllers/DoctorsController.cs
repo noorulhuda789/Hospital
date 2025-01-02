@@ -56,15 +56,15 @@ namespace Health_Hub.Controllers
 
 			if (roleIdValue == "5")
 			{
-				ViewData["Layout"] = "../Shared/_LayoutLogInPatient";
+				ViewData["Layout"] = "_LayoutLogInPatient";
 			}
 			else if (roleIdValue == "6")
 			{
-				ViewData["Layout"] = "../Shared/_LayoutDoctorLogIn";
+				ViewData["Layout"] = "_LayoutDoctorLogIn";
 			}
 			else
 			{
-				ViewData["Layout"] = "../Shared/_Layout";
+				ViewData["Layout"] = "_Layout";
 			}
 
 			return View(tupleModel);
@@ -88,7 +88,7 @@ namespace Health_Hub.Controllers
 			}
 
 			// Pass the doctor and associated details to the view
-			ViewData["Layout"] = "../Shared/_LayoutLogInPatient";
+			ViewData["Layout"] = "_LayoutLogInPatient";
 			return View(doctor);
 		}
 
